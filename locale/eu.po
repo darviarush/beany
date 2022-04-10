@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "Sartu: app help \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - update itzulpen fitxategiak"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins - lerro bakoitzean locale / * po.s locale / * po msgstr idazten du."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - kompilliruet itzulpen fitxategia www / locale / * JSON"
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "theme file / dir. [Directory] - kopia fitxategia edo direktorioa hariak"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - cache garbitu"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "Kontroladore - kontrolagailu kopurua"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "pl izena - bat sortzeko plugin karpeta-oinarritutako skel"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - Instalatutako pluginen zerrenda"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "pll plugins guztien zerrenda"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "pli izena - Instalatu plugin"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". Instalatu horiek guztiak?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ Izena araberakoa"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu izena - uninstall plugin"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". Desinstalatu horiek guztiak?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "$ From izena araberakoa"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "- fisikoki plug pldel izena kentzen"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "Plugin `$ name` ez \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "Kendu plug `$ name`?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn izena newname - berrizendatu plugin"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "exekutatu exekutatu kontsola aplikazio"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "hasteko - http-zerbitzari aplikazioei hasten"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "gelditzeko - http-zerbitzari aplikazioei gelditzen da"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "berrabiarazi - http-zerbitzaria berrabiarazi aplikazio"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "egoera - http-zerbitzari aplikazioei buruzko informazioa ematen du"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID egoera kudeatzaileak \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "$ Pid $ langile \ n carrera"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "Gezurrak $ langile \ n"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "cron - txantiloi conf / crontab idazten du crontab"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "test [test1 test2 ...] exekutatu probak. Adibidez: app test eredua realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "Ezin duzu erabili gabeko eremuak definitzen, proba $ taula \ n erregistro guztiak ezabatu du delako"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "Erabili gabeko taula: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "Erabili gabeko eremu ditu: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "gen taula kol_zapisey - zehaztutako taula ausazko datuak gehitzen"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - datuak kargatu / conf / * JSON datu-basean sartu."
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "Kaltetuta $ fitxategia \ n JSON"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - kopia * JSON egin www / test / ex.html / conf / * JSON."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "Laguntza laguntza hau"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "Taldea `$ cmd` ez da onartzen \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "Komando honek eskatzen $ n $ u parametroak, eta $ k \ n pasatzen duzu"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "Komando honek $ n parametroak bete behar dira, eta $ k \ n pasatzen duzu"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "Zerbitzaria ez da exekutatzen ari da \ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "Server gelditu egingo da \ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "plug-ins zerrenda bat itzultzen"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "itzultzen kontrolagailu-zerrenda oinarri"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "exekutatzen anitz kontrolagailu"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "egiaztatzeko zehaztutako kontroladorea den edo ez"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "Bezero ondoren gertatzen da saioa bada"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "Geldituta prozesua № $ langilea"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "Ezin dut prozesua gelditzeko № $ langilea"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "Geldituta № $ cron (cron prozesua)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "Ezin dut prozesua gelditzeko № $ cron (cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "Ezin da exekutatu fork \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "Terminal \ n deskonektatzea"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "fork errore honekin huts egin du!"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "Ez sortu cron. Errorea fork% m"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "Carrera maneiatzaileak:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "Ezin dut ezarri handler SIGHUP"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "Ezin dut instalatu SIGTERM Handler"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "Errorea pcntl_waitpid% m"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "Osatua handler № $ kid"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr "Status: $ egoera. Berreskuratu"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "bidegurutze huts egin du error% m"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "KIMUAK handler № $ kid"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "huts egin du% m socket_accept"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ Key` ezin da hutsik egon"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": No jabetza `$ key`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "Controller `$ name` dagoeneko gehitu da. Berridatzi"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "Administratzaileak"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "Controller `$ name` ez da aurkitu"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "Erabiltzaileak autentifikatutako"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "Saiakera bat beste norbaiten eredua aldatzeko"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "Kontroladorea `$ name` sarbidea No"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "Ezezaguna sarbidea `$ sarbidea` kontroladorea `$ name`"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "Erabiltzaileak ez dago autentifikatutako"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "Operadorea `$ op` iragazkia `$ gako` ez da onartzen"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "A kate-zerrenda direktorioa «$ name»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "Line direktorioa «$ name»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "«$ Name katea direktorioa Aurrezteko»"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "Errenkada direktorio bat ezabatzen «$ name»"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "Mahaiak"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "E-posta ez da bidali"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "Baliogabeko erabiltzaile izena eta pasahitza"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "Jaisteko plugin `$ name` ez dago konektaturik"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "Jaisteko plugin `$ name` `$ dep mendekotasun unmet bat da`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "Plugin `$ name` dagoeneko instalatuta"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "Plugin `$ name` da desinstalatu"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "Entxufea `$ izena` menpeko plug-ins:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "Badago `$ izena2` - ezin da berrizendatuko da"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "Plugin `$ bidea` existitzen"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "Plugin `$ name` ez"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "Jabetza klase SMS hartzaileak array bat izan behar du"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "Jabetza klase SMS hargailuak bidali aurretik bete behar"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "Zenbaki-formatua okerra hargailu $ v"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "Jabetza klase SMS testu-kate bat izan behar du"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "Jabetza klase SMS testu ez 256 karaktere baino gehiago izan behar du"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "Huts egin du, errorea SMS bidaltzeko:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "Content-Type ez da muga"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "Ezin izan da fitxategia ireki $ fitxategia \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "File `$` hondatuta dago - msgstr aurretik msgid ez. Errenkada $ i \ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "File `$` kaltetuta. Errenkada $ i \ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgstr gabe #:. Errenkada $ i \ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "Parametroa `$ key` ez `mota` $ mota"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "zenbaki oso bat izan behar du"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "natural bat izan behar du"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "Money 2 hamartarrekin bat besterik ezin da izan"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "Dirua ezin da negatiboa izan"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "Identifier - natural kopurua 0 baino handiagoa"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "Pasahitza 6 karaktere baino handiagoa edo berdina izan behar du"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "Okerreko e-posta sartu duzu"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "Format telefonoa: + zifrak (zenbakiak) zenbakiak, marratxo batez bereizita. +7 (921) 333-3-333 Adibidez:"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "Hau ez da fitxategi bat"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "No file parametro gisa"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "Hau ez da data"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "Izena gutxienez karaktere bat izan behar du"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "Hiriaren izena gutxienez karaktere bat izan behar du"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "Ez dator ordena: field1 [desc], field2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "muga ezin izango da 100 baino handiagoa eta 1 baino gutxiago"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "Parametro izena hasi behar Elkarbanatutako edo norberaren"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "Zerbitzua"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 hilabete"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 hilabete"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Desautatu egutegia"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "Blokeatu aukeratutako zenbaki bat erreserbatu aukera"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "Desblokeatu erreserba egiteko aukera"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "Ezarri eguneko prezioa eremuan hautatutako aldian ezkerreko"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "Aldatu hautatutako data prezioa"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "Kendu prezioa edozein"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "egin klik"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "Egin klik + shift"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- Eguneko tarteak hautatzen edo kentzen"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "sakatu + ctrl + shift"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- Aukeratu / ezker kendu"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "click + alt"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- Aukeratu / eskuineko kendu"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- Aukeratu edo argi tarte arteko tarteak"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "Liburu bat"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "erreserbak"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "ERRESERBA"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "Helbidea"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "Zure izena"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "Pertsona kopurua"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "Iritsiera / irteera data"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "Gainera"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "Bidali"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "Erreserba inprimaki artxibatua dago. Hemen da zure"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "errentamendu kontratua"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "Duzu"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "Erregistratu erreserba eskaera bat aurkeztu behar duzu"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "Eskaera"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "Nabarmendu epea"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "Aukeratu blokeatuta epea"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "Hautatutako bitartea instalatutako kostu tarte kapturatzen. Prezioa besterik ezin da aldatu"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "Prezioa aldatu"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "Data baten gainean klik prezioa"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "Aukeratu epea"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "Erreserba eskaera"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "jabetza erreserba"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "Aldi honetan etxea da txartel horia"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "Erreserba berri bat duzu"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "jabetza erreserba ezeztatzeko"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "bloke erreserba"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "eskatutako aldia prezio desberdin bat ezartzen"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "beste prezio-aldaketak"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 objektu"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 elementuak 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 items 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 objektua 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "ez dago instalatuta 03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "ez dago instalatuta 02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "ezartzeko 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "8,6 ezarri"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "aukeratu = 6,8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "klase aukeraketa"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "Armor Class"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "class user aukeraketa"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "klase bikoitza zelula"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "shot 08, 6,7 epea"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "Cash"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "Sum"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "Denbora"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "Ordainketa-mota"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "Real estate"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Ordaintzaile"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Cashier"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "Izena"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "Kontua"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "Description"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "Gehitu iruzkina"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "Comments"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "Iruzkina txartelak higiezinen itzultzen"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "higiezinen iruzkin bat gehitzen"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "Jabetza iruzkinak ezabatu"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "Probatu Comment"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "Private bulego"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "Irten"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "Datu pertsonalak"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "Input"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "Kontua sortu"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "Leheneratu pasahitza"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-mail edo telefono zenbaki bat:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "Gogoratu"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Pasahitza:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "Sartu"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "Sartu zure E-mail:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "Sartu zure telefono zenbakia:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "Bidaliko dira posta elektroniko bat edo SMS bat-denbora duzu. Aldatu pasahitza saioa hasi ondoren berehala"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "Aldatu zure aldi baterako pasahitza"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "Zure aldi baterako pasahitza saioa amaitu arte bakarrik balio. Aldatu it now"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "Pasahitz berria:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "Pasahitz berria:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "Exchange"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "Main"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "Aldatu pasahitza"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "Izena:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "Telefonoa:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "Old Pasahitza:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "Gutuna bidaliko"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS bidaliko"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "Erabiltzaile bat sortzea"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "Pasahitza berreskuratzeko"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "mota letrak - <li> BlokMaius"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li> Russian teklatua"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "Pasahitza behar bezala aldatu"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "Pasahitza aldatzea"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "Erabiltzaile Log In"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "Saioa off"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "Aldatu zure pasahitza"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "Pasahitz zaharra okerra da"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "Sortu kontu berri bat edo pasahitza berreskuratu"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "Zure aldi baterako pasahitza: $ pasahitza"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "Itzultzen erabiltzaileari buruzko informazioa"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "Itzultzen login buruzko informazioa"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "Aldatu login buruzko informazioa"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "Txartela ordainketa"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "Ordainketa inprimaki"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "Ordainketa kopurua"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "Ordaintzeko Details"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "Erabiltzaile-izena"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "Ordaintzeko zenbatekoa"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "Ordaindu online erreserba."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "Online ordainketa"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "Erreserba-zenbakia ez da gainditu"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "Kanpoko sistema script hau aipatuz zure ordainketa-egoera aldatu egingo da"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "Bidaltzailearen ip ip baliogabea behar da:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "Ordainketa sistema pasatu parametroak ez da"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "Identtifikator denda baliogabea"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "Ordainketa kopurua"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "ordainketa error baliogabea hash ordainketa premia: harrera"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "baliogabea hash ordainketa: ordainketa error harrera"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "ordainketa error harrera: baliogabea lortutako datuak:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "barne datuak:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "ordainketa error harrera: Baliogabeko datuak lortu."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "aldi bat baino gehiago"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "at:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "Onartua erreserba kopurua ordaindu"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "Ordainketa armadura"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "Ordainketa-zerbitzuen inprimaki bat sortu"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "test"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "Ordainketa erreserba zenbakia"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "Ordainketa erreserba zenbakia $ armoring-> id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "Test ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "Ordainketa armadura test"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Sergei"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "Kargatu argazki bat"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "Photos"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "Arrastatu irudia bere jarrera aldatzeko beste irudi artean"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "Argazki bat ezabatu"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "Benetan nahi duzu irudi hau ezabatu nahi duzula?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "Errorea! Image Download"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "Photo uploaded zen. Beharbada handiegia da."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "Secure orria"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "Irudia kargatzen. Mistake kopurua"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "argazkiak Jabetza gorde"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "argazkiak Jabetza ezabatu"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "higiezinen Argazki digitalak"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "Begiratu herritar errusiar pasaporteak atzerriko jarrera"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "Errusiar Federazioan herritar baten pasaportea baliozkotasuna egiaztatzen"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "Egiaztatu bere gonbidapenak"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "San Petersburgo"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "Zerbitzuak"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "Bezeroaren aginduz zerbitzuak"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "Informazio ohartaraztea"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "Mezua langile bidaliko"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "sms telefono"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "Zerbitzua langileen"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "azalera jakinarazpena datuak"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "Free higiezinen bueltatzen"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "ezabatzen jakinarazpena datuak"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "Ekintza Taken"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "Protokoloa"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "Erabiltzaileak egindako ekintzen zerrenda bat itzultzen"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "Igo"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "Logelak:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "Districts:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Metro:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "Apartamentuak"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 gela"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 logela"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 gela"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "3 logela baino gehiago"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "Hiria:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "Check-in"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "Check-out"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "Objektu guztiak"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "My Listings"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "berritasun ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "prezioa by ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "Gehitu propietatea"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "Iragazi propietate zerrenda"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "Ikusi:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "Gela kopurua Apartments"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "sort"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "Districts"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "Kokapena"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "Center"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "Ingurualdea"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Metro"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "Prezioa"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "Informazio osoa"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "Helbidea:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "Logelak:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "Gelak:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "Informazio orokorra"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "Mapa"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "Jabetza txartela"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Aurrekoa"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "Hurrengoa"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "Txartela Jabetza ezabatu"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "Moneta"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "Gau bakoitzeko prezioa:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "Hileko prezioa:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- Free"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- Reserved"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- Akura"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- Txartel horia"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- Zuk alokatutako"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- Prezioa Another"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- Blokeatu"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- Enfasis"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "Barrutia:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "Solairua:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Description:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "Enplegua:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "Kitchen"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "TV"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "Telefonoa"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "Music Center"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "Internet"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "Aire girotua"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "Garbigailua"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "Ez da zehaztu"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "Hilabetea"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "Eguna"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "Aukeratu eremu zerrenda ordenatzeko pasatzeko"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "Aukeratu metro geltokiak zerrenda ordenatzea gainditu behar"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "Jabetza kopurua txartelak"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "Ez dago"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "ez da zehaztu"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "Ezezaguna"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "higiezinen zerrenda bat itzultzen. muga 1etik 100. Default - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "Zinta bilaketa-motor apartamentu"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "bilaketa-motor profila laua"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "For Rent Etxebizitza / etxe / errentan gela"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "hiria"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "area"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "Metro geltokia"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "helbidea"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "kostua"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "eguneko"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "Solairuak"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "Gelak"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "Gelak"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "duzu"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "itzultzen metro eremu zerrenda bat eta hiriaren arabera"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "profila higiezinen jarraitzen du. Id = 0 bada berri bat sortu"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "Informazioa aldatu egin da"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "kentzen higiezinen profila"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "Modulua"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "Test Apartamentua"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "Test RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / Asynchronous loading css -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "Beharrezkoa da gune honetan"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript desgaituta dago"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "Mesedez gaitu JavaScript zure nabigatzailean"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "KONTUZ!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "Apartamentu zerrenda"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "eguneratu"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "KONTUZ! Zure nabigatzaileak ez da ere gune honetako zaharra. Gomendatu du"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "Jarraitu zure ardurapean"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- Taula aplikazio plugins sartuko da. Plugin txertatuko den elementu ID jakin behar da. Plug txertatzen azkenean bere gorputza (append) zehaztu bertan agertutako. Plug-ins bat edozein zenbaki Beraz, edukiontzi bat jarri daiteke"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "Moneta:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "Mistake kopurua"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "historia gainezarpenak hutsik"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "Ezin dut joan atzera uneko gainjartze ez dator bat hash"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "dagoeneko instalatuta"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr ": Ekitaldi"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "Errorea:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "Itxi"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "Errorea!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "Idatzi zenbaki oso bat"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "Idatzi zenbaki erreal bat"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "Solairua behar ez solairu kopurua gainditzen"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "Sartu solairu eta solairu kopurua"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "Idatzi zenbaki oso bat"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "Sartu osokoa 0 baino handiagoa"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "Idatzi zenbaki erreal positibo bat"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "Sartu zeinuaren balioa"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "Sartu prezioa: bi hamartarrekin bat. 100,22 edo 100 Adibidez:"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "Idatzi karaktere bat gutxienez"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "Sartu e-mail"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "Saioa hasi formatu: e-mail edo telefono zenbaki bat, adibidez: +7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "Pasahitzak gutxienez 6 karaktere izan behar ditu"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "Pasahitzak ez datoz bat"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "Baliozko sarrera"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- Ez hautatu -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "Datuak gordeko da"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "Kendu"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "No komando formularioa (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "Preservation"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "Eremu guztiak ez dira behar bezala betetzen"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "da arrakasta"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "Kentzea"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "ezin da kendu"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "\"Ezabatu nahi duzula"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "zerrenda: baliogabea komando '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "Gehitu"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ erregistro"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Errenkada direktorio bat ezabatu"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "Benetan nahi duzu errenkada bat ezabatu nahi duzula?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<Aurrekoa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "Hurrengoa>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "Gaur"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "Urtarrila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "Otsaila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "June"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "Maiatza"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "Martxoa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "Apirila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "Abuztua"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "Uztaila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "Iraila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "Azaroa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "Urria"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "Abenduaren"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "Otsaila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "Urtarrila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "Apirila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "June"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "Martxoa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "Abuztua"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "Abenduaren"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "Uztaila"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "Azaroa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "Urria"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Sen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "Osteguna"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "Ostirala"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "Astelehena"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "Larunbata"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "Asteazkena"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "Igandea"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "Asteartea"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Tue"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "eran"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "Thurs"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Fri"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "Sun"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Fri"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "Sun"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Asteartea"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Thurs"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Wed"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Mon"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "No"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "Arakatzaile honek ez du onartzen ajax"
+

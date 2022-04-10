@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "Ikteb: jgħinu app \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - fajls ta 'traduzzjoni aġġornament"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins -. kull linja locale / * po.s jikteb locale / * po msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - traduzzjoni kompilliruet fajl fil www / locale / * JSON."
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "fajl tema / dir. [Directory] - kopji l-fajl jew direttorju-ħjut"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - ikklerja l-cache"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "kontrolluri - in-numru ta 'kontrolluri"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "Isem pl - toħloq plugin folder bbażata fuq skel"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "PLS - lista ta 'plugins installati"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "PLL - lista ta 'l plugins"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "Isem PLI - Installa l-plugin"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". Installa lilhom kollha?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ Isem tiddependi fuq"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "Isem plu - uninstall-plugin"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". Uninstall minnhom kollha?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "Minn $ isem tiddependi"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "Isem pldel - fiżikament tneħħi l-plagg"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "Plugin `$ isem` ebda \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "Neħħi `plug $ isem`?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "Isem plrn newname - semmi mill-ġdid l-plugin"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "run - imexxu l-applikazzjoni fil-console"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "jibdew - jibda 'l-applikazzjonijiet http-server"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "stop - iwaqqaf l-applikazzjonijiet http-server"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "jistartja - jistartja l-applikazzjonijiet http-server"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "status - jipprovdi informazzjoni dwar l-applikazzjonijiet http-server"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "Handlers istatus PID \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "Running $ PID $ ħaddiema \ n"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "Lies $ ħaddiema \ n"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "Cron - jikteb Conf template / crontab fil crontab"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "test [test1 test2 ...] - run-testijiet. Per eżempju: app test mudell realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "Inti ma jistax jiddefinixxi l-oqsma mhux użati, minħabba li t-test ħassret ir-reġistri kollha minn $ tabella \ n"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "Tabella mhux użati: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "Oqsma mhux użati: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "gen tabella kol_zapisey - iżid data bl-addoċċ fit-tabella speċifikata"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - huwa li tagħbija data fid-database minn / Conf / * JSON."
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "JSON ħsara fil $ file \ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - kopja * JSON magħmula www / test / ex.html in / Conf / * JSON.."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "jgħin - dan jgħin"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "It-tim `$ CMD` ma hija sostnuta \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "Dan il-kmand jirrikjedi sa $ n $ parametri U, u inti jgħaddu minn k $ \ n"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "Dan il-kmand jeħtieġ parametri $ n, u inti jgħaddu minn k $ \ n"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "Server ma tkunx qed taħdem \ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "Server titwaqqaf \ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "prospetti lista ta 'plug-ins"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "prospetti lista tal-kontrolluri mill-bażi"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "runs kontrolluri multipli"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "jivverifika - jekk il-kontrollur speċifikat"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "Dan jiġri wara l-klijent jekk l-sessjoni hija"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "Waqfet-proċess № $ ħaddiem"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "I cannot stop-proċess № $ ħaddiem"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "Waqfet-proċess № $ Cron (Cron)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "I cannot stop-proċess № $ Cron (Cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "Ma jistgħux jeżegwixxu furketta \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "Mhux aqla mill-terminal \ n"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "furketta naqset bi żball"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "Mhux maħluqa Cron. M Error% fork"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "Handlers Running:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "I ma tista 'tistabbilixxi l SIGHUP handler"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "I ma tistax tinstalla Handler SIGTERM"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "M Error pcntl_waitpid%"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "Completed handler № $ kid"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", Stat: $ istatus. Tirkupra"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "furketta naqset bi m% żball"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "Imniedi handler № $ kid"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket_accept m% fallew"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ Key` ma jistax ikun null"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": L-ebda `proprjeta $ ewlenija`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "Kontrollur `$ isem` kien diġà miżjud. Jikteb"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "Amministraturi"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "Kontrollur `$ isem 'ma tinstabx"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "L-utent huwa awtentikat"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "Tentattiv biex jibdlu l-mudell xi ħadd ieħor"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "Nru aċċess għall-kontrollur `$ isem`"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "Aċċess Unknown `$ aċċess` fil-kontrollur `$ isem`"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "Utent ma jkunx awtentikat"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "Il `operatur $ op` filtru `$ muftieħ` mhux permess"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "A direttorju lista string \"$ isem\""
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "Direttorju Line \"$ isem\""
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "Iffrankar direttorju string \"$ isem\""
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "Tħassar direttorju ringiela \"$ isem\""
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "Tabelli"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "Email ma tintbagħatx"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "Invalid username jew il-password"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "Downloadable plugin `$ isem 'ma jkunx konness"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "Downloadable plugin `$ isem` hija dipendenza ma tintlaqax `$ dep`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "Plugin `$ isem 'huwa diġà installat"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "Plugin `$ isem 'huwa uninstalled"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "Mill-plagg `$ isem` dipendenti plug-ins:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "Diġà hemm `$ name2` - ma jistax jingħata l-isem"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "Plugin `$ passaġġ` jeżisti"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "Plugin `$ isem` l-ebda"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "Proprjetà klassi riċevituri SMS għandha tkun array"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "Proprjetà klassi riċevituri SMS għandha timtela qabel ma tibgħat"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "Il ħażin numru format riċevitur $ vs"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "Proprjetà klassi SMS test għandu jkun string"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "Proprjetà klassi SMS test m'għandux ikun aktar minn 256 karattru"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "SMS jibgħat naqset, żball:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "M'hemm l-ebda konfini fil-Kontenut-Tip"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "Ma kellekx tiftaħ fajl fajl $ \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "`File $ file` korrotti - ebda msgstr qabel msgstr. Ringiela $ i \ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "`File $ file` ħsara. Ringiela $ i \ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgstr mingħajr msgstr. Ringiela $ i \ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "Parametru `$ ewlenija` mhux tat-tip '$ tip'"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "għandu jkun integer"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "għandu jkun naturali"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "Flus jista 'biss 2 postijiet deċimali"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "Flus ma jistgħux ikunu negattivi"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "Identifikatur - numru naturali akbar minn 0"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "Password għandha tkun ikbar minn jew ugwali għal 6 karattri"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "Inti daħlu l-email ħażin"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "Telefon Format: + figuri (numri) numri separati permezz ta 'sing. Per eżempju: 7 (921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "Dan mhuwiex fajl"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "Nru fajl bħala parametru"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "Din mhix data"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "Isem għandu jkun mill-inqas karattru"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "Isem tal-belt għandha tkun mill-inqas karattru wieħed"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "Ma jaqblu mal-ordni: field1 [desc], field2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "limitu ma jistax ikun akbar minn 100 u inqas minn 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "L-isem parametru għandha tibda bil maqsuma jew tagħha stess"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "Servizz"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 xhur"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12-il xahar"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Deselect l-kalendarju"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "Blokk-possibbiltà ta 'prenotazzjoni' għadd magħżul"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "Nisfruttaw il-possibbiltà ta 'prenotazzjoni"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "Issettja l-prezz għal kull jum mill-qasam fuq ix-xellug tal-perjodu magħżul"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "Ibdel il-prezz għad-data magħżula"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "Neħħi kwalunkwe prezz"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "ikklikkja"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "Ikklikkja + shift"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- Tagħżel jew ineħħi intervalli kuljum"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "ikklikkja + Ctrl + bidla"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- Agħżel / neħħi ix-xellug"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "ikklikkja + alt"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- Agħżel / tneħħi d-dritt"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- Agħżel kollha jew ċara intervalli bejn intervall"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "Ktieb"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "prenotazzjonijiet"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "RIŻERVA"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "Indirizz"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "Ismek"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "Numru ta 'persuni"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "Data tal-wasla / tluq"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "Barra minn hekk"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "Send"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "Forma Riżerva hija ppreżentata. Hawnhekk huwa tiegħek"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "kiri kuntratt"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "You"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "Int trid tirreġistra biex jissottomettu talba prenotazzjoni"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "Applikazzjoni"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "Highlight perjodu"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "Agħżel il-perjodu msakkra"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "Firxa Magħżula jaqbad l-intervall ma 'l-ispiża installat. Prezz tista 'biss bidla"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "Prezz mibdula"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "Ikklikkja fuq data ma 'prezz"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "Agħżel perjodu"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "Talba Booking"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "prenotazzjoni ta 'proprjetà"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "Fuq dan il-perjodu l-dar huwa debitat"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "Inti għandek riserva ġdida fil"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "tikkanċella l-prenotazzjoni għall-proprjetà"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "jimblokka l-prenotazzjoni"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "tistabbilixxi prezz differenti għall-perjodu mitlub"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "tibdiliet oħra fil-prezz"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 oġġett"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 partiti 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 partiti 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 oġġett 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "mhux installat 03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "mhux installat 02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "stabbiliti 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "stabbiliti għal 8.6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "għażla = 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "għażla tal-klassi"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "Klassi Armor"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "għażla utent klassi"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "ċellula doppju klassi"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "sparatura 08, il-perijodu ta '6.7"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "Cash"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "Somma"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "Ħin"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "Tip ta 'ħlas"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "Proprjetà immobbli"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Min iħallas li takkumpanja"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Kaxxier"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "Isem"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "Sign"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "Deskrizzjoni"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "Żid kumment"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "Kummenti"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "Kumment prospetti karti għall-beni immobbli"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "żżid kumment għall-proprjetà immobbli"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "tħassar kummenti għal Proprjetà"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "Test Kumment"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "Private uffiċċju"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "Ħruġ"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "Id-data personali"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "Input"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "Sign up"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "Restore password"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-mail jew numru tat-telefon:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "Ftakar"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Password:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "Ikteb"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "Ikteb tiegħek E-mail:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "Ikteb in-numru tat-telefon tiegħek:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "Inti ser tkun bagħtet email jew SMS one-time password. Ibdel il-password immedjatament wara l-qtugħ"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "Bidla password temporanja"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "Password temporanja tiegħek hija valida biss sa l-aħħar tas-sessjoni. Bidla hija issa"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "New password:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "New password:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "Skambju"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "Main"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "Ibdel il-password"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "Isem:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "Phone:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "Old Password:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "Ittra mibgħuta"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS mibgħut lill"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "Ħolqien ta 'User"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "Irkupru Password"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<li> CapsLock fuq - l-ittri tat-tip"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "tastiera Russu <li>"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "Password b'suċċess mibdula"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "Nibdlu l-password"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "Log Utent Fl"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "Log off"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "Bidla password tiegħek"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "Password Old hija żbaljata"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "Oħloq kont ġdid jew tirkupra l-password"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "Password temporanja tiegħek huwa: $ password"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "Returns informazzjoni dwar l-utent"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "Returns informazzjoni dwar l-illoggjat utent"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "Ibdel it-tagħrif dwar il-illoggjat utent"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "Ħlas Card"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "Forma Ħlas"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "Numru Ħlas"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "Dettalji ta 'ħlas"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "Isem l-utent"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "Ammont ta 'ħlas"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "Pay prenotazzjoni online."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "Online pagament"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "Numru Riżerva ma jgħaddix"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "Sistema esterna tirreferi għal din l-iskrittura se jibdlu l-istatus ta 'pagament tiegħek"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "Invalid ip ip mittenti meħtieġa:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "Parametri għaddew mis-sistema ta 'ħlas ma tkunx"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "Invalid maħżen identtifikator"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "Numru Ħlas"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "riċeviment ta 'l-iżball ta' ħlas: Invalid ħtieġa pagament hash"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "riċeviment ta 'l-iżball ta' ħlas: ħlas hash invalida"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "riċeviment ta 'l-iżball ta' ħlas: id-data Invalid miksuba:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "data interna:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "riċeviment ta 'l-iżball ta' ħlas: id-data Invalid miksuba."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "fuq perjodu"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "fuq:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "Ħlas Aċċettati għall-għadd prenotazzjoni"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "Armor Ħlas"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "joħloq forma ta 'servizzi ta' pagament"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "test"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "Numru prenotazzjoni Ħlas"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "Numru riserva Ħlas $ armoring-> id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "Test ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "Test Armor Ħlas"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Sergei"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "Upload ritratt"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "Ritratti"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "Drag l-immaġini biex jibdel il-pożizzjoni tiegħu fost l-immaġini oħra"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "Ħassar stampa"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "Do you verament tixtieq li tħassar din l-istampa?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "Error! Download Image"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "Photo ttellgħet. Forsi huwa kbir wisq."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "Secure paġna"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "Tagħbija immaġini. Numru Żball"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "iffrankar ritratti Proprjetà"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "ħassar Proprjetà ritratti"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "ritratti diġitali ta 'proprjetà immobbli"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "Iċċekkja l-prontezza ta 'passaporti barranin ta' ċittadin Russu"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "Kontroll tal-validità tal-passaport ta 'ċittadin tal-Federazzjoni Russa"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "Iċċekkja istediniet tiegħu"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "St Petersburg"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "Servizzi"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "Servizzi ordnati mill-klijent"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "Informazzjoni biex twissi"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "Messaġġ tintbagħat lill-persunal"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "telefon għall sms"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "Servizz persunal"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "jaħżen data għan-notifika"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "Prospetti b'xejn fuq proprjetà immobbli"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "tħassar data għan-notifika"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "Azzjoni Meħuda"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "Protokoll"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "Denunzji lista ta 'azzjonijiet imwettqa mill-utent"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "Up"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "Kmamar:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "Distretti:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Metro:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "Appartamenti"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 kamra"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 kmamar"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 kmamar"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "aktar minn 3 kmamar"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "Belt:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "Iċċekkja fil"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "Check-out"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "L-oġġetti kollha"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "Listi Tiegħi"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "novità ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "bil-prezz ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "Żid proprjetà"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "Iffiltra l-lista ta 'proprjetajiet"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "View:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "Appartamenti skond in-numru ta 'kmamar"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "sort"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "Distretti"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "Post"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "Center"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "Periferija"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Metro"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "Prezz"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "Tlesti l-informazzjoni"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "Indirizz:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "Kmamar:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "Sodod:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "\""
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "Informazzjoni Ġenerali"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "Mappa"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "Card Proprjetà"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Prev"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "Li jmiss"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "Ħassar Proprjetà Card"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "Munita"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "Prezz għal kull lejl:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "Prezz għal kull xahar:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- Free"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- Riservat"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- Kera"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- Inti riżervati"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- Mikrija minnek"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- Ieħor prezz"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- Lock"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- Enfasi"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "Distrett:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "Floor:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Deskrizzjoni:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "Impjiegi:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "Kitchen"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "TV"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "Phone"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "Music Center"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "Internet"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "Arja kundizzjonata"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "Magni tal-ħasil"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "Mhux Speċifikat"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "Xahar"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "Jum"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "Agħżel mill-lista ta 'oqsma li fihom jgħaddu issortjar"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "Agħżel mill-lista ta 'stazzjonijiet tal-metro li għandu jgħaddi issortjar"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "Numru karti Proprjetà"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "M'hemm l-ebda"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "mhux speċifikat"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "Mhux magħruf"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "prospetti lista ta 'proprjetà immobbli. limitu jista 'jkun mill-1 sa 100. Default - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "Tape appartamenti għall-magni tat-tiftix"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "profil fissa għall magni tat-tiftix"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "Għall-Kera Flat / house / kamra għall-kera"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "belt"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "żona"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "istazzjon sotterran"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "indirizz"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "ispiża"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "kuljum"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "Pavimenti"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "Kmamar"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "Sodod"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "jikkummentaw"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "prospetti lista ta 'oqsma metro u jiddependi fuq il-belt"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "profil jżomm fuq proprjetà immobbli. Jekk id = 0 - tinħoloq entità ġdida"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "Informazzjoni inbidel"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "tneħħi l-profil ta 'proprjetà immobbli"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "Modulu"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "Apartment Test"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "Test RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr "Tagħbija css) / / Asinkronika -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "Jeħtieġ li dan is-sit"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript huwa b'diżabilità"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "Jekk jogħġbok JavaScript fil-browser tiegħek"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "TWISSIJA!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "Lista ta 'appartamenti"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "aġġornament"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "TWISSIJA! Browser tiegħek huwa wisq qadima għal dan is-sit. Irrakkomanda din"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "Kompli għar-riskju proprju tiegħek"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- Tabella li ser tiddaħħal fil-plugins-applikazzjoni. Il-plugin jeħtieġ li jkun jaf l-ID ta 'l-element li fih huwa mdaħħal. Ipplaggja inserzjonijiet ġisem tiegħu fl-aħħar (tehmeż) tiegħu speċifikat. Għalhekk f'kontenitur wieħed tista 'tpoġġi kwalunkwe numru ta' plug-ins waħda waħda -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "Munita:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "Numru Żball"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "overlays vojta istorja"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "I ma tistax tmur lura - il-kisja kurrenti ma taqbilx ma 'l-hash"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "diġà installat"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "avveniment: Avveniment"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "Error:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "Agħlaq"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "Error!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "Ikteb integer"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "Daħħal numru reali"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "Floor m'għandhomx jeċċedu n-numru ta 'sulari"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "Ikteb in-numru ta 'sulari u l-art"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "Ikteb integer"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "Ikteb numru sħiħ akbar minn 0"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "Daħħal numru reali pożittiv"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "Daħħal il-valur tas-sinjal"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "Ikteb il-prezz: żewġ postijiet deċimali. Per eżempju: 100.22 jew 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "Daħħal l-inqas karattru wieħed"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "Ikteb le-mail"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "Login format: e-mail jew numru tat-telefon, per eżempju: 7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "Il-password trid tkun mill-inqas 6 karattri"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "Passwords ma jaqblux"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "Validu dħul"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- Ma kinetx magħżula persuna -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "Data jiġi ffrankat"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "Neħħi"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "Ebda forma kmand (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "Preservazzjoni"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "Mhux l-oqsma kollha huma mimlija b'mod korrett"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "huwa ta 'suċċess"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "Tneħħija"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "ma jistgħux jitneħħew"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "Do you verament tixtieq li tħassar"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "lista: kmand Invalid \""
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "Żid"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ rekord"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Tħassar direttorju ringiela"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "Do you verament irridu li tħassar filliera?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<Prev"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "Li jmiss>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "Illum"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "Jannar"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "Frar"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "Ġunju"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "Mejju"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "Marzu"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "April"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "Awissu"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "Lulju"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "Settembru"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "Novembru"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "Ottubru"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "Diċembru"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "Frar"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "Jannar"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "April"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "Ġunju"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "Marzu"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "Awissu"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "Diċembru"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "Lulju"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "Novembru"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "Ottubru"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Sen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "Il-Ħamis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "Il-ġimgħa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "It-tnejn"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "IS-SIBT"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "L-Erbgħa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "Il-Ħadd"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "It-Tlieta"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Sib"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Tli"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "Wed"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "Ħam"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Ġim"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "Ħad"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Ġim"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "Ħad"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Tli"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Ħam"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Sib"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Wed"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Tne"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "Nru"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "Dan browser ma tappoġġjax ajax"
+

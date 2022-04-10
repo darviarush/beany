@@ -1,0 +1,961 @@
+@charset "UTF-8";
+
+@import url(/theme/jquery-ui.css);
+@import url(/theme/jquery.qtip.css);
+
+/* GENERAL SETTINGS */
+/* HTML5 display definitions */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+audio:not([controls]) {
+    display: none;
+}
+[hidden] {
+    display: none;
+}
+/* Base */                
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+input { border: solid 1px lightgray !important }
+
+html {
+    height: 100%;
+    min-height: 100%;
+	
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html, button, input, select, textarea, #body .ui-widget {
+    font-family: Cuprum, Verdana, Geneva sans-serif !important;    
+	font-weight: 100;
+	font-size: 1em !important;
+    line-height: 1.48em;
+}
+body{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+	color: #222;
+}
+/* Highlighted text */
+::-moz-selection {
+    background: #808080;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #808080;
+    color: #fff;
+    text-shadow: none;
+}
+/*  Heading Formatting */
+h1, h2, h3, h4 {}
+h1 {
+    font-size: 1.715em;
+    line-height: 2.55em;
+}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+/*links*/
+a {
+	color: #9C1619;
+}
+a:hover {}
+a:visited {}
+a:focus {}
+/* Typography */
+b, strong {
+    font-weight: bold;
+}
+hr {
+    display: block;
+    height: 0.1em;
+    border: 0;
+    border-top: 0.1em solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+mark {
+    background: #ddd;
+    padding: 0 0.1875em;
+    border: 1px dashed #333;
+}
+small {
+    font-size: 85%;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+/* list */
+li {
+    list-style: none;
+}
+/* #main ul, #main ol {
+	margin: 0.875em 0;
+	padding: 0 0 0 2.45em;
+}
+#main ol li {
+	list-style-type: decimal;
+}
+#main ul li {
+	list-style: outside square;
+} */
+/* Embedded content */
+img {
+    vertical-align: middle;
+}
+/* paragraph */
+p {
+    margin-bottom: 0.98em;
+    max-width: 36em;
+    min-width: 18em;
+}
+/* Tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td {
+    vertical-align: top;
+}
+.tip {}
+/* END OF GENERAL SETTINGS */
+
+
+/* MAIN FORM SECTION */
+form{}
+fieldset{}
+label {
+    cursor: pointer;
+}
+legend {
+    white-space: normal;
+}
+button, input {
+    line-height: normal;
+}
+button[disabled], input[disabled] {
+    cursor: default;
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0; padding: 0;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="email"], input.v-login, input.v-email, .v-phone {
+    border: solid 0.1em #ccc;
+    padding: 0.125em 0.125em 0.125em 0.25em;
+	background-color: #fff;
+}
+input[type="text"], select, textarea {
+	margin-bottom: 0.5em;
+}
+select:focus, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {}
+select {
+    padding: 0.125em 0.1em 0.1em 0.125em;
+}
+select option {
+    padding: 0 0.375em 0 0.25em;
+}
+textarea {
+    padding: 0.125em 0.1em 0.1em 0.25em;
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    padding: 0.125em 0.75em;
+    margin: 0.625em 0.625em 0.625em 0;
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+input[type="checkbox"], input[type="radio"] {
+    padding: 0;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+/* END MAIN FORM SECTION */
+
+
+/* Construction */
+#header, #page, #footer {
+    width: 55.625em;
+    margin: 0 auto;
+}
+#right_menu {
+	float: right;
+}
+#panel  {
+	border: none;
+	background: none;
+	clear: both;
+}
+#panel .ui-tabs-panel {
+	background-color: #F2F0D9;
+	border-radius: 0;
+    border-bottom-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+    padding: 1.125em 1em;
+    margin-bottom: 1em;	
+}
+/* End of Construction */
+
+
+/* Header section */
+
+/* Header top */
+#ht {
+    float: right;
+    margin-top: 1em;
+}
+
+/* Header middle - Menu */
+#hm {
+    clear: both;
+}
+#hml, #hmr, #hmc {
+    height: 3.875em;
+}
+#hml {
+    background: url(/theme/img/header-backgr-tl.png) no-repeat left bottom;
+    padding-left: 16.5em;
+    background-size: 16.5em;
+}
+#hmr {
+    background: url(/theme/img/header-backgr-tr.png) no-repeat right bottom;
+    padding-right: 1em;
+    background-size: 1em;
+}
+#hmc {
+    background: url(/theme/img/header-backgr-tm.png) repeat-x left bottom;
+    background-size: 2.625em;
+}
+#logo {
+    position: absolute;
+    margin: 0.85em 0 0 -15em;
+}
+#logo img {
+    width: 12.375em;
+}
+#menu {
+    padding-top: 1.75em;
+    float: right;
+}
+#menu .app-s {
+    display: block;
+    float: left;
+    border-left: solid 0.1em #805C52;
+    padding: 0 1em;
+}
+#menu .app-s:first-child {
+    border: none;
+}
+#menu .app-s a {
+    font-size: 1.225em;
+    text-decoration: none;
+    display: block;
+    color: #dc8969;
+}
+#menu .app-s.active a {
+    color: #fff;
+}
+
+/* Header bottom and personalia */
+.hperson-default {
+    display: none;
+}
+.hperson-container {
+    background-color: #f2f0d9;
+    padding-bottom: 6px;/* for content corners */
+    cursor: pointer;
+    zoom:1;
+    z-index: 3;
+}
+/* z-ii to overhung drop-down search results */
+#settings_window {
+    z-index: 4;
+}
+#hb, .hperson-container {
+    border-bottom-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+    margin-bottom: 1em;
+}
+#hb {
+    background-color: #DBC091;
+    height: 17.25em;
+}
+/* Header bottom in parts */
+#hbl, #hbr {
+	float: left;
+}
+#hbl {
+    /*width: 25.7em;*/
+    background-size: 28.5em;
+    height: 14.65em;
+    border-bottom-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+    padding: 1em 1.2em 1.6em 1.6em;
+}
+#hbl fieldset {
+    float: right;
+    margin-bottom: 1.8em;
+}
+#hbl fieldset:first-child {
+    float: left;    
+}
+#hbl label {
+    color: #fff;    
+}
+#hbl dl {
+    margin-bottom: 0.5em;    
+}
+#hbl dd select {
+    width: 10em;
+    border: solid 0.15em #9C1619;
+}
+#hbr {
+    padding: 1em 1.2em 1.6em 1.6em;
+}/*
+#filter-location, #filter-district, #filter-metro {
+	float: left;
+}*/
+
+
+/* INFORMERS */
+.informer-service {
+    text-align: center;
+    width: 21.6%;
+    min-height: 6em;
+
+    margin: 15px;
+    margin-right: 0;
+    padding: 5px 0;
+
+    border: 2px solid #805C52;
+
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+.informer-service:first-of-type {
+    margin-left: 30px;
+}
+
+/* INFORMERS:metro */
+.metro-map-disabled {
+    color: #123456;
+}
+.metro-map-active {
+    cursor: pointer;
+    color: #b4d100;
+}
+.metro-map-active:hover {
+    background-color: #2694e8;
+}
+/* INFORMERS:currencies */
+.currency-widget__icon {
+	background: url(/theme/img/calculator.png) no-repeat;
+	/*display: block;*/
+	width: 46px;
+	margin-left: 10px;
+
+	height: 57px;
+}
+.currency-widget__frame {
+	width: 220px;
+	height: 127px;
+}
+.currency-widget__list {
+
+}
+.currency-widget__list-item {
+
+}
+.currency-widget__dialog {
+	text-align: center;
+}
+
+
+
+/* Tabs */
+.tab-line {
+    background: url(/theme/img/tab-line-r.png) no-repeat right top;
+    padding-right: 0.75em;
+	position: relative;
+    z-index: 1;
+}
+.tlc {
+    height: 0.75em;
+    background: url(/theme/img/tab-line-l.png) repeat-x left top;
+	background-size: 0.7em;
+}
+#panel .ui-tabs-nav {
+	border: none;
+	background: none;
+	display: block;
+	padding: 0;
+}
+#panel .ui-tabs-nav .ui-state-default {
+	height: 2em;
+	border: none;
+	border-radius: 0;
+	background: url(/theme/img/tab-head-l-gr.png) no-repeat left bottom, url(/theme/img/tab-head-r-gr.png) no-repeat right bottom;
+    background-size: 0.77em, 3.375em;
+    padding-left: 0.75em;
+	padding-right: 3.375em;
+    width: 10em;
+	margin-left: -2.2em;
+	position: relative;
+}
+#panel .ui-tabs-nav .ui-state-default:first-child {
+	margin-left: 0;
+}
+#panel .ui-tabs-nav .ui-state-default:nth-child(0) {
+	z-index: 99;
+}
+#panel .ui-tabs-nav .ui-state-default:nth-child(1) {
+	z-index: 98;
+}
+#panel .ui-tabs-nav .ui-state-default:nth-child(2) {
+	z-index: 97;
+}
+#panel .ui-tabs-nav .ui-state-active {
+	background: url(/theme/img/tab-head-l.png) no-repeat left top, url(/theme/img/tab-head-r.png) no-repeat right top;
+	background-size: 0.77em, 3.53em;
+	position: relative;
+    z-index: 100 !important;
+	height: 2.125em;
+	margin-bottom: -0.125em;
+}
+#panel .ui-tabs-nav .ui-state-default a{
+	display: block;
+	background: url(/theme/img/tab-head-c-gr.png) repeat-x left top;
+	float: none;
+	color: #363533;
+    font-size: 1.2em;
+	padding: 0.45em;
+}
+#panel .ui-tabs-nav .ui-state-active a{
+	display: block;
+	background: #F5D985 url(/theme/img/tab-head-c.png) repeat-x left top;
+	float: none;
+	color: #9C1619;
+}
+
+/* Object list */
+/* #realty-elem */
+.app-elem {
+    float: left;
+    width: 50%;
+	padding: 0;
+    margin-bottom: 2em;
+}
+tr.app-elem {
+    float: none;
+}
+.app-list-odd {
+    clear: both;
+}
+.osi-price  {
+    float: right;
+}
+.osi-price {
+    text-align: right;
+    color: #9C1619;
+    padding-bottom: 0.3em;
+}
+.osi-price span {
+	font-size: 1.375em;
+	padding: 0 0.1em;
+}
+.osi-img span[name="id"] {
+    color: #6d6c67;
+}
+
+.osi-img {
+    float: left;
+}
+.osi-description {
+    padding: 1em;
+}
+.osi-img {
+    border: solid 0.1em #C7B299;
+    border-radius: 0.625em;
+    background-color: #faf9f1;
+    padding: 0.3125em;
+    margin-right: 1em;
+}
+.osi-img img {
+    border-radius: 0.375em;
+}
+.osi-room-facilities li {
+    float: left;
+}
+.osi-img a[ name="href_id" ] {
+    display: block;
+    text-align: center;
+	color: #9C1619;
+	padding-top: 0.5em;
+}
+/* .osi-text span {
+	color: #9C1619;
+	padding: 0 0.2em;
+} */
+.osi-description .button {
+    font-size: 0.95em;
+    margin-top: 0.5em;
+}
+/* hack for old hashes */
+a[ name="href_id" ],
+#core-auth-href,
+#notice-time,
+#realty-selservice-date {
+    cursor: pointer;
+}
+
+
+
+
+.fl {float:left}
+.fr {float:right}
+.oa {overflow:auto}
+.oh {overflow:hidden}
+.tar { text-align: right }
+/* .app-elem { margin:0; padding:2px; border: 0 } */
+.app-list-2 .app-elem { display: inline-block; width: 49% }
+/*.app-list-2 .app-elem:nth-child(odd) { float:left; background-color: red }
+.app-list-2 .app-elem:nth-child(odd) td:nth-child(3) { width: 50px}
+*/
+
+#preloader {
+	position:absolute;
+	top: 49%;
+	left: 50%;
+	margin-left: -64px; 
+}
+
+.template {display:none}
+
+/* для гугловской библиотеки js. Гуглокарт */
+.pac-container { z-index: 50000 !important }
+/*.pac-container .pac-item { z-index: 50001 !important }*/
+
+/* для календаря, чтобы месяцы переносились на следующую строку */
+.ui-datepicker-group:nth-child(3n+1) { clear: left }
+
+/* для нужд приложения */
+.app-80 {width: 80%}
+.app-39 {width: 39%}
+.app-center {text-align: center}
+
+.off {display:none}
+.on {}
+
+.app-add-image {width:200px; height:40px; opacity:0; filter: alpha(opacity=0); -moz-opacity:0; position:absolute; z-index:2000}
+.app-add-image-btn {width:200px; height:40px; color:white}
+
+#realty-equipment-container {position:absolute; cursor: pointer}
+#realty-equipment { display: inline-block; }
+#realty-equipment div, .app-equipment div {
+	width:30px;
+	height:30px;
+	display: inline-block;
+}
+#filter-equipment-container {position:absolute; cursor: pointer}
+#filter-equipment { display: inline-block; }
+#filter-equipment div {
+	width:30px;
+	height:30px;
+	display: inline-block;
+}
+
+.app-equipment-active { background-color: royalblue }
+
+.app-map {}
+.app-overlay {}
+.app-form {}
+.app-tab {}
+
+.app-valid-img {width: 16px; height:16px}
+
+.app-qtip {display:none}
+.app-form-opt {display: none}
+.app-form-erase-btn .app-form-add-btn{}
+
+.app-dp-legend td {padding: 3px}					/* контейнер легенды */
+
+.ui-datepicker-calendar .ui-datepicker-other-month {
+	background-color: transparent !important;
+}
+.ui-datepicker-calendar td {
+	/*background-color: white !important;*/
+	/* background-color: #0078AE !important; */
+}
+
+.ui-datepicker-calendar .ui-state-default {
+	/*background-image: none;
+	background-position: no-repeat !important;
+	background-color: transparent !important;
+	color: black !important;*/
+	background-color: transparent !important;
+}
+
+.app-dp-legend a {width: 25px !important; display: block !important;}
+
+/* 1-й выбор */
+.app-dp-armored, .app-dp-bayed, .app-dp-armored-self, .app-dp-bayed-self, .app-dp-select, .app-dp-blocked, .app-dp-save-application, .app-dp-application, .app-dp-overdue-application, 
+.app-dp-no-application {
+	background-image:  url("/theme/img/cut.png") !important;
+	background-size: 1200% 100% !important;
+}
+.app-dp-armored a, .app-dp-bayed a, .app-dp-armored-self a, .app-dp-bayed-self a, .app-dp-select a, .app-dp-blocked a, .app-dp-save-application a, .app-dp-application a, .app-dp-overdue-application a, .app-dp-no-application a {
+	background-image: none !important;
+}
+.app-dp-armored2 a, .app-dp-bayed2 a, .app-dp-armored-self2 a, .app-dp-bayed-self2 a, .app-dp-select2 a, .app-dp-blocked2 a, .app-dp-save-application2 a, .app-dp-application a, .app-dp-save-no-application2 a, .app-dp-overdue-application2 a  { 
+	background-image:  url("/theme/img/cut.png") !important; 
+	background-size: 1200% 100% !important;
+}
+
+.app-dp-armored { background-position: 9.3% !important;}		/* забронировано */
+.app-dp-bayed {background-position: 28% !important }			/* куплено */
+.app-dp-armored-self {background-position: 46.5% !important}	/* забронировано текущим пользователем */
+.app-dp-bayed-self {background-position: 65.1% !important}		/* куплено текущим пользователем */
+.app-dp-select {background-position: 83%  !important}			/* выбрано текущим пользователем */
+.app-dp-blocked {background-position: 101%  !important}			/* заблокировано */
+.app-dp-application {background-position: 83%  !important}			/* заявка */
+.app-dp-save-application {background-position: 83%  !important}			/* заявка принята */
+.app-dp-no-application {background-position: 83%  !important}			/* заявка принята */
+.app-dp-overdue-application {background-position: 83%  !important}			/* заявка принята */
+
+.app-dp-armored2 a { background-position: 0 !important;}		/* забронировано */
+.app-dp-bayed2 a {background-position: 18.6% !important }			/* куплено */
+.app-dp-armored-self2 a {background-position: 37.2%  !important}	/* забронировано текущим пользователем */
+.app-dp-bayed-self2 a {background-position: 55.8% !important}		/* куплено текущим пользователем */
+.app-dp-select2 a {background-position: 73%  !important}			/* выбрано текущим пользователем */
+.app-dp-blocked2 a {background-position: 91%  !important}			/* заблокировано */
+.app-dp-application2 {background-position: 73%  !important}			/* заявка */
+.app-dp-save-application2 {background-position: 73%  !important}			/* заявка принята */
+.app-dp-no-application2 {background-position: 73%  !important}			/* заявка принята */
+.app-dp-overdue-application2 {background-position: 73%  !important}			/* заявка принята */
+
+.app-dp-cena, .app-dp-cena2 a {border: 1px solid yellow !important; }			/* другая цена */
+
+
+
+/* картинки */
+.app-foto-gallery a {display: block; padding: 2px}
+.app-img-erase { /*position: absolute;*/ margin-left: -10px; cursor: pointer; height:32px; width:32px }
+
+/*.app-elect {background-image: url(/theme/img/erase.png); height:32px; width:32px }*/
+
+.app-scroll {width:600px; overflow-x:auto; white-space: nowrap;}
+.app-foto-gallery {width:auto}
+.app-scroll >.app-foto-gallery >a {display: inline-block;}
+a.app-sel-foto {background-color:#998066}
+
+
+
+#realty-armoring-form input, #realty-armoring-form textarea { width: 450px }
+
+/* меню */
+/*.app-first { border: solid 1px black; background: brown }
+.app-s { padding: 2px }
+.app-s span {display: block}
+.app-first > .app-s { display: inline-block }
+.app-menu { position:absolute; border: solid 1px black; background: brown; z-index: 100 }
+.app-s > .app-menu { display: none }
+.app-s:hover > .app-menu { display: block; }
+.app-s > span:hover { color: yellow }
+.app-s { cursor:pointer }*/
+
+.app-first {}
+.app-s { padding: 2px;  }
+.app-a {display: block}
+.app-first .app-s { display: inline-block; }
+.app-first .app-s .app-s { display: block }
+.app-menu {
+	position: absolute;
+	border: solid 1px black;
+	background: brown;
+	z-index: 100
+}
+.app-s .app-menu { display: none }
+.app-s:hover .app-menu { display: block; }
+.app-a:hover, .app-a-hover { color: yellow; cursor:pointer; }
+
+
+
+/* справочник */
+.app-ref table { border-collapse: collapse; }
+.app-ref td { border: solid #998066 1px; }
+.tbody tr { cursor: pointer }
+.tbody td > div {
+	white-space: nowrap;
+	width:100%;
+	height: 14pt;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.app-active-row { background-color: Seashell }
+.app-ref-form label { display: inline-block; width: 200px }
+
+/* для плавающего окошка "ВВЕРХ". Оно появляется если прокрутить список ниже одного экрана браузера */
+.app-top {
+    background: none repeat scroll 0 0 #333333;
+    border-radius: 10px 10px 10px 10px;
+    bottom: 15px;
+    color: #888888;
+    display: block;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    padding-top: 25px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 50px;
+}
+.app-top:before {
+    border-bottom: 11px solid #888888;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    left: 14px;
+    position: absolute;
+    top: 11px;
+}
+.app-top:hover {
+    color: #EEEEEE;
+}
+.app-top:hover:before {
+    border-bottom-color: #EEEEEE;
+}
+.opacity .app-top {
+    -moz-transition: opacity 700ms linear 0s;
+    opacity: 1;
+}
+.opacity .app-top.hidden {
+    opacity: 0;
+}
+.no-opacity .app-top.hidden {
+    display: none;
+}
+
+.clr {
+    clear: both;
+    float: none;
+}
+
+/* выпадающий список кодов стран */
+.app-over-phone { width: 30px; display: inline-block; zoom: 1; *display: inline; }
+.app-container-phone {
+	padding: 0;
+	overflow: auto;
+	height: 300px;
+	cursor: pointer;
+	position: absolute;
+	background-color: white;
+	display: none;
+	border: 1px solid gray;
+	z-index: 1003;
+}
+.app-img-phone, .app-container-phone div div {
+	height: 22px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+.app-container-phone div div {
+	width: 30px;
+}
+.app-img-phone{
+	width: 24px;
+}
+.app-selected-phone {
+	background-color: RoyalBlue;
+}
+
+/* для флагов */
+#language {
+    padding:0; overflow: auto; height: 300px;
+    cursor: pointer; position: absolute;
+    background-color: white;
+    display: none; z-index: 1000
+}
+#language div div, #language-sel > div {
+    background-image: url(/theme/img/flags.png);
+    width: 22px; height: 17px; display: inline-block;
+    zoom: 1; *display: inline; margin: 2px;
+    border: solid 1px gray; cursor: pointer;
+}
+.lang-active { background-color: lightblue; }
+#language-sel {height: 17px }
+#language-down {cursor: pointer}
+#language-sel, #language-sel-img, #language-down, #currency, #plugin-core {display: inline-block}
+
+
+/* фильтры */
+
+#filter-select,
+#counter-number_room {
+    clear: both;
+}
+
+#district, #metro,
+#filter-district-order, #filter-metro-order {
+	display: inline-block;
+}
+
+.filter-list {
+	float: left;
+}
+#district_sel > span, #metro_sel > span, #number_room_sel >span {
+	display: inline-block;
+	padding-left: 10px;
+	width: 160px;
+}
+#district_sel span span, #metro_sel span span, #number_room_sel span span {
+	margin-left: 10px;
+	display: inline-block;
+}
+#select-district > span {
+	display: inline-block;
+}
+#select-district div, #select-metro div, #select-number_room div {
+	background-image: url(/theme/img/erase.png);
+	width: 10px; height: 10px; display: inline-block;
+	background-size: 10px 10px, auto, 10px;
+}
+
+
+
+#metro-map-ovl {
+    position: relative;
+}
+.metro-map-container {
+    width:825px;
+    min-width:825px;
+}
+
+.metro-map-holder {
+    border: 1px solid rgb(143, 80, 80);
+    box-shadow: 3px 2px 3px rgba(143, 15, 15, 0.61),
+                3px -1px 4px rgba(15, 15, 143, 0.36);
+    /*width:75%;*/
+    min-width: 600px;
+    /*height: 525px;*/
+    float: left;
+}
+
+.metro-station-map {
+    position: relative;
+    background-color: #6888ff;
+    color: #feffb3;
+    display: none;
+}
+
+.metro-station-map_active,
+.metro-station-map__admin-tool {
+    display: inline-block;
+    /*border: 5px solid blue;*/
+    border-radius: 25px;
+    width: 1.5em;
+    box-shadow: 1px 1px 9px #06A6F1;
+    padding-left: 1px;
+    text-align: center;
+}
+
+.metro-station-map_active:hover,
+.metro-station-map__admin-tool:hover {
+    box-shadow: 1px 1px 11px #b6473a;
+    color: #228;
+    background-color: #feffb3;
+    cursor: pointer;
+}
+
+.metro-stations {
+    width: 10em;
+}
+.metro-data-item,
+.metro-data-edit {
+    float: right;
+    width:19%;
+    padding-bottom: 10px;
+}
+
+
+
+
+/*
+#panel {
+	width: 700px;
+	float: left;
+	margin-left: 5px;
+} */
+
+#realty-filter {
+	/* border: solid 1px grey;
+		width: 210px; */
+}
+.ui-autocomplete-loading {
+    background: white  right center no-repeat;
+}
+#service { width: 25em; }
+
+#flt-from, #flt-to {display: inline-block}
+#realty-payment-balance  td{width: 150px}
+#realty-tab-serv  td{width: 175px}
+
+/* startpage */
+.float-info {width:270px; position:absolute; margin-top:-48px; opacity: 0.5; background-color: LightYellow}
+.float-info-cena {width:270px; text-align:right}
+.float-info-button { border: solid 2px white; background-color: brown; color: white; border-radius:10px; position: absolute; padding: 4px; margin-top:-38px; margin-left: 110px }
+.app-elem-3 { display: inline-block; width: 30%; padding-bottom: 20px; padding-left: 25px; }
+
+.start-location-site { width: 100% }
+.comment-msg{ float:left; width: 45%}
+/* Оценки */
+.rate_widget {overflow: visible; padding: 1px; position: relative; width: 90px; height: 16px;}  
+.ratings_stars { background: url('/theme/img/star_empty.png') no-repeat; float: left; height: 14px; padding: 1px; width: 16px;}  
+.ratings_vote { background: url('/theme/img/star_full.png') no-repeat;}  
+.ratings_over { background: url('/theme/img/star_highlight.png') no-repeat;}  
+.comment-rating{display: inline-block}
+.star{display: inline-block}

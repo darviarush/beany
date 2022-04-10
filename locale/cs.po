@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "Zadejte: app help \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - aktualizace překladatelské soubory"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins -. každý řádek locale / * po.s píše locale / * po msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - kompilliruet Soubor s překladem do www / locale / * JSON."
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "motiv soubor / dir. [Adresář] - zkopíruje soubor nebo adresář na závit"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - vymaže mezipaměť"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "regulátory - počet regulátorů"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "pl Název - vytvořit plugin složky na bázi skel"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - seznam nainstalovaných zásuvných modulů"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "PLL - seznam všech pluginů"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "PLI name - Instalace plugin"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". Nainstalujte je všechny?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ Name závisí na"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu name - odinstalovat plugin"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". Odinstalovat je všechny?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "Od $ name závisí"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel Název - fyzicky odstraní zástrčku"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "Plugin `$ name` no \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "Odstraňte uzavírací šroub `$ name`?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn jméno newname - přejmenovat plugin"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "spustit - spusťte aplikaci v konzoli"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "start - spustí http-server aplikací"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "zastavení - zastaví http-server aplikací"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "restart - restart http-server aplikací"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "Stav - poskytuje informace o http-server aplikace"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID stavu Psovodi \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "Běh $ pid $ pracovníci \ n"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "Leží $ pracovníci \ n"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "cron - píše šablony conf / crontab v crontabu"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "test [test1 test2 ...] - spuštění testů. Například: app test model realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "Nemůžete definovat nepoužité pole, protože test odstranili všechny záznamy z tabulky $ \ n"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "Nevyužitá tabulka: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "Nepoužité pole: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "gen tabulka kol_zapisey - přidá náhodných dat do zadané tabulce"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - je k načtení dat do databáze z / conf / * json."
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "Poškozené json v souboru $ \ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - kopie * json z www / test / ex.html v / conf / * json.."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "pomoci - to help"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "Tým `$ cmd` není podporován \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "Tento příkaz vyžaduje až $ n $ u parametrů, a předat $ K \ n"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "Tento příkaz vyžaduje $ n parametrů, a předat $ K \ n"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "Server není spuštěn \ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "Server je zastaven \ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "vrátí seznam plug-inů"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "vrátí seznam kontrolorů z podstavce"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "běží více řadičů"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "ověřit, - zda je zadaný ovladač"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "To se děje po klientovi, pokud je relace"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "Zastavila proces № $ pracovníka"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "Nemůžu zastavit proces № $ pracovník"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "Zastavila proces № $ cron (cron)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "Nemůžu zastavit proces № $ cron (cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "Nelze spustit vidlice \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "Není odpojit od terminálu \ n"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "vidlice se nezdařilo s chybou"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "Není vytvořen cron. Chyba vidlice% m"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "Běh manipulátory:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "Nemohu nastavit obslužné rutiny SIGHUP"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "Nemohu nainstalovat SIGTERMEM Handler"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "Chyba pcntl_waitpid% m"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "Dokončené handler № $ dítě"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr "Stav: $ status. Zotavit se"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "vidlice se nezdařilo s chybou% m"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "Spuštění handler № $ dítě"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket_accept se nezdařilo% m"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ Key` nemůže být null"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": Žádná vlastnost `$ key`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "Kontrolora `$ name` již přidána. Přepsat"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "Správci"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "Kontrolora `$ name` nebyl nalezen"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "Uživatel ověřen"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "Pokus o změnu někoho jiného modelu"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "Žádný přístup k regulátoru `$ názvem`"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "Neznámý přístup `$ přístup` v řídicím `$ názvem`"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "Uživatel není ověřen"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "Provozovatel `$ op` filter `$ key` není povoleno"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "Řetězec Seznam adresáře «$ name»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "Line adresář \"$ name»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "Uložení String Kategorie «$ name»"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "Odstranění řadě Kategorie «$ name»"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "Tabulky"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "E-mail není odeslán"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "Neplatné uživatelské jméno nebo heslo"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "Ke stažení plugin `$ name` není připojen"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "Ke stažení plugin `$ name` je nenaplněná závislost `$ dep`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "Plugin `$ name` je již nainstalován"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "Plugin `$ name` je odinstalován"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "Ze zásuvky `$ jméno` závislé plug-ins:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "K dispozici je již `$ name2` - nelze přejmenovat"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "Plugin `$ path` existuje"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "Plugin `$ name` no"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "Charakter třída SMS přijímače by měl být pole"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "Charakter třída SMS přijímače musí být dokončen před odesláním"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "Špatné číslo ve formátu přijímač $ v."
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "Objekt třídy SMS text musí být řetězec"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "Objekt třídy SMS text by měl být více než 256 znaků"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "Odesílání SMS se nezdařilo, chyba:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "Neexistuje žádné hranice v typu obsahu"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "Nelze otevřít soubor $ soubor \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "Soubor `$ file` poškozen - no msgstr před msgstr. Řádek $ i \ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "Soubor `$ file` poškozen. Řádek $ i \ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgstr bez msgstr. Řádek $ i \ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "Parametr `$ key` není typu `$ typu`"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "musí být celé číslo"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "by mělo být přírodní"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "Peníze může mít pouze 2 desetinná místa"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "Peníze nemohou být záporné"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "Identifikátor - přirozené číslo větší než 0"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "Heslo musí být větší než nebo rovna 6 znaků"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "Zadali jste nesprávný e-mail"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "Formát telefon: + čísla (čísla) čísla oddělená pomlčkou. Například: 7 (921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "To není soubor"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "Žádný soubor jako parametr"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "To není datum"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "Jméno musí být alespoň jeden znak"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "Jméno města by měla být alespoň jeden znak"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "Neodpovídá pořadí: pole1 [sestupně], pole2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "limit nemůže být větší než 100 a méně než 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "Název parametru musí začínat sdílené nebo vlastní"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "Služba"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 měsíce"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 měsíců"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Zrušte kalendář"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "Zablokujte možnost rezervace vybraného čísla"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "Odemkněte možnost rezervace"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "Nastavení ceny za den z oblasti na levé straně vybrané období"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "Změna ceny za vybrané datum"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "Odstraňte jakoukoli cenu"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "klepněte na tlačítko"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "Klepněte na tlačítko + Shift"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- Volí nebo odstraní denních intervalech"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "klepněte na tlačítko + Ctrl + Shift"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- Vybrat / odebrat vlevo"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "Klepněte na tlačítko + alt"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- Vybrat / odebrat právo"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- Vybrat všechny nebo jasné intervaly mezi intervalu"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "Rezervujte"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "rezervace"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "REZERVACE"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "Adresa"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "Vaše jméno"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "Počet osob"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "Datum příjezdu / odjezdu"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "Navíc"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "Odeslat"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "Rezervační formulář je podán. Zde je Váš"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "smlouva o nájmu"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "Vy"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "Musíte se registrovat k podání požadavku o rezervaci"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "Aplikace"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "Zvýrazněte období"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "Vyberte uzamčený období"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "Vybrané řada zachycuje interval s náklady na instalaci. Cena je možné změnit pouze"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "Cena změnila"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "Kliknutím na datum s cenou"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "Vyberte období"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "Rezervace Dotaz"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "rezervace majetku"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "V tomto období je zaúčtován dům"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "Máte novou rezervaci na"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "zrušit rezervaci pro vlastnost"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "bloky rezervace"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "stanoví různé ceny za požadované období"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "Ostatní změny cen"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 předmět"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 položek 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 položek 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 Objekt 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "není nainstalován 03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "není nainstalován 02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "nastavit 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "nastaven na 8,6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "volba = 6,8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "třída výběr"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "Třída zbroje"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "třída výběr uživatele"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "třída double buněk"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "záběr 08, období 6.7"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "Hotovost"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "Součet"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "Čas"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "Typ platby"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "Nemovitost"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Plátce"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Pokladní"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "Jméno"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "Podepsat"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "Popis"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "Přidat komentář"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "Komentáře"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "Komentovat karty výnosy nemovitostí"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "přidá komentář k nemovitosti"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "smazat komentáře pro nemovitosti"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "Otestujte Komentáře"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "Soukromé společnosti"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "Odchod"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "Osobní údaje"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "Vstup"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "Zaregistrujte se"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "Obnovení hesla"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-mail nebo telefon:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "Pamatovat si"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Heslo:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "Vstoupit"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "Zadejte svůj e-mail:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "Zadejte telefonní číslo:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "Ty budou zaslány e-mail nebo SMS jednorázové heslo. Změna hesla ihned po přihlášení"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "Změňte své dočasné heslo"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "Vaše dočasné heslo je platná pouze do konce zasedání. Změňte to teď"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "Nové heslo:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "Nové heslo:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "Výměna"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "Hlavní"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "Změna hesla"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "Jméno:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "Telefon:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "Staré heslo:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "Dopis odeslaný"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS odeslána"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "Vytvoření uživatele"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "Zapomněli jste heslo?"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<li> CapsLock on - psaní písmen"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li> Ruská klávesnice"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "Heslo bylo úspěšně změněn"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "Změna hesla"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "Přihlášení uživatele"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "Odhlásit se"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "Změňte své heslo"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "Staré heslo není správné"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "Vytvořit nový účet nebo obnovit heslo"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "Vaše dočasné heslo je: $ heslo"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "Vrací informace o uživateli"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "Vrátí informace o přihlášeného uživatele"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "Změňte informace o přihlášeného uživatele"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "Platba kartou"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "Platba formulář"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "Číslo platby"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "Podrobnosti o platbě"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "Uživatelské jméno"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "Částka platby"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "Zaplatit on-line rezervace."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "Online platby"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "Číslo rezervace není předán"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "Externí systém s odkazem na tento skript změní stav své platby"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "Neplatný odesílatele ip ip potřeba:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "Parametry předávané z platebního systému není"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "Neplatný identtifikator obchod"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "Platba číslo"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "příjem platební chyby: neplatný hash platba potřeba"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "příjem platební chyby: neplatný hash platby"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "Recepce platební chyby: Neplatná Získané údaje:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "interní data:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "Recepce platební chyby: Neplatná získané údaje."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "po dobu"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "na adrese:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "Přijetí platby za číslo rezervace"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "Platba brnění"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "vytvořit formu platebních služeb"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "test"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "Platba číslo rezervace"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "Platba rezervační číslo $ pancéřování-> id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "Zkušební ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "Platba zbroj zkouška"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Sergei"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "Nahrát obrázek"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "Fotografie"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "Přetáhněte obraz změnit svou pozici mezi ostatními obrazy"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "Odstranění obrázku"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "Opravdu chcete smazat tento obrázek?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "Chyba! Obrázek Download"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "Fotka byla nahrána. Možná je to příliš velký."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "Secure stránky"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "Načítání obrazu. Chyba číslo"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "Ukládání fotografií vlastnost"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "smazat fotky vlastnost"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "digitální fotky nemovitostí"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "Zkontrolujte připravenost zahraničních pasů ruského občana"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "Kontrola platnosti cestovního pasu občana Ruské federace"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "Zkontrolujte své pozvánky"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "St Petersburg"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "Služby"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "Služby objednané klientem"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "Informace upozornit"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "Zpráva je odeslána k zaměstnancům"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "telefon pro sms"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "Servisní personál"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "ukládá data pro oznámení"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "Zdarma se vrací z nemovitostí"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "smaže data pro oznámení"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "Akce provedená,"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "Protokol"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "Vrátí seznam akcí provedených uživatelem"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "Nahoru"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "Pokoje:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "Okresy:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Metro:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "Apartmány"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 pokoj"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 pokoje"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 pokoje"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "více než 3 pokoje"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "Město:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "Odbavení"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "Check-out"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "Všechny objekty"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "Moje zápisy"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "Novinkou ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "podle ceny ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "Přidat vlastnost"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "Filtrovat seznam vlastností"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "Zobrazit:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "Apartmány podle počtu pokojů"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "typ"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "Okresy"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "Umístění"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "Centrum"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "Okraj města"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Metro"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "Cena"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "Kompletní informace"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "Adresa:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "Pokoje:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "Postele:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "\""
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "Obecné informace"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "Mapa"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "Objekt Card"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Předchozí"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "Další"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "Odstranit Card vlastnost"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "Měna"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "Cena za noc:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "Cena pronájmu za měsíc:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- Zdarma"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- REZERVOVÁNO"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- Pronájem"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- Jste si rezervovali"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- Pronajatá vámi"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- Další cena"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- Lock"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- Důraz"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "Okres:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "Patro:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Popis:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "Zaměstnanost:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "Kuchyně"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "Televize"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "Telefon"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "Music Center"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "Internet"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "Klimatizace"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "Pračka"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "Nespecifikováno"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "Měsíc"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "Den"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "Vyberte si ze seznamu oblastí, ve kterých se pak řazení"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "Vyberte si ze seznamu stanic metra, která musí procházet třídění"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "Karty Nemovitosti číslo"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "Neexistuje žádné"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "není uvedeno"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "Neznámý"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "vrátí seznam nemovitostí. Limit může být 1 až 100. Výchozí - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "Páskové apartmány pro vyhledávače"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "plochý profil pro vyhledávače"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "Pronájem bytu / domu / pokoj k pronájmu"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "město"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "oblast"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "stanice metra"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "adresa"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "stát"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "za den"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "Podlahy"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "Pokoje"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "Postele"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "komentář"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "vrátí seznam metra oblastí a v závislosti na město"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "Profil neustále nemovitostí. Pokud id = 0 - vytvořit nový"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "Informace byla změněna"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "odstraňuje profil nemovitostí"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "Modul"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "Test Apartmán"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "Test RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / Asynchronní loading css -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "Je nutné, aby na těchto stránkách"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript je zakázán"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "Povolte prosím JavaScript ve vašem prohlížeči"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "VAROVÁNÍ!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "Seznam apartmánů"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "aktualizovat"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "VAROVÁNÍ! Váš prohlížeč je příliš starý na této stránce. Doporučit ji"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "Pokračujte na vlastní nebezpečí"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- Tabulka, která bude vložen do aplikačních modulů. Plugin potřebuje znát ID prvku, ve kterém je vložena. Plug vloží jeho tělo na konci (append) uvedené němu. Tak v jedné nádobě můžete dát libovolný počet plug-inů po jednom -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "Měna:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "Chyba číslo"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "Historie překryvy prázdný"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "Nemůžu se vrátit - aktuální překrytí neodpovídá hash"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "již nainstalován"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "event: Event"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "Chyba:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "Zavřít"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "Chyba!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "Zadejte celé číslo"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "Zadejte reálné číslo"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "Podlaha nesmí překročit počet pater"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "Zadejte číslo podlah a podlahových"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "Zadejte celé číslo"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "Zadejte celé číslo větší než 0"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "Zadejte kladné reálné číslo"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "Zadejte hodnotu znaku"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "Zadejte cena: dvě desetinná místa. Například: 100,22 nebo 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "Zadejte alespoň jeden znak"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "Zadejte e-mail"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "Přihlásit se formát: e-mail nebo telefonní číslo, například: 7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "Heslo musí být alespoň 6 znaků"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "Hesla se neshodují"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "Platný údaj"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- Nevybráno -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "Data jsou uložena"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "Odstranit"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "Žádný příkaz forma (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "Zachování"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "Ne všechna pole jsou vyplněna správně"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "je úspěšný"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "Odstranění"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "nemohou být odstraněny"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "Opravdu chcete smazat"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "Seznam: Neplatný příkaz \""
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "Přidat"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ záznam"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Smazání řádku adresáře"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "Opravdu chcete odstranit řádek?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<Předchozí"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "Další>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "Dnes"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "Leden"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "Únor"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "Červen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "Květen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "Březen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "Duben"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "Srpen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "Červenec"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "Září"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "Listopad"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "Říjen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "Prosinec"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "Únor"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "Leden"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "Duben"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "Červen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "Březen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "Srpen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "Prosinec"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "Červenec"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "Listopad"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "Říjen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Senátor"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "Čtvrtek"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "Pátek"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "Pondělí"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "Sobota"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "Středa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "Neděle"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "Úterý"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "So."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Út."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "oddat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "Čt."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Pá."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "Slunce"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Pá."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "Slunce"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Út."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Čt."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "So."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Oddat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Pondělí"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "Ne"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "Tento prohlížeč nepodporuje Ajax"
+

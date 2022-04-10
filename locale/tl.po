@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "Ipasok ang: app tulong \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - update pagsasalin file"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "nagsusulat ng lokal / * langins -. bawat linya locale / * po.s po msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - kompilliruet pagsasalin file sa www / locale / * json."
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "tema file / dir. [Directory] - kopya ang file o direktoryo ng thread"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - nililimas ang cache"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "controllers - ang bilang ng mga controllers"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "pl pangalan - lumikha ng isang plugin folder na batay sa skel"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - listahan ng mga naka-install na mga plugin"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "pll - isang listahan ng lahat ng mga plugin"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "pli pangalan - I-install ang plugin"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". I-install ang lahat ng ito?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ Pangalan depende sa"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu pangalan - i-uninstall ang plugin"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". I-uninstall ang lahat ng ito?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "Mula sa $ pangalan depende"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel pangalan - pisikal inaalis ang plug"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "Plugin `$ pangalan` hindi \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "Alisin ang plug `$ pangalan`?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "na na plrn pangalan newname - palitan ang pangalan ng plugin"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "tatakbo - patakbuhin ang application sa console"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "simulan - nagsisimula sa http-server application"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "itigil - Humihinto ang http-server application"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "i-restart - i-restart ang http-server application"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "katayuan - ay nagbibigay ng impormasyon sa http-server application"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID katayuan Handler \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "Pagpapatakbo ng $ pid $ manggagawa \ n"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "Namamalagi $ manggagawa \ n"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "cron - nagsusulat ng template Conf / crontab sa crontab"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "pagsubok [test1 test2 ...] - patakbuhin ang mga pagsubok. Halimbawa: modelo ng pagsubok ng app realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "Hindi mo maaaring tukuyin ang mga hindi nagamit na mga patlang, dahil ang pagsubok ay tinanggal ang lahat ng mga tala mula sa $ talahanayan \ n"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "Hindi nagamit na talahanayan: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "Hindi nagamit na mga patlang: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "gen ng talahanayan kol_zapisey - nagdadagdag ng random data sa tinukoy na talahanayan"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - ay upang i-load ang data sa database mula sa / Conf / * json."
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "Nasira json sa $ file \ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - kopya * json ginawa www / test / ex.html sa / Conf / * json."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "makatulong - tulong na ito"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "$ Ang koponan ng `cmd` ay hindi suportado \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "Utos na ito ay nangangailangan ng hanggang sa $ n $ parameter u, at pumasa ka ng $ k \ n"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "Utos na ito ay nangangailangan ng $ n parameter, at pumasa ka ng $ k \ n"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "Server ay hindi tumatakbo \ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "Server ay tumigil \ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "nagbabalik ng isang listahan ng mga plug-in"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "nagbabalik ng isang listahan ng controllers mula sa base"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "nagpapatakbo ng maramihang mga controllers"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "i-verify - kung ang tinukoy na controller"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "Ito ang mangyayari pagkatapos ng client kung ang session ay"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "Tumigil sa ang proseso № $ manggagawa"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "Hindi ko maaaring itigil ang proseso № $ manggagawa"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "Tumigil sa ang proseso № $ cron (cron)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "Hindi ko maaaring itigil ang proseso № $ cron (cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "Hindi ma-execute ang tinidor \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "Hindi bumaklas mula sa terminal \ n"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "Nabigo ang tinidor na may error"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "Hindi nilikha ng cron. Error tinidor% m"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "Pagpapatakbo ng handler:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "Hindi ko maaaring itakda ang handler SIGHUP"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "Hindi ko ma-i-install SIGTERM Handler"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "Error pcntl_waitpid% m"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "Nakumpleto ang handler № $ kid"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", Katayuan: $ katayuan. Mabawi"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "tinidor Nabigo may error% m"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "Inilunsad ang handler № $ kid"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket_accept Nabigo ang% m"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ Key` hindi maaaring maging null"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": Walang ari-arian `$ key`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "$ Pangalan ng Controller `` ay idinagdag. Isulat na muli"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "Administrator"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "$ Pangalan ng Controller `` Hindi nahanap ang"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "Ang user ay napatotohanan"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "Isang pagtatangkang baguhin ang ibang tao modelo"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "Walang access sa $ pangalan ng controller ``"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "Hindi kilalang access `$ access` sa $ pangalan ng controller ``"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "User ay hindi napatotohanan"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "Ang operator na `$ op` filter `$ key` ay hindi pinapayagan"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "Ang isang listahan ng direktoryo ng string «$ pangalan»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "Line direktoryo «$ pangalan»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "Sine-save ang string direktoryo «$ pangalan»"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "Ang pagtatanggal ng isang hilera direktoryo «$ pangalan»"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "Tables"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "Email hindi naipadala"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "Di-wastong username o password"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "Nada-download na plugin `$ pangalan` ay hindi konektado"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "Nada-download na plugin `$ pangalan` ay isang unmet dependency `$ Dep`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "Plugin `$ pangalan` ay naka-install"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "Plugin `$ pangalan` ay uninstall"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "Mula $ pangalan ng plug `` nakasalalay plug-in:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "Mayroon nang isang `$ NAME2` - hindi maaaring palitan ang pangalan"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "Plugin `$ landas` umiiral"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "Plugin `$ pangalan` hindi"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "Ari-arian klase SMS receiver ay dapat na isang array"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "Property klase SMS receiver ay dapat na makumpleto bago magpadala"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "Sa maling format ng numero receiver $ v"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "Property klase ng SMS text ay dapat na isang string"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "Property klase SMS text ay dapat na hindi hihigit sa 256 na character"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "SMS pagpapadala ng Nabigo ang, error:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "Walang hangganan sa Content-Uri"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "Hindi mabuksan ang file $ file \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "File `$ file` sira - walang msgid bago msgstr. Hilera $ i \ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "File `$ file` nasira. Hilera $ i \ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgid walang msgstr. Hilera $ i \ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "Parameter na `$ key` ng $ uri uri ``"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "dapat maging isang integer"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "ay dapat na isang likas na"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "Pera ay maaari lamang magkaroon ng 2 decimal place"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "Hindi maaaring maging negatibo ang pera"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "Tagatukoy - isang likas na bilang na mas malaki kaysa sa 0"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "Ang password ay dapat na mas malaki kaysa sa o katumbas sa 6 na mga character"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "Ipinasok mo ang maling email"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "Format ng telepono: + numero (numero) numero na pinaghiwalay ng isang gitling. Para sa Halimbawa: 7 (921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "Ito ay hindi isang file"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "Walang file bilang isang parameter"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "Ito ay hindi isang petsa"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "Ang pangalan ay dapat na higit sa isang character"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "Pangalan ng lungsod ay dapat na higit sa isang character"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "Ay hindi tumutugma sa pagkakasunud-sunod: field1 [DESC], field2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "limitasyon ay hindi maaaring maging mas malaki kaysa sa 100 at mas mababa sa 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "Ang pangalan ng parameter ay dapat magsimula sa nakabahagi o sariling"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "Serbisyo"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 buwan"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 buwan"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Alisin sa pagkakapili ang kalendaryo"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "I-block ang posibilidad ng booking ng mga napiling numero"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "I-unlock ang posibilidad ng booking"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "Itakda ang presyo bawat araw mula sa patlang sa kaliwa ng napiling tagal ng"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "Baguhin ang presyo para sa mga napiling petsa"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "Alisin ang anumang presyo"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "i-click ang"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "I-click ang + shift"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- Pinipili o inaalis ang mga agwat araw"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "i-click ang + ctrl + shift"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- Piliin / alisin ang kaliwang"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "i-click ang + alt"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- Piliin / alisin ang karapatan"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- Piliin ang lahat o malinaw na agwat sa pagitan ng agwat"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "Book ng"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "booking"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "Reserbasyon"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "Tirahan"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "Iyong pangalan"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "Bilang ng mga tao"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "Petsa ng pagdating / alis"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "Bilang karagdagan"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "Magpadala"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "Pagrereserba sa form na file. Heto na ang inyong"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "paupahan kontrata"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "Mo"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "Kailangan mong magrehistro upang magsumite ng isang kahilingan ng reservation"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "Application"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "I-highlight ang panahon"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "Piliin ang naka-lock na panahon"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "Napiling hanay nakukuha sa pagitan ng may-install gastos. Presyo ay maaari lamang baguhin"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "Presyo ay nagbago"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "Mag-click sa isang petsa na may presyo"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "Pumili ng isang panahon"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "Booking Kahilingan"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "booking ng ari-arian"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "Sa panahong ito ng naka-book na ang bahay ay"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "Mayroon kang isang bagong reservation sa"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "kanselahin ang reservation para sa ari-arian"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "bloke ang booking"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "nagtatatag ng isang magkaibang presyo para sa mga hiniling na panahon"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "iba pang mga presyo pagbabago"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 bagay"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 item 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 item 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 bagay 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "Hindi naka-install ang 03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "Hindi naka-install ang 02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "magtakda ng 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "nakatakda sa 8.6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "choice = 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "klase pagpili"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "Nakasuot Class"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "klase user seleksyon"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "klase double cell"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "shot 08, sa panahon ng 6.7"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "Cash"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "Kabuuan"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "Oras"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "Uri ng pagbabayad"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "Real estate"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Nagbabayad"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Tagabayad"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "Pangalan"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "Pumirma"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "Paglalarawan"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "Magdagdag ng komento"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "Komento"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "Komento return card para sa real estate"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "nagdadagdag ng isang komento para sa real estate"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "tanggalin ang mga komento para sa Property"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "Subukan Komento"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "Pribadong opisina"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "Lumabas"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "Personal na data"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "Input"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "Mag-sign up"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "Ibalik ang password"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-mail o numero ng telepono:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "Tandaan"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Password:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "Magpasok"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "Ipasok ang iyong E-mail:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "Ipasok ang iyong numero ng telepono:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "Ikaw ay nagpadala ng email o SMS isahang-beses na password. Baguhin ang password kaagad pagkatapos ng pag-log"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "Palitan ang iyong pansamantalang password"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "Iyong pansamantalang password ay may-bisa lamang hanggang sa katapusan ng session. Baguhin ito ngayon"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "Bagong password:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "Bagong password:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "Palitan"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "Pangunahin"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "Baguhin ang password"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "Pangalan:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "Telepono:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "Lumang Password:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "Sulat na ipinadala sa"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS na ipinadala sa"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "Paglikha ng User"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "Pagbawi ng password"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<li> CapsLock sa - uri ng mga titik"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li> Russian na keyboard"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "Password Matagumpay na nabago"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "Pagpapalit ng password"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "User Log In"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "Mag-log off"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "Baguhin ang iyong password"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "Lumang password ay hindi tama"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "Lumikha ng isang bagong account o mabawi ang password"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "Iyong pansamantalang password ay: $ password"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "Ibinabalik ang impormasyon tungkol sa mga user"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "Ibinabalik ang impormasyon tungkol sa mga log sa user"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "Baguhin ang impormasyon tungkol sa mga log sa user"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "Card pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "Pagbabayad form na"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "Numero ng Kabayaran"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "Detalye ng pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "User name"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "Halaga ng pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "Magbayad online reservation."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "Online na pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "Pagrereserba sa numero ay hindi pumasa sa"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "Panlabas na sistema ng nagre-refer sa script na ito ay baguhin ang katayuan ng iyong pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "Di-wastong nagpadala ip ip kinakailangan:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "Parameter ng pumasa sa mula sa sistema ng pagbabayad ay hindi"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "Di-wastong identtifikator store"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "Number ng pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "reception ng error sa pagbabayad: Hindi wastong hash na nangangailangan ng pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "reception ng pagbabayad error: Di-wasto ang hash pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "reception ng error sa pagbabayad: Hindi wastong data na nakuha:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "panloob na data:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "reception ng error sa pagbabayad: Hindi wastong data na nakuha."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "sa loob ng isang panahon"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "sa:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "Tinanggap ng pagbabayad para sa bilang ng reservation"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "Pagbabayad nakasuot"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "lumikha ng isang form ng mga serbisyo ng pagbabayad"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "pagsubok"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "Numero ng pagbabayad reservation"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "Numero ng pagbabayad reservation $ armoring-> id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "Test ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "Nakasuot ng pagsubok ng Pagbabayad"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Sergei"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "Mag-upload ng isang larawan"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "Larawan"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "I-drag ang larawan upang baguhin ang posisyon nito kabilang sa iba pang mga imahe"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "Tanggalin ang isang larawan"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "Gusto mo ba talagang tanggalin ang larawang ito?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "Error! Ng Imahe Download"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "Larawan ay na-upload. Marahil ito ay masyadong malaki."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "Secure na pahina"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "Nilo-load ang imahe. Pagkakamali numero"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "-save ng larawan Property"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "tanggalin ang larawan Property"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "digital na larawan ng real estate"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "Lagyan ng check ang kahandaan ng mga dayuhang pasaporte ng Russian mamamayan"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "Sinusuri ang bisa ng pasaporte ng isang mamamayan ng Russian Federation"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "Suriin ang mga imbitasyon sa"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "St. Petersburg"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "Mga Serbisyo"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "Serbisyo na order ng client"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "Impormasyon upang alertuhan"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "Mensahe ay ipinadala sa mga kawani"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "telepono para sa sms"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "Serbisyo tauhan"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "tindahan ng mga data para sa abiso"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "Libreng babalik sa real estate"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "tinatanggal data para sa abiso"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "Ginawang Pagkilos"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "Protokol"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "Nagbabalik ng isang listahan ng mga pagkilos na isinagawa ng user"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "Pataas"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "Mga kuwarto:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "Distrito:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Metro:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "Apartments"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 kuwarto"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 kuwarto"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 kuwarto"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "higit sa 3 kuwarto"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "Lungsod:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "Tsek-in"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "Check-out"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "Lahat ng bagay"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "Aking Mga Listahan"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "bagong bagay o karanasan ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "ng presyo ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "Magdagdag ng ari-arian"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "-Filter ang listahan ng mga katangian ng"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "Tingnan:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "Apartments sa pamamagitan ng bilang ng mga kuwarto"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "uri"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "Distrito"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "Kinalalagyan"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "Sentro"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "Dakong labas ng bayan"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Metro"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "Presyo"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "Kumpletong impormasyon"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "Address:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "Mga kuwarto:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "Bed:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "Pangkalahatang impormasyon"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "Mapa"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "Ari-arian Card"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Nakaraan"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "Susunod"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "Tanggalin ang Card Property"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "Pera"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "Presyo bawat gabi:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "Presyo ng bawat buwan:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- Libreng"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- Nakalaan"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- Rent"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- Kang naka-book na"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- Buwisan mo"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- Isa pang presyo"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- I-lock"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- Diin"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "Distrito:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "Floor:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Paglalarawan:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "Pagtatrabaho:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "Kusina"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "Telebisyon"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "Telepono"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "Music Center"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "Internet"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "Air conditioning"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "Washing machine"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "Hindi Tinukoy"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "Buwan"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "Araw"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "Pumili mula sa listahan ng mga lugar kung saan upang pumasa ang pag-uuri-uri"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "Pumili mula sa listahan ng mga istasyon ng metro na dapat pumasa sa pag-uuri"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "Ari-arian bilang card"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "Walang"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "Hindi tinukoy"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "Hindi kilala"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "nagbabalik ng isang listahan ng real estate. limitasyon ay maaaring maging mula 1 hanggang 100. Default - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "Tape ng mga apartment para sa mga search engine"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "flat profile para sa mga search engine"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "Para sa Rent Flat / bahay / kuwarto para sa upa"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "lungsod"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "pook"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "estasyon ng subway"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "tirahan"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "gastos"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "bawat araw"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "Floors"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "Nagtatampok ang mga kuwarto"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "Bed"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "puna"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "nagbabalik ng isang listahan ng mga lugar sa metro at depende sa lungsod"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "profile mapigil ang sa real estate. Kung id = 0 - lumikha ng isang bagong"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "Impormasyon ay nabago"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "inaalis ang profile ng real estate"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "Modulo"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "Test Apartment"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "Test RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / Asynchronous-load ng css -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "Ito ay kinakailangan para sa site na ito"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript ay hindi pinagana"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "Mangyaring paganahin ang JavaScript sa iyong browser"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "BABALA!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "Listahan ng mga apartment"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "i-update"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "BABALA! Ang iyong browser ay masyadong luma para sa site na ito. Magrekomenda ito"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "Magpatuloy sa iyong sariling peligro"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- Ang isang talahanayan na ipinasok sa plugin ng application. Plugin na kailangang malaman ang ID ng elemento na kung saan ito ay ipinasok. Plug insert ang kanyang katawan sa dulo (Magkabit) na tinukoy doon. Kaya sa isang lalagyan ilagay ang anumang bilang ng mga plug-in ng isa sa pamamagitan ng isa -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "Pera:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "Pagkakamali numero"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "kasaysayan ng overlay walang laman"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "Hindi ako maaaring bumalik - ang kasalukuyang overlay ay hindi tumutugma sa hash"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "naka-install na"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "kaganapan: Kaganapan"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "Error:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "Isara"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "Error!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "Magpasok ng isang integer"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "Magpasok ng isang tunay na numero"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "Palapag ay hindi dapat lumampas sa bilang ng mga palapag"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "Ipasok ang bilang ng mga kahoy at sahig"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "Magpasok ng isang integer"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "Magpasok ng isang integer na mas malaki kaysa sa 0"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "Magpasok ng isang positibong numero ng real"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "Ipasok ang halaga ng sign"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "Ipasok ang presyo: dalawang decimal place. Halimbawa: 100.22 o 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "Magpasok ng hindi bababa sa isang character"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "Ipasok ang e-mail"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "Format ng pag-login: e-mail o numero ng telepono, halimbawa: 7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "Ang password ay dapat na hindi bababa sa 6 na mga character"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "Password ay hindi magkatugma"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "Wastong entry"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- Hindi napili -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "Data ay naka-save"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "Alisin"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "Walang anyo ng utos (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "Pangangalaga"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "Hindi lahat ng mga patlang ay napuno sa tama"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "matagumpay ang"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "Pag-aalis"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "hindi maaaring alisin"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "Gusto mo ba talagang upang tanggalin"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "listahan: Hindi wastong utos '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "Magdagdag"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ record"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Ang pagtatanggal ng isang hilera directory"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "Gusto mo ba talagang tanggalin ang isang hilera?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<Nakaraan"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "Susunod>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "Ngayon"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "Enero"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "Pebrero"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "Hunyo"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "Mayo"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "Marso"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "Abril"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "Agosto"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "Hulyo"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "Setyembre"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "Nobyembre"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "Oktubre"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "Disyembre"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "Pebrero"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "Enero"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "Abril"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "Hunyo"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "Marso"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "Agosto"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "Disyembre"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "Hulyo"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "Nobyembre"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "Oktubre"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Sen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "Huwebes"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "Biyernes"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "Lunes"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "Sabado"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "Miyerkules"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "Linggo"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "Martes"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Sab"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Mar"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "magkasal"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "Huw"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Biyernes"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "Araw"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Biyernes"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "Araw"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Mar"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Huw"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Sab"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Magkasal"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Lunes"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "Hindi"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "Ang browser na ito ay hindi sumusuporta ajax"
+

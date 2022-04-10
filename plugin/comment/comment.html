@@ -1,0 +1,60 @@
+﻿<div id=plugin-comment>
+
+	<div id=comment-elem class=template>
+		<div>
+			<span><i name="dt"></i> <b name=name></b></span><div class=star name=rating></div><div name="imgs" class="gallery"></div>
+		</div>
+		<b>Достоинства:</b> <span name=msg></span></br>
+		<b>Недостатки:</b> <span name=limitations></span>
+		
+	</div>
+	<form id=comment-add>
+		<div class="app-form-opt">
+			"store": "/api/comment/add",
+			"msg": {
+				"store": {
+					"success": null
+				}
+			},
+			"limitations": {
+				"store": {
+					"success": null
+				}
+			},
+			"rating": {
+				"store":{
+					"success": null
+				}
+			}
+		</div>
+		<div class="comment-msg">
+		Недостатки</br>
+		<textarea name=limitations style="height: 17px;"></textarea>
+		</div>
+		<div id="comment-msg">
+		Достостоинства</br>
+		<textarea name=msg  style="height: 17px;"></textarea>
+		</div></br><div>
+		<div id=gallery-comment></div></br>
+		<div>
+		<b>Оценка:</b>
+		<div class="comment-rating">
+			<div id="rating" class="rate_widget">  
+				<div class="star_1 ratings_stars"></div>  
+				<div class="star_2 ratings_stars"></div>  
+				<div class="star_3 ratings_stars"></div>  
+				<div class="star_4 ratings_stars"></div>  
+				<div class="star_5 ratings_stars"></div>  
+			</div>
+		</div>
+		</div></br>
+		<div><input type="hidden" name="rating">
+		<input type=submit class="app-bt" id ="button-add" value="Добавить комментарий"></div>
+		</div>
+	</form>
+	<div id="comment-list" style="width:100%;overflow: auto;height:200px;margin:0;border:0">
+	</div>
+
+	</div>
+
+<link plugin/comment/comment.js>

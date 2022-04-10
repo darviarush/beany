@@ -1,0 +1,8 @@
+daemonize yes
+bind 127.0.0.1
+port 6379
+pidfile /home/e.ponimash/beany/log/redis.pid
+timeout 0
+databases 1
+maxmemory 64Mb
+maxmemory-policy volatile-lru

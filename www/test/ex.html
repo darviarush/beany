@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<title>ex test</title>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script> 
+</head>
+<body>
+<div id=map style="width:200px; height:200px"></div>
+
+<pre id=name></pre>
+
+[<pre id=res></pre>]
+
+<script>
+
+// ��� ������� � ������ js
+function escapejs(s) {
+	return String(s).replace(/[\\"'\n\r]/g, function(a) { return a=="\n"? "\\n": a=="\r"? "\\r": "\\"+a })
+}
+
+// ������ js
+function stringjs(s) { return "'"+escapejs(s)+"'" }
+function quotejs(s) { return '"'+escapejs(s)+'"' }
+
+function repr(val, space) {
+	var i, s = '', a = []
+	if(!space) space=''
+	if(val === undefined || val === null) return "null"
+	if(typeof val == "object") {		
+		if(val instanceof Date) return space+quotejs(val)
+		
+		if(val instanceof Array) {
+			for(i=0; i<val.length; i++) a.push(repr(val[i], space+'    '))
+			return space+'[\n'+a.join(',\n')+'\n'+space+']'
+		}
+
+		for(i in val) {
+			if(typeof val[i] != "function") {
+				var v = repr(val[i], space+'    ')
+				v = v.replace(/^\s*/, function(a) { return a+quotejs(i)+': ' })
+				a.push(v)
+			}
+		}
+		return space+'{\n'+a.join(',\n')+'\n'+space+'}'
+	}
+	
+	
+	if(typeof val == "string") return space+quotejs(val)
+	//if(val.valueOf) return val.valueOf()
+	return space+val
+};
+
+$(function() {
+
+	//$("#res").html(repr([10, 20, [30, {q:10, w: {r:[5,{p:12}], t:30}}, 40], 50], ''))
+
+	var location = new google.maps.LatLng(60.075803, 30.121765)
+
+	var map = new google.maps.Map($("#map")[0], {
+		zoom: 10,
+		center: location,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	})
+
+	var ll = [55.742574,37.625427]		// ���=[60.051322,30.333006999999952]
+	var c = 111300 // ������ � ����� �������
+	var k = 3000 // ������ � ����
+	var a = 3
+	var time = 0
+	var counter1 = 0
+	var counter2 = 0
+	var numrow = 0
+	var names = {}
+	
+	
+	for(var i=-a; i<=a; i++)
+	for(var j=-a; j<=a; j++, time+=500) {
+		counter1++
+	
+		function fn(i, j) {
+
+			//ll=59.830405,30.374891&spn=0.003516,0.011008&sll=37.0625,-95.677068&sspn=45.149289,90.175781,  59.82957,30.375845
+		
+			var logitude = ll[0]+i*k/c // 60.075803
+			var latitude = ll[1]+j*k/c // 30.121765
+		
+			console.log(i+' -> '+j+' '+logitude+' -> '+latitude)
+		
+			location = new google.maps.LatLng(logitude, latitude)
+			//location = new google.maps.LatLng(60.051322, 30.333006999999952)
+
+			var service = new google.maps.places.PlacesService(map)
+			service.search({
+				location: location,
+				radius: k,
+				//types: ['subway_station']
+				types: ['administrative_area_level_2','administrative_area_level_1','administrative_area_level_3','colloquial_area','sublocality','sublocality_level_1','sublocality_level_2', 'sublocality_level_3','sublocality_level_4','sublocality_level_5' ]
+			}, function(results, status) {
+				$("#res")[0].innerHTML += repr([status, logitude, latitude]) +",\n\n"+repr(results)
+					+ (counter1==++counter2 ? "": ",\n\n\n\n")
+				$.each(results, function() {
+					
+					$("#name")[0].innerHTML += (this.name in names? "* ": ++numrow+")")+this.name+"\n"
+					names[this.name] = 1
+				})
+			})
+			
+			
+		}
+		
+		setTimeout((function(i, j) {
+			return function() { fn(i, j) }
+		})(i, j), time)
+		
+	}
+})
+
+</script>
+
+
+</body>
+</html>

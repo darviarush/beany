@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "Enter: app help \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "Lang - atnaujinti vertimų failai"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins - kiekviena eilutė locale / * po.s rašo lokalę / * po msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - kompilliruet Vertimo byla www / locale / * JSON."
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "tema failą / rež. [Katalogas] - kopijos failas arba katalogas sriegius"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - išvalo talpyklą"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "kontrolieriai - revizorių skaičius"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "pl vardas - sukurti įskiepiai aplanką skel"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - įdiegtų įskiepių sąrašas"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "PLL - visų įskiepių sąrašas"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "Pli vardas - įdiegti įskiepiai"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". Įdiegti juos visus?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ Pavadinimas priklauso nuo"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "PLU pavadinimas - pašalinti įskiepiai"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". Pašalinti juos visus?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "Nuo $ pavadinimas priklauso nuo"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel vardas - fiziškai pašalina kištuką"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "Plugin `$ pavadinimas\" ne \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "Ištraukite kištuką `$ pavadinimą\"?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn vardas newname - pervadinti įskiepiai"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "paleisti paleisti konsolės"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "pradedant prasideda http serverio programų"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "stop - sustabdo http serverio programų"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "restart - paleiskite http serverio programų"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "statusas - teikia informaciją apie http serverio programų"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID statusas Vedliai \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "Veikia $ pid $ Darbuotojai \ n"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "Slypi $ darbuotojai \ n"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "Šumskas - rašo šabloną conf / crontab crontab"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "bandymas [test1 test2 ...] - paleisti bandymus. Pavyzdžiui: App bandymo modelis realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "Jūs negalite nustatyti nenaudojamus laukus, nes bandymas ištrinti visus įrašus iš $ table \ n"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "Nepanaudotas lentelė: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "Nepanaudoti sritys: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "Geną lentelė kol_zapisey - prideda atsitiktinius duomenis į nurodytą lentelę"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - įkelti duomenis į duomenų bazę iš / conf / * json."
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "Sugadintas json $ failas \ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "kopija * json fordb put_k_json - www / test / ex.html / conf / * json."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "padėti - ši pagalba"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "Komandos `$ cmd\" nepalaikoma \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "Ši komanda reikalauja $ n $ u parametrus, ir pereisite $ k \ n"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "Ši komanda reikalauja $ n parametrus, ir pereisite $ k \ n"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "Serveris neveikia \ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "Serveris yra nutraukiamas \ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "grąžina plug-ins"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "grąžina valdytojų sąrašą iš pagrindo"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "veikia kelių valdiklių"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "patikrinti - ar nurodytas kontrolierius"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "Tai atsitinka po kliento, jei sesija"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "Procesas sustojo № $ darbuotoją"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "Aš negaliu sustabdyti šį procesą № $ darbuotojas"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "Procesas sustojo № $ cron (cron)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "Aš negaliu sustabdyti šį procesą № $ Šumskas (cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "Negali vykdyti šakės \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "Ne atsiskirti nuo terminalo \ n"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "šakutė su klaida"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "Nėra sukurta cron. Klaida šakutė% masės"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "Išdirbtos tvarkytojai:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "Aš negaliu nustatyti prižiūrėtojas SIGHUP"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "Aš negaliu įdiegti SIGTERM Handler"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "Klaida pcntl_waitpid% m"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "Baigtas prižiūrėtojas № $ vaikas"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", Būklė: $ padėtis. Susigrąžinti"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "šakės nepavyko su klaidos% M"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "Pradėjo prižiūrėtojas № $ vaikas"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket_accept nepavyko% m"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ Raktas\" negali būti tuščias"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": Nėra turtas \"$ raktas\""
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "Kontrolieriaus `$ vardas\" jau buvo įrašytas. Perrašyti"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "Administratoriai"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "Kontrolieriaus `$ pavadinimas\" nerastas"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "Vartotojo autentiškumas"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "Bandymas pakeisti kažkieno modelį"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "Nėra prieigos prie reguliatoriaus `$ pavadinimas\""
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "Nežinomas prieigos `$ prieigą\" reguliatoriaus `$ vardas.\""
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "Vartotojas nėra patvirtintas"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "Operatorius \"$ op\" filtras \"$ raktas\" neleidžiama"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "Eilutė sąrašas kataloge «$ vardas»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "Linijos katalogas «$ vardas»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "Taupymo STRING katalogas «$ vardas»"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "Išbraukiant eilutę katalogas «$ vardas»"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "Stalai"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "Laišką nesiunčiamas"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "Neteisingas naudotojo vardas arba slaptažodis"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "Parsisiųsti įskiepiai \"$ vardas\" nėra prijungtas"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "Parsisiųsti įskiepiai \"$ vardas\" yra nepatenkintų priklausomybė `$ dep\""
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "Plugin `$ pavadinimas\" jau yra įdiegtas"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "Plugin `$ pavadinimas\" yra pašalinta"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "Iš The plug `$ vardas\" priklauso nuo plug-ins:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "Jau yra `$ name2\" - negali būti perkeltas"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "Plugin `$ kelias\" egzistuoja"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "Plugin `$ pavadinimas\" ne"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "Nekilnojamojo turto klasės SMS imtuvai turi būti masyvas"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "Nekilnojamojo turto klasės SMS imtuvai turi būti baigtas prieš siunčiant"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "Neteisingas formatas imtuvas $ v"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "Turtas klasė SMS tekstas turi būti eilutės"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "Turtas klasė SMS tekstas turi būti ne daugiau nei 256 simboliai"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "SMS siuntimo nepavyko, klaidos:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "Content-Type yra ne riba"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "Nepavyko atidaryti failo $ failas \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "Failo \"$ failas\" sugadintas - ne \". Prieš msgstr. Eilutėje $ I \ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "Failo \"$ failas\" sugadintas. Eilutėje $ I \ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgid be msgstr. Eilutėje $ I \ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "Parametras \"$ raktas\" ne tipas \"$ tipo\""
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "turi būti sveikasis skaičius"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "turėtų būti natūralus"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "Pinigai gali turėti tik 2 skaičiai po kablelio"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "Pinigai negali būti neigiamas"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "Identifikatorius - natūralusis skaičius, didesnis nei 0"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "Slaptažodis turi būti didesnis arba lygus 6 simboliai"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "Jūs įvedėte neteisingą elektroninio pašto adresą"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "Formatas telefonas: + skaičiai (numeriai) numeriai, atskirtų brūkšneliu. Pavyzdžiui: +7 (921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "Tai nėra byla"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "Failas kaip parametras"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "Tai ne data"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "Pavadinimas turi būti bent vienas personažas"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "Miesto pavadinimas turi būti bent vienas personažas"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "Neatitinka tvarka: field1 [desc], laukas2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "terminas negali būti didesnis nei 100 ir mažiau nei 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "Parametras pavadinimas turi prasidėti Pasidalijamasis arba savo"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "Tarnyba"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 mėnesių"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 mėnesių"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Panaikinkite kalendorių"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "Blokuoti galimybę užsisakyti pasirinktą numerį"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "Atrakinti Užsakymo metu"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "Nustatyti kainą per dieną iš lauko ant pasirinkto laikotarpio kairėje"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "Pakeisti pasirinktos datos kainą"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "Pašalinti bet kokią kainą,"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "spustelėkite"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "Paspauskite \"+\" Shift"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- Pasirenkamas arba pašalina dienų intervalais"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "spustelėkite + CTRL + SHIFT"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- Pasirinkti / pašalinti kairę"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "spustelėkite + alt"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- Pasirinkti / pašalinti teisė"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- Pasirinkti visus arba išvalykite intervalus tarp intervalo"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "Book"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "užsakymai"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "REZERVACIJA"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "Adresas"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "Jūsų vardas"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "Asmenų skaičius"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "Atvykimo / išvykimo data"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "Be"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "Siųsti"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "Rezervacijos forma yra pildoma. Čia yra jūsų"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "Nuomos sutartis"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "Jums"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "Turite užsiregistruoti rezervacija prašymas pateikti"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "Taikymas"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "Pabrėžti laikotarpį"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "Pasirinkite užrakintą laikotarpį"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "Pasirinkta nuotolio fiksuoja intervalą su įdiegta išlaidų. Kaina gali keisti tik"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "Kaina pasikeistų"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "Paspauskite ant datos su kaina"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "Pasirinkite laikotarpį"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "Rezervacijos užklausą"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "turto užsakymas"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "Šiuo laikotarpiu užsakytas namas"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "Turite naują užsakymą"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "atšaukite turto užsakymą"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "blokuoja užsakymo"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "įtvirtina skirtingą kainą prašomam laikotarpiui"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "kitų kainų pokyčiai"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 objektas"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 prekės 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 prekės 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 objektas 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "neįdiegta 03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "neįdiegta 02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "nustatyti 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "nustatytas 8,6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "pasirinkimas = 6,8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "klasė pasirinkimas"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "Šarvai klasė"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "klasė naudotojo pasirinkimas"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "dvivietis ląstelių"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "08, kulka - 6,7 laikotarpis"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "Pinigai"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "Suma"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "Laikas"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "Mokėjimo rūšis"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "Nekilnojamasis turtas"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Mokėtojo"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Kasininkas"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "Pavadinimas"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "Pasirašyti"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "Aprašymas"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "Pridėti komentarą"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "Komentarai"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "Komentaras korteles, nekilnojamojo turto grąžą"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "priduria, nekilnojamojo turto komentarą"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "ištrinti komentarus turto"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "Išbandyti komentarą"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "Asmeninis kabinetas"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "Išeiti"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "Asmeniniai duomenys"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "Indėlis"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "Užsiregistruoti"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "Atkurti slaptažodį"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-mail arba telefono numeris:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "Prisiminti"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Slaptažodis:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "Įeiti"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "Įveskite savo elektroninio pašto adresą:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "Įveskite savo telefono numerį:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "Jums bus išsiųstas elektroniniu paštu arba SMS vienkartinį slaptažodį. Nedelsiant pakeisti slaptažodį, po kirtimo"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "Pakeisti savo laikiną slaptažodį"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "Laikinas slaptažodis galioja tik iki sesijos pabaigos. Pakeisti dabar"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "Naujas slaptažodis:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "Naujas slaptažodis:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "Mainai"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "Pagrindinis"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "Keisti slaptažodį"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "Vardas:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "Telefonas:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "Senas slaptažodis:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "Laiškas išsiųstas"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS, išsiųstas į"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "Sukurti vartotoją"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "Slaptažodžio atstatymas"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<li> CapsLock - tipo raidėmis"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li> rusų klaviatūra"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "Slaptažodis sėkmingai pakeistas"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "Slaptažodžio keitimas"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "Vartotojas Log In"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "Automatiškai išjungti"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "Keisti slaptažodį"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "Senas slaptažodis yra neteisingas"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "Sukurti naują sąskaitą arba susigrąžinti slaptažodį"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "Laikinas slaptažodis: $ password"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "Grąžina informaciją apie vartotoją"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "Grąžina informaciją apie naudotojas, prisijungęs"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "Pakeiskite informaciją apie naudotojas, prisijungęs"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "Mokėjimas kortele"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "Mokėjimo forma"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "Mokėjimo numeris"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "Mokėjimo paskirtis"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "Vartotojo vardas"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "Mokėjimo suma"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "Mokėti užsakymą internete."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "Interneto mokėjimo"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "Užsakymo numeris nėra perduodami"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "Išorinė sistema, nuoroda į šį scenarijų bus pakeisti savo mokėjimo būseną"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "Neteisingas siuntėjo IP IP reikia:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "Praėjo iš mokėjimo sistemos parametrai nėra"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "Neteisingas identtifikator parduotuvė"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "Mokėjimo numeris"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "priėmimas mokėjimo Klaida: Neteisingas maišos mokėjimo poreikį"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "priėmimas mokėjimo Error: Invalid maišos mokėjimo"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "priėmimas mokėjimo klaida: neteisingi duomenys, gauti:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "Vidiniai duomenys:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "priėmimas mokėjimo klaida: neteisingi duomenys, gauti."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "per tam tikrą laikotarpį"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "adresu:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "Priimtas mokėjimo rezervavimo numerio"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "Mokėjimo šarvai"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "sukurti mokėjimo paslaugų formą"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "testas"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "Mokėjimo užsakymo numeris"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "Mokėjimo užsakymo numeris $ Rezervacija-> id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "Bandymo ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "Mokėjimo šarvai testas"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Sergejus"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "Įkelti nuotrauką"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "Nuotraukos"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "Vilkite paveikslėlį pakeisti savo poziciją tarp kitų vaizdų"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "Ištrinti nuotrauką"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "Ar Jūs tikrai norite ištrinti šią nuotrauką?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "Klaida! Paveikslėlį Atsisiųsti"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "Nuotraukos. Galbūt tai yra per didelis."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "Saugiame tinklalapyje"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "Kraunamas paveiksliukas. Klaida numeris"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "taupymo photos Nekilnojamas turtas"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "ištrinti nuotraukas Nekilnojamas turtas"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "skaitmeninės nuotraukos nekilnojamojo turto"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "Patikrinkite Rusijos piliečio užsienio pasai, pasirengimą"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "Rusijos Federacijos piliečio paso galiojimo tikrinimas"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "Patikrinkite savo kvietimus"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "Sankt Peterburgas"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "Paslaugos"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "Paslaugos pagal kliento užsakytas"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "Informacija įspėti"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "Pranešimas siunčiamas darbuotojams"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "telefonas sms"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "Aptarnaujantis personalas"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "saugomi duomenys dėl pranešimo"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "Nemokami nekilnojamojo turto grąža"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "ištrina duomenys pranešimo"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "Veiksmai, kurių imtasi"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "Protokolas"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "Grąžina vartotojo atliekamų veiksmų sąrašą"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "Į viršų"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "Kambarių skaičius:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "Rajonai:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Metro:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "Apartamentai"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 kambario"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 kambariai"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 kambariai"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "daugiau kaip 3 kambarių"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "Miestas:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "Check-in"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "Išsiregistruojant"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "Visi objektai"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "Mano aukcionai"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "naujovė ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "Kaina ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "Pridėti turtą"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "Filtruoti savybių sąrašą"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "Žiūrėti:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "Butų pasiskirstymas pagal kambarių skaičių"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "rūšiuoti"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "Rajonai"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "Vieta"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "Centras"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "Priemiestis"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Metro"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "Kaina"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "Išsami informacija"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "Adresas:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "Kambarių skaičius:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "Vietų skaičius:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "\""
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "Bendra informacija"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "Žemėlapis"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "Turtas kortelė"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Ankstesnis"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "Kitas"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "Ištrinti Card Nekilnojamas turtas"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "Valiuta"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "Kaina vienai parai:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "Kaina per mėnesį:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- Nemokami"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- Saugomos"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- Nuoma"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- Jūs užsakytas"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- Jūsų nuomojamą"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- Kitas kaina"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- Užrakinti"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- Išskirta"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "Rajonas:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "Aukštas:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Aprašymas:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "Užimtumas:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "Virtuvė"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "Televizija"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "Telefonas"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "Muzikinis centras"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "Internetas"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "Kondicionierius"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "Skalbimo mašina"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "Neapibūdintas"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "Mėnuo"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "Diena"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "Pasirinkite iš teritorijų, sąrašo perduoti rūšiavimas"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "Pasirinkite iš metro stočių sąrašą, kuris turi praeiti rūšiavimą"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "Nekilnojamojo turto kortelės su numeriais"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "Nėra"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "nenurodomas"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "Nežinomas"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "grąžina nekilnojamojo turto sąrašą. riba gali būti 1-100. Default - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "Paieškos variklių Tape Butų"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "paieškos variklių butas profilis"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "Nuoma Butas / namas / Patalpų nuoma"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "miestas"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "plotas"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "metro stotis"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "adresas"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "kaina"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "parai"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "Grindys"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "Kambariai"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "Lovos"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "komentuoti"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "grąžina metropoliteno sritis ir priklausomai nuo miesto"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "profilis saugo į nekilnojamąjį turtą. Jei id = 0 - sukurti naują"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "Informacija buvo pakeista"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "pašalina nekilnojamojo turto profilį"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "Modulis"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "Testas Butas"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "Testas RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / Asinchroninis pakrovimo CSS -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "Būtina šioje svetainėje"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript yra išjungtas"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "Prašome įjungti JavaScript savo naršyklėje"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "DĖMESIO!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "Butų sąrašas"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "atnaujinti"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "DĖMESIO! Jūsų naršyklė šioje svetainėje yra per senas. Rekomenduoti jį"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "Tęsti savo pačių rizika"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- Lentelės, kurioje bus įtrauktas į paraiškos įskiepių. Įskiepiai turi žinoti, kad ID elemento, kurioje jis yra įtrauktas. Plug įterpia savo kūną pabaigoje (papildymo) juo. Taigi į vieną konteinerį, galite įdėti bet plug-ins 1 skaičių vienetu -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "Valiuta:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "Klaida numeris"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "istorija perdangas tuščias"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "Aš negaliu grįžti - dabartinė perdanga nesutampa maišos"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "jau įdiegta"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "renginiai: Renginys"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "Klaida:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "Uždaryti"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "Klaida!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "Įveskite sveikąjį skaičių"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "Įveskite realų skaičių"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "Aukštas neturi viršyti Aukštų skaičius"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "Įveskite Grindys ir grindų"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "Įveskite sveikąjį skaičių"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "Įveskite sveikasis skaičius didesnis nei 0"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "Įveskite teigiamas realusis skaičius"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "Įveskite žymens vertę"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "Įveskite kainą: dviejų ženklų po kablelio tikslumu. Pavyzdžiui: 100,22 arba 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "Įveskite bent vienas personažas"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "Įveskite e-mail"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "Prisijungti formatas: e-mail arba telefono numerį, pavyzdžiui: +7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "Slaptažodis turi būti bent 6 simbolių"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "Slaptažodžiai nesutampa"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "Neteisingas įrašas"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- Nepasirinkta -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "Duomenys yra saugomi"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "Pašalinti"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "Ne komanda forma (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "Išsaugojimas"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "Ne visi laukai užpildyti teisingai"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "yra sėkmingas"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "Šalinimas"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "negali būti pašalinta"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "Ar tikrai norite ištrinti"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "sąrašas: Neteisingas komanda \""
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "Papildyti"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ įrašas"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Ištrinti eilutės katalogą"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "Ar tikrai norite ištrinti eilutę?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<Ankstesnis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "Kitas>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "Šiandien"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "Sausis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "Vasaris"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "Birželis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "Gegužės"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "Kovas"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "Balandis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "Rugpjūtis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "Liepa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "Rugsėjis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "Lapkritis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "Spalis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "Gruodis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "Vasaris"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "Sausis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "Balandis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "Birželis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "Kovas"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "Rugpjūtis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "Gruodis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "Liepa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "Lapkritis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "Spalis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Sen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "Ketvirtadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "Penktadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "Pirmadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "Šeštadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "Trečiadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "Sekmadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "Antradienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Šeštadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Antradienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "PNPP"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "susituokti"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "Ketvirtadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Penk"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "Saulė"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Penk"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "Saulė"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Antradienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Ketvirtadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Šeštadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Susituokti"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Pirmadienis"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "Ne"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "Ši naršyklė nepalaiko Ajax"
+

@@ -1,0 +1,126 @@
+<div id=plugin-armoring>
+
+	<div id=calendar>
+		<div id="realty-payment-all">
+			Баланс:<span id="realty-service-balance"></span>
+			<div id="realty-payment">Платеж</div>
+			<div id="realty-payment-balance" class="off">
+				<table id="realty-balance-title">
+					<tr>
+						<td>Услуга
+						<td>Тариф
+						<td>Сумма
+					<tr>
+						<td>Аренда
+						<td><div id="realty-list-date"></div>
+						<td><div id="realty-total-arenda"></div>
+				</table>
+				<div id=realty-service-table></div>
+				Итого к оплате <span id="realty-all-total"></span>
+			</div>
+		</div>
+
+		<div class="app-btn fl">
+			<input type="radio"
+				   id="r-d0"
+				   name=r-dp value="id desc" checked /><label for="r-d0">3 мес</label>
+			<input type="radio"
+				   id="r-d1"
+				   name=r-dp value="id desc" /><label for="r-d1">12 мес</label>
+		</div>
+		<a id="realty-dp-clear" href="#" class="app-bt fl">
+			<div class="app-qtip">Снять выделение в календаре</div>
+			<img src="/theme/img/clear.png" height=16 width=16>
+		</a>
+
+		<div id="realty-dp-btn" class="off">	
+			<a id="realty-dp-block" href="#" class="app-bt fl">
+				<div class="app-qtip">Заблокировать возможность бронирования в выделенные числа</div>
+				<img src="/theme/img/block.png" height=16 width=16>
+			</a>
+			<a id="realty-dp-noblock" href="#" class="app-bt fl">
+				<div class="app-qtip">Разблокировать возможность бронирования</div>
+				<img src="/theme/img/block.png" height=16 width=16>
+				<img src="/theme/img/erase.png" height=16 width=16 style="position:absolute; margin-left:-10px; margin-top:-10px">
+			</a>
+			
+			<div id="realty-q-money" class=fl style="width:10px">&nbsp;</div>
+			
+			<div class="fl">
+				<input type="text" id="realty-i-money" class="v-umoney tar" style="width:100px">
+			</div>
+			
+			<a id="realty-dp-money" href="#" class="app-bt fl">
+				<div class="app-qtip">Установить цену в сутки из поля слева на выбранный период</div>
+				<img src="/theme/img/money.png" height=16 width=16>
+			</a>
+			<a id="realty-dp-anymoney" href="#" class="app-bt fl">
+				<div class="app-qtip">Изменить цену под выбранной датой</div>
+				<img src="/theme/img/money.png" height=16 width=16>
+				<img src="/theme/img/ok.png" height=16 width=16 style="position:absolute; margin-left:-10px; margin-top:-10px">
+			</a>
+			
+			<a id="realty-dp-nomoney" href="#" class="app-bt fl">
+				<div class="app-qtip">Удалить изменённую цену</div>
+				<img src="/theme/img/money.png" height=16 width=16>
+				<img src="/theme/img/erase.png" height=16 width=16 style="position:absolute; margin-left:-10px; margin-top:-10px">
+			</a>
+			
+			
+			<div class=fl style="width:10px">&nbsp;</div>
+			
+		</div>
+
+		<a id="realty-help" href="#" class="app-bt fl"
+			onclick="return false">
+			<div class="app-qtip">
+				<ul>
+					<li><b>клик</b> - выделяет интервалы или снимает день
+					<li><b>клик+shift</b> - выделить/снять слева
+					<li><b>клик+ctrl+shift</b> - выделить/снять справа
+					<li><b>клик+alt</b> - выделить всё между интервалами или снять интервал
+				</ul>
+			</div>
+			<img src="/theme/img/help.png" height=16 width=16>
+		</a>
+
+		<br>
+		<div id=realty-dp></div>
+		<p/>
+		<div class=on>
+			<a href="#" class="app-reservation-btn">Отправить заявку на бронирование</a>
+		</div>
+	</div>
+	<div id=armoring-form>
+		<div id="realty-armoring-form" class="app-form" action="/api/armoring" title="ЗАЯВКА НА БРОНИРОВАНИЕ" name="заявки на бронирование">
+		<center><h3>ЗАЯВКА НА БРОНИРОВАНИЕ</h3></center>
+		<input name="id" type="hidden">
+		<table>
+		<tr><td nowrap width=20px><label for="realty-armoring-address">Адрес</label>
+			<td><input id=realty-armoring-address name=address class="v-str">
+		<tr><td nowrap><label for="realty-armoring-fio">Ваше имя</label>
+			<td><input id=realty-armoring-fio name=fio class="v-str">
+		<tr><td nowrap><label for="realty-armoring-email">E-mail</label>
+			<td><input id=realty-armoring-email name=email class="v-email">
+		<tr><td nowrap><label for="realty-armoring-phone">Телефон</label>
+			<td><input id=realty-armoring-phone name=phone class="v-phone">
+		<tr><td nowrap><label for="realty-armoring-count">Количество человек</label>
+			<td><input id=realty-armoring-count name=count class="v-id">
+		<tr><td nowrap><label for="realty-armoring-date">Дата заезда/выезда</label>
+			<td><textarea id=realty-armoring-date class="v-str"></textarea>
+		<tr><td nowrap><label for="realty-armoring-desc">Дополнительно</label>
+			<td><textarea id=realty-armoring-desc name=desc></textarea>
+		</table>
+		<p />
+		<center><input type=submit value="Отправить" style="width:auto"></center>
+		<!--<center><input type=button value="Закрыть" style="width:auto">-->
+		<input type="hidden" name="currency_id">
+		<input type="hidden" name="ownArmperiod">
+		<input type="hidden" name="realty_id">
+		</div>
+		<div id="realty-armoring-dlg" class="app-dialog" title="Заявка на бронирование">
+			Хозяин квартиры извещён и если хозяин захочет, то подтвердит бронь в течение 12 часов.
+		</div>
+	</div>
+
+</div>

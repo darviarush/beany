@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "입력 : 앱 도움말 \ N"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "랭 - 업데이트 번역 파일"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins -. 각 줄 로케일 / * po.s는 언어 / *을 작성 PO msgstr가."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc -. www가 / 로케일 / * JSON에서 kompilliruet 번역 파일"
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "테마 파일 / 말 일세. [디렉토리] - 복사본 파일이나 디렉토리 스레드를"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - 캐시를 지 웁니다"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "컨트롤러 - 컨트롤러의 수"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "PL 이름 - 플러그인 폴더 기반 skel을 만들"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "PLS - 설치된 플러그인 목록"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "PLL - 모든 플러그인의 목록"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "pli 이름 - 플러그인을 설치"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". 그들 모두를 설치 하시겠습니까?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ 이름에 따라 달라집니다"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu 이름 - 플러그인을 제거"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". 그들 모두를 제거 하시겠습니까?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "$부터 이름이 다릅니다"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel 이름 - 물리적으로 플러그를 제거"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "플러그인`$ 이름`노 \ N"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "플러그`$ 이름을`삭제 하시겠습니까?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn 이름 newname - 플러그인의 이름을 변경"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "실행 - 콘솔에서 응용 프로그램을 실행"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "시작 - HTTP 서버 응용 프로그램을 시작합니다"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "중지는 - HTTP 서버 응용 프로그램을 중지"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "다시 시작 - HTTP 서버 응용 프로그램을 다시 시작"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "상태 - HTTP 서버 응용 프로그램에 대한 정보를 제공"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID 상태 주인이 \ N"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "$ PID $ 노동자 \ n을 실행"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "$ 노동자가 \ n은 거짓말"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "cron이 - crontab에 템플릿 믿어 / crontab을 기록"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "테스트 [test1은 TEST2 ...] - 테스트를 실행합니다. 예를 들어, 응용 프로그램 테스트 모델 realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "테스트가 $ 테이블 \ N의 모든 레코드를 삭제했기 때문에, 사용하지 않는 필드를 정의 할 수 없습니다"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "사용하지 않는 테이블을합니다 : \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "사용하지 않는 필드를합니다 : \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "일반 테이블 kol_zapisey는 - 지정된 테이블에 임의의 데이터를 추가"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb는 -. 믿어 / * JSON /에서 데이터베이스로 데이터를로드하는 것입니다"
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "$ 파일 \ N의 손상 JSON"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - 사본 ​​ JSON은 믿어 / * JSON /에 www / 테스트 / ex.html했다.."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "도움이 -이 도움이"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "팀`$ cmd를`지원하지 않습니다 \ N"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "이 명령은 최대 $ N $ U 매개 변수가 필요합니다, 당신은 $ K \ n을 통과"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "이 명령은 $ N 매개 변수가 필요합니다, 당신은 $ K \ n을 통과"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "서버는 \ n을 실행하지 않는"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "서버는 \ N 중지"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "플러그인의 목록을 반환"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "기지에서 컨트롤러의 목록을 반환"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "여러 컨트롤러를 실행"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "확인 - 지정된 컨트롤러 여부"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "세션이 경우 클라이언트 이후에 무슨 일이"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "프로세스에게 № $ 노동자를 중지"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "나는 № $ 작업자 프로세스를 중지 할 수 없습니다"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "프로세스에게 № $를 cron (를 cron) 중단"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "어떻게 그 과정을 중지 할 수 없습니다 № $를 cron (를 cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "포크 \ n을 실행할 수 없습니다"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "터미널 \ N에서 분리되지 않음"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "포크는 오류와 함​​께 실패했습니다"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "를 cron 만들어지지 않았습니다. 오류 포크 %의 m"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "실행 핸들러 :"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "나는 처리기 SIGHUP을 설정할 수 없습니다"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "나는 SIGTERM 처리기를 설치할 수 없습니다"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "오류가 발생 pcntl_waitpid %의 m"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "완료 핸들러 № $ 애"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", 상태 : 상태 $. 복구"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "포크 오류 %의 m와 함께 실패"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "출시 처리기 № $ 애"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "실패 %의 m를 socket_accept"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr "`$ Key는`null 일 수 없습니다"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": 없음 재산`도 $ 키`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "컨트롤러`$ 이름은`이미 추가되었습니다. 고쳐 쓰기"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "관리자"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "컨트롤러`$ 이름은`발견되지"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "사용자 인증"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "다른 사람의 모델을 변경하려는 시도"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "`컨트롤러`$ 이름으로 액세스 없음"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "컨트롤러`$ 이름으로 알 수없는 접속은`$ 액세스`"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "사용자가 인증되지 않습니다"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "연산자`$ 조합`필터`$ 키가`허용되지 않습니다"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "문자열 목록 디렉토리«$ 이름»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "선 디렉토리«$ 이름»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "문자열 디렉토리에게«$ 이름을»저장"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "행 디렉토리에게«$ 이름을»삭제"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "표"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "이메일 전송되지"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "사용자 이름 또는 비밀번호가 잘못되었습니다"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "다운로드 플러그인`$ 이름은`연결되어 있지 않은 경우"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "다운로드 플러그인`$ 이름은`부족한 의존`$ DEP`이다"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "플러그인`$ 이름은`이미 설치되어"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "플러그인`$ 이름은`제거"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "플러그`$ 이름에서`따라 플러그 인 :"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "이름을 바꿀 수 없습니다 -`$ NAME2은`이미 있습니다"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "플러그인`$ 경로`가 존재"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "플러그인`$ 이름`노"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "속성 클래스 SMS 수신기는 배열이어야합니다"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "속성 클래스 SMS 수신기는 보내기 전에 완료해야"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "잘못된 숫자 형식 수신기 $ V"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "속성 클래스 SMS 텍스트 문자열이어야합니다"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "속성 클래스 SMS 텍스트는 더 이상 256 자 이하이어야합니다"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "실패, 오류를 보내는 SMS :"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "콘텐츠 유형에 경계가 없다"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "파일 $ 파일을 \ n을 열 수 없습니다"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "파일`$ 파일`손상 - msgstr 전에 어떤 msgid. $ 내가 \ n을 행"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "파일`$ 파일`손상되었습니다. $ 내가 \ n을 행"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgstr없이 msgid. $ 내가 \ n을 행"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "매개 변수`$ 키`가 아닌 유형을`$ 유형의`"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "정수 여야합니다"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "자연이어야합니다"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "돈은 단지 2 소수점 이하 자릿수를 가질 수"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "돈이 음수가 될 수 없습니다"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "식별자 - 0보다 큰 자연 번호"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "비밀번호보다 크거나 6 자 같아야합니다"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "당신은 잘못된 이메일을 입력"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "형식 전화 번호 : 대시로 구분 + 숫자 (번호) 번호. 7 (921) 333-3-333 : 예를 들어"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "이 파일이 아닙니다"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "매개 변수로 파일이 없습니다"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "이건 데이트가 아니라"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "이름에는 문자가 하나 이상 있어야합니다"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "도시의 이름은 문자가 하나 이상 있어야합니다"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "주문과 일치하지 않습니다 : field1을 [내림차순] field2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "제한은 100보다 크고 1보다 적은 수 없습니다"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "매개 변수 이름은로 시작해야 공유하거나 자신의"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "서비스"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3개월"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12개월"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "달력을 취소합니다"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "선택한 번호를 예약의 가능성을 차단"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "예약의 가능성을 잠금 해제"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "선택한 기간의 왼쪽에있는 필드에서 하루 가격을 설정"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "선택한 날짜에 대한 가격을 변경"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "어떤 대가를 제거"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "클릭"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "+ Shift를 클릭"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- 하루 간격을 선택하거나 제거"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "+ Ctrl + Shift를 클릭하십시오"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- 선택 / 왼쪽을 제거"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "클릭 + ALT"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- 선택 / 오른쪽을 제거"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- 간격 사이의 전부 또는 맑은 간격을 선택"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "예약"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "예약"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "예약"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "주소"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "이름"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "인수"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "도착 / 출발 날짜"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "또한"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "보내다"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "예약 양식 저장됩니다. 다음은"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "계약을 임대"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "너"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "당신은 예약 요청을 제출하려면 등록해야합니다"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "신청"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "기간을 강조"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "잠긴 기간을 선택"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "선택한 범위는 설치 비용 간격을 캡처합니다. 가격 만 변경할 수 있습니다"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "가격이 변경됨"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "가격으로 날짜를 클릭"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "기간을 선택"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "예약 요청"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "재산의 예약"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "이 기간에있는 집은 예약되어 있습니다"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "당신은에서 새 예약을해야"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "속성에 대한 예약을 취소"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "블록 예약"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "요청하신 기간에 대해 각각 다른 가격을 설정합니다"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "다른 가격 변경"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "한 객체"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "이 항목 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 개 항목이"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "이 객체 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "03를 설치하지"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "02를 설치하지"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "08 설정"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "8.6로 설정"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "선택 = 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "클래스 선택"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "갑옷 클래스"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "클래스 사용자 선택"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "클래스 더블 셀"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "샷 08, 6.7 기간"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "현금"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "합"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "시간"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "지불의 유형"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "부동산"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "지불 인"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "출납원"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "이름"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "기호"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "기술"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "코멘트를 추가"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "코멘트"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "부동산에 대한 카드 반환 코멘트"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "부동산에 대한 의견을 추가"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "재산에 대한 의견을 삭제합니다"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "코멘트를 테스트"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "개인 사무실"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "출구"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "개인 데이터"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "입력"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "가입"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "비밀번호를 복원"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-메일 또는 전화 번호 :"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "기억"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "비밀번호 :"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "입력"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "귀하의 E-메일을 입력 :"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "전화 번호를 입력 :"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "당신은 이메일이나 SMS 한 번 비밀번호를 보내드립니다. 로그인 후 즉시 비밀번호를 변경"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "임시 비밀번호를 변경"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "임시 비밀번호는 세션이 끝날 때까지 유효합니다. 지금 변경"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "새 비밀번호 :"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "새 비밀번호 :"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "교환"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "본관"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "비밀번호를 변경"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "이름 :"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "전화 번호 :"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "이전 비밀번호 :"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "편지 발송"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS는 발송"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "사용자 만들기"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "비밀번호 복구"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "형식 문자 -에 <LI> CapsLock"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<LI> 러시아어 키보드"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "비밀번호 변경되었습니다"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "비밀번호를 변경"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "사용자 로그에"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "로그 오프"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "비밀번호를 변경"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "이전 비밀번호가 잘못"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "새 계정을 만들거나 암호를 복구"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "임시 비밀번호는입니다 : $ 비밀번호"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "사용자에 대한 반품 정보"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "사용자의 로그온에 대한 반품 정보"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "사용자의 로그온에 대한 정보를 변경"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "카드 결제"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "결제 양식"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "지급 번호"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "지급 세부 정보"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "사용자 이름"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "지불 금액"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "온라인 예약을 지불합니다."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "온라인 결제"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "예약 번호는 전달되지 않습니다"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "이 스크립트를 참조 외부 시스템은 지불의 상태를 변경합니다"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "잘못된 보낸 사람의 IP IP는 필요 :"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "결제 시스템에서 전달 매개 변수가 아닙니다"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "잘못된 identtifikator 가게"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "결제 번호"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "잘못된 해시 지불해야 결제 오류 리셉션"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "잘못된 해시 결제 금액 : 결제 오류 리셉션"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "결제 오류 리셉션 : 획득 잘못된 데이터가"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "내부 데이터 :"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "결제 오류 리셉션 : 획득 데이터가 잘못되었습니다."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "기간 동안"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "의 :"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "예약 번호 결제 방법"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "결제 갑옷"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "결제 서비스의 한 형태를 생성"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "테스트"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "결제 예약 번호"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "결제 예약 번호 $ armoring -> 이드"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "테스트 ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "결제 갑옷 테스트"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "세르게이"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "사진을 업로드"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "사진"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "다른 이미지 사이의 위치를​​ 변경할 수있는 이미지를 드래그"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "사진을 삭제"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "당신은 정말이 사진을 삭제 하시겠습니까?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "오류가 발생했습니다! 이미지 다운로드"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "사진이 업로드되었습니다. 아마도이 너무 큽니다."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "보안 페이지"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "이미지를로드하는 중입니다. 실수 번호"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "사진 속성을 저장"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "사진 속성을 삭제"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "부동산의 디지털 사진"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "러시아어 시민의 외국 여권의 준비를 확인"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "러시아 연방의 시민의 여권 유효 기간 확인"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "그 초대장을 확인"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "상트 페테르부르크 (St. Petersburg)"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "서비스"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "클라이언트가 명령을 서비스"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "경고에 대한 정보"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "메시지가 직원에게 전송됩니다"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "SMS의 전화"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "서비스 직원"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "알림 데이터가 저장"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "부동산에 무료 반품"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "알림 삭제 데이터"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "조치를 취함"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "프로토콜"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "사용자가 수행 한 작업의 목록을 표시합니다"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "올라"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "객실 수 :"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "지구 수 :"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "메트로 :"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "아파트"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 실"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 실"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 실"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "3 개 이상의 객실"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "시 :"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "체크인"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "체크 아웃"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "모든 개체"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "내 목록"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "진기 ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "가격 ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "속성을 추가"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "속성의 목록을 필터링"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "보기 :"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "객실의 수를 기준으로 아파트"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "종류"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "지구"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "위치"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "센터"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "교외"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "지하철"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "가격"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "완전한 정보"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "주소 :"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "객실 수 :"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "침대 :"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "일반 정보"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "지도"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "부동산 카드"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "이전"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "다음"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "카드 속성을 삭제"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "통화"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "박 가격 :"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "월 가격 :"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- 무료"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- 예약"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- 대여"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- 당신이 예약"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- 귀하가 임대"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- 다른 가격"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- 잠금"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- 강조"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "지역 :"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "층 :"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "설명 :"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "고용 :"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "부엌"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "TV"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "전화"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "음악 센터"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "인터넷"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "에어컨"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "세탁기"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "지정하지"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "월"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "일"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "지역의 목록에서 선택할 수있는 정렬을 전달하는"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "정렬을 통과해야 지하철 역 목록에서 선택"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "부동산 번호 카드"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "가 없습니다"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "지정하지"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "알 수없는"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "부동산의 목록을 반환합니다. 한도는 1에서 100까지 될 수 있습니다. 기본 - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "검색 엔진 테이프 아파트"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "검색 엔진 평면의 프로필"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "임대료 플랫 / 집 / 대여 방"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "도시"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "지역"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "지하철역"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "주소"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "비용"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "하루에"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "플로어"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "객실"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "침대"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "논평"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "대도시 지역의 목록을 반환와 도시에 따라"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "프로필은 부동산에 유지합니다. 이드 = 0 경우 - 새로 만들기"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "정보는 변경되었습니다"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "부동산의 프로필을 제거"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "모듈"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "테스트 아파트"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "시험 RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / 비동기 로딩 CSS -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "그것은이 사이트에 필요한"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript가 비활성화되어 있습니다"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "브라우저에서 자바 스크립트를 사용하도록 설정하세요"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "경고!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "아파트의 목록"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "업데이트"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "경고! 귀하의 브라우저가 해당 사이트에 대한 너무 오래되었습니다. 을 추천"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "인한 위험은 사용자 본인이 감수 계속"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- 어느 테이블은 응용 프로그램 플러그인에 삽입됩니다. 플러그인이 삽입되는 요소의 ID를 알아야합니다. 플러그 삽입 결국 자신의 몸 (추가) 지정 그에. 따라서 용기에 하나 플러그인을 하나의 숫자를 넣을 수 있습니다 -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "통화 :"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "실수 번호"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "빈 기록 오버레이"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "난 돌아 갈 수 없어 - 현재 오버레이는 해시와 일치하지 않는"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "이미 설치"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "이벤트 : 이벤트"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "오류 :"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "가까운"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "오류가 발생했습니다!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "정수를 입력"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "실제 번호를 입력"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "층 층의 수를 초과 할 수 없습니다"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "마루 바닥 및 바닥의 번호를 입력"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "정수를 입력"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "0보다 큰 정수를 입력"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "긍정적 인 실제 번호를 입력"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "기호의 값을 입력"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "이 소수점 이하 자릿수 : 가격을 입력합니다. 100.22 또는 100 : 예를 들어"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "적어도 하나의 문자를 입력하십시오"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "전자 메일을 입력하십시오"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "전자 메일이나 전화 번호, 예를 들어 : 7 (921) 333-3-333 형식 로그인"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "비밀번호는 6 자 이상이어야합니다"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "비밀번호가 일치하지 않습니다"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "유효 항목"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- 선택되지 않음 -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "데이터가 저장됩니다"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "삭제"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "명령으로 양식 없음 ( \""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "보존"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "모든 필드가 제대로 채워"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "성공"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "제거"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "제거 할 수 없습니다"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "당신이 정말로 삭제 하시겠습니까"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "목록 : 잘못된 명령 '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "추가"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ 기록"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\'의 disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\'의 disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\'의 disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "행 디렉토리를 삭제"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "당신은 정말 행을 삭제 하시겠습니까?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<이전"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "다음>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "오늘"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "1월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "2월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "6월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "할 수있다"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "행진"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "4월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "위엄있는"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "7월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "9월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "11월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "10월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "12월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "2월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "1월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "4월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "6월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "행진"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "위엄있는"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "12월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "7월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "11월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "10월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "센"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "목요일"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "금요일"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "월요일"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "토요일"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "수요일"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "일요일"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "화요일"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "토"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "화"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "결혼시키다"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "목"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "금"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "태양"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "금"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "태양"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "화"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "목"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "토"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "결혼시키다"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "월"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "아니"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "이 브라우저는 AJAX를 지원하지 않습니다"
+

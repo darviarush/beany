@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "నమోదు చేయండి: అనువర్తనం సహాయం \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - నవీకరణ అనువాద ఫైళ్లు"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins -. ప్రతి లైన్ లొకేల్ / * po.s లొకేల్ / * రాశారు పో msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc -. www / లొకేల్ / * JSON లో kompilliruet అనువాద ఫైలు"
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "థీమ్ ఫైలు / dir. [డైరెక్టరీ] - కాపీలు ఫైల్ లేదా డైరెక్టరీ దారాలు"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - కాష్ క్లియర్"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "కంట్రోలర్లు - కంట్రోలర్లు సంఖ్య"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "PL పేరు - ఒక ప్లగిన్ ఫోల్డర్ ఆధారిత skel సృష్టించడానికి"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "PLS - ఇన్స్టాల్ ప్లగ్ఇన్ల జాబితా"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "pll - అన్ని ప్లగ్ఇన్ల జాబితా"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "pli పేరు - ప్లగ్ఇన్ ఇన్స్టాల్"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". వాటిని అన్ని సంస్థాపన?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ పేరు మీద ఆధారపడి ఉంటుంది"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu పేరు - ప్లగ్ఇన్ అన్ఇన్స్టాల్"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". వాటిని అన్ని అన్ఇన్స్టాల్?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "$ వరకు పేరు ఆధారపడి"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel పేరు - భౌతికంగా ప్లగ్ తొలగిస్తుంది"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "ప్లగిన్ `$ పేరు` ఏ \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "ప్లగ్ `$ పేరు` తీసివేయాలా?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn పేరు newname - ప్లగ్ఇన్ పేరు"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "అమలు - కన్సోల్ లో అప్లికేషన్ను అమలు"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "START - http-server అప్లికేషన్లు మొదలవుతుంది"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "స్టాప్ - http-server అప్లికేషన్లు ఆపి"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "పునఃప్రారంభించుము - http-server అప్లికేషన్లు పునఃప్రారంభించుము"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "స్థితి - http-server అప్లికేషన్లు సమాచారాన్ని అందిస్తుంది"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID స్థాయి హ్యాండ్లర్లు \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "$ Pid $ కార్మికులు \ n రన్నింగ్"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "$ కార్మికులు \ n లైస్"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "క్రాన్ - crontab లో టెంప్లేట్ సమా / crontab రాశాడు"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "పరీక్ష [test1 test2 ...] - పరీక్షలు అమలు. ఉదాహరణకు: అనువర్తనం పరీక్ష మోడల్ realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "పరీక్ష $ పట్టిక \ n నుండి అన్ని రికార్డులు తొలగించారు కాబట్టి మీరు, ఉపయోగించని ఖాళీలను నిర్వచించలేమని"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "ఉపయోగించని పట్టిక: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "ఉపయోగించని ఖాళీలను: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "Gen పట్టిక kol_zapisey - నిర్దిష్ట పట్టిక అది యాదృచ్చిక డేటా జతచేస్తుంది"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb -. సమా / * JSON / నుండి డేటాబేస్లో డేటా లోడ్ చేయడం"
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "$ ఫైలు \ n దెబ్బతింది JSON"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - కాపీ * JSON సమా / * JSON / లో www / పరీక్ష / ex.html చేసింది.."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "సహాయం - ఈ సహాయం"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "జట్టు `$ cmd` మద్దతు లేదు \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "ఈ ఆదేశం వరకు $ n $ u పారామితులు అవసరం, మరియు మీరు ఒక $ k \ n పాస్"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "ఈ ఆదేశం $ n పారామితులు అవసరం, మరియు మీరు ఒక $ k \ n పాస్"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "సర్వర్ \ n ఆడటం లేదు"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "సర్వర్ \ n ఆపితే"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "లను జాబితా తిరిగి"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "బేస్ నుండి కంట్రోలర్లు జాబితా తిరిగి"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "బహుళ కంట్రోలర్ల నడుస్తుంది"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "తనిఖీ - నిర్దిష్ట నియంత్రిక లేదో"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "సెషన్ ఉంటే ఈ క్లయింట్ తర్వాత జరుగుతుంది"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "ప్రక్రియ № $ కార్మికుడు నిలిపివేయబడింది"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "నేను № $ కార్మికుడు ప్రక్రియ కాంట్ స్టాప్"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "ప్రక్రియ № $ క్రాన్ (క్రాన్) నిలిపివేయబడింది"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "నేను ప్రక్రియ కాంట్ స్టాప్ № $ క్రాన్ (క్రాన్)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "చీలిక \ n అమలు సాధ్యం కాదు"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "టెర్మినల్ \ n నుండి వేరుచేయు లేదు"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "చీలిక దోషంతో విఫలమైంది"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "క్రాన్ సృష్టించలేదు. లోపం చీలిక% m"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "రన్నింగ్ హ్యాండ్లర్లు:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "నేను హ్యాండ్లర్ SIGHUP సెట్ చేయలేదు"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "నేను SIGTERM హ్యాండ్లర్ ఇన్స్టాల్ చెయ్యడం సాధ్యం కాదు"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "లోపం pcntl_waitpid% m"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "పూర్తి హ్యాండ్లర్ № $ కిడ్"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", స్థితి: స్థితిని $. తిరిగి పొందు"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "చీలిక లోపం% m తో విఫలమైంది"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "ప్రారంభం హ్యాండ్లర్ № $ కిడ్"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "విఫలమైంది% m socket_accept"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ కీ` శూన్య ఉండకూడదు"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": No ఆస్తి `$ కీ`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "కంట్రోలర్ `$ పేరు` ఇప్పటికే జోడించబడింది. కొత్త స్క్రిప్ట్"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "నిర్వాహకులు"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "కంట్రోలర్ `$ పేరు` దొరకలేదు"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "యూజర్ అధికారం ఉంది"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "ఇతరుల మోడల్ మార్చడానికి ప్రయత్నం"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "`నియంత్రిక` $ పేరు యాక్సెస్"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "నియంత్రిక `$ పేరు లో తెలియని ప్రాప్తి` $ యాక్సెస్ ``"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "వాడుకరి ప్రమాణీకరించని"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "ఆపరేటర్లు `$ op` ఫిల్టర్ `$ కీ` అనుమతి లేదు"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "ఒక స్ట్రింగ్ జాబితా డైరెక్టరీ «$ పేరు»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "లైన్ డైరెక్టరీ «$ పేరు»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "స్ట్రింగ్ డైరెక్టరీ «$ పేరు» సేవ్"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "వరుసగా డైరెక్టరీ «$ పేరు» తొలగిస్తోంది"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "పట్టికలు"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "ఇమెయిల్ పంపబడలేదు"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "చెల్లని వినియోగదారు పేరు లేదా పాస్వర్డ్"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "డౌన్లోడ్ ప్లగ్ఇన్ `$ పేరు` కనెక్ట్ లేదు"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "డౌన్లోడ్ ప్లగ్ఇన్ `$ పేరు` ఒక అన్మెట్ నీడ్ the unmet డిపెండెన్సీ `$ బయలుదేరు` ఉంది"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "ప్లగిన్ `$ పేరు` ఇప్పటికే వ్యవస్థాపించబడిన"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "ప్లగిన్ `$ పేరు` అన్ఇన్స్టాల్ ఉంది"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "ప్లగ్ `$ పేరు నుండి` ఆధారపడి ప్లగిన్లు:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "పేరు మార్చలేరు - ఒక `$ NAME2` ఉంది"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "ప్లగిన్ `$ మార్గం` ఉంది"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "ప్లగిన్ `$ పేరు` ఏ"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "ఆస్తి తరగతి SMS రిసీవర్లు ఒక అర్రే అయి ఉండాలి"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "ఆస్తి తరగతి SMS రిసీవర్లు పంపడానికి ముందు పూర్తి చేయాలి"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "తప్పు సంఖ్య ఫార్మాట్ రిసీవర్ $ V"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "ఆస్తి తరగతి SMS టెక్స్ట్ స్ట్రింగ్ ఉండాలి"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "ఆస్తి తరగతి SMS టెక్స్ట్ no more 256 కంటే అక్షరాలు ఉండాలి"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "విఫలమైంది, పంపించడంలో లోపం SMS:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "Content-Type ఏ సరిహద్దు ఉంది"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "ఫైలు $ ఫైలు \ n తెరవడం సాధ్యం కాలేదు"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "ఫైలు `$ ఫైలు` అవినీతి - msgstr ముందు msgid. $ I \ n వరుస"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "ఫైలు `$ ఫైలు` దెబ్బతిన్న. $ I \ n వరుస"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgstr లేకుండా msgid. $ I \ n వరుస"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "పారామీటర్ `$ కీ` లేదు రకం `$ రకం`"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "ఒక సంఖ్య అయ్యి ఉండాలి"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "ఒక సహజ ఉండాలి"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "మనీ మాత్రమే 2 దశాంశ స్థానాల కలిగి"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "మనీ ప్రతికూల ఉండకూడదు"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "గుర్తింపు - 0 కంటే ఎక్కువ సహజ సంఖ్య"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "పాస్వర్డ్ కంటే ఎక్కువ లేదా 6 అక్షరాలు సమానంగా ఉండాలి"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "మీరు తప్పు ఇమెయిల్ అడ్రసు ఎంటరు"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "ఫార్మాట్ ఫోన్: ఒక డాష్ వేరు + అంకెలు (సంఖ్యలు) సంఖ్యలు. +7 (921) 333-3-333: ఉదాహరణకు"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "ఈ ఫైలు కాదు"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "ఒక ప్రామాణికంగా ఏ ఫైల్"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "ఈ తేదీ కాదు"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "పేరు తప్పకుండా ఒక అక్షరమైనా ఉండాలి"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "నగరం యొక్క పేరు తప్పకుండా ఒక అక్షరమైనా ఉండాలి"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "ఆర్డర్ సరిపోలడం లేదు: field1 [DESC], field2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "పరిమితి 100 కంటే ఎక్కువ మరియు 1 కన్నా తక్కువ ఉండకూడదు"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "పారామితి పేరు తో ప్రారంభం కావాలి షేర్డ్ లేదా సొంత"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "సేవ"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 నెలల"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 నెలల"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "క్యాలెండర్ ఎంపికను తొలగించండి"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "ఒక ఎంచుకున్న సంఖ్య బుకింగ్ అవకాశం బ్లాక్"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "బుకింగ్ అవకాశం అన్లాక్"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "ఎంచుకున్న కాలం ఎడమవైపు క్షేత్రం నుంచి రోజుకు ధర సెట్"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "ఎంచుకున్న తేదీ ధర మార్చండి"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "ఏ ధర తొలగించు"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "క్లిక్"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "+ Shift క్లిక్ చేయండి"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- రోజు వ్యవధిలో సెలెక్ట్స్ లేదా తొలగిస్తుంది"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "+ Ctrl + Shift క్లిక్"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- ఎంచుకోండి / ఎడమ తొలగించు"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "క్లిక్ + alt"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- ఎంచుకోండి / కుడి తొలగించు"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- విరామం మధ్య అన్ని లేదా స్పష్టమైన విరామాలు ఎంచుకోండి"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "ఒక బుక్"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "బుకింగ్"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "రిజర్వేషన్"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "చిరునామా"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "మీ పేరు"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "వ్యక్తుల సంఖ్య"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "రాక / నిష్క్రమణ తేదీ"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "అదనంగా"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "పంపించు"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "రిజర్వేషన్ రూపం దాఖలు ఉంది. మీ ఉంది"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "ఒప్పందం కౌలు"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "మీరు"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "మీరు రిజర్వేషన్లు అభ్యర్థనను సమర్పించండి నమోదు చేయాలి"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "అనువర్తనం"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "కాలం హైలైట్"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "లాక్ కాలం ఎంచుకోండి"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "ఎంపికైన పరిధి ఇన్స్టాల్ ఖర్చు తో విరామం బంధిస్తాడు. ధర మాత్రమే మార్చవచ్చు"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "ధర మార్చారు"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "ఒక ధర ఒక మీద క్లిక్"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "కాలం ఎంచుకోండి"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "బుకింగ్ అభ్యర్థన"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "ఆస్తి యొక్క బుకింగ్"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "ఈ కాలంలో హౌస్ బుక్ ఉంది"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "మీరు ఒక కొత్త రిజర్వేషన్లు ఉన్నాయి"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "ఆస్తి కోసం రిజర్వేషన్ రద్దు"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "బ్లాక్స్ బుకింగ్"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "అభ్యర్థించిన కాలంలో విభిన్న ధర ఏర్పాటు"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "ఇతర ధర మార్పులు"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 వస్తువు"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 అంశాలు 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 అంశాలు 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 వస్తువు 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "03 ఇన్స్టాల్ కాలేదు"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "02 ఇన్స్టాల్ కాలేదు"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "08 సెట్"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "8.6 సెట్"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "ఎంపిక = 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "తరగతి ఎంపిక"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "ఆర్మర్ క్లాస్"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "తరగతి వినియోగదారు ఎంపిక"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "తరగతి డబుల్ సెల్"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "షాట్ 08, 6.7 కాలం"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "నగదు"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "కొంత మొత్తము"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "కాలము"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "చెల్లింపు పద్ధతి"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "రియల్ ఎస్టేట్"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "చెల్లింపుదారుడు"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "క్యాషియర్"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "పేరు"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "సైన్"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "వర్ణన"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "ఒక వ్యాఖ్యను జోడించండి"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "వ్యాఖ్యలు"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "రియల్ ఎస్టేట్ కోసం కార్డులు తిరిగి వ్యాఖ్య"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "రియల్ ఎస్టేట్ కోసం ఒక వ్యాఖ్య జతచేస్తుంది"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "ఆస్తి కోసం వ్యాఖ్యలను తొలగించవచ్చు"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "వ్యాఖ్య టెస్ట్"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "ప్రైవేట్ కార్యాలయం"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "నిష్క్రమణ"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "వ్యక్తిగత డేటా"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "ఇన్పుట్"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "సైన్ అప్"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "పాస్వర్డ్ను పునరుద్ధరించు"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-మెయిల్ లేదా ఫోన్ నంబర్:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "గుర్తు చేసుకొను"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "పాస్వర్డ్:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "నమోదు"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "మీ E-మెయిల్ ఎంటర్:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "మీ ఫోన్ నంబర్ ఎంటర్ చెయ్యండి:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "మీరు ఒక ఇమెయిల్ లేదా SMS ఒకసారి పాస్ వర్డ్ పంపబడుతుంది. లాగింగ్ వెంటనే పాస్వర్డ్ను మార్చండి"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "మీ తాత్కాలిక పాస్ వర్డ్ ను మార్చండి"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "మీ తాత్కాలిక పాస్వర్డ్ను మాత్రమే సెషన్ ముగిసే వరకు చెల్లుతుంది. ఇప్పుడే దాన్ని మార్చండి"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "కొత్త పాస్వర్డ్:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "కొత్త పాస్వర్డ్:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "మార్పు"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "ప్రధాన"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "పాస్ వర్డ్ ను మార్చండి"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "పేరు:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "ఫోన్:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "పాత పాస్వర్డ్:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "ఉత్తరం పంపిన"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS పంపబడింది"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "ఒక వాడుకరి సృష్టిస్తోంది"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "పాస్వర్డ్ రికవరీ"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "టైప్ చేసిన అక్షరాలు - న <li> CapsLock"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li> రష్యన్ కీబోర్డ్"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "పాస్వర్డ్ విజయవంతంగా మార్చారు"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "పాస్వర్డ్ను మార్చడం"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "వాడుకరి ని"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "ఆఫ్ లోనికి ప్రవేశించండి"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "మీ పాస్వర్డ్ను మార్చండి"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "పాత పాస్వర్డ్ తప్పు"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "ఒక కొత్త ఖాతాను సృష్టించండి లేదా పాస్వర్డ్ రికవర్"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "మీ తాత్కాలిక పాస్ వర్డ్ ఉంది: $ పాస్వర్డ్ను"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "యూజర్ రిటర్న్స్ సమాచారం"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "లాగ్ ఇన్ గురించి రిటర్న్స్ సమాచారం"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "లాగ్ ఇన్ గురించి సమాచారాన్ని మార్చండి"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "కార్డ్ చెల్లింపు"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "చెల్లింపు రూపం"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "చెల్లింపు సంఖ్య"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "చెల్లింపు వివరాలు"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "యూజర్ పేరు"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "చెల్లింపు మొత్తం"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "ఆన్లైన్ రిజర్వేషన్ చెల్లించండి."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "ఆన్లైన్ చెల్లింపు"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "రిజర్వేషన్ సంఖ్య జారీ లేదు"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "ఈ స్క్రిప్ట్ సూచిస్తూ బాహ్య సిస్టమ్ మీ చెల్లింపు యొక్క స్థితి మారుతుంది"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "చెల్లని పంపినవారు IP IP అవసరం:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "చెల్లింపు వ్యవస్థ నుండి ఆమోదించింది పారామితులు కాదు"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "చెల్లని identtifikator స్టోర్"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "చెల్లింపు సంఖ్య"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "చెల్లని హాష్ చెల్లింపు అవసరం: చెల్లింపు లోపం స్వీకరణ"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "చెల్లని హాష్ చెల్లింపు: చెల్లింపు లోపం స్వీకరణ"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "చెల్లింపు లోపం రిసెప్షన్: పొందిన చెల్లని డేటా:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "అంతర్గత డేటా:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "చెల్లింపు లోపం రిసెప్షన్: పొందిన చెల్లని డేటా."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "ఒక కాలంలో"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "వద్ద:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "రిజర్వేషన్ సంఖ్య అంగీకరించబడిన చెల్లింపు"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "చెల్లింపు కవచం"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "చెల్లింపు సేవలను యొక్క ఒక రూపం సృష్టించడానికి"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "పరీక్ష"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "చెల్లింపు రిజర్వేషన్ సంఖ్య"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "చెల్లింపు రిజర్వేషన్ సంఖ్య $ armoring-> ID"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "టెస్ట్ ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "చెల్లింపు కవచం పరీక్ష"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "సెర్గీ"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "ఒక ఫోటో అప్లోడ్"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "ఫోటోలు"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "ఇతర చిత్రాలు తన స్థానాన్ని మార్చడానికి డ్రాగ్"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "ఒక చిత్రాన్ని తొలగించు"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "మీరు నిజంగా ఈ చిత్రాన్ని తొలగించాలని అనుకుంటున్నారా?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "లోపం! చిత్రం డౌన్లోడ్"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "ఫోటో అప్లోడ్ జరిగినది. బహుశా అది చాలా పెద్దది."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "సురక్షిత పేజీ"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "చిత్రం లోడ్ అవుతోంది. తప్పు సంఖ్య"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "ఫోటోలు Property సేవ్"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "ఫోటోలు Property తొలగించండి"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "రియల్ ఎస్టేట్ యొక్క డిజిటల్ ఫోటోలు"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "రష్యన్ పౌరుడి విదేశీ పాస్పోర్ట్ యొక్క సంసిద్ధతను తనిఖీ"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "రష్యన్ ఫెడరేషన్ యొక్క ఒక పౌరుడి పాస్పోర్ట్ యొక్క సమ్మతిని పరీక్షించటం"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "దాని ఆహ్వానాలు తనిఖీ"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "సెయింట్ పీటర్స్బర్గ్"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "సేవలు"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "క్లయింట్ ఆదేశించింది సేవలు"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "అప్రమత్తం చేసేందుకు సమాచారం"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "సందేశం సిబ్బంది పంపబడుతుంది"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "SMS కోసం ఫోన్"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "సేవా సిబ్బంది"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "ప్రకటన కోసం దుకాణాలు డేటా"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "రియల్ ఎస్టేట్ ఉచిత తిరిగి"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "ప్రకటన కోసం తొలగిస్తే డేటా"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "చర్య తీసుకోబడింది"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "ప్రోటోకాల్"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "యూజర్ ద్వారా ప్రదర్శించే చర్యలను జాబితా చూపిస్తుంది"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "పైకి"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "రూములు:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "జిల్లాలు:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "మెట్రో:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "అపార్టుమెంటులు"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 గది"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 గదులు"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 గదులు"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "పైగా 3 గదులు"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "నగరం:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "ఇక్కడ"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "తనిఖీ"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "అన్ని వస్తువులు"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "నా జాబితాలు"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "వింత ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "ధర ద్వారా ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "ఒక ఆస్తి జోడించండి"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "ఆస్తుల జాబితా వడపోత"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "చూడండి:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "గదులు సంఖ్య చేత అపార్టుమెంట్లు"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "తరగతి"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "జిల్లాలు"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "నగర"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "సెంటర్"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "శివార్లలో"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "మెట్రో"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "ధర"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "పూర్తి సమాచారం"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "చిరునామా:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "రూములు:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "పడక:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "సాధారణ సమాచారం"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "పటం"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "ఆస్తి కార్డ్"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "మునుపటి"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "తర్వాత"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "కార్డ్ సంపత్తి తొలగించు"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "ద్రవ్యం"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "రాత్రి ధర:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "నెలకు ధర:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- ఉచిత"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- ప్రత్యేకం"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- అద్దెకు"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- మీరు బుక్"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- మీరు కిరాయి"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- మరో ధర"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- లాక్"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- Emphasis"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "జిల్లా:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "ఫ్లోర్:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "వివరణ:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "ఉపాధి:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "వంట విభాగము"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "TV"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "ఫోన్"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "సంగీతం సెంటర్"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "ఇంటర్నెట్"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "ఎయిర్ కండీషనింగ్"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "వాషింగ్ మెషిన్"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "పేర్కొనబడలేదు"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "నెలలు"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "పగలు"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "ప్రాంతాల జాబితా నుండి ఎంచుకోండి దీనిలో క్రమబద్ధీకరించేందుకు పాస్"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "సార్టింగ్ పాస్ తప్పక మెట్రో స్టేషన్ల జాబితా నుండి ఎంచుకోండి"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "ఆస్తి సంఖ్య కార్డులు"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "లేదు"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "పేర్కొనబడలేదు"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "తెలియని"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "రియల్ ఎస్టేట్ జాబితా చూపిస్తుంది. పరిమితి 1 నుండి 100 వరకు ఉండవచ్చు. డిఫాల్ట్ - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "శోధన ఇంజిన్లు టేప్ అపార్టుమెంట్లు"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "శోధన ఇంజిన్లు flat ప్రొఫైల్"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "Rent ఫ్లాట్ / హౌస్ / రూమ్ కోసం"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "నగరం"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "ప్రదేశం"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "సబ్వే స్టేషన్"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "చిరునామా"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "ఖర్చు"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "రోజుకు"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "అంతస్తులు"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "రూములు"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "పడకలు"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "వ్యాఖ్య"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "మహానగర ప్రాంతాలలో జాబితా తిరిగి మరియు నగరం ఆధారపడి"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "ప్రొఫైల్ రియల్ ఎస్టేట్ లో ఉంచుతుంది. ID = 0 ఉంటే - ఒక కొత్త సృష్టించడానికి"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "సమాచారం మార్చబడింది"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "రియల్ ఎస్టేట్ యొక్క ప్రొఫైల్ తొలగిస్తుంది"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "కొల ప్రమాణము"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "టెస్ట్ అపార్ట్మెంట్"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "టెస్ట్ RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / ఎసిన్క్రోనస్ లోడ్ css -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "ఈ సైట్ కోసం అవసరం"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript నిలిపివేయబడింది"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "మీ బ్రౌజర్ లో ను ఎనేబుల్ చెయ్యండి"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "హెచ్చరిక!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "అపార్ట్ జాబితా"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "అప్డేట్"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "హెచ్చరిక! మీ బ్రౌజర్ ఈ సైట్ కోసం చాలా పాతది. అది సిఫార్సు"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "మీ స్వంత పూచీతో కొనసాగించు"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- ఇది ఒక టేబుల్ అప్లికేషన్ ప్లగిన్లను ప్రవేశ కనిపిస్తుంది. ప్లగ్ఇన్ ఇది చేర్చబడుతుంది దీనిలో మూలకం యొక్క ID తెలుసుకోవాలి. ప్లగ్ ఇన్సర్ట్ చివరికి తన శరీరం (append) పేర్కొన్న అందుకు. కాబట్టి ఒక పాత్రలో ఒకటి ప్లగిన్లు ఒక ఎన్ని పెట్టవచ్చు -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "కరెన్సీ"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "తప్పు సంఖ్య"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "ఖాళీ చరిత్ర విస్తరణలు"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "నేను తిరిగి వెళ్ళి కాదు - ప్రస్తుత ఓవర్లే హాష్ సరిపోలడం లేదు"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "ఇప్పటికే ఇన్స్టాల్"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "ఈవెంట్: పోటీ"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "లోపం:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "దగ్గరగా"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "లోపం!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "పూర్ణాంకం ఎంటర్"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "నిజమైన నెంబర్ ను ఎంటర్ చేయండి"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "ఫ్లోర్ అంతస్తుల సంఖ్య మించకూడదు ఉండాలి"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "నేలలు మరియు ఫ్లోర్ నెంబర్ ను ఎంటర్ చేయండి"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "పూర్ణాంకం ఎంటర్"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "0 కంటే ఎక్కువ పూర్ణాంకం ఎంటర్"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "ఒక ధన వాస్తవ నెంబర్ ను ఎంటర్ చేయండి"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "సైన్ విలువ ఎంటర్"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "రెండు దశాంశ స్థానాలు: ధర నమోదు చేయండి. 100,22 లేదా 100: ఉదాహరణకు"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "కనీసం ఒక అక్షరం ఎంటర్"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "E-మెయిల్ ఎంటర్"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "E-మెయిల్ లేదా ఫోన్ నంబర్, ఉదాహరణకు: +7 (921) 333-3-333 ఫార్మాట్ లాగిన్"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "పాస్వర్డ్ను కనీసం 6 అక్షరాలను ఉండాలి"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "పాస్వర్డ్లు సరిపోలడం లేదు"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "చెల్లని నమోదు"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- ఎంచుకోబడలేదు -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "డేటా సేవ్"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "తొలగించు"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "కాదు ఆదేశం ఫారం (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "సంరక్షణ"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "అన్ని రంగాలలో సరిగ్గా లో నింపుతారు"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "విజయవంతమైతే"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "తొలగింపు"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "తొలగించబడదు"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "మీరు నిజంగా మీరు తొలగించాలని అనుకుంటున్నారా"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "జాబితా: చెల్లని ఆదేశ '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "చేర్చు"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ రికార్డు"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "వరుసగా డైరెక్టరీ తొలగిస్తోంది"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "మీరు నిజంగా ఒక వరుసను మీరు అనుకుంటున్నారా?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<మునుపటి"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "తదుపరి>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "నేడు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "జనవరి"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "ఫిబ్రవరి"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "జూన్"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "యౌవన"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "నిదానంగా నడుచు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "నాలుగో నెల"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "ఆగష్టు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "జూలై"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "సెప్టెంబర్"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "నవంబర్"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "ఇంగ్లీషు నెలలో ఒకటి"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "డిసెంబర్"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "ఫిబ్రవరి"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "జనవరి"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "నాలుగో నెల"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "జూన్"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "నిదానంగా నడుచు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "ఆగష్టు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "డిసెంబర్"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "జూలై"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "నవంబర్"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "ఇంగ్లీషు నెలలో ఒకటి"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "సేన్"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "గురు వారం"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "శుక్రవారము"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "సోమవారం"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "శనివారము"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "బుధవారం"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "ఆదివారము"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "మంగళవారం"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "శని"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "మంగళ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "పెళ్లి చేసుకొను"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "గురు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Fri"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "సూర్యుడు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Fri"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "సూర్యుడు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "మంగళ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "గురు"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "శని"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "పెళ్లి చేసుకొను"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "ఏక"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "కాదు"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "ఈ బ్రౌజర్ అజాక్స్ మద్దతు లేదు"
+

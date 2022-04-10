@@ -1,0 +1,24 @@
+﻿<div id=plugin-gallery>
+
+	<div id="gallery-container">
+		<div class="off">
+			<iframe class=app-add-image></iframe>
+			<div class=app-add-image-btn><div style="position:absolute;color:white">Загрузить фото</div></div>
+		</div>
+		<a href="#" id="gallery-all-image" onclick="app.plugin.gallery.open_gallery(); return false">Фотографии <span name="counter-image"></span></a>
+		<div class="app-foto-gallery">
+		</div>
+	</div>
+
+	<div id=fotogallery>
+		<input type=button id="foto-prev" value="Предыдующая">
+		<img id=realty-foto-view src=""/>
+		<input type=button id="foto-next" value="Следующая">
+		</br>
+		<div id=desc>Описание</div><textarea id="desc-text" style="resize: none; overflow-y: hidden; height: 37px;"></textarea>
+		<div id=realty-foto-gallery></div>
+	</div>
+
+</div>
+
+<link plugin/gallery/gallery.js>

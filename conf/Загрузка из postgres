@@ -1,0 +1,4 @@
+copy rp5 from 'c:/cygwin/home/ya.kosmina/beany/conf/001-rp5.txt' with csv header quote '"';
+copy language_rp5 (id,rp5_id,language_id) from 'c:/cygwin/home/ya.kosmina/beany/conf/002-language_rp5.txt' with csv header quote '"';
+copy place (id,country_id,region_id,vicinity_id,city_id,rp5_id) from 'c:/cygwin/home/ya.kosmina/beany/conf/003-place.txt' with csv header quote '"';
+copy placen (id,place_id,language_id,name) from 'c:/cygwin/home/ya.kosmina/beany/conf/004-placen.txt' with csv header quote '"';

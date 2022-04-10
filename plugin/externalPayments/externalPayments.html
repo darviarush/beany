@@ -1,0 +1,40 @@
+<div id="externalPayment" class="app-overlay"><!--action="https://merchant.intellectmoney.ru/ru/" target="oplata" method="POST"-->
+    <!--<form id="payment-card"
+		  name="Карточка оплаты" action="/api/externalPayments/status/store">-->
+        
+	<div id="payment-card" class="app-form" action="/api/externalPayments/status">
+	<center><h3>Форма для оплаты</h3></center>
+		<table>
+			<tr><td nowrap><label >Номер платежа</label>
+				<td><input name=orderId >
+				</td></tr>
+			<tr><td nowrap
+					width=20px><label >Назначение платежа</label>
+				<td><input name=serviceName >
+				</td></tr>
+			<tr><td nowrap><label >E-mail</label>
+				<td><input name=user_email >
+				</td></tr>
+			<tr><td nowrap><label >Имя пользователя</label>
+				<td><input name=userName >
+				</td></tr>
+			<tr><td nowrap><label >Сумма платежа</label>
+				<td><input name=recipientAmount >
+					<input type="hidden" name="eshopId" value="">
+					<input type="hidden" name="recipientCurrency" value="">
+					<input type="hidden" name="hash" value="">
+					<!--
+					<input type="hidden" name="successUrl" value="">
+					<input type="hidden" name="failUrl" value="">
+					<input type="hidden" name="preference" value="">
+					<input type="hidden" name="expireDate" value="">
+					<input type="hidden" name="hash" value="">
+					-->
+				</td></tr>
+		</table>
+		<center><input type=submit value="Отправить"></center>
+	<!--</form>-->
+	</div>
+</div>
+
+<a href="#" id="external-payments-create">Онлайн оплата брони.</a>

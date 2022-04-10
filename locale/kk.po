@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr ": app help\n кіргіз-"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - аударманың файлдарын жаңалайды"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr "langtr [от] [дейін] - locale/* файлдарын аударады.po.s"
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins - locale/* бас-басы жолын.po.s ара locale/* жазып алады.po msgstr"
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - аударманың компиллирует файлы ара www/locale/*.json"
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "дир theme файлы/. [тізімдеме] - файлды немесе директорияны барлық тақырыптарға көшіріп алады"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - кеш арылтады"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "controllers - контроллердің санының"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "pl ат - плагин бас негіз skel мұқабасының жасайды"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - тағайынды плагинов тізбесі"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "pll - барлық плагинов тізбесі"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "pli ат - плагин инсталлирует"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". Инсталлировать олар барлық?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$name от тәуелді болады"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu ат - плагин деинсталлирует"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". Деинсталлировать олар барлық?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "От $name тәуелді болады"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel ат - физикалық плагин алыстатады"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "name' плагин '$n өмір сүрмейді\"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "Алыстат- name'плагин '$?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "новое_имя plrn аты - плагин ат қояды"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "run - аддендумді консолиларға асқындырады"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "start - http-сервер аддендумдерді асқындырады"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "stop - http-сервер аддендумдерді тоқтатады"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "restart - http-сервер аддендумдерді қайта іске қосады"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "status - туралы http-сервера аддендумнің күйінде ақпарлайды"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "n өңдеуішінің\PID       мәртебесі"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "pid      $workers\n ушыққан    $"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "workers\n жатады                $"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "cron - conf/crontab қалыбы ара crontab жазып алады"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "test [тест1 тест2...] - тесттерді асқындырады. Айталық: app test model realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "Анықтау болмайды емеспайдалан- егістіктерді, себебі тест барлық өзінің жазбаларын из $table\n алыстатты"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "Емеспайдалан- кестелер:\n\t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "Емеспайдалан- егістіктер:\n\t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "кол_записей gen кестесі - көлденең деректерлерді көрсетілген кестеге үстейді"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - сол БД из /conf/*.json"
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr " деректердің тие-Майып json ара $file\n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr "savedb №-таблица - сол кестеден ара /conf/№-таблица.txt"
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr " деректердің выгрузкаfordb путь_к_ json - *.json алқындыр- www/test/ex.html ара /conf/*.json"
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr " көшіріп аладыhelp - сол анықтама"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "cmd' командасы '$n қуатталмайды\"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "Айтылмыш команда дейін $u параметрлердің от $n сұрайды, ал сендер оған $k\n жұқтырасыңдар"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "Айтылмыш команда n параметрлерді сұрайды $, ал сендер оған $k\n жұқтырасыңдар"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "Сервер n ушыққан\"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "Сервер n тоқтатпаппын\"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "плагинов тізбесін қайтарады"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "контроллердің тізбесін базадан қайтарады"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "несколько контроллерді асқындырады"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "тексер- - ма көрсетілген контроллер жетімді"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "клиенттің тие- кейін орындалады, сессия болса"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "worker үдерісі № $тоқтат-"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "worker үдерісінің № $тоқтату білмеймін"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "cron(cron) үдерісі № $тоқтат-"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "cron(cron) үдерісінің № $тоқтату білмеймін"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "fork\n орындау білмеймін"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "Сәтті болмеді n терминалынан\деген отсоединится"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "fork қатемен бітті"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "cron жасамаппын. fork %m қатесі"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "Өңдеуіштер: ушыққан"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "SIGHUP хандлер тағайындау білмеймін"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "SIGTERM хандлер тағайындау білмеймін"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "pcntl _ waitpid %m қатесі"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "kid өңдеуіші № $бітті"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr "; cтатус: $status. Қалпына келтіремін"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "fork m қатесімен %бітті"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "kid өңдеуіші № $ушыққан"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket _ accept m сәтсіздігінің %бітті"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": '$key' емес мүмкін нөлдік"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": key'сипаты '$бол-"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "name' контроллері '$уже үсте- болды. Көшіріп аламын"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "Әкімшілер"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "name' контроллері '$таппаппын"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "Пайдаланушы аутентифицирован"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "Кісінің қалыбының өзгерісінің амалы"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "name'контроллеріне '$деген құқықтар бол-"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "access' бейтаныс рұқсат алуы '$name'контроллерінде '$"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "Пайдаланушы аутентифицирован"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "op' операторы '$key' сүзгіші '$үшін адал"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "name\" анықтағышының \"$жолының тізбесі"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "name\" анықтағышының \"$жолы"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "name\" анықтағышының \"$жолының сақта-"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "name\" анықтағышының \"$жолының аулақтауы"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "Кестелер"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "Хат жібермеппін"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "Опасыз логин немесе шартты белгі"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "name' тие- плагин '$подключен"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "name' тие- плагин '$dep'емесразы тәуелділікі '$имеет"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "name' плагин '$уже инсталлирован"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "name' плагин '$уже деинсталлирован"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "name' плагина '$плагины: тәуелді болады"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "Уже name2' - қайта атау болмайды өмір сүреді '$"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "path' плагин '$уже өмір сүреді"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "name' плагин '$өмір сүрмейді"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "SMS receivers сыныбының сипаты алаппен болуға керекке"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "SMS receivers сыныбының сипаты алдым аттанумен толтыр- болуға керекке"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "v хат алушысының $нөмірінің дұрыс форматы"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "SMS text сыныбының сипаты жолмен болуға керекке"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "SMS text сыныбының сипаты более 256 түртінді болуға керекке"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "Аттану смс сәтті болмеді, қате:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "Бол- boundary ара Content - Type"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "Ашпаппын file\n файлын $"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "file' файлы '$- бол- msgid алдым msgstr майып. i\n жолы $"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "file' файлы '$майып. i\n жолы $"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgid без msgstr. i\n жолы $"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "key' параметрі '$type'өзінің үлгісінің '$сай келмейды"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "болуға керекке бүтіндікпен"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "болуға керекке натурал"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "Ақшалар ғана 2 белгі кейін үтірдің иметь біледі"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "Ақшалар жағымсыз болу білмейді"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "Идентификатор - больше 0 сол натурал сан"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "Шартты белгі неғұрлым болуға керекке немесе тең 6 түртіндіге"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "Опасыз email кіргіз-"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "Телефонның форматы: +цифрдың цифрларының(цифрлар) арқылы сызықшаны. Айталық: +7(921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "Сол файл"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "Файлдар ара сапа параметрдің бол-"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "Сол күні"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "ФИО иметь керекке тым бір түртінді"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "Қаланың атауы тым бы бір түртінді болуға керекке"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "order форматының: поле1 сай келмейды[ desc],поле2..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "limit емес мүмкін больше 100 және меньше 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "Параметрдің аты бас shared басталуға керек немесе own"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr "rp.php: белгісіз модифицирующий sql- сұраныс! $sql"
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr "Теңгерім:"
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr "Төлем"
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "Қызмет"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr "Тариф"
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr "Аренда"
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr "Итого төлемақыға"
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 мес"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 мес"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Шеш- қасқайт- күнтізбеде"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "Заблокировать бронялаудың мүмкіндігінің бәсіре сандарға"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "Бұғаттан шығар- бронялаудың мүмкіндігінің"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "Тағайында- баға тәуліктерде даладан слева таңдап ал- кезге"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "Өзгерт- баға таңдап ал- күнінің астында"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "Алыстат- өзгерілген бағаны"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "клик"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "shift клик+"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- ара қашықтықтарды қасқайтады немесе күнді түсіреді"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "ctrl+shift клик+"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- қасқайт-/шеш- слева"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "alt клик+"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- қасқайт-/шеш- справа"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- қасқайт- барлық ара қашықтықтардың арасында немесе шеш- ара қашықтық"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "Жібер- өтінім бронялауға"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "өтінімдер бронялауға"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "ӨТІНІМ БРОНЯЛАУҒА"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "Мекенжай"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "Сендердің атың"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "Сан адам"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "Жолсапардың соқ-/күнісі"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "Қосымша"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "Жібер-"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "Өтінім бронялауға күндік. Міне сендер"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "жалдың келісімі"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "Сендермен"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr "img/homearm.png\' height=width=16 16> Броньды"
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr "img/homebay.png\' height=width=16 16> Оплачено"
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr "img/block.png\' height=width=16 16> Заблокировано</p>"
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr "img/money.png\' height=width=16 16> <b>Баға:</b>"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "Сендер тіркелуге керекке, әперу чтобы өтінім бронялауға"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "Өтінім"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "Кезді қасқайт-"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "Заблокированный кезді таңдап ал-"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "Бәсіре ара қашықтық ара қашықтықты уже тағайынды бағамен басып алады. Баға болады ғана өзгерт-"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "Баға өзгерілген"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "Бағамен күніде бас-"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "Кезді таңдап ал-"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "Өтінім бронялауға"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "жылжымайтын мүліктің нысанын бронирует"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "Көрсетілген кезге жылжымайтын мүлік уже броньды"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "Бас сендердің жаңа берен ша мекенжайға"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "беренді жылжымайтын мүліктің нысанына отменяет"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "бронялаудың мүмкіндігін блокирует"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "өзге бағаны көрсетілген кезге тағайындайды"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "өзге бағаны өзгертеді"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr "Плагин подключен"
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 нысан"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 нысан 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 нысан 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 нысан 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "03 тағайынды"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "02 тағайынды"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "08 тағайынды"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "06-08 тағайынды"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "06-08 талғам ="
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "талғамның сыныбы"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "сауыттың сыныбы"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "пайдаланушының class талғамы"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "class қос ячейка"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "08 түсірулі, 06-07 кез"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "Касса"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "Сома"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "Жаса- уақыты"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "Төлемнің көрінісі"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "Жылжымайтын мүлік"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Төлеуші"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Кассир"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "Атау"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "Белгі"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "Сипаттама"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr "﻿"
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "Үсте- түсініктеме"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "Түсініктемелердің"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "комметарии жылжымайтын мүліктің карточкасы үшін қайтарады"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "түсініктемені жылжымайтын мүлік үшін үстейді"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "түсініктемені жылжымайтын мүлік үшін алыстатады"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "Тестілік Comment"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "Дербес жұмыс бөлмем"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "Шық-"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "Дербес деректерлер"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "Кіре беріс"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "Тіркел-"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "Қалпына келтір- шартты белгі"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E - mail немесе телефонның нөмірінің:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "Есінде бол-"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Шартты белгі:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "Кір-"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "Сіздің E - mail: кіргіз-"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "Телефонның сіздің нөміріңізді: кіргіз-"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "Сендерге жөнелт- хат немесе смс одноразовым шартты белгімен бол-. Шартты белгіні айтар-айтпастан кейін кіре берістің поменяйте"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "Сіздің мезгілдіктің шартты белгісін поменяйте"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "Сендердің мезгілдіктің шартты белгісінің ақиқаттық ғана дейін адақ осы сессияның. Оны қазір поменяйте"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "Жаңа шартты белгі:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "Жаңа шартты белгі тағы ретті :"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "Поменять"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "Негізгі"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "Поменять шартты белгі"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "Ат:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "Телефон:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "Кәрі шартты белгі:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "Хат на жібер-"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "смс на жібер-"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "Пайдаланушының жаралғаны"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "Шартты белгінің қалпына келтір-"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<li>CapsLock ішіне ал- - заглавные әріптер енгізіледі"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li>Орыс әріптер енгізіледі"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "Шартты белгі ойдағыдай өзгерілген"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "Шартты белгінің өзгерісі"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "Пайдаланушының кіре берісі"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "Пайдаланушының шыға берісі"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "Өзгерт- өзінің шартты белгісінің"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "Кәрі шартты белгі намақұл кіргіз-"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "Жаса- жаңа аккаунтты немесе қалпына келтір- шартты белгі"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "Сендердің мезгілдіктің шартты белгісі: $password"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "Туралы пайдаланушыда ақпаратты қайтарады"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "Туралы залогиненном пайдаланушыда ақпаратты қайтарады"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "Туралы залогиненном пайдаланушыда ақпаратты өзгертеді"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "Төлемақының карточкасы"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "Пішін төлемақы үшін"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "Төлемнің нөмірі"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "Төлемнің мақсаты"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "Пайдаланушының аты"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "Төлемнің сомасы"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "Онлайн сауыттың төлемақысының."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "Онлайн төлемақы"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "Сауыттың нөмірі жұқтырмаппын"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "Сырт жүйе төлемнің мәртебесін осы скриптқа деген айнала ауыстыру бол-"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "Опасыз ip needed ip жіберушісінің:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "Параметрлер опасыз төлеу жүйеден деген жұқтырдым"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "Опасыз иденттификатор дүкеннің"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "Төлем №"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "төлемнің әдісінің қатесі: опасыз need хэш төлемінің"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "төлемнің әдісінің қатесі: опасыз хэш төлемнің"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "төлемнің әдісінің қатесі: опасыз ал- деректерлер:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "ішкі деректерлер:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "төлемнің әдісінің қатесі: опасыз ал- деректерлер."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "үшін кезді"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "ша мекенжайға:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "Төлемақы үшін беренді №қабылда-"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "Сауыттың төлемақысы"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "қызметтің төлемақысының пішінін жасаймыз"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "тест"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "Сауыттың №төлемақысы"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "Сауыттың төлемақысы - armoring нөмірінің $>id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "Тестілік ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "Сауыттың төлемақысы тест"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Сергей"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "Тие- фото"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "Суреттер"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "Тышқанмен суретті перетащите, өзгерту чтобы оның жағдайының сырттың суреттерінің арасында"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "Суреттің аулақтауы"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "Сендер сол суретті ақиқаттық алыстату қалайсыңдар?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "Қате! Суреттің тие-"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "Фото тие- болмады. Мүмкін ол аса ұлы."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "Паналы бет"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "Суреттің тие-. Қате №"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "жылжымайтын мүліктің суреттерін сақтайды"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "жылжымайтын мүліктің суретін алыстатады"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "жылжымайтын мүліктің суреттерін сұрыптайды"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr "Бір сурет үсте-"
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr "Үсте- үш сурет болды"
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "РФ азаматының шетелдің төлқұжатының даярлығының тексерісі"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "РФ азаматының төлқұжатының ақиқаттығының тексерісі"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "Шақырудың ақиқаттығының тексерісі"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "Санкт-Петербург"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr "бекеттің координаты пәтердің санымен қайтарады"
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr "бекеттің айқындамасын нобайда сақтайды"
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "Қызмет атқарулар"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "Қызмет атқарулар клиентпен тапсырыс береді"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr "Қызметтің көрінісі"
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr "Уақыт және аттанудың оралымдқы"
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr "Хабарламаның мәтіні"
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "Ақпарат анонс үшін"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr "Қызметтің бағасы"
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr "Хабарламаның уақыты"
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "Хабарлама персоналға сілтеп жібереді"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "телефон үшін смс"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr "Бронялаудың күнісі"
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr "Қызмет атқаруларды таңдап аласыңдар"
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr "Жібер- оралымдқы"
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr "Қызметтің орындалуының уақыты"
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr "Уақытты сілтеп жібер-"
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr "(сағаттар)"
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr "(минутты) және күніні"
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr "Шыға беріс"
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr "Уақыт"
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr "Күні:"
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr "Жібер- хабарлама в"
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr "миндердің"
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr "сағат"
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr "Соңмен"
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr "күндердің дейін соқ-"
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr "күннің арада"
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr "Мен"
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "Гектаршының персоналы"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr "Қосымша қызмет атқарулар"
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr "Однократно"
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr "Күнделікті"
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr "Апта сайын"
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr "күндердің"
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr "ретті арада"
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr "Кез көрсетілген"
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "деректерлерді жөнелтпе хабарлама сақтайды"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr "таңдап ал- қызметті сақтайды"
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "сұрақ-жауапты ша жылжымайтын мүлікке қайтарады"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr "қызмет атқарудың возращает мәртебелері тағайынды күніге"
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr "қызметтің мәртебесін тағайындайды"
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr "Қызмет атқарудың жібер- кезін тиейді"
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr "қызмет атқарудың тізбесін қайтарады"
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "жөнелтпе айтылмыш хабарламаларды алыстатады"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr "Бір жолдың қосымшасы"
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr "Жаман-жұман мульти"
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr "Нескольких жолдың қосымшасы"
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "Совершенные әрекеттер"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr "хаттама"
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "Хаттама"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "Әрекеттің тізбесін жаса- пайдаланушымен қайтарады"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "Вверх"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "Бөлмелер:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "Аудандар:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Метро:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "Пәтерлер посуточно"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 бөлме"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 бөлме"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 бөлме"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "больше 3 бөлме"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "Қала:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "Соқ- күнісі"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "Жолсапардың күнісі"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr "Тап-"
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "Барлық нысандар"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "Менің нысандарым"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "ша жаңалыққа ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "ша бағаға ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "Үсте- жылжымайтын мүліктің нысанының"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "Сүзгіш ша жылжымайтын мүліктің тізбесінің"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "Көрініс:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "Пәтерлер ша бөлменің санының"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "сұрыпта-"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "Аудандар"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "Жайлау"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "Орталық"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "Орталық"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Метро"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "Баға"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr "Жалда-"
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "Толық ақпарат"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "Мекенжай:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "Бөлмелердің:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "Жатын бөлменің жерлерінің:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "м. \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "\""
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "Ортақ ақпарат"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "Карта"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "Жылжымайтын мүліктің карточкасы"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Предыдующая"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "Келесі"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "Алыстат- жылжымайтын мүліктің карточкасының"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "Валюта"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "Баға тәуліктерде:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "Баға айда:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- еркін"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- броньды"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- жалда-"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- броньды сендермен"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- жалда- сендермен"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- сырттың бағасының"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- заблокировано"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- бәсіре"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "Аудан:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "Қабат:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Сипаттама:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "Еңбекпен қамту:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "Ауыз-үй"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "Теледидар"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "Телефон"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "Музыкалық орталық"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "Интернет"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "Кондиционер"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "Стиральная машина"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "Көрсетілген"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "Ай"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "Күн"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "Аудандарды ша нешінші сұрыпта- тізбеден деген таңдап ал- өтуге керекке"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "Ша нешінші сұрыпта- метроның бекетінің тізбесінен деген таңдап ал- өтуге керекке"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "Жылжымайтын мүліктің №карточкалары"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "өмір сүрмейді"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "көрсетілген"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "көрсетілген"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "жылжымайтын мүліктің тізбесін қайтарады. limit мүмкін 1 до 100. ша умолчанию - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "пәтердің таспасы ізденістің роботтарының"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "пәтердің сұрақ-жауабы ізденістің роботтарының"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "Квартира/дом/комната қосы жалға тапсырады"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "қала"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "аудан"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "метроның бекеті"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "мекенжай"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "құн"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "күнде"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "қабаттардың"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "бөлмелердің"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "кереуеттердің"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "түсініктеме"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "метроның және ауданның тізбесін ара тәуелділік от қаланың қайтарады"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "сұрақ-жауапты ша жылжымайтын мүлікке сақтайды. id=0 - жаңаны жасаса"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "Ақпарат өзгерілген болды"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "сұрақ-жауапты ша жылжымайтын мүлікке алыстатады"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr "жер үшін автокомплитера"
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "Модуль"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "Тест пәтер"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "Тестілік RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") // css --асинхронды тие-"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "Ол осы сайт үшін керек"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "Бас сіздің JavaScript отключен"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "JavaScript сіздің браузеріңіздің күйтте- ішіне ал-"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "КӨҢІЛ!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "Пәтердің тізбесі"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "жаңала-"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "КӨҢІЛ! Сендердің браузерің осы сайт үшін аса үлкен. Оны ақыл қосамыз"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "Жалғастыр- на өзін қорқынышты және тәуекелді"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "!-- кесте нешіншіге аддендумнің плагины сұғыну болады. Плагину білу сұра- ғана элементтің идентификаторын нешіншіге ол сұғынады. Плагин өзінің денесін көрсетілген элементтің адағына(append) оған сұғындырады. Ақырында бір контейнерге салу болады неше угодно плагинов біртіндеп"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "Валюта:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "Қате №"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "оверлейдің тарихы бос"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "- ағымдық оверлей хешу қайту білмеймін сай келме-"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "уже тағайынды"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "event: уақиға"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "Қате:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "Жап-"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "Қате!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "Сау санды кіргіз-"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "Заттай санды кіргіз-"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "Қабат превышать қабаттың санының керек"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "Қабатты және қабаттың санын кіргіз-"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "Натурал санды кіргіз-"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "Натурал санды больше 0 кіргіз-"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "Заттай салмақты санды кіргіз-"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "Құнды қарақшылы кіргіз-"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "Құнды: екі белгі кейін үтірдің кіргіз-. Айталық: 100.22 немесе 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "Тым бы бір түртіндіні кіргіз-"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr "Күніні кіргіз-"
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "e - mail кіргіз-"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "Логина форматы: e - mail немесе телефон, айталық: +7(921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr "Уақыттың диапазоны 0 до 23 сағат үшін"
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr "Уақыттың диапазоны 0 до 59 минуттар үшін"
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "Шартты белгі емес кемірек 6 түртіндінің болуға керек"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "Шартты белгілер түйіспейді"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "Енгізу дұрыс"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "-- таңдап алмаппын --"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "Деректерлер сақта-"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "Алыстат-"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "form(\" командасы бол-"
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "Сақта-"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "Барлық егістіктер дұрыс толтыр-"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "ойдағыдай бітті"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "Аулақтау"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "алыстату болмайды"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "Сендер ақиқаттық алыстату қалайсыңдар"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "list: опасыз команда '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "Үсте-"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "&#8680; жазба"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'сүзгіш\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'сұғындыр-\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'үсте-\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'редактировать\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'алыстат-\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Анықтағыштың жолының аулақтауы"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "Сендер жолды ақиқаттық алыстату қалайсыңдар?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'.\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "&#x3c;Пред"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "x3e ізі&#;"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "Бүгін"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "Қаңтар"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "Ақпан"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "Маусым"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "Мамыр"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "Наурыз"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "Сәуір"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "Август"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "Шілде"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "Қыркүйек"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "Қараша"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "Қазан"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "Желтоқсан"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "Фев"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "Янв"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "Апр"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "Июн"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "Мар"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "Авг"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "Дек"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "Июл"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "Сырқырай"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "Окт"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Сен"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "бейсенбі"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "жұма"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "дүйсенбі"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "сенбі"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "сәрсенбі"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "жексенбі"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "сейсенбі"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "сбт"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "втр"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "пнд"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "срд"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "чтв"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "птн"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "вск"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Пт"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "Вс"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Вт"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Чт"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Сб"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Ср"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Дүйсенбі"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "Емес"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "Осы браузер ajax технологиясын қолдамайды"
+

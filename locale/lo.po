@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "ກະລຸນາໃສ່: ການຊ່ວຍເຫຼືອ app \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - ອັບເດດໄຟລ໌ການແປພາສາ"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins -. ເສັ້ນແຕ່ລະທ້ອງຖິ່ນ / * po.s writes ທ້ອງຖິ່ນ / * ຕູ້ໄປສະນີ msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - ໄຟລ໌ການແປພາສາ ​​kompilliruet ໃນທ້ອງຖິ່ນອ່ານໄດ້ທີ່ www / / * json."
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "ໄຟລ໌ຫົວຂໍ້ / dir. [Directory] ​​- ສໍາເນົາໄຟລ໌ຫຼືສາລະບົບກະທູ້ໄດ້"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - clears ຖານຄວາມຈໍາຂອງ"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "ການຄວບຄຸມ - ຈໍານວນຂອງການຄວບຄຸມການ"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "ຊື່ pl - ສ້າງ plugin skel ແຟ້ມທີ່"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - ບັນຊີລາຍຊື່ຂອງ plugins ຕິດຕັ້ງ"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "pll - ບັນຊີລາຍຊື່ຂອງ plugins ທັງຫມົດເປັນ"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "ຊື່ pli - ຕິດຕັ້ງ plugin ໄດ້"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". ການຕິດຕັ້ງໃຫ້ເຂົາເຈົ້າທັງຫມົດ?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "ຊື່ $ ຂຶ້ນກັບ"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "ຊື່ plu - ຖອນການຕິດຕັ້ງ plugin ໄດ້"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". ຖອນການຕິດຕັ້ງໃຫ້ເຂົາເຈົ້າທັງຫມົດ?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "ຊື່ຈາກ $ ຂື້ນຢູ່ກັບ"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "ຊື່ pldel - ດ້ານຮ່າງກາຍ removes ສຽບໄດ້"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "Plugin `ຊື່ $` ທີ່ບໍ່ມີ \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "ເອົາສຽບ `ຊື່ $`?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "newname ຊື່ plrn - rename plugin ໄດ້"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "ດໍາເນີນການ - ດໍາເນີນການຄໍາຮ້ອງສະຫມັກໃນ console ໄດ້"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "ເລີ່ມ - ຈະເລີ້ມໃຊ້ http server-ການ"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "ຢຸດ - ຢຸດໃຊ້ http server-ການ"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "restart - restart ຄໍາຮ້ອງສະຫມັກ http server-ການ"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "ສະຖານະພາບ - ສະຫນອງຂໍ້ມູນກ່ຽວກັບຄໍາຮ້ອງສະຫມັກ http server-"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "Handlers ສະຖານະພາບ PID \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "ແລ່ນພະນັກງານ \ $ $ pid n"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "$ ພະນັກງານ \ n ເຣັດໄດ້"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "cron - writes conf ແມ່ແບບ / crontab ໃນ crontab"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "[test1 test2 ... ] ທົດສອບ - ດໍາເນີນການກວດການ. ສໍາລັບຕົວຢ່າງເຊັ່ນ: ການທົດສອບ app realtyList ຕົວແບບ"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "ທ່ານບໍ່ສາມາດກໍານົດທົ່ງນາ unused, ເນື່ອງຈາກວ່າການທົດສອບໄດ້ລຶບບັນທຶກທັງຫມົດຈາກຕາຕະລາງ $ \ n"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "ຕາຕະລາງ Unused: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "ນາ Unused: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "Gen ຕາຕະລາງ kol_zapisey - ເພີ້ມຂໍ້ມູນ Random ເຂົ້າໄປໃນຕາຕະລາງ specified ໄດ້"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - ແມ່ນເພື່ອການໂຫຼດຂໍ້ມູນເຂົ້າຖານຂໍ້ມູນຈາກການ / conf / * json."
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "json ເສຍຫາຍໃນ $ ໄຟລ໌ \ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - ສໍາເນົາ * json ໄດ້ທີ່ www ການກວດ / / ex.html ໃນ / conf / * json.."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "ຊ່ວຍເຫຼືອ - ການຊ່ວຍເຫຼືອນີ້"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "ທີມງານ `ໄດ້ $ cmd` ບໍ່ໄດ້ສະຫນັບສະຫນູນ \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "ຄໍາສັ່ງນີ້ຮຽກຮ້ອງໃຫ້ເຖິງ $ $ n ຕົວກໍານົດການ u, ແລະທ່ານຜ່ານໄດ້ $ k \ n"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "ຄໍາສັ່ງນີ້ຮຽກຮ້ອງໃຫ້ສັ່ງ $ n, ແລະທ່ານຜ່ານໄດ້ $ k \ n"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "ເຄື່ອງບໍລິການບໍ່ໄດ້ແລ່ນ \ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "ເຄື່ອງບໍລິການແມ່ນຖືກຢຸດເຊົາ \ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "ຜົນໄດ້ຮັບບັນຊີລາຍຊື່ຂອງການສຽບ ins-a"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "ຜົນໄດ້ຮັບບັນຊີລາຍການຄວບຄຸມແຕ່ຢູ່ໂຄນ"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "ທີ່ເນັ້ນການຄວບຄຸມແບບທະວີຄູນ"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "ພິສູດ - ບໍ່ວ່າຈະຄວບຄຸມ specified ໄດ້"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "ນີ້ຈະເກີດຫຍັງຂຶ​​້ນຫຼັງຈາກລູກຄ້າໄດ້ຖ້າຫາກຊຸມຄັ້ງນີ້ແມ່ນ"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "ຢຸດຂະບວນການກໍາມະກອນ№ $"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "ຂ້າພະເຈົ້າບໍ່ສາມາດຢຸດຂະບວນການກໍາມະກອນ№ $"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "ຢຸດຂະບວນການ№ cron $ (cron)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "ຂ້າພະເຈົ້າບໍ່ສາມາດຢຸດຂະບວນການ№ cron $ (cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "ບໍ່ສາມາດງານຄວາມຍາວຂອງສ້ອມ \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "ບໍ່ detach ຈາກຕໍາແຫນ່ງປາຍຍອດ \ n"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "ຄວາມຍາວຂອງສ້ອມສົບຜົນສໍາເລັດທີ່ມີຄວາມຜິດພາດ"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "ບໍ່ສ້າງ cron. ຜິດພາດ m% ຄວາມຍາວຂອງສ້ອມ"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "handlers ແລ່ນ:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "ຂ້າພະເຈົ້າບໍ່ສາມາດກໍານົດ SIGHUP handler ໄດ້"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "ຂ້າພະເຈົ້າບໍ່ສາມາດຕິດຕັ້ງ Handler SIGTERM"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "m% ຜິດພາດ pcntl_waitpid"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "handler kid ສໍາເລັດ№ $"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", ສະຖານະ: ສະຖານະພາບ $. ຟື້ນຕົວ"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "ຄວາມຍາວຂອງສ້ອມສົບຜົນສໍາເລັດມີ m% ຜິດພາດ"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "handler kid ເລີ່ມ№ $"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket_accept m% ສົບຜົນສໍາເລັດ"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `ສໍາຄັນ $` ບໍ່ສາມາດຈະ return NULL ກັບມາ"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": No ຊັບສິນ `$ ສໍາຄັນ`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "ຊື່ $ ຄວບຄຸມ `` ຖຶກເພີ່ມແລ້ວ. Rewrite"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "ຜູ້ບໍລິຫານ"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "ຊື່ $ ຄວບຄຸມ `` ບໍ່ໄດ້ພົບ"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "ຜູ້ໃຊ້ໄດ້ authenticated"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "ຄວາມພະຍາຍາມມີການປ່ຽນແປງຮູບແບບຜູ້ອື່ນໄດ້"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "ການເຂົ້າເຖິງຊື່ $ ຄວບຄຸມ `ຂອງ` ທີ່ບໍ່ມີ"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "ການເຂົ້າເຖິງບ່ອນ `$ ເຂົ້າ` ໃນຊື່ $ ຄວບຄຸມ `ຂອງ`"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "ຜູ້ໃຊ້ບໍ່ໄດ້ authenticated"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "ການປະຕິບັດການ `$ OP` ຕອງ `ທີ່ສໍາຄັນ $` ບໍ່ໄດ້ຮັບອະນຸຍາດ"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "A ລະບົບບັນຊີລາຍການຊ່ອຍແນ່«ຊື່ $ »"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "ລະບົບເສັ້ນ«ຊື່ $ »"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "ປະຢັດລະບົບຊ່ອຍແນ່«ຊື່ $ »"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "Deleting ລະບົບຕິດຕໍ່ກັນ«ຊື່ $ »"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "ຕາຕະລາງ"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "ອີເມລ໌ບໍ່ໄດ້ສົ່ງ"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "ຊື່ຜູ້ໃຊ້ບໍ່ຖືກຕ້ອງຫລືລະຫັດຜ່ານ"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "plugin `ດາວໂຫຼດຊື່ $` ບໍ່ໄດ້ເຊື່ອມຕໍ່"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "plugin `ດາວໂຫຼດຊື່ $` ແມ່ນເພິ່ງພາອາໄສ unmet `$ dep`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "Plugin `ຊື່ $` ແມ່ນໄດ້ຕິດຕັ້ງແ​​ລ້ວ"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "Plugin `ຊື່ $` ແມ່ນ uninstalled"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "ຈາກຊື່ $ ສຽບ `ຂອງ` ຂຶ້ນກັບສຽບ ins:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "ມີແລ້ວເປັນ `$ name2` - ບໍ່ສາມາດ renamed"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "Plugin `ທາງ $` ລາຄາ:"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "Plugin `$ ຊື່` ທີ່ບໍ່ມີ"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "ຊັບສິນໄດ້ທີ່ຫ້ອງຮຽນ SMS ຄວນຈະມີຂບວນການ"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "ຊັບສິນໄດ້ທີ່ຫ້ອງຮຽນ SMS ຕ້ອງໄດ້ຮັບການສໍາເລັດກ່ອນທີ່ຈະສົ່ງ"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "ຈໍານວນຮັບຜິດຮູບແບບ $ v"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "ຊັບສົມບັດທີ່ຫ້ອງຮຽນຄວາມ SMS ຈະຕ້ອງຊ່ອຍແນ່"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "ຊັບສົມບັດທີ່ຫ້ອງຮຽນຄວາມ SMS ຄວນຈະບໍ່ມີຫຼາຍກ່ວາ 256 ລັກສະນະ"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "SMS ສົ່ງຂໍ້ຜິດພາດ, ບໍ່:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "ມີຊາຍແດນໃນເນື້ອຫາປະເພດ-ບໍ່ແມ່ນ"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ $ ໄຟລ໌ \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "ໄຟລ໌ `ໄຟລ໌ $` ສໍ້ - msgid ກ່ອນ msgstr ບໍ່ມີ. ແຖວ $ i \ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "ໄຟລ໌ `ໄຟລ໌ $` ເສຍຫາຍ. ແຖວ $ i \ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgid ໂດຍບໍ່ມີການ msgstr. ແຖວ $ i \ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "ຕົວກໍານົດການ `$ ສໍາຄັນ` ບໍ່ແມ່ນປະເພດ $ ປະເພດ `ຂອງ`"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "ຈະຕ້ອງ integer ເປັນ"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "ຄວນຈະເປັນທໍາມະຊາດໄດ້"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "ເງິນພຽງແຕ່ສາມາດມີ 2 ສະຖານທີ່ແບບຄວາມນິຍົມ"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "ເງິນບໍ່ສາມາດຈະກະທົບທາງລົບ"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "ກໍານົດຕົນຕົວ - ເປັນຈໍານວນທໍາມະຊາດຫຼາຍຂຶ້ນກວ່າ 0"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "ລະຫັດຜ່ານຈະຕ້ອງຫຼາຍກ່ວາຫຼືເທົ່າກັບ 6 ລັກສະນະ"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "ທ່ານເຂົ້າໃນອີເມລ໌ທີ່ຜິດພາດ"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "ໂທລະສັບຮູບແບບ: + ຈໍານວນຕົວເລກ (ຈໍານວນໂຕ) ແຍກອອກໂດຍ dash ໄດ້. ສໍາລັບຕົວຢ່າງ: +7 (921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "ນີ້ບໍ່ແມ່ນໄຟລ໌ໄດ້"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "ໄຟລ໌ເປັນຕົວກໍານົດການມີບໍ່ມີ"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "ນີ້ບໍ່ແມ່ນວັນທີ"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "ຊື່ຈະຕ້ອງຢູ່ຢ່າງຫນ້ອຍຫນຶ່ງມີລັກສະນະ"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "ຊື່ນະຄອນຂອງຄວນຈະເປັນຢູ່ຢ່າງຫນ້ອຍຫນຶ່ງມີລັກສະນະ"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "ບໍ່ມີຄໍາວ່າຄໍາສັ່ງນີ້: field1 [desc], field2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "ຂອບເຂດຈໍາກັດບໍ່ສາມາດຈະມີຫຼາຍຂຶ້ນກ່ວາ 100 ແລະຫນ້ອຍກ່ວາ 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "ຊື່ຄໍາສັ່ງທີ່ຕ້ອງເລີ່ມຕົ້ນດ້ວຍສ່ວນລວມຫລືສາຂອງຕົນເອງ"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "ການບໍລິການ"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 ເດືອນ"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 ເດືອນ"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Deselect ປະຕິທິນຂອງ"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "ຕັນເປັນໄປໄດ້ຂອງ booking ເປັນຈໍານວນທີ່ເລືອກ"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "Unlock ຄວາມເປັນໄປໄດ້ຂອງການ booking"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "ຕັ້ງລາຄາຕໍ່ມື້ຈາກການພາກສະຫນາມກ່ຽວກັບຊ້າຍຂອງໄລຍະເວລາທີ່ເລືອກໄດ້"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "ການປ່ຽນແປງລາຄາສໍາລັບວັນທີທີ່ເລືອກໄດ້"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "ເອົາເທົ່າໃດກໍ່ຕາມ"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "ກົດ"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "ກົດ shift +"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- ເລືອກເອົາຫຼື removes ເປັນໄລຍະ ໆ ມື້"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "ກົດ + CTRL + shift"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- ເລືອກ / ຍ້າຍຊ້າຍ"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "ຄລິກ + ALT"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- ເລືອກ / ປົດສິດໃນການ"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- ເລືອກທັງຫມົດຫຼືເປັນໄລຍະ ໆ ຢ່າງຈະແຈ້ງລະຫວ່າງໄລຍະຫ່າງ"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "ປື້ມບັນທຶກເປັນ"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "ປື້ມບັນທຶກ"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "ສະຫງວນໄວ້ທີ່"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "ທີ່ຢູ່"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "ຊື່ຂອງທ່ານ"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "ຈໍານວນຂອງຜູ້"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "ວັນທີຂອງການມາເຖິງ / ອອກເດີນທາງ"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "ນອກຈາກນັ້ນ"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "ສົ່ງ"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "ແບບຟອມການສັ່ງຈອງແມ່ນແລ້ວ. ທີ່ນີ້ຂອງທ່ານແມ່ນ"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "ສັນຍາເຊົ່າ"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "ທ່ານ"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "ທ່ານຕ້ອງລົງທະບຽນເພື່ອສົ່ງການຮ້ອງຂໍການສັ່ງຈອງໄດ້"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "ຄໍາຮ້ອງສະຫມັກ"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "ຊີ້ໃຫ້ເຫັນໄລຍະເວລາ"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "ເລືອກໄລຍະເວລາລັອກ"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "ລະດັບການຄັດເລືອກ captures ໄລຍະຫ່າງທີ່ມີຄ່າໃຊ້ຈ່າຍໃນການຕິດຕັ້ງໄດ້. ລາຄາພຽງແຕ່ສາມາດມີການປ່ຽນແປງ"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "ລາຄາມີການປ່ຽນແປງ"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "ໃຫ້ຄລິກໃສ່ວັນທີທີ່ມີລາຄາ"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "ເລືອກໄລຍະເວລາ"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "ຂໍຈອງ"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "ຂາຍປີ້ຂອງຊັບສິນ"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "ສຸດໄລຍະເວລານີ້ເຮືອນແມ່ນ booked"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "ທ່ານມີການສັ່ງຈອງໃຫມ່ຢູ່"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "ຍົກເລີກການສັ່ງຈອງສໍາລັບຊັບສິນໃນ"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "ທ່ອນໄມ້ຂາຍປີ້ໄດ້"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "ຈະກໍ່ສ້າງໃນລາຄາທີ່ແຕກຕ່າງກັນສໍາລັບໄລຍະເວລາການ"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "ການປ່ຽນແປງລາຄາອື່ນໆ"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 ວັດຖຸ"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 ລາຍການລາຍການ 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 ລາຍການລາຍການ 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 ຂອງ 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "ບໍ່ໄດ້ຕິດຕັ້ງ 03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "ບໍ່ໄດ້ຕິດຕັ້ງ 02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "ກໍານົດ 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "ຈະ 8.6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "ເລືອກ = 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "ການຄັດເລືອກທີ່ຫ້ອງຮຽນ"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "ຫ້ອງປະຈໍາຕະກູນ"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "ການຄັດເລືອກສະມາຊິກຫ້ອງຮຽນ"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "ທີ່ຫ້ອງຮຽນແຕ່ລະຫ້ອງ double"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "ການສັກຢາ 08, ໄລຍະເວລາຂອງການ 6.7"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "ເງິນສົດ"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "ຜົນບວກ"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "ທີ່ໃຊ້ເວລາ"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "ປະເພດການຊໍາລະເງິນ"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "ຊທີ່ແທ້ຈິງ"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Payer"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Cashier"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "ຊື່"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "ບັນເທີງ"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "ລາຍລະອຽດ"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "ຕື່ມການເຫັນ"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "ຄໍາເຫັນ"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "ຄໍາເຫັນບັດສໍາລັບການຊທີ່ແທ້ຈິງກັບຄືນ"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "ເພີ້ມຄໍາເຫັນສໍາລັບຊທີ່ແທ້ຈິງໄດ້"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "ລຶບຄໍາເຫັນສໍາລັບຊັບສິນ"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "ການທົດສອບຄວາມເຫັນ"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "ຫ້ອງການເອກະຊົນ"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "ອອກຈາກການ"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "ຂໍ້ມູນສ່ວນບຸກຄົນ"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "ວັດສະດຸປ້ອນ"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "ເຂົ້າເຖິງ"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "ຟື້ນຟູລະຫັດຜ່ານ"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "ອີເມລຫຼືເບີໂທລະສັບ:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "ຈືຂໍ້ມູນການ"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "ລະຫັດຜ່ານ:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "ກະລຸນາໃສ່"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "ກະລຸນາໃສ່ອີເມລຂອງທ່ານ:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "ກະລຸນາໃສ່ຈໍານວນໂທລະສັບຂອງທ່ານ:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "ທ່ານຈະຖືກສົ່ງອີເມລຫຼືລະຫັດຜ່ານ SMS ຫນຶ່ງທີ່ໃຊ້ເວລາ. ມີການປ່ຽນແປງລະຫັດຜ່ານໃນທັນທີຫຼັງຈາກການຕັດໄມ້"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "ມີການປ່ຽນແປງລະຫັດຜ່ານຊົ່ວຄາວຂອງທ່ານ"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "ລະຫັດຜ່ານຊົ່ວຄາວຂອງທ່ານມີຈິງເທົ່ານັ້ນຈົນກ່ວາໃນຕອນທ້າຍຂອງກອງປະຊຸມໄດ້. ມີການປ່ຽນແປງໃນປັດຈຸບັນມັນ"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "ລະຫັດຜ່ານໃຫມ່:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "ລະຫັດຜ່ານໃຫມ່:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "ການແລກປ່ຽນ"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "ຫຼັກ"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "ມີການປ່ຽນແປງລະຫັດຜ່ານຂອງ"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "ຊື່ຂອງທ່ານ:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "ໂທລະສັບ:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "ລະຫັດຜ່ານເກົ່າ:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "ຈົດຫມາຍສົ່ງໄປໃຫ້"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS ທີ່ສົ່ງໃຫ້"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "ການສ້າງຜູ້ໃຊ້ເປັນ"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "ການຟື້ນຟູລະຫັດຜ່ານ"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<li> CapsLock ສຸດ - ຈົດຫມາຍປະເພດ"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "ແປ້ນພິມພາສາລັດເຊຍ <li>"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "ລະຫັດຜ່ານການປ່ຽນແປງຢ່າງສໍາເລັດຜົນ"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "ການປ່ຽນແປງລະຫັດຜ່ານຂອງ"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "ເຂົ້າຂອງຜູ້ໃຊ້ໃນ"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "ເຂົ້າໄປ"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "ມີການປ່ຽນແປງລະຫັດຜ່ານຂອງທ່ານ"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "ລະຫັດຜ່ານເກົ່າບໍ່ຖືກຕ້ອງແມ່ນ"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "ສ້າງບັນຊີໃຫມ່ຫຼືຟື້ນຟູລະຫັດຜ່ານ"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "ລະຫັດຜ່ານຊົ່ວຄາວຂອງທ່ານແມ່ນ: $ ລະຫັດຜ່ານ"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "ຂໍ້ມູນກ່ຽວກັບການກັບຄືນຜູ້ໃຊ້"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "ຂໍ້ມູນກ່ຽວກັບການກັບຄືນຢູ່ໃນລະບົບສະມາຊິກຂອງ"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "ມີການປ່ຽນແປງຂໍ້ມູນຂ່າວສານກ່ຽວກັບການຢູ່ໃນລະບົບສະມາຊິກໄດ້"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "ການຈ່າຍເງິນບັດ"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "ແບບຟອມການຈ່າຍເງິນ"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "ຈໍານວນການຈ່າຍເງິນ"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "ລາຍລະອຽດການຊໍາລະເງິນ"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "ຊື່ຜູ້ໃຊ້"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "ຈໍານວນການຊໍາລະເງິນ"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "ການສັ່ງຈອງນໍາຈ່າຍເງິນທາງອອນລາຍ."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "ການຈ່າຍເງິນອອນໄລນ໌"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "ຈໍານວນການສັ່ງຈອງແມ່ນບໍ່ຜ່ານ"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "ລະບົບການຈາກພາຍນອກທີ່ອ້າງອີງເຖີງຫາ cfm ນີ້ຈະມີການປ່ຽນແປງສະຖານະພາບການຊໍາລະເງິນຂອງທ່ານ"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "ບໍ່ຖືກຕ້ອງ IP IP ຂອງຜູ້ສົ່ງທີ່ຈໍາເປັນ:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "ຕົວກໍານົດການຜ່ານອອກຈາກລະບົບການຈ່າຍເງິນແມ່ນບໍ່"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "ຮ້ານ identtifikator ບໍ່ຖືກຕ້ອງ"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "ຈໍານວນການຈ່າຍເງິນ"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "reception ຂອງຄວາມຜິດພາດການຈ່າຍເງິນ: ຄວາມຕ້ອງການຈ່າຍເງິນບໍ່ຖືກຕ້ອງ hash"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "reception ຂອງຄວາມຜິດພາດການຈ່າຍເງິນ: ການຈ່າຍເງິນ hash ບໍ່ຖືກຕ້ອງ"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "reception ຂອງຄວາມຜິດພາດການຈ່າຍເງິນ: ຂໍ້ມູນບໍ່ຖືກຕ້ອງໄດ້ຮັບການ:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "ຂໍ້ມູນພາຍໃນ:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "reception ຂອງຄວາມຜິດພາດການຈ່າຍເງິນ: ຂໍ້ມູນບໍ່ຖືກຕ້ອງໄດ້ຮັບການ."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "ໄລຍະເວລາໃດຫນຶ່ງ"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "ຢູ່:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "ການຈ່າຍເງິນຍອມຮັບສໍາລັບການຈໍານວນການສັ່ງຈອງໄດ້"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "ເກາະຈ່າຍເງິນ"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "ສ້າງຮູບແບບການບໍລິການເງິນ"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "ການທົດສອບ"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "ຈໍານວນການສັ່ງຈອງການຈ່າຍເງິນ"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "ຈໍານວນການສັ່ງຈອງການຈ່າຍເງິນ $ ເກາະ> id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "ExternalPayments ການທົດສອບ"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "ການທົດສອບການຈ່າຍເງິນປະຈໍາຕະກູນ"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Sergey"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "ອັບໂຫຼດຮູບໃດຫນຶ່ງ"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "ຮູບພາບ"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "Drag ຮູບພາບການປ່ຽນແປງຕໍາແຫນ່ງຂອງຕົນໃນບັນດາຮູບພາບອື່ນໆຂອງ"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "ລຶບຮູບພາບທີ່"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "ທ່ານກໍ່ຕ້ອງການລຶບຮູບພາບນີ້ບໍ່?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "ມີຄວາມຜິດພາດ! ດາວໂຫຼດຮູບພາບ"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "ຮູບພາບໄດ້ອັບໂຫຼດ. ບາງທີອາດຈະເປັນຂະຫນາດໃຫຍ່ເກີນໄປ."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "ຫນ້າປອດໄພ"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "ຊື່ສາມັນຮູບພາບ. ຈໍານວນຜິດພາດ"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "ປະຢັດຊັບຮູບພາບ"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "ລຶບຮູບພາບຊັບ"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "ຮູບພາບດິຈິຕອນຂອງການຊທີ່ແທ້ຈິງ"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "ກວດຄວາມພ້ອມຂອງຫນັງສືຜ່ານແດນຕ່າງປະເທດຂອງພົນລະເມືອງຂອງລັດເຊຍ"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "·ກວດເບິ່ງຄວາມຖືກຕ້ອງຂອງຫນັງສືຜ່ານແດນຂອງພົນລະເມືອງຂອງສະຫະພັນລັດເຊຍເປັນໄດ້"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "ກວດເບິ່ງຫນັງສືເຊີນຂອງຕົນ"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "Petersburg St."
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "ການບໍລິການ"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "ການບໍລິການຕາມຄໍາສັ່ງໂດຍການລູກຄ້າ"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "ຂໍ້ມູນຂ່າວສານກັບວ່ອງໄວ"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "ຂໍ້ຄວາມຖືກສົ່ງໄປໃຫ້ກັບພະນັກງານ"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "ໂທລະສັບສໍາລັບເຮົາ"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "ບຸກຄະລາກອນບໍລິການ"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "ຂໍ້ມູນສໍາລັບການຮ້ານແຈ້ງການ"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "ກັບຄືນຟຣີ on ຊທີ່ແທ້ຈິງ"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "ຂໍ້ມູນສໍາລັບການລຶບແຈ້ງການ"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "ການດໍາເນີນການຄັດ"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "ພິທີການ"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "ຜົນໄດ້ຮັບບັນຊີລາຍຊື່ຂອງການປະຕິບັດດໍາເນີນໂດຍຜູ້ໃຊ້ໄດ້"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "ເຖິງ"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "ການດັດແກ້ຫຼ້າ:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "ເມືອງ:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Metro:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "ນອກ"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 ຫ້ອງ"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "ການດັດແກ້ຫຼ້າ 2"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 ຫ້ອງ"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "ຫຼາຍກວ່າ 3 ສະບັບພິມ"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "ເມືອງ:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "ໃຫ້ກວດເບິ່ງໃນ"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "ກວດເບິ່ງອອກ"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "ສິ່ງຂອງທັງຫມົດ"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "ຊື່ຜູ້ຂອງຂ້າພະເຈົ້າ"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "novelty ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "ໂດຍລາຄາ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "ຕື່ມການຊັບສິນເປັນ"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "ການກັ່ນຕອງບັນຊີລາຍຊື່ຂອງຄຸນສົມບັດການ"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "ເບິ່ງ:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "ນອກໂດຍຈໍານວນການດັດແກ້ຫຼ້າ"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "ຈັດລຽງ"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "ເມືອງ"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "ສະຖານທີ່"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "ສູນ"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "ອ້ອມຮອບຕົວເມືອງ"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Metro"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "ລາຄາ"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "ຂໍ້ມູນຂ່າວສານຄົບຖ້ວນສົມບູນ"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "ທີ່ຢູ່:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "ການດັດແກ້ຫຼ້າ:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "ຕຽງ:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "ຂໍ້ມູນທົ່ວໄປ"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "ແຜນທີ່"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "ບັດຊັບສົມບັດ"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Prev"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "ຕໍ່ໄປ"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "ລຶບຊັບບັດ"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "ສະກຸນເງິນ"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "ລາຄາຕໍ່ໃນຕອນກາງຄືນ:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "ລາຄາຕໍ່ເດືອນ:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- ຟຣີ"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- ສະຫງວນລິຂະ"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- ດິນໃຫ້ເຊົ່າ"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- ທ່ານ booked"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- ເຊົ່າໂດຍທ່ານ"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- ອີກບັນຫາຫນຶ່ງລາຄາ"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- Lock"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- ເນັ້ນຫນັກໃສ່"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "ເມືອງ:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "ຊັ້ນ:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Description: ທີ່ນີ້"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "ການຈ້າງງານ:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "ເຮືອນຄົວ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "ໂທລະພາບ"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "ໂທລະສັບ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "ສູນດົນຕີ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "ອິນເຕີເນັດ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "ສະບາຍອາກາດ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "ຊັກເຄື່ອງ"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "ບໍ່ລະບຸ"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "ເດືອນ"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "ມື້"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "ເລືອກຈາກບັນຊີລາຍຊື່ຂອງເຂດໃນທີ່ຜ່ານ sorting"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "ເລືອກຈາກບັນຊີລາຍການຂອງສະຖານີ metro ເຊິ່ງຕ້ອງຜ່ານຄັດ"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "ບັດຈໍານວນສິນ"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "ບໍ່ມີ"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "ບໍ່ລະບຸ"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "ກັບໄປທາງເທີງ"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "ຜົນໄດ້ຮັບບັນຊີລາຍຊື່ຂອງການຊທີ່ແທ້ຈິງໄດ້. ຂອບເຂດຈໍາກັດສາມາດມາຈາກການທີ 1 ເຖິງ 100. ໃນຕອນຕົ້ນ - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "ນອກ Tape ສໍາລັບເຄື່ອງຈັກໃນການຊອກຫາ"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "ຂໍ້ມູນສໍາລັບການແປເຄື່ອງຈັກຊອກຫາ"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "ສໍາລັບດິນໃຫ້ເຊົ່າແປ / ເຮືອນ / ຫ້ອງໃຫ້ເຊົ່າ"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "ນະຄອນ"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "ເນື້ອທີ່"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "ສະຖານີ subway"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "ທີ່ຢູ່"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "ມີລາຄາຖືກ"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "ຕໍ່ມື້"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "ພື້ນ"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "ການດັດແກ້ຫຼ້າ"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "ຕຽງ"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "ຄໍາຄິດຄໍາເຫັນ"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "ຜົນໄດ້ຮັບບັນຊີລາຍຊື່ຂອງເຂດ metro ແລະຂຶ້ນກັບເມືອງ"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "ເຮັດ profile ສຸດຊທີ່ແທ້ຈິງ. ຖ້າ id = 0 - ສ້າງໃຫມ່"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "ຂໍ້ມູນຂ່າວສານໄດ້ຮັບການປ່ຽນແປງ"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "removes ບົດບາດຂອງຊທີ່ແທ້ຈິງຂອງ"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "ລະຫັດ"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "ນອກທົດສອບ"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "RealtyList ການທົດສອບ"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr "ໂຫຼດ css Asynchronous) / / -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "ມັນເປັນສິ່ງຈໍາເປັນສໍາລັບເວັບໄຊນີ້"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript ເປັນຜູ້ພິການ"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "ກະລຸນາເຮັດໃຫ້ JavaScript ໃນ browser ຂອງທ່ານ"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "ຄໍາເຕືອນ!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "ບັນຊີລາຍຊື່ຂອງນອກ"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "ສະ"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "ຄໍາເຕືອນ! ຕົວທ່ອງເວັບຂອງທ່ານມີອາຍຸເກີນໄປສໍາລັບເວັບໄຊນີ້. ແນະນໍາໃຫ້ມັນ"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "ສືບຕໍ່ຢູ່ໃນຄວາມສ່ຽງຕໍ່ການຂອງທ່ານເອງ"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- ຕາຕະລາງທີ່ຈະຖືກ inserted ເຂົ້າໄປໃນ plugins ຄໍາຮ້ອງສະຫມັກ. plugin ຕ້ອງໄດ້ຮູ້ວ່າ ID ຂອງອົງປະກອບທີ່ມັນ inserted ໄດ້. ສະແດງກິ່ງງ່າສຽບຮ່າງກາຍໃນທີ່ສຸດ (ເພີ່ມເຕີມ) ລາວ thereto ກໍານົດໄວ້. ດັ່ງນັ້ນໃນຫນຶ່ງທີ່ບັນຈຸສາມາດເຮັດໃຫ້ຈໍານວນສຽບ ins-ດຽວໃດຫນຶ່ງ -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "ສະກຸນເງິນ:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "ຈໍານວນຜິດພາດ"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "overlays ປະຫວັດການເປົ່າ"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "ຂ້າພະເຈົ້າບໍ່ສາມາດໃຫ້ກັບຄືນ - ການ overlay ໃນປະຈຸບັນບໍ່ມີຄໍາວ່າ hash ໄດ້"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "ຕິດຕັ້ງແ​​ລ້ວ"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "ກໍລະນີ: ເຫດການ"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "ຜິດພາດ:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "ປິດ"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "ມີຄວາມຜິດພາດ!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "ກະລຸນາໃສ່ integer ຫມາຍ"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "ກະລຸນາໃສ່ຈໍານວນທີ່ແທ້ຈິງ"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "ຊັ້ນບໍ່ຕ້ອງໃຫ້ກາຍຈໍານວນພື້ນທີ່"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "ກະລຸນາໃສ່ຈໍານວນພື້ນແລະພື້ນເຮືອນ"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "ກະລຸນາໃສ່ integer ຫມາຍ"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "ກະລຸນາໃສ່ integer ຫຼາຍກ່ວາ 0 ເປັນ"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "ກະລຸນາໃສ່ຈໍານວນທີ່ແທ້ຈິງໃນທາງບວກ"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "ກະລຸນາໃສ່ກັບມູນຄ່າຂອງເຂົ້າໄດ້"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "ກະລຸນາໃສ່ລາຄາ: ສອງສະຖານທີ່ແບບຄວາມນິຍົມ. ສໍາລັບຕົວຢ່າງ: 100,22 ຫຼື 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "ກະລຸນາໃສ່ຢ່າງນ້ອຍຫນຶ່ງມີລັກສະນະ"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "ກະລຸນາໃສ່ໃນ e-mail"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "ລັອກອິນຮູບແບບ: ຈໍານວນອີເມລຫຼືທາງໂທລະສັບ, ສໍາລັບຕົວຢ່າງ: +7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "ລະຫັດຜ່ານຈະຕ້ອງເປັນຢ່າງນ້ອຍ 6 ລັກສະນະ"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "ລະຫັດຜ່ານບໍ່ກົງກັບ"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "ການປ້ອນສັບ"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- ບໍ່ໄດ້ຄັດເລືອກເອົາ -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "ຂໍ້ມູນໄດ້ຖືກບັນທືກ"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "ເອົາ"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "ແບບຟອມຄໍາສັ່ງທີ່ບໍ່ມີ (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "ປົກປັກຮັກສາ"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "ທົ່ງນາທີ່ບໍ່ທັງຫມົດແມ່ນຢູ່ໃນເຕີມໄປ"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "ແມ່ນສົບຜົນສໍາເລັດ"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "ການປົດຕໍາແຫນ່ງ"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "ບໍ່ສາມາດປົດ"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "ທ່ານກໍ່ຕ້ອງການລຶບ"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "ບັນຊີລາຍຊື່: ຄໍາສັ່ງບໍ່ຖືກຕ້ອງ '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "ຕື່ມການ"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "ການບັນທຶກ⇨"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input disabled> value=\'Vstavit\' type=button"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input disabled> value=\'Redaktirovat\' type=button"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input disabled> value=\'Udalit\' type=button"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Deleting ລະບົບຕິດຕໍ່ກັນ"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "ທ່ານກໍ່ຕ້ອງການລຶບແຖວໃດ?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<ຖອຍຫຼັງ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "ຕໍ່ໄປ>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "ມື້ນີ້"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "ມັງກອນ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "ເດືອນກຸມພາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "ເດືອນມິຖຸນາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "ເດືອນພຶດສະພາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "ມີນາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "ເມສາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "ສິງຫາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "ກໍລະກົດ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "ກັນຍາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "ເດືອນພະຈິກ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "ຕຸລາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "ເດືອນທັນວາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "ເດືອນກຸມພາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "ມັງກອນ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "ເມສາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "ເດືອນມິຖຸນາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "ມີນາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "ສິງຫາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "ເດືອນທັນວາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "ກໍລະກົດ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "ເດືອນພະຈິກ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "ຕຸລາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Sen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "ວັນພະຫັດ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "ວັນສຸກ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "ວັນຈັນ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "ວັນເສົາ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "ວັນພຸດ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "ວັນອາທິດ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "ວັນອັງຄານ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Tue"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "Wed"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "Thurs"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Fri"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "ແສງຕາເວັນ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Fri"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "ແສງຕາເວັນ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Tues"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Thurs"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Wed"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Mon"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "ບໍ່ມີ"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "ຕົວທ່ອງເວັບຂອງນີ້ບໍ່ໄດ້ສະຫນັບສະຫນູນ ajax"
+

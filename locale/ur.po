@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "اے پی پی کی مدد ہے \ n: درج کریں"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "لینگ - اپ ڈیٹ کی ترجمہ کی فائلیں"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "سے langins - po.s ہر سطر مقامی / * مقامی / * لکھتا پو msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "- langcc دیکھیے ورلڈ وائڈ ویب / مقامی / * JSON میں kompilliruet ترجمہ فائل"
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "مرکزی خیال، موضوع کی فائل / دیر. [ڈائریکٹری] - فائل یا ڈائریکٹری موضوعات کاپیاں"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - کیشے صاف"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "کنٹرولرز - کنٹرولرز کی تعداد"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "PL نام - ایک پلگ ان skel فولڈر کی بنیاد پر تشکیل"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - انسٹال پلگ ان کی فہرست"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "pll - تمام پلگ ان کی ایک فہرست"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "pli نام - پلگ ان انسٹال"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". ان سب کو انسٹال کریں؟"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "نام ڈالر پر انحصار کرتا ہے"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu نام - پلگ ان انسٹال"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". ان سب کو انسٹال کریں؟"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "کا نام ڈالر سے منحصر ہے"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel کا نام - جسمانی پلگ کو ہٹا دیتا ہے"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "پلگ ان `ڈالر نام` نہیں ہے \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "پلگ `ڈالر نام` کو ہٹا دیں؟"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn نام newname - پلگ ان کا نام تبدیل"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "چلانے - کنسول میں درخواست چلائیں"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "شروع کریں - ایپلی کیشنز HTTP سرور شروع"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "روکنے - HTTP سرور ایپلی کیشنز رک جاتا ہے"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "دوبارہ شروع کرنے - ایپلی کیشنز HTTP سرور کو دوبارہ شروع کریں"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "حیثیت - ایپلی کیشنز HTTP سرور کے بارے میں معلومات فراہم کرتا ہے"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "پی آئی ڈی کی حیثیت Handlers ن \"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "پی آئی ڈی $ کارکنوں ن \ چل رہا ہے"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "$ کارکنوں ن \ جھوٹ"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "کران - crontab میں سانچے conf / crontab لکھتا ہے"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "[test1 test2 ...] ٹیسٹ - ٹیسٹ چلائیں. مثال کے طور پر: اپلی کیشن ٹیسٹ ماڈل کی realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "آپ غیر استعمال شدہ شعبوں کی وضاحت نہیں ہے، کیونکہ ٹیسٹ $ میز \ ن سے تمام ریکارڈ کو خارج کر دیا ہے"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "غیر استعمال شدہ کی میز ہے: \ n T \"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "غیر استعمال شدہ شعبوں ہے: \ n T \"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "جنرل میز kol_zapisey - مخصوص میز میں بے ترتیب اعداد و شمار جوڑتا ہے"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - / سے conf / * JSON ڈیٹا بیس میں ڈیٹا لوڈ"
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "$ فائل \ ن میں نقصان پہنچا JSON"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "کے fordb put_k_json - کاپی * JSON / conf / * JSON دیکھیے ورلڈ وائڈ ویب / امتحان / ex.html بنا دیا."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "مدد - اس کی مدد"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "`ٹیم $ سییمڈی` ہے کی سہولت مہیا نہیں ہے \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "یہ کمانڈ $ N ڈالر U پیرامیٹرز کی ضرورت ہوتی ہے، اور آپ کو ایک $ K \ ن گزر"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "یہ کمانڈ $ ن پیرامیٹرز کی ضرورت ہوتی ہے، اور آپ کو ایک $ K \ ن گزر"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "سرور ہے \ n نہیں چل رہا ہے"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "سرور ہے \ n بند کردیا گیا ہے تو"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "پلگ ان کی ایک فہرست واپس"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "اڈے سے کنٹرولرز کی ایک فہرست واپس"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "ایک سے زیادہ کنٹرولرز چلتا ہے"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "کی تصدیق - چاہے وہ مخصوص کنٹرولر"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "اس کلائنٹ کے بعد ہوتا ہے اگر سیشن ہے"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "عمل کارکن ڈالر № روک دیا"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "میں اس عمل کو روکنے کارکن ڈالر № نہیں کر سکتے ہیں"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "عمل № ڈالر کرون (کران) روک دیا"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "میں عمل کو روک نہیں سکتے № ڈالر کرون (کران)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "فورک \ ن پھانسی نہیں کیا جا سکتا"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "ٹرمنل \ ن سے نہیں جدا"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "کانٹا خامی کے ساتھ میں ناکام رہے"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "کران نہیں پیدا کیا. خرابی کانٹا٪ میٹر"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "چل رہا ہے handlers:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "میں ہینڈلر SIGHUP مقرر نہیں کر سکتے"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "میں SIGTERM ہینڈلر کو انسٹال نہیں کر سکتے"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "خرابی pcntl_waitpid٪ میٹر"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "مکمل ہینڈلر بچے ڈالر №"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr "، درجہ: حیثیت $. بازیافت"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "کانٹا٪ میٹر میں خرابی کے ساتھ ناکام رہے"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "شروع ہینڈلر بچے ڈالر №"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "میں ناکام رہے فیصد میٹر socket_accept"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": کلید `$`، شہوت انگیز null نہیں ہو سکتا"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": کوئی جائیداد `$ اہم`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "کنٹرولر `نام $` پہلے ہی سے شامل کر دی گئی. دوبارہ سے لکھنا"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "منتظمین"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "کنٹرولر `نام $` نہیں مل سکا ہے"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "صارف کی توثیق ہے"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "کسی دوسرے کی ماڈل کو تبدیل کرنے کی کوشش"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "`کنٹرولر کا نام ڈالر` تک رسائی نہیں"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "نامعلوم تک رسائی `رسائی` کنٹرولر کا نام ڈالر ڈالر ``"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "صارف نہیں کی توثیق ہے"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "آپریٹر `$ آپشن` فلٹر کلید `$` اجازت نہیں ہے"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "ایک تار کی فہرست ڈائریکٹری «نام $»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "لائن ڈائریکٹری «نام $»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "سٹرنگ ڈائریکٹری «نام $» محفوظ کر رہا ہے"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "ایک قطار ڈائریکٹری «نام $» حذف کر رہا ہے"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "میزیں"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "ای میل نہیں بھیجا"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "صارف کا نام غلط یا پاس ورڈ"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "ڈاؤن لوڈ، اتارنا پلگ ان کا نام `$` نہیں منسلک کیا گیا ہے"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "ڈاؤن لوڈ، اتارنا پلگ ان کا نام `$` ایک unmet انحصار روانگی `ڈالر ہے`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "پلگ ان کا نام `$` پہلے سے انسٹال ہے"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "پلگ ان کا نام `$ انسٹال` ہے"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "`پلگ کا نام ڈالر سے` انحصار پلگ ان:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "پہلے ہی ایک `$ NAME2` - نام تبدیل کر دیا نہیں کیا جا سکتا"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "پلگ ان `$ راستہ` موجود ہے"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "پلگ ان ڈالر `نام` نہیں"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "خاصیت کلاس SMS ریسیورز ایک صف ہونا چاہئے"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "خاصیت کلاس SMS ریسیورز بھیجنے سے پہلے مکمل کرنا ضروری ہے"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "غلط نمبر کی شکل وصول کرنے بمقابلہ ڈالر"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "پراپرٹی کلاس SMS متن سٹرنگ ہونا چاہیے"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "پراپرٹی کلاس SMS متن میں 256 حروف سے زیادہ نہیں ہونا چاہئے"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "میں ناکام رہے خرابی، بھیجنے SMS:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "مواد کی قسم میں کوئی حد ہے"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "فائل $ فائل \ ن کو نہیں کھول سکتا"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "فائل `$ فائل` بدعنوان - msgstr سے پہلے کوئی msgid. ڈالر میں (ن) \ صف"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "فائل `$ فائل` نقصان پہنچا. ڈالر میں (ن) \ صف"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgstr بغیر msgid. ڈالر میں (ن) \ صف"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "پیرامیٹر `$ کلیدی` `` قسم کی قسم ڈالر کی نہ"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "ایک عددی ہونا چاہیے"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "ایک قدرتی ہونا چاہئے"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "منی 2 اعشاری مقامات کو ہی ہو سکتا ہے"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "منی منفی نہیں ہو سکتا"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "شناخت کنندہ - ایک قدرتی 0 سے زیادہ تعداد"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "پاس ورڈ یا اس سے زیادہ 6 حروف کے برابر ہونا چاہیے"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "آپ نے غلط ای میل درج"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "وضع فون: + کے اعداد و شمار (تعداد) کی تعداد ایک ڈیش کی طرف سے الگ. +7 (921) 333-3-333: مثال کے طور پر"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "یہ ایک فائل نہیں ہے"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "ایک پیرامیٹر کے طور پر کوئی فائل"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "یہ تاریخ نہیں ہے"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "نام کم از کم ایک کردار ہونا چاہیے"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "شہر کا نام کم از کم ایک کردار ہونا چاہئے"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "کیا حکم سے مماثل نہیں ہے: field1 [DESC] ...، field2"
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "حد 100 سے بڑی اور 1 سے کم نہیں ہو سکتا"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "پیرامیٹر کے نام کے ساتھ شروع ہونا چاہئے مشترکہ یا اپنے"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "سروس"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 ماہ"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 ماہ"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "کیلنڈر غیرمنتخب"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "منتخب کردہ نمبر بکنگ کے امکان مسدود"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "بکنگ کے امکان کھول"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "علاقے سے منتخب مدت کے بائیں طرف کے فی دن قیمت مقرر کریں"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "منتخب کردہ تاریخ کی قیمت کو تبدیل کریں"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "کسی بھی قیمت کو ہٹا دیں"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "کلک کریں"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "شفٹ + پر کلک کریں"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "منتخب یا ہٹاتا ہے دن وقفے -"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "+ CTRL + شفٹ کلک کریں"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- / بائیں ہٹانے منتخب کریں"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "کلک ALT +"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- / صحیح ہٹانے منتخب کریں"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- وقفہ کے درمیان تمام یا واضح وقفے منتخب کریں"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "ایک کتاب"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "بکنگ"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "بکنگ"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "ایڈریس"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "آپ کا نام"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "افراد کی تعداد"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "آمد / روانگی کی تاریخ"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "اس کے علاوہ"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "ارسال"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "بکنگ فارم دائر کی ہے. یہ رہا آپ کا ہے"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "معاہدہ پٹا"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "آپ"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "آپ کو ایک بکنگ کی درخواست جمع کرانے کے رجسٹر ہونا ضروری ہے"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "درخواست"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "مدت کو نمایاں کریں"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "مقفل مدت کو منتخب کریں"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "منتخب کردہ حد نصب لاگت کے ساتھ وقفہ قبضہ ہے. قیمت ہی تبدیل کر سکتے ہیں"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "قیمت کو تبدیل کر دیا گیا"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "ایک قیمت کے ساتھ ایک تاریخ پر کلک کریں"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "ایک مدت کو منتخب کریں"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "بکنگ کی درخواست"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "جائیداد کی بکنگ"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "اس عرصے میں گھر خریدا ہے"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "آپ کو ایک نئی بکنگ ہے"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "جائیداد کے لئے بکنگ منسوخ"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "بلاکس بکنگ"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "درخواست کی مدت کے لئے ایک مختلف قیمت قائم"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "دیگر قیمت تبدیلیاں"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 اعتراض"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "1 2 اشیاء"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 2 اشیاء"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 3 اعتراض"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "03 نصب نہیں"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "02 نصب نہیں"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "08 قائم"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "8.6 قائم کرنے"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "انتخاب 6.8 ="
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "کلاس انتخاب"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "کوچ کلاس"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "کلاس صارف کا انتخاب"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "کلاس ڈبل سیل"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "08 شاٹ، 6.7 کی مدت"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "کیش"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "سم"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "وقت"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "ادائیگی کی قسم"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "ریل اسٹیٹ کی"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "بوگتانکرتا"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "کوشپال"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "نام"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "سائن ان کریں"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "تفصیل"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "ایک تبصرہ شامل کریں"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "تبصرے"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "ریئل اسٹیٹ کے لئے کارڈ کی واپسی"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "ریئل اسٹیٹ کے لئے ایک تبصرہ کا اضافہ کریں"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "کی خاصیت کے لئے تبصرے کو خارج کر دیں"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "تبصرہ ٹیسٹ"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "ذاتی دفتر"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "سے باہر نکلیں"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "ذاتی ڈیٹا"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "ان پٹ"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "سائن اپ کریں"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "پاس ورڈ کو بحال کریں"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "کو ای میل یا فون نمبر:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "یاد"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr ": پاس ورڈ"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "درج کریں"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "آپ کا ای میل درج کریں:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "آپ کا فون نمبر درج کریں:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "آپ کو ایک ای میل یا ایس ایم ایس کے پاس ورڈ میں ایک وقت بھیجا جائے گا. پاس ورڈ لاگ ان کے بعد فوری طور پر تبدیل"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "اپنے عارضی پاس ورڈ تبدیل کریں"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "آپ عارضی پاس ورڈ صرف سیشن کے آخر تک درست ہے. اب یہ تبدیل کریں"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "نیا پاس ورڈ:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "نیا پاس ورڈ:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "ایکسچینج"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "مین"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "پاس ورڈ تبدیل کریں"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "نام:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "فون:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "پرانا پاس ورڈ:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "خط بھیجا"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "ایس ایم ایس بھیجا"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "ایک صارف کی تخلیق"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "پاس ورڈ کی بازیابی"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "قسم حروف - <li> CapsLock"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li> روسی کی بورڈ"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "پاس ورڈ کامیابی سے تبدیل"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "پاس ورڈ تبدیل کرنا"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "صارف لاگ ان"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "لاگ آف کریں"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "اپنا پاس ورڈ تبدیل کریں"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "پرانا پاس ورڈ غلط ہے"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "ایک نیا اکاؤنٹ بنانے یا پاس ورڈ کی وصولی"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "آپ عارضی پاس ورڈ ہے: $ پاس ورڈ"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "صارف کے بارے میں ریٹرن معلومات"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "صارف کا ریکارڈ کے بارے میں واپسی معلومات"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "صارف کا ریکارڈ کے بارے میں معلومات کو تبدیل کریں"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "کارڈ کی ادائیگی"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "ادائیگی فارم"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "ادائیگی نمبر"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "ادائیگی کی تفصیلات"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "صارف کا نام"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "ادائیگی کی رقم"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "آن لائن بکنگ کی ادائیگی کرتے ہیں."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "آن لائن ادائیگی"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "بکنگ تعداد میں منظور نہیں ہے"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "وزارت اس اسکرپٹ کا حوالہ دیتے نظام آپ کی ادائیگی کی حیثیت کو تبدیل کریں گے"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "غلط مرسل IP IP کی ضرورت ہے:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "ادائیگی کے نظام سے گزر پیرامیٹر نہیں ہے"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "جعلی identtifikator کی دکان"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "ادائیگی تعداد"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "جعلی ہیش ادائیگی کی ضرورت ہے: ادائیگی کی غلطی کا استقبال"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "جعلی ہیش ادائیگی: ادائیگی کی غلطی کا استقبال"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "ادائیگی کی غلطی کا استقبال: جعلی حاصل اعداد و شمار"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "اندرونی ڈیٹا:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "ادائیگی کی غلطی کا استقبال: جعلی حاصل اعداد و شمار."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "عرصے میں"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "میں:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "بکنگ کے نمبر کے لئے منظور کی ادائیگی"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "ادائیگی کوچ"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "ادائیگی کی خدمات کی ایک شکل بنا"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "ٹیسٹ"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "ادائیگی بکنگ نمبر"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "ادائیگی بکنگ نمبر $ armoring> شناخت"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "ٹیسٹ ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "ادائیگی کوچ ٹیسٹ"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "سرگئی"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "ایک تصویر کو اپ لوڈ کریں"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "فوٹو"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "دیگر تصاویر کے درمیان اپنی پوزیشن کو تبدیل کرنے کی تصویر کھینچ کر لائیں"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "ایک تصویر کو حذف کریں"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "کیا آپ واقعی اس تصویر کو حذف کرنا چاہتے ہیں؟"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "غلطی! تصویر ڈاؤن لوڈ، اتارنا"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "تصویر اپ لوڈ کیا گیا تھا. شاید یہ بہت بڑی ہے."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "محفوظ صفحے"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "تصویر لوڈ کر رہا ہے. غلطی تعداد"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "تصاویر کی خاصیت کو بچانے"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "جائیں پراپرٹی کو خارج"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "حقیقی اسٹیٹ کی ڈیجیٹل تصاویر"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "روسی شہری کے غیر ملکی پاسپورٹ کی تیاری چیک کریں"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "اور روسی فیڈریشن کے ایک شہری کے پاسپورٹ کی صحيح ہونے کی جانچ ہو رہی ہے"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "اس دعوت نامے کی جانچ پڑتال کریں"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "سینٹ پیٹرز برگ"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "سروسز"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "کلائنٹ کی طرف سے حکم دیا خدمات"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "متنبہ معلومات"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "پیغام عملے کو بھیجا جاتا ہے"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "ایس ایم ایس کے لئے فون"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "سروس اہلکار"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "نوٹیفکیشن کے لئے دکانوں کے اعداد و شمار"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "ریئل اسٹیٹ پر مفت کی واپسی"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "نوٹیفکیشن کے لئے اخراج ڈیٹا"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "کارروائی"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "پروٹوکول"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "صارف کی طرف سے کارکردگی کا مظاہرہ کیا اقدامات کی ایک فہرست واپس"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "اوپر"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "کمرے:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "اضلاع:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "میٹرو:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "اپارٹمنٹ"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 کمرے"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 کمرے"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 کمرے"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "سے زیادہ 3 کمرے"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "شہر:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "میں چیک کریں"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "باہر چیک کریں"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "تمام اشیاء"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "میرے لسٹنگس"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "نیاپن ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "قیمت کی طرف سے ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "پراپرٹی شامل کریں"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "خصوصیات کی فہرست فلٹر"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "کوائف دیکھیں:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "کے کمروں کی تعداد کی طرف سے اپارٹمنٹ"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "ترتیب دیں"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "اضلاع"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "مقام"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "سینٹر"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "مضافات"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "میٹرو"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "قیمت"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "مکمل معلومات"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "ایڈریس:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "کمرے:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "بستر:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "M \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "عمومی معلومات"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "نقشہ"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "پراپرٹی کارڈ"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "پچھلا"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "اگلا"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "کارڈ پراپرٹی کو حذف کریں"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "کرنسی"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "فی رات قیمت:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "فی مہینہ قیمت:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- مفت"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "محفوظ ہیں -"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "کرایہ -"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- تمہیں بک"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- آپ کی طرف سے لیز پر دیا"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- ایک اور قیمت"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "لاک کریں -"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- زور"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "ضلع:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "فلور:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "تفصیل:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "روزگار:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "باورچی خانے کے"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "ٹی وی"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "فون"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "موسیقی سینٹر"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "انٹرنیٹ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "ایئر کنڈیشنگ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "مشین دھونے"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "واضع"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "مہینہ"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "دن"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "علاقوں کی فہرست سے انتخاب کریں جس میں حل کرنے کو منتقل کرنے کی"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "میٹرو اسٹیشنوں کی فہرست ہے جو چھنٹائی پاس کرنا ہوگا میں سے انتخاب کریں"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "پراپرٹی تعداد کارڈز"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "کوئی بات نہیں ہے"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "متعین نہیں ہے"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "نامعلوم"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "حقیقی اسٹیٹ کی ایک فہرست فراہم کرتا ہے. کی حد 1 سے 100 ہو سکتا ہے. پہلے سے طے شدہ - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "تلاش کے انجن کے لئے ٹیپ اپارٹمنٹس"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "تلاش کے انجن کے لئے فلیٹ کی"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "کرایہ فلیٹ / گھر / کرایہ پر لینے کے لئے کمرے کے لئے"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "شہر"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "علاقے"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "میٹرو سٹیشن"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "ایڈریس"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "لاگت آئے"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "فی دن"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "فرش"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "کمرے"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "بستر"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "تبصرہ"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "میٹرو علاقوں کی فہرست میں واپس شہر پر منحصر ہے"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "پروفائل ریئل اسٹیٹ رہتا ہے. اگر شناخت = 0 - ایک نیا بنانے"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "معلومات کو تبدیل کر دیا گیا ہے"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "ریل اسٹیٹ کی پروفائل ہٹاتا ہے"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "ماڈیول"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "ٹیسٹ اپارٹمنٹ"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "ٹیسٹ RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr "غیر ہم آہنگ لوڈ کا عمل جاری /) / سی ایس ایس -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "اس سائٹ کے لئے ضروری ہے"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "جاوا سکرپٹ کو غیر فعال کر دیا گیا ہے"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "برائے مہربانی اپنے براؤزر میں جاوا سکرپٹ کو چالو کریں"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "انتباہ!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "اپارٹمنٹس کی فہرست"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "اپ ڈیٹ"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "انتباہ! آپ کا براؤزر اس سائٹ کے لئے بہت بوڑھا ہے. اس تجویز کریں"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "اپنی ذمہ داری پر آگے"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- ایک ٹیبل ہے جس میں درخواست کے پلگ ان میں داخل کرے گا. پلگ ان عنصر ہے جس میں یہ ڈالا جاتا ہے کے ID کا پتہ کرنے کی ضرورت ہے. پلگ اضافہ آخر میں ان کے جسم (شامل) مخصوص کیا. اس طرح ایک کنٹینر میں سے ایک کی طرف سے ایک پلگ انز کے کسی بھی نمبر رکھ سکتے ہیں -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr ": کرنسی"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "غلطی تعداد"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "تاریخ خالی overlays"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "میں واپس نہیں جا سکتا - موجودہ اتبشایی ہیش سے مماثل نہیں ہے"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "پہلے سے ہی نصب"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "واقعہ: واقعہ"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "خرابی:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "بند کریں"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "غلطی!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "ایک عددی درج کریں"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "ایک حقیقی نمبر درج کریں"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "منزل فرش کی تعداد سے زیادہ نہیں ہونا چاہیے"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "فرش اور فرش کی تعداد درج کریں"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "ایک عددی درج کریں"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "0 سے بڑا عددی درج کریں"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "ایک مثبت حقیقی عدد درج کریں"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "علامت کی قدر درج کریں"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "دو اعشاری مقامات: قیمت درج کریں. 100،22 یا 100: مثال کے طور پر"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "کم از کم ایک کردار درج کریں"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "ای میل درج کریں"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "لاگ ان ای میل یا فون نمبر، مثال کے طور پر: +7 (921) 333-3-333 شکل"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "پاس ورڈ میں کم از کم 6 حروف کا ہونا لازمی ہے"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "پاس ورڈز نہیں ملتے"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "درست اندراج"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- منتخب -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "ڈیٹا محفوظ ہے"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "حذف کریں"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "کوئی کمانڈ فارم (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "تحفظ"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "شعبوں سب نہیں درست طریقے سے بھر رہے ہیں"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "کامیاب ہے"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "ہٹانا"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "ہٹا نہیں کیا جا سکتا"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "کیا آپ واقعی حذف کرنا چاہتے ہیں"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "فہرست: جعلی کمانڈ '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "شامل کریں"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "ریکارڈ ⇨"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "ایک قطار ڈائریکٹری کو حذف کرنے"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "کیا آپ واقعی ایک قطار کو حذف کرنا چاہتے ہیں؟"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "پچھلا <"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "اگلا>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "آج"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "جنوری"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "فروری"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "جون"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "مئی"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "مارچ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "اپریل"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "اگست"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "جولائی"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "ستمبر"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "نومبر"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "اکتوبر"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "دسمبر"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "فروری"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "جنوری"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "اپریل"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "جون"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "مارچ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "اگست"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "دسمبر"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "جولائی"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "نومبر"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "اکتوبر"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "سین"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "جمعرات"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "جمعہ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "پیر"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "ہفتہ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "بدھ کے روز"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "اتوار"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "منگل"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "ہفتہ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "منگل"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "شادی"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "جمعرات"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "جمعہ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "سورج"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "جمعہ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "سورج"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "منگل"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "جمعرات"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "ہفتہ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "بدھ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "پير"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "کوئی"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "یہ براؤزر AJAX کی حمایت نہیں کرتا"
+

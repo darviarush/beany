@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>imageNavigator</title>
+	<link href="res/mbImgNav.css" rel="stylesheet" type="text/css">
+
+    <!-- deps -->
+    <script type="text/javascript" src="../jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../jquery-ui-1.8.24.min.js"></script>
+
+    <!-- plugin -->
+    <script type="text/javascript" src="mbImgNavigator/jquery.metadata.js"></script>
+	<script type="text/javascript" src="mbImgNavigator/mbImgNav.js"></script>
+</head>
+<body >
+
+    <div id="navArea">
+        <div style="display:none;"
+             class="imagesContainer {imageUrl:'res/iStock_2.jpg', navPosition:'TR', navWidth: 100, NavCoordinates:'1600,1430' }">
+            <span class="title">Donna</span>
+            <div class="description">
+                <STRONG>Donna embrace</STRONG></div>
+        </div>
+        <div style="display:none;"
+             class="imagesContainer {imageUrl:'res/curiosity.JPG', navPosition:'BR', navWidth: 100}">
+            <span class="title">Mars</span>
+            <div class="description"><STRONG>amazing view to NW</STRONG></div>
+            <!-- no extra here
+
+            <div class="additionalContent"
+                 style='color:white; font-size:100px; top:0; width:1000px; height:1000px; text-align:left;'>
+                this is an additional content div that is over the image and it moves with it!
+            </div-->
+        </div>
+        <div style="display:none;"
+             class="imagesContainer {imageUrl:'res/DSC00872.JPG', navPosition:'TL', navWidth: 100, NavCoordinates:'1152,832' }">
+            <span class="title">Pietro</span>
+            <div class="description">
+                <STRONG>description of Pietro</STRONG></div>
+        </div>
+        <script type="text/javascript">
+            $(function(){
+                $("#navArea").imageNavigator({
+                    areaWidth: 700,
+                    areaHeight:500,
+                    draggerStyle:"1px dotted red",
+                    navOpacity:.8,
+                    loaderUrl:"res/loading.gif"
+                });
+                //  freezes IE bug.. CAUTION
+                setTimeout( function () {
+                    ($('span.title')[0]).click();
+                }, 800);
+            });
+        </script>
+    </div>
+</body></html>
+

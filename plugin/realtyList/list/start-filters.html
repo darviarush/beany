@@ -1,0 +1,37 @@
+
+<div id="location-location"><!-- useless wrap? -->
+	<label for="location-site">Город:</label>
+	<input id="location-site" type="text" value="{{ place.name }}" class="start-location-site">
+</div>
+
+<div id="flt-date">
+	<div id=flt-from>
+		<label for="flt-from-day">Дата заезда</label><br>
+		<select id=flt-from-day></select>
+		<select id=flt-from-month></select>
+		<input type=hidden id="flt-from-dp">
+	</div>
+	<div id=flt-to>
+		<label for="flt-to-day">Дата выезда</label><br>
+		<select id=flt-to-day></select>
+		<select id=flt-to-month></select>
+		<input type=hidden id="flt-to-dp">
+	</div>
+</div>
+<div id="flt-guests">
+	<label for="number-bed">Гости</label><br>
+	<select id="number-bed" data="[0]">
+		<option value="0">Нет
+		<option value="1">1
+		<option value="2">2
+		<option value="3">3
+		<option value="4">4
+		<option value="5">5
+		<option value="6">6
+		<option value="7">7
+		<option value="8">8
+		<option value="9">9
+	</select>
+</div>
+
+<link plugin/realtyList/list/start-filters.js>

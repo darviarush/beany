@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "אַרייַן: אַפּ הילף \ N"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - דערהייַנטיקן איבערזעצונג טעקעס"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "לאַנגינס - יעדער שורה לאָקאַלע / *. פּאָ.ס שרייבט לאָקאַלע / *. פּאָ msgstr"
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "לאַנגקק - קאָמפּיללירועט איבערזעצונג טעקע אין וווווו / לאָקאַלע / *. דזשסאָן"
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "טעמע טעקע / דיר. [Directory] - קאפיעס דער טעקע אָדער Directory די פֿעדעם"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "קאַשערעם - קלירז דער קאַש"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "קאַנטראָולערז - די נומער פון קאַנטראָולערז"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "פּל נאָמען - שאַפֿן אַ פּלוגין טעקע-באזירט סקעל"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "פּלס - רשימה פון אינסטאַלירן פּלוגינס"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "פּלל - אַ רשימה פון אַלע פּלוגינס"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "פּלי נאָמען - ינסטאַלל די פּלוגין"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". ינסטאַלירן זיי אַלע?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ נאָמען דעפּענדס אויף"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "פּלו נאָמען - נעם אַוועק די פּלוגין"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". נעם אַוועק זיי אַלע?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "פון $ נאָמען דעפּענדס"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "פּלדעל נאָמען - פיזיקלי רימוווז די צאַפּן"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "פּלוגין `$ נאָמען` קיין \ N"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "אַראָפּנעמען צאַפּן `$ נאָמען`?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "פּלרן נאָמען נעוונאַמע - רענאַמע די פּלוגין"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "לויפן - לויפן די אַפּלאַקיישאַן אין די קאַנסאָול"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "אָנהייב - סטאַרץ די הטטפּ-סערווער פּראָגראַמען"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "האַלטן - סטאַפּס די הטטפּ-סערווער פּראָגראַמען"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "ריסטאַרט - ריסטאַרט די הטטפּ-סערווער פּראָגראַמען"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "סטאַטוס - גיט אינפֿאָרמאַציע אויף די הטטפּ-סערווער פּראָגראַמען"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "פּיד סטאַטוס האַנדלערס \ N"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "פליסנדיק $ פּיד $ טוערס \ N"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "ליגט $ טוערס \ N"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "קראַן - שרייבט מוסטער קאָנף / קראָנטאַב אין קראָנטאַב"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "פּרובירן [טעסט1 טעסט2 ...] - לויפן די טעסץ. פֿאַר בייַשפּיל: אַפּ פּרובירן מאָדעל רעאַלטיליסט"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "איר קענען ניט דעפינירן אַניוזד פעלדער, ווייַל די פּרובירן האט אויסגעמעקט אַלע די רעקאָרדס פון $ טיש \ N"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "אַניוזד טיש: \ n \ ה"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "אַניוזד פעלדער: \ n \ ה"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "גען טיש קאָל_זאַפּיסיי - מוסיף טראַפ - דאַטן אין די ספּעסאַפייד טיש"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "לאָאַדדב - איז צו מאַסע דאַטן אין די דאַטאַבאַסע פון ​​/ קאָנף / *. דזשסאָן"
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "דאַמידזשד דזשסאָן אין $ טעקע \ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "פאָרדב פּוט_ק_דזשסאָן - קאָפּיע *. דזשסאָן געמאכט וווווו / פּרובירן / עקס.הטמל אין / קאָנף / *. דזשסאָן"
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "הילף - דעם הילף"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "די מאַנשאַפֿט `$ קמד` איז ניט געשטיצט \ N"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "דעם באַפֿעל ריקווייערז אַרויף צו $ N $ ו פּאַראַמעטערס, און איר פאָרן אַ $ ק \ N"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "דעם באַפֿעל ריקווייערז $ N פּאַראַמעטערס, און איר פאָרן אַ $ ק \ N"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "סערווירער איז נישט פליסנדיק \ N"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "סערווירער איז פארשטאפט \ N"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "קערט אַ רשימה פון צאַפּן-ינס"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "קערט אַ רשימה פון די קאַנטראָולערז פון די באַזע"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "לויפט קייפל קאַנטראָולערז"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "באַשטעטיקן - צי די ספּעסאַפייד קאָנטראָללער"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "דאס כאַפּאַנז נאָך דער קליענט אויב די סעסיע איז"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "פארשטאפט די פּראָצעס № $ אַרבעטער"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "איך קען נישט האַלטן די פּראָצעס № $ אַרבעטער"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "פארשטאפט די פּראָצעס № $ קראַן (קראַן)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "איך קען נישט האַלטן די פּראָצעס № $ קראַן (קראַן)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "קענען ניט ויספירן גאָפּל \ N"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "ניט אָפּטיילן פון דער וואָקזאַל \ N"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "גאָפּל אַנדערש מיט טעות"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "נישט באשאפן קראַן. טעות גאָפּל% ב"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "פליסנדיק האַנדלערס:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "איך קענען נישט שטעלן די האַנדלער סיגהופּ"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "איך קענען נישט ינסטאַלירן סיגטערם האַנדלער"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "טעות פּקנטל_וואַיטפּיד% ב"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "געענדיקט האַנדלער № $ קינד"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", סטאַטוס: $ סטאַטוס. צוריקקריגן"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "גאָפּל אַנדערש מיט טעות% ב"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "לאָנטשט האַנדלער № $ קינד"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "סאָקקעט_אַקסעפּט אַנדערש% ב"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ דורכפֿאַל` קענען ניט זייַן נאַל"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": ניט פאַרמאָג `$ שליסל`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "קאָנטראָללער `$ נאָמען` איז שוין צוגעלייגט. רעווריטע"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "אַדמיניסטראַטאָרס"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "קאָנטראָללער `$ נאָמען` איז ניט געפונען"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "דער באַניצער איז אָטענטאַקייטאַד"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "אַ פּרווון צו טוישן עמעצער אַנדערש ס מאָדעל"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "קיין צוטריט צו די קאָנטראָללער `$ נאָמען`"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "אומבאַקאַנט צוטריט `$ צוטריט` אין די קאָנטראָללער `$ נאָמען`"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "באַניצער איז נישט אָטענטאַקייטאַד"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "דער אָפּעראַטאָר `$ אַפּ` פילטער `$ שליסל` איז נישט ערלויבט"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "א שטריקל רשימה Directory «$ נאָמען»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "שורה Directory «$ נאָמען»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "שפּאָרן שטריקל Directory «$ נאָמען»"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "דיליטינג אַ רודערן Directory «$ נאָמען»"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "טישן"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "Email ניט געשיקט"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "פאַרקריפּלט נאמען אָדער פּאַראָל"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "דאָוונלאָאַדאַבלע פּלוגין `$ נאָמען` איז ניט פארבונדן"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "דאָוונלאָאַדאַבלע פּלוגין `$ נאָמען` איז אַ אַנמעט דעפּענדענסי `$ דעפּ`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "פּלוגין `$ נאָמען` איז שוין אינסטאַלירן"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "פּלוגין `$ נאָמען` איז ונינסטאַללעד"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "פון די צאַפּן `$ נאָמען` אָפענגיק צאַפּן-ינס:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "עס איז שוין אַ `$ נאַמע2` - קענען ניט זייַן ריניימד"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "פּלוגין `$ דרך` יגזיסץ"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "פּלוגין `$ נאָמען` קיין"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "פאַרמאָג קלאַס SMS ראַסיווערז זאָל זייַן אַ מענגע"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "פאַרמאָג קלאַס SMS ראַסיווערז מוזן זייַן געענדיקט איידער שיקן"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "די אומרעכט נומער פֿאָרמאַט ופנעמער $ V"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "פאַרמאָג קלאַס SMS טעקסט מוזן זייַן אַ שטריקל"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "פאַרמאָג קלאַס SMS טעקסט זאָל זייַן ניט מער ווי 256 אותיות"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "SMS שיקט אַנדערש, טעות:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "עס איז קיין גרענעץ אין דער אינהאַלט-טיפּ"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "קען ניט עפענען טעקע $ טעקע \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "טעקע `$ טעקע` פאַרדאָרבן - קיין מסגיד איידער msgstr. רודערן $ איך \ N"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "טעקע `$ טעקע` דאַמידזשד. רודערן $ איך \ N"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "מסגיד אָן msgstr. רודערן $ איך \ N"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "פּאַראַמעטער `$ שליסל` נישט פון דעם טיפּ `$ טיפּ`"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "מוזן זייַן אַ ינטעגער"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "זאָל זייַן אַ נאַטירלעך"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "געלט קען נאָר האָבן 2 דעצימאַל ערטער"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "געלט קענען ניט זייַן נעגאַטיוו"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "יידענטאַפייער - אַ נאַטירלעך נומער גרעסער ווי 0"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "שפּריכוואָרט מוזן זייַן גרעסער ווי אָדער גלייַך צו 6 אותיות"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "איר אריין דעם אומרעכט Email"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "פֿאָרמאַט טעלעפאָנירן: + פיגיערז (נומערן) נומערן אפגעשיידט דורך אַ לאָך. פֿאַר בייַשפּיל: 7 (921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "דאס איז ניט אַ טעקע"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "ניט קיין טעקע ווי אַ פּאַראַמעטער"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "דאס איז ניט אַ דאַטע"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "נאָמען מוזן זייַן אין מינדסטער איין כאַראַקטער"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "די שטאָט 'ס נאָמען זאָל זייַן בייַ מינדסטער איין כאַראַקטער"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "טוט ניט גלייַכן דעם סדר: פיעלד1 [דעסק], פיעלד2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "שיעור קענען נישט זייַן גרעסער ווי 100 און ווייניקער ווי 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "דער פּאַראַמעטער נאָמען מוזן אָנהייבן מיט שערד אָדער אייגן"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "דינסט"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 חדשים"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 חדשים"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "דעסעלעקט די לוח"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "פאַרשפּאַרן די מעגלעכקייט פון בוקינג אַ אויסגעקליבן נומער"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "ופשליסן די מעגלעכקייט פון בוקינג"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "שטעלן די פּרייַז פּער טאָג פון די פעלד אויף די לינקס פון די אויסגעקליבן צייַט"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "טוישן די פּרייַז פֿאַר די אויסגעקליבן טאָג"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "אַראָפּנעמען קיין פּרייַז"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "גיט"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "גיט + שיפט"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- סעלעקץ אָדער רימוווז טאָג ינטערוואַלז"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "גיט + קטרל + שיפט"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- אויסקלייַבן / באַזייַטיקן די לינקס"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "גיט + אַלט"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- אויסקלייַבן / באַזייַטיקן די רעכט"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- אויסקלייַבן אַלע אָדער קלאָר ינטערוואַלז צווישן מעהאַלעך"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "ספר אַ"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "בוקינגז"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "רעזערוואַציע"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "אַדרעס"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "דיין נאָמען"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "נומער פון פנים"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "טאָג פון אָנקומען / אָפּפאָר"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "אַדדיטיאָנאַללי"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "שיקן"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "רעזערוואַציע פאָרעם איז פיילד. דאָ איז דיין"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "דינגען אָפּמאַך"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "דו"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "איר מוזן רעגיסטרירן צו פאָרלייגן אַ רעזערוואַציע בעטן"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "אַפּפּליקאַטיאָן"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "הויכפּונקט צייַט"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "אויסקלייַבן די פארשפארט צייַט"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "אויסגעקליבן קייט קאַפּטשערז די מעהאַלעך מיט די אינסטאַלירן פּרייַז. פּרייַז קענען נאָר טוישן"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "פּרייַז געביטן"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "דריקט אויף אַ דאַטע מיט אַ פּרייַז"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "אויסקלייַבן אַ צייַט"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "בוקינג ריקוועסט"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "בוקינג פון פאַרמאָג"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "אין דעם צייַט די הויז איז בוקט"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "איר האָבן אַ נייַ רעזערוואַציע בייַ"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "באָטל מאַכן די רעזערוואַציע פֿאַר די פאַרמאָג"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "בלאַקס די בוקינג"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "יסטאַבלישיז אַ אַנדערש פּרייַז פֿאַר די געבעטן צייַט"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "אנדערע פּרייַז ענדערונגען"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 כייפעץ"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 זאכן 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 זאכן 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 כייפעץ 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "ניט אינסטאַלירן 03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "ניט אינסטאַלירן 02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "שטעלן 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "שטעלן צו 8.6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "ברירה = 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "קלאַס סעלעקציע"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "אַרמאָר קלאַס"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "קלאַס באַניצער סעלעקציע"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "קלאַס טאָפּל צעל"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "שאָס 08, די צייַט פון 6.7"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "געלט"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "סאַכאַקל"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "צייַט"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "טיפּ פון צאָלונג"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "גרונטייגנס"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "פּייַער"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "קאַסירער"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "נאָמען"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "צייכן"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "באַשרייַבונג"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "לייג אַ באַמערקונג"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "באַמערקונגען"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "באַמערקונג קאַרדס קערט פֿאַר גרונטייגנס"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "מוסיף אַ באַמערקונג פֿאַר די גרונטייגנס"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "אויסמעקן באַמערקונגען פֿאַר פאַרמאָג"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "טעסט באַמערקן"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "פּריוואַט אָפיס"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "אַרויסגאַנג"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "פערזענלעכע דאַטן"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "אַרייַנשרייַב"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "צייכן אַרויף"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "ומקערן פּאַראָל"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-פּאָסט אָדער טעלעפאָן נומער:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "געדענקען"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Password:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "אַרייַן"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "אַרייַן אייער E-פּאָסט:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "אַרייַן דיין טעלעפאָן נומער:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "איר וועט ווערן געשיקט אַ Email אָדער SMS איינער-צייַט פּאַראָל. טוישן די Password מיד נאָך לאָגינג"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "טוישן דיין צייטווייליגע פּאַראָל"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "דיין צייַטווייַליק Password איז גילטיק נאָר ביז די סוף פון דער סעסיע. טוישן עס איצט"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "ניו Password:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "ניו Password:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "בייַט"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "הויפּט"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "טוישן די פּאַראָל"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "נאָמען:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "טעלעפאָנירן:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "אַלטע שפּריכוואָרט:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "בריוו געשיקט צו"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS געשיקט צו"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "שאפן אַ באַניצער"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "שפּריכוואָרט אָפּזוך"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<לי> קאַפּסלאָקק אויף - טיפּ אותיות"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<לי> רוסיש קלאַוויאַטור"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "שפּריכוואָרט הצלחה געביטן"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "טשאַנגינג די פּאַראָל"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "באַניצער קלאָץ אין"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "קלאָץ אַוועק"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "טוישן דיין פּאַראָל"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "אַלטע שפּריכוואָרט איז פאַלש"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "שאַפֿן אַ נייַ חשבון אָדער צוריקקריגן פּאַראָל"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "דיין צייַטווייַליק Password איז: $ פּאַראָל"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "קערט אינפֿאָרמאַציע וועגן דער באַניצער"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "קערט אינפֿאָרמאַציע וועגן די לאָגד אין באַניצער"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "טוישן די אינפֿאָרמאַציע וועגן דעם לאָגד אין באַניצער"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "קאָרט צאָלונג"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "צאָלונג פאָרעם"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "צאָלונג נומער"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "פרטים פון צאָלונג"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "באַניצער נאָמען"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "סומע פון ​​צאָלונג"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "באַצאָלן אָנליין רעזערוואַציע."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "אָנליין צאָלונג"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "רעזערוואַציע נומער איז ניט דורכגעגאנגען"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "פונדרויסנדיק סיסטעם ריפערינג צו דעם שריפט וועט טוישן די סטאַטוס פון דיין צאָלונג"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "פאַרקריפּלט סענדער IP IP דארף:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "פּאַראַמעטערס דורכגעגאנגען פון די צאָלונג סיסטעם איז ניט"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "פאַרקריפּלט ידענטטיפיקאַטאָר קראָם"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "צאָלונג נומער"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "אָפּטראָג פון דער צאָלונג טעות: אינוואליד האַש צאָלונג דאַרפֿן"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "אָפּטראָג פון דער צאָלונג טעות: פאַרקריפּלט האַש צאָלונג"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "אָפּטראָג פון דער צאָלונג טעות: אינוואליד דאַטן באקומען:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "ינערלעך דאַטן:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "אָפּטראָג פון דער צאָלונג טעות: אינוואליד דאַטן באקומען."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "איבער אַ צייַט"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "בייַ:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "אנגענומען צאָלונג פֿאַר די רעזערוואַציע נומער"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "צאָלונג פאנצער"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "שאַפֿן אַ פאָרעם פון צאָלונג באַדינונגען"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "פּרובירן"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "צאָלונג רעזערוואַציע נומער"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "צאָלונג רעזערוואַציע נומער $ אַרמאָרינג-> שייַן"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "טעסט עקסטערנאַלפּייַמענץ"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "צאָלונג פאנצער פּרובירן"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "סערגעי"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "צופֿעליקער אַ פאָטאָ"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "פאָטאָס"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "שלעפּן דעם בילד צו טוישן זייַן שטעלע צווישן די אנדערע בילדער"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "דיליט אַ בילד"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "צי איר טאַקע ווילן צו אויסמעקן דעם בילד?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "טעות! בילד דאַונלאָוד"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "פאָטאָ איז ופּלאָאַדעד. טאָמער עס איז אויך גרויס."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "זיכער בלאַט"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "לאָודינג בילד. גרייַז נומער"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "שפּאָרן פאָטאָס פאַרמאָג"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "אויסמעקן פאָטאָס פאַרמאָג"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "דיגיטאַל פאָטאָס פון גרונטייגנס"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "טשעק די גרייטקייַט פון פרעמד פּאַספּאָרץ פון רוסישע בירגער"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "קאָנטראָלירונג די גילטיקייַט פון די פאספארט פון אַ בירגער פון די רוסישע פעדעריישאַן"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "טשעק זייַן ינוויטיישאַנז"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "סט פעטערבורג"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "סערוויסעס"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "סערוויסעס באפוילן דורך די קליענט"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "אינפֿאָרמאַציע צו פלינק"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "אָנזאָג איז געשיקט צו שטעקן"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "טעלעפאָנירן פֿאַר SMS"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "סערוויס פּערסאַנעל"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "סטאָרז דאַטן פֿאַר אָנזאָג"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "פרי קערט אויף גרונטייגנס"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "דיליץ דאַטן פֿאַר אָנזאָג"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "קאַמף טאַקען"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "פּראָטאָקאָל"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "קערט אַ רשימה פון אַקשאַנז געטאן דורך די באַניצער"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "אַרויף"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "רומז:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "דיסטריקץ:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "מעטראָ:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "אַפּאַרטמאַנץ"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 אָרט"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 רומז"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 רומז"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "מער ווי 3 רומז"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "שטאָט:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "רעגיסטראַציע"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "טשעק-אויס"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "כל אַבדזשעקס"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "מייַן ליסטינגס"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "נייַקייַט ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "דורך פּרייַז ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "לייג אַ פאַרמאָג"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "פילטער די רשימה פון פּראָפּערטיעס"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "מיינונג:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "אַפּאַרטמאַנץ דורך נומער פון רומז"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "סאָרט"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "דיסטריקץ"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "אָרט"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "צענטער"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "אַוצקערץ"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "מעטראָ"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "פּרייַז"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "גאַנץ אינפֿאָרמאַציע"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "אַדרעס:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "רומז:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "בעדז:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "ב \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "אַלגעמיינע אינפֿאָרמאַציע"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "מאַפּע"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "פאַרמאָג קאַרד"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "פריער"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "ווייַטער"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "דיליט קאַרד פאַרמאָג"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "קראַנטקייַט"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "פּרייַז פּער נאַכט:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "פּרייַז פּער חודש:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- פֿרייַ"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- שמורות"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- רענט"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- איר בוקט"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- ליסט דורך איר"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- אן אנדער פּרייַז"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- לאַק"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- עמפאַסיס"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "דיסטריקט:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "פלאָר:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "באַשרייַבונג:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "באַשעפטיקונג:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "קיך"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "טעלעוויזיע"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "טעלעפאָנירן"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "מוזיק צענטראַל"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "אינטערנעט"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "לופטקילונג"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "וואַשמאַשין"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "ניט ספּעסיפיעד"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "מאָנאַט"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "טאָג"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "קלייַבן פון דער רשימה פון געביטן אין וואָס צו פאָרן סאָרטינג"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "קלייַבן פון דער רשימה פון מעטראָ סטיישאַנז וואָס מוזן פאָרן סאָרטינג"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "פאַרמאָג נומער קאַרדס"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "עס איז קיין"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "ניט ספּעסאַפייד"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "ומבאַקאַנט"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "קערט אַ רשימה פון גרונטייגנס. שיעור קענען זייַן 1-100. פעליקייַט - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "טייפּ אַפּאַרטמאַנץ פֿאַר זוכן ענדזשאַנז"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "פלאַך פּראָפיל פֿאַר זוכן ענדזשאַנז"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "פֿאַר רענט פלאַך / הויז / צימער פֿאַר דינען"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "שטאָט"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "געגנט"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "ונטערבאַן סטאַנציע"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "אַדרעס"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "פּרייַז"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "פּער טאָג"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "פלאָרז"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "רומז"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "בעדז"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "באַמערקונג"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "קערט אַ רשימה פון מעטראָ געביטן און דיפּענדינג אויף דער שטאָט"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "פּראָפיל האלט אויף גרונטייגנס. אויב שייַן = 0 - שאַפֿן אַ נייַ"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "אינפֿאָרמאַציע האט שוין געביטן"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "רימוווז די פּראָפיל פון גרונטייגנס"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "מאָדולע"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "טעסט וווינונג"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "טעסט רעאַלטיליסט"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / אַסינטשראָנאָוס לאָודינג קסס -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "עס איז נייטיק פֿאַר דעם פּלאַץ"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "דזשאַוואַסקריפּט איז פאַרקריפּלט"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "ביטע געבן דזשאַוואַסקריפּט אין אייער בלעטערער"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "ווארענונג!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "רשימה פון אַפּאַרטמאַנץ"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "דערהייַנטיקן"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "ווארענונג! אייער בלעטערער איז אויך אַלט פֿאַר דעם פּלאַץ. רעקאָמענדירן עס"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "פאָרזעצן אין דיין אייגן ריזיקירן"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- א טיש וואָס וועט זייַן ינסערטאַד אין די אַפּלאַקיישאַן פּלוגינס. די פּלוגין דאַרף צו וויסן די שייַן פון די עלעמענט אין וואָס עס איז ינסערטאַד. צאַפּן ינסערץ זייַן גוף אין די סוף (צוגעבן) ספּעסאַפייד טהערעטאָ. אזוי אין איין קאַנטיינער קענען שטעלן קיין נומער פון צאַפּן-ינס איינער דורך איין -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "קראַנטקייַט:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "גרייַז נומער"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "געשיכטע אָוווערלייז ליידיק"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "איך קען ניט גיין צוריק - דער קראַנט אָוווערליי טוט ניט גלייַכן די האַש"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "שוין אינסטאַלירן"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "געשעעניש: עווענט"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "טעות:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "נאָענט"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "טעות!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "אַרייַן אַ ינטעגער"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "אַרייַן אַ פאַקטיש נומער"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "שטאָק מוזן נישט יקסיד די נומער פון פלאָרז"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "אַרייַן די נומער פון פלאָרז און שטאָק"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "אַרייַן אַ ינטעגער"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "אַרייַן אַ ינטעגער גרעסער ווי 0"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "אַרייַן אַ positive פאַקטיש נומער"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "אַרייַן די ווערט פון דער צייכן"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "אַרייַן די פּרייַז: צוויי דעצימאַל ערטער. פֿאַר בייַשפּיל: 100.22 אָדער 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "אַרייַן אין מינדסטער איין כאַראַקטער"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "אַרייַן די E-פּאָסט"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "לאָגין פֿאָרמאַט: E-פּאָסט אָדער טעלעפאָן נומער, פֿאַר בייַשפּיל: 7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "די Password מוזן זייַן אין מינדסטער 6 אותיות"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "פּאַסווערדז טאָן ניט גלייַכן"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "גילטיק פּאָזיציע"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- ניט אויסגעקליבן -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "דאַטאַ איז געהאלפן"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "אַראָפּנעמען"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "קיין באַפֿעלן פאָרעם (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "פּרעזערוויישאַן"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "ניט אַלע פעלדער זענען אָנגעפילט אין ריכטיק"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "איז מצליח"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "באַזייַטיקונג"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "קענען ניט זייַן אַוועקגענומען"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "צי איר טאַקע ווילן צו אויסמעקן"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "רשימה: אינוואליד באַפֿעל '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "לייגן"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ רעקאָרד"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<ינפּוט טיפּע=סובמיט וואַלוע=\'פילטר\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<ינפּוט טיפּע=בוטטאָן וואַלוע=\'ווסטאַוויט\' דיסאַבלעד>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<ינפּוט טיפּע=בוטטאָן וואַלוע=\'דאָבאַוויט\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<ינפּוט טיפּע=בוטטאָן וואַלוע=\'רעדאַקטיראָוואַט\' דיסאַבלעד>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<ינפּוט טיפּע=בוטטאָן וואַלוע=\'ודאַליט\' דיסאַבלעד>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "דיליטינג אַ רודערן Directory"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "צי איר טאַקע ווילן צו אויסמעקן אַ רודערן?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<ינפּוט טיפּע=בוטטאָן וואַלוע=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<פריער"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "ווייַטער>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "הייַנט"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "יאַנואַר"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "פעברואַר"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "יוני"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "מייַ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "מאַרץ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "אַפּריל"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "ויגוסט"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "יולי"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "סעפּטעמבער"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "נאָוועמבער"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "אָקטאָבער"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "דעצעמבער"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "פעברואַר"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "יאַנואַר"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "אַפּריל"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "יוני"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "מאַרץ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "ויגוסט"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "דעצעמבער"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "יולי"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "נאָוועמבער"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "אָקטאָבער"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "סען"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "דאָנערשטיק"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "פרייַטיק"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "מאָנטיק"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "שבת"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "מיטוואָך"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "זונטיק"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "דינסטיק"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Tue"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "יפּאַ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "Wed"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "דאנערשטיק"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Fri"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "זון"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Fri"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "זון"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "דינסטיק"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "דאנערשטיק"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Wed"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Mon"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "קיין"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "דעם בלעטערער טוט נישט שטיצן אַדזשאַקס"
+

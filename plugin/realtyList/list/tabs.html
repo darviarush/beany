@@ -1,0 +1,67 @@
+<div id="panel">
+	<!-- main tabs -->
+	<ul>
+		<li><a href="#realty-all">Все объекты</a>
+		<li><a href="#realty-my">Мои объекты</a>
+		<li style="display: none"><a href="#realty-protocol">Протокол</a></li>
+		<li style="display: none"><a href="#realty-elect">Избранное</a>
+		<li style="display: none"><a href="#realty-inform">Заявки</a>
+	</ul>
+	<div class="clr"></div>
+
+	<div class="tab-line">
+		<div class="tlc"></div>
+	</div>
+
+	<!-- Все объекты -->
+	<div id="realty-all">
+		<div id="realty-order" style="display:none">
+			<div id=realty-list-order class="app-btn fl">
+				<input type="radio" id="r0-l0" name=r0 value="id desc" checked /><label for="r0-l0">по новизне ↓</label>
+				<input type="radio" id="r0-l1" name=r0 value="id" /><label for="r0-l1">↑</label>
+				<input type="radio" id="r0-l2" name=r0 value="cena desc" /><label for="r0-l2">по цене ↓</label>
+				<input type="radio" id="r0-l3" name=r0 value="cena" /><label for="r0-l3">↑</label>
+			</div>
+		</div>
+
+		<div id="realty-list-0">
+			<for i=arr>
+				<div class="app-elem">
+					<div class="osi-img">
+						<span name="id">{{ i.id }}</span>
+						<div class="osi-price">
+							<span name=cena>{{ i.cena }}</span><span name="currency">{{ i.currency }}</span>
+						</div>
+						<a name="href_id" href="#realty={{ i.id }}"><img name="img_path" src="<if i.img_id>/i/{{ i.img_id|img_path }}0.jpg</if><if not i.img_id>/theme/images/object-view-small.jpg</if>"></a>
+						<a name="href_id" href="#realty={{ i.id }}">Полная информация</a>
+					</div>
+					<div class="osi-description">
+						<ul class="osi-text">
+							<li><b>Адрес:</b> <span name=address>{{ i.address }}</span></li>
+							<li><b>Комнат:</b> <span name=number_room>{{ i.number_room }}</span></li>
+							<li><b>Спальных мест:</b> <span name=number_bed>{{ i.number_bed }}</span></li>
+							<li>м. «<span name=metro>{{ i.metro }}</span>»</li>
+						</ul>
+						<div class="app-equipment"></div>
+					</div>
+					<div class="app-elect">Избранное</div>
+				</div>
+			</for>
+		</div>
+
+		<div class="clr"></div>
+	</div>
+	<!-- Мои объекты -->
+	<div id="realty-my">
+		<a href="#" id="realty-new-ref">Добавить объект недвижимости</a>
+
+		<div id="realty-list-1"></div>
+
+		<div class="clr"></div>
+	</div>
+
+	<!-- Избранное ...-->
+	<div id="realty-elect"></div>
+	<div id="realty-inform"></div>
+	<div id="realty-protocol"></div>
+</div>

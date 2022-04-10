@@ -1,0 +1,204 @@
+<link /api/head>
+<!--script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script-->
+
+<!--
+	Карточка обьекта недвижимости (оверлей)
+-->
+
+<div id=plugin-realty-item>
+	
+	<div id="realty" class="app-tab">
+
+		<ul id="realty-card-tabs">
+			<li><a href="#realty-card">Общая информация</a>
+			<li><a href="#realty-tab-dopfield">Дополнительно</a>
+			<li><a href="#realty-tab-map">Карта</a>
+			<li><a href="#tab-fotogallery"><span>Фотогалерея</span> <span id=tab-fotogallery-counter></span></a>
+			<li><a href="#realty-tab-inform">Заявки на бронь</a>
+			<li><a href="#tab-comment"><span>Комментариев</span> <span id=tab-comment-counter></span></a>
+			<li><a href="#tab-notice"><span>Обслуживающий персонал</span> <span id=tab-notice-counter></span></a>
+			<li><a href="#tab-selservice"><span>Дополнительные услуги</span> <span id=tab-selservice-counter></span></a>
+			
+		</ul>
+
+		<form id="realty-card" name="Карточка недвижимости"
+			  action="/api/realtyList" class="app-form">
+
+				<input type=hidden name=id>
+				<input type=hidden name=user_id>
+				<input type=hidden name=time_change>
+
+			<table>
+				<tr>
+					<td colspan=2><!-- todo hardcore -->
+						<table width="100%">
+							<tr>
+								<td width="70px"><b>Адрес:</b>
+								</td>
+								<td style="text-align: right">
+									<div class="on"
+										 style="width:97%; text-align:left"
+										 name="address"></div>
+
+									<input type="text"
+										   class="off v-str"
+										   style="width:97%"
+										   name="address" m_change="on">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="app-map"
+							 style="height: 200px; width:200px"></div>
+						<div id="gallery"></div>
+					</td>
+					<td>
+						<div id="realty-equipment-container">
+							<div id="realty-equipment"></div>
+							<span class="off"><input type="text" name=equipment
+													 class="v-str0 template"></span>
+						</div>
+
+						<div style="text-align:right">
+							<input type=button id="realty-prev" value="Предыдующая">
+							<input type=button id="realty-next" value="Следующая">
+							<p></p>
+
+						<p class="off">
+							<input type=button class="app-form-erase-btn"
+								   value="Удалить карточку недвижимости">
+							<br>
+							<a href="#cash"
+							   id="realty-cash-bt" class="app-bt">Касса</a>
+						</p>
+
+						<p><b class=off>Валюта </b>
+							<select name="currency_id" class="off v-str0"></select>
+							<br>
+							<b>Цена в сутки:</b>
+							<span class="on" name=cena_cur></span><input type="text" class="off v-ureal" name=cena>
+							<span class="off" name=cena_cur></span><span name="cur"></span>
+							<br>
+							<b>Цена в месяц:</b>
+							<span class="on" name=cena_month_cur></span><input type="text"	class="off v-ureal" name="cena_month">
+							<span class="off" name=cena_month_cur></span><span name="cur"></span>
+						</p>
+
+<link plugin/realtyList/load_booking_legend.html>
+
+					<p></p>
+
+				</div>
+
+				<div><b>Вид:</b>
+					<span class=on name=form></span><select class="off v-str0" name=form_id></select></div>
+				<div><b>Город:</b>
+					<span class=on name=city></span>
+					<input name=city
+						   id=place_id
+						   class="off" m_change=on><input type=hidden
+														  name=place_id class="v-city" m_change=on>
+				</div>
+				<div><b>Район:</b>
+					<span class=on name=district></span><select class="off v-str0" name=district_id></select></div>
+				<div><b>Метро:</b>
+					<span class=on name=metro></span><select class="off v-str0" name=metro_id></select></div>
+				<div><b>Этаж:</b>
+					<span class=on name=floor></span><input id="realty-floor"
+							class="off v-floor" name="floor"
+							type="text">/&nbsp;<span class=on
+													 name=count_floor></span><input type="text"
+																					class="off v-count_floor"
+																					id=realty-floor2 name=count_floor></div>
+				<div><b>Комнат:</b>
+					<span class=on name=number_room></span><input
+							class="off v-uint" name=number_room
+							type="text"></div>
+				<div><b>Спальных мест:</b>
+					<span class=on name=number_bed></span><input
+							class="off v-uint" name=number_bed
+							type="text"></div>
+				<p>
+					<b>Описание:</b><br><span class=on name=comment></span>
+					<textarea name=comment
+							  class="off v-str"></textarea>
+				</p>
+
+						<div id="realty-longitude"><input class="v-real" name=longitude type="text"></div>
+						<div id="realty-latitude"><input class="v-real" name=latitude type="text"></div>
+
+						<p>Занятость:</p>
+
+						<div id="armoring"></div>
+					</td>
+				</tr>
+			</table>
+
+			<b>Похожие варианты:</b>
+			<div class="like"></div>
+			
+			<div id="realty-dopfield" style="display:none">
+				<div><b>Общая площадь квартиры:</b>
+					<span class=on name=square_realty></span><input class="off v-uint" name=square_realty type="text"> м<sup>2</sup></div>
+				<div><b>Площадь кухни:</b>
+					<span class=on name=square_kitchen></span><input class="off v-uint" name=square_kitchen type="text"> м<sup>2</sup></div>
+				<div><b>Состояние квартиры:</b>
+					<span class=on name=state_realty></span><input class="off v-uint" name=state_realty type="text"></div>
+
+				<b>Похожие варианты:</b>
+
+				<div class="like"></div>
+			</div>
+		</form>
+
+
+		
+		<div id="realty-tab-map"></div>
+		<div id="realty-tab-dopfield"></div>
+		<div id="tab-fotogallery"></div>
+		<div id="realty-tab-inform"></div>
+		<div id="tab-comment"></div>
+		<div id="tab-notice"></div>
+		<div id="tab-selservice"></div>
+
+	</div>
+
+	<div id="realty-arm-form"></div>
+
+	<div id="realty-like" class="app-elem-3 template">
+		<a name="href_id">
+			<img name="img_path"><!--  href="#" -->
+			<div class="float-info-button" style="display:none">Арендовать</div>
+			<div class="float-info">
+				<div name=city>&nbsp;</div>
+				<div class="float-info-cena">
+					<span name=cena></span>
+					<span name="currency"></span>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+	
+	
+<link plugin/armoring/armoring.html>
+<link plugin/realtyList/realty_item.js>
+<link plugin/armoring/armoring.js>
+<link plugin/gallery/gallery.html>
+<link plugin/inform/inform-item.html>
+<link plugin/comment/comment.html>
+
+<script>
+var rent = app.exports.realty
+var data = {% *|json_encode_cyr %}
+$("#plugin-realty-item").pluginInit()
+rent.ListItemOwl()
+//$("#realty-card select[name=currency_id] option:first").remove()
+app.exports.armoring.init()
+app.exports.comment.init()
+rent.render(data)
+
+</script>

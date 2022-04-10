@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "Cuir isteach: app chabhair seo \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - Comhaid aistriúcháin thabhairt cothrom le dáta"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins -. gach líne locale / * po.s scríobhann locale / * po msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - file aistriúchán kompilliruet i www / locale / * json."
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "comhad téama / dir. [Eolaire] - cóipeanna an comhad nó eolaire na snáitheanna"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - nglanann an taisce"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "rialaitheoirí - líon na rialtóirí"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "pl ainm - a chruthú plugin fillteán atá bunaithe ar skel"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - liosta de na breiseáin suiteáilte"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "PLL - liosta de na breiseáin"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "PLIanna ainm - Suiteáil an breiseán"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". Suiteáil iad go léir?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "Braitheann $ Ainm ar"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu ainm - dhíshuiteáil an breiseán"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". Díshuiteáil iad go léir?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "Braitheann Ó $ ainm"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel ainm - Baineann go fisiciúil an breiseán"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "Plugin `$ ainm` no \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "Bain breiseán `$ ainm`?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "newname ainm plrn - Athainmnigh an breiseán"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "reáchtáil - reáchtáil ar an iarratas sa consól"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "tús - Tosaíonn na hiarratais http-freastalaí"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "stop - stopann an iarratais http-freastalaí"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "atosú - atosú na hiarratais http-freastalaí"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "soláthraíonn sé eolas maidir leis na feidhmchláir http-freastalaí - stádas"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "Láimhseálaithe stádas PID \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "Rith $ pid $ oibrithe \ n"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "Lies $ oibrithe \ n"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "scríobhann conf teimpléad / crontab i crontab - cron"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "tástáil [test1 test2 ...] - reáchtáil na scrúduithe. Mar shampla: app realtyList samhail tástála"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "Ní féidir leat a shainiú réimsí nár úsáideadh, toisc go bhfuil an tástáil a scriosadh na taifid go léir ó $ tábla \ n"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "Tábla neamhúsáidte: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "Réimsí nár úsáideadh: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "gen tábla kol_zapisey - Cuireann sonraí randamach isteach an tábla sonraithe"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - is é sin le sonraí a luchtú isteach ar an mbunachar sonraí ó / conf / * json."
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "Json damáiste i $ \ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - cóip * json déanta www / tástáil / ex.html i / conf / * json.."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "cabhrú - an chabhair seo"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "An fhoireann `$ cmd` nach bhfuil tacaíocht \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "Éilíonn an ordú suas go dtí $ n $ paraiméadair u, agus pas tú k $ \ n"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "Éilíonn an ordú paraiméadair $ n, agus pas tú k $ \ n"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "Ní Freastalaí ag rith \ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "Freastalaí é a stopadh \ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "tuairisceáin liosta de orlach plug-"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "tuairisceáin liosta de na rialtóirí as an bonn"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "Ritheann rialaitheoirí il"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "fhíorú - cibé an rialtóir sonraithe"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "Tarlaíonn sé seo tar éis an cliant má tá an seisiún"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "Stoptha an próiseas № $ oibrí"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "Ní féidir liom stop a chur leis an bpróiseas № $ oibrí"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "Stoptha an próiseas № $ cron (cron)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "Ní féidir liom stop a chur leis an bpróiseas № $ cron (cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "Ní féidir fhorghníomhú forc \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "Ní Dícheangail as an \ teirminéal n"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "forc Theip leis an earráid"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "Ní cruthaíodh cron. M Earráid% forc"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "Láimhseálaithe Running:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "Ní féidir liom a leagtar ar an SIGHUP láimhseálaí"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "Ní féidir liom a shuiteáil Handler SIGTERM"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "M Earráid% pcntl_waitpid"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "Críochnaithe láimhseálaí № $ kid"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", Stádas: $ stádas. Ghnóthú"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "forc Theip m% earráid"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "Seoladh láimhseálaí № $ kid"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket_accept m% Theip ar"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ Eochair ní féidir` ar neamhní"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": No `mhaoin $ eochair`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "$ Rialaitheoir `ainm` Cuireadh cheana féin. Athscríobh"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "Riarthóirí"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "$ Rialaitheoir `ainm nach bhfuil` fáil"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "Is é an t-úsáideoir fíordheimhnithe"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "An iarracht a athrú duine eile samhail"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "Níl aon rochtain ar an rialtóir `$ ainm`"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "Rochtain Anaithnid `$ rochtain` in ainm an rialtóir `$`"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "Ní Úsáideoir fíordheimhnithe"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "An `oibreoir $ op` scagaire `$ eochair nach bhfuil` cead"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "Tá eolaire liosta teaghrán «$ ainm»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "Eolaire Líne «$ ainm»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "Shábháil eolaire teaghrán «$ ainm»"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "Scriosadh eolaire chéile «$ ainm»"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "Táblaí"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "R-phost nach bhfuil curtha"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "Neamhbhailí ainm úsáideora nó ar do phasfhocal"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "Íoslódáil plugin `$ ainm nach bhfuil` ceangailte"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "Íoslódáil plugin `$ ainm` ar spleáchas neamhchomhlíonta `$ Dep`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "Plugin `$ ainm` suiteáilte cheana"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "Plugin `$ ainm` suiteáilte"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "Ón ainm an breiseán `$` brath breiseán-orlach:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "Tá cheana féin `$ name2` - ní féidir a athainmniú"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "Plugin `$ cosán ann`"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "Plugin `$ ainm` no"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "Ba chóir go mbeadh Maoine aicme glacadóirí SMS eagar"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "Ní mór Maoine aicme glacadóirí SMS i gcrích roimh sheoladh"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "An glacadóir formáid mícheart líon $ v"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "Ní mór a bheith Maoine ranga téacs SMS ar shraith"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "Ba chóir go mbeadh Maoine ranga téacs SMS níos mó ná 256 carachtar"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "SMS sheoladh theip, earráide:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "Níl aon teorainn ar an Cineál Ábhar-"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "Níorbh fhéidir an comhad a oscailt comhad $ \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "Comhad `$ comhad` truaillithe - gan msgstr roimh msgstr. Sraith $ i \ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "Comhad `$ comhad` damáiste. Sraith $ i \ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgstr gan msgstr. Sraith $ i \ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "Paraiméadar `$ nach eochair` de chineál an cineál `$`"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "bheith ní mór slánuimhir"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "a bheith Ba chóir go nádúrtha"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "Is féidir airgead a bhfuil ach 2 ionad dheachúlacha"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "Ní féidir Airgead a bheith diúltach"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "Aitheantóir - uimhir nádúrtha níos mó ná 0"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "Ní mór Pasfhocal a bheith níos mó ná nó cothrom le 6 carachtair"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "Iontráil tú an ríomhphost mícheart"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "Fón Formáid: + figiúirí (uimhreacha) uimhir scartha ag Fleasc. Mar shampla: +7 (921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "Ní hé seo an comhad"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "Níl comhad mar pharaiméadar"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "Ní hé seo an dáta"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "Ní mór go mbeadh ainm amháin ar a laghad carachtar"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "Ba chóir go mbeadh an chathair a ainm amháin ar a laghad carachtar"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "Nach mheaitseáil leis an ordú: field1 [desc], field2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "Ní féidir teorainn a bheith níos mó ná 100 agus níos lú ná 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "Ní mór an t-ainm paraiméadar tús a chur leis roinnte nó féin"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "Seirbhís"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 mhí"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 mhí"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Dhíroghnú ar an fhéilire"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "Bloc an fhéidearthacht áirithint ar líon roghnaithe"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "Díghlasáil an bhféidearthacht chur in áirithe"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "Socraigh an praghas in aghaidh an lae as an réimse ar an taobh clé den tréimhse roghnaithe"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "Athraigh an praghas ar an dáta roghnaithe"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "Bain aon phraghas"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "cliceáil"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "Cliceáil + athrú"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- Roghnaigh a bhaint di nó eatraimh lá"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "cliceáil + Ctrl + athrú"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- Roghnaigh / thaobh na láimhe clé a bhaint"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "cliceáil + bacainn"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- Roghnaigh / an ceart a bhaint"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- Roghnaigh na nó soiléir eatraimh idir eatramh"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "Leabhar a"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "áirithintí"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "FORCHOIMEÁDAS"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "Seoladh"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "D'ainm"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "Líon na ndaoine atá"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "Dáta teachta / imeachta"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "Ina theannta sin"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "Seol"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "An fhoirm Forchoimeádas chomhdú. Seo é do"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "léas chonradh"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "Tú"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "Ní mór duit clárú chun iarratas a chur isteach áirithinte"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "Iarratas"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "Aibhsigh tréimhse"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "Roghnaigh an tréimhse faoi ghlas"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "Gabhálacha raon Roghnaithe an t-eatramh leis an gcostas suiteáilte. Is féidir le Praghas a athrú ach amháin"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "Praghas athrú"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "Clic ar dáta le praghas"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "Roghnaigh ar feadh tréimhse"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "Iarratas Áirithint"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "chur in áirithe ar mhaoin"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "Ag an tréimhse sin a bhfuil an teach curtha in áirithe"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "Tá tú áirithinte nua ag"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "chur ar ceal an áirithint ar an maoin"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "bloic an áirithint"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "Bunaítear praghsanna éagsúla ar feadh na tréimhse iarrtha"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "athruithe praghsanna eile"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 réad"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 míreanna 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 míreanna 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 réad 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "Ní suiteáilte 03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "Ní suiteáilte 02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "leagtar 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "leagtha chun 8.6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "rogha = 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "roghnú ranga"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "Aicme Armor"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "roghnú úsáideora ranga"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "cill rang dúbailte"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "lámhaigh 08, an tréimhse 6.7"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "Airgead Tirim"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "Suim"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "Am"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "Cineál na híocaíochta"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "Eastáit réadaigh"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Payer"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Cashier"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "Ainm"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "Sínigh"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "Cur síos"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "Add a comment"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "Comments"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "Comment tuairisceáin cártaí do eastát réadach, le"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "Cuireann a comment ar an eastát réadach"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "scriosadh tuairimí le haghaidh Maoine"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "Tástáil Comment"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "Oifig phríobháideach"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "Scoir"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "Sonraí pearsanta"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "Ionchur"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "Cláraigh"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "Athchóirigh focal faire"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "R-phost nó uimhir theileafóin:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "Cuimhnigh"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Pasfhocal:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "Cuir isteach"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "Cuir isteach do R-phost:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "Cuir isteach d'uimhir theileafóin:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "Beidh tú a sheoladh r-phost nó SMS aon-uaire do phasfhocal. Athraigh an focal faire díreach tar éis logáil"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "Athraigh do phasfhocal sealadach"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "Tá do phasfhocal sealadach bailí ach amháin go dtí deireadh an tseisiúin. Athrú anois"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "Focal faire nua:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "Focal faire nua:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "Malartú"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "Main"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "Athraigh an focal faire"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "Ainm:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "Fón:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "Pasfhocal Sean:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "Litir chuig"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS sheoladh chuig"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "Cruthú Úsáideoir"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "Ghnóthú Pasfhocal"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<li> CapsLock ar - litreacha cineál"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "méarchlár Rúisis <li>"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "Pasfhocal rathúil athrú"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "Athrú ar an focal faire"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "Logáil isteach Úsáideoir I"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "Logáil amach"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "Athraigh d'fhocal faire"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "Is focal faire mícheart"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "Cruthaigh cuntas nua nó ar do phasfhocal a ghnóthú"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "Tá do phasfhocal sealadach: $ focal faire"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "Tuairisceáin eolas faoi an t-úsáideoir"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "Tuairisceáin eolas faoin logáilte isteach úsáideora"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "Athraigh an eolas faoin logáilte isteach úsáideora"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "Íocaíocht le cárta"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "Foirm Íocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "Uimhir Íocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "Sonraí íocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "Ainm Úsáideora"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "Méid na híocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "Pá áirithinte ar líne."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "Íocaíochta ar líne"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "Ní uimhir áirithinte a rith"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "Beidh córas seachtrach tagairt leis an script a athrú ar an stádas d'íocaíocht"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "Neamhbhailí IP IP seoltóir gá:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "Ní Paraiméadair éirigh as an gcóras íocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "Neamhbhailí siopa identtifikator"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "Uimhir Íocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "glacadh an earráid íocaíochta: gá íocaíocht Neamhbhailí hash"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "glacadh an earráid íocaíochta: Íocaíocht hash neamhbhailí"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "glacadh an earráid íocaíochta: sonraí Neamhbhailí a fuarthas:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "sonraí inmheánacha:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "glacadh an earráid íocaíochta: sonraí a Neamhbhailí a fuarthas."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "thar thréimhse"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "ag:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "Íocaíochta don uimhir áirithinte"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "Armor Íocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "a chruthú i bhfoirm seirbhísí íocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "tástáil"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "Uimhir áirithinte Íocaíochta"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "Uimhir áirithinte Íocaíocht $ armoring-> id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "ExternalPayments Tástáil"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "Tástáil armúr Íocaíochta"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Sergei"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "Uasluchtaigh grianghraf"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "Grianghraif"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "Tarraing an íomhá a athrú a seasamh i measc na n-íomhánna eile"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "Scrios pictiúr"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "Ar mhaith leat i ndáiríre a scriosadh phictiúr seo?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "Earráid! Íosluchtaigh Íomhá"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "Cuireadh uaslódáil Photo. B'fhéidir go bhfuil sé ró-mhór."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "Leathanach Secure"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "Luchtú íomhá. Uimhir Dearmad"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "shábháil grianghraif Maoine"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "scriosadh grianghraif Maoine"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "grianghraif dhigiteacha ar eastát réadach"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "Seiceáil an ullmhacht pasanna coigríche saoránach Rúisis"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "Seiceáil ar bhailíocht an phas duine is saoránach de Chónaidhm na Rúise"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "Seiceáil a cuireadh"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "St Petersburg"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "Seirbhísí"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "Seirbhísí de réir an cliant"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "Faisnéis a chur ar an eolas"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "Teachtaireacht chuirtear ar fáil don fhoireann"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "teileafóin do SMS"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "Pearsanra na Seirbhíse"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "sonraí siopaí maidir le fógra a"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "Tuairisceáin saor in aisce ar eastát réadach"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "sonraí scriosann maidir le fógra a"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "Gníomh Tógtha"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "Prótacal"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "Tuairisceáin ar liosta de ghníomhartha a rinne an t-úsáideoir"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "Suas"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "Seomraí:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "Ceantair:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Metro:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "Árasáin"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 seomra"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 sheomra"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 sheomra"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "níos mó ná 3 sheomra"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "Cathair:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "Check-in"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "Check-out"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "Gach rudaí"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "Mo Liostaí"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "nuachta ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "ag praghas ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "Cuir le maoin"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "Scag an liosta de na maoine"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "Féach:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "Árasáin réir líon na seomraí"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "saghas"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "Ceantair"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "Suíomh"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "Ionad"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "Imeall"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Metro"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "Praghas"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "Eolais iomlána"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "Seoladh:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "Seomraí:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "Leapacha:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "Faisnéis ghinearálta"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "Léarscáil"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "Cárta Maoine"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Roimhe Seo"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "Ar Aghaidh"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "Scrios Maoine Cárta"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "Airgeadra"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "Praghas in aghaidh an oíche:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "Praghas in aghaidh na míosa:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- Saor in Aisce"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- Ar cosnamh"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- Cíos"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- In áirithe agat"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- Léas tú"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- Praghas eile"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- Lock"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- Béim"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "Dúiche:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "Urlár:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Cur síos:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "Fostaíocht:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "Kitchen"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "TV"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "Fón"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "Ceol Ionad"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "Idirlíon"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "Aerchóiriú"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "Níocháin"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "Ní shonraítear"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "Mí"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "Lá"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "Roghnaigh ón liosta de réimsí ina chun pas a shórtáil"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "Roghnaigh ón liosta de stáisiúin meitreo mór pas a shórtáil"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "Cártaí le huimhreacha Maoine"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "Níl aon"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "nach bhfuil sonraithe"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "Anaithnid"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "tuairisceáin liosta de eastát réadach. Is féidir teorainn a bheith 1-100. Réamhshocrú - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "Árasán Téip le haghaidh innill chuardaigh"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "próifíl árasán le haghaidh innill chuardaigh"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "Ar Cíos Maol / teach / seomra ar cíos"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "cathair"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "limistéar"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "stáisiún traenach faoi thalamh"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "seoladh"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "costas"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "in aghaidh an lae"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "Urláir"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "Seomraí"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "Leapacha"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "trácht a dhéanamh"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "tuairisceáin liosta de na réimsí metro agus ag brath ar an gcathair"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "próifíl Coimeádann ar eastát réadach. Má id = 0 - a chruthú nua a"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "Eolas curtha ar athraíodh"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "deireadh leis an próifíl ar eastát réadach"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "Modúl"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "Apartment Tástáil"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "Tástáil RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr "Luchtú CSS) / / Asynchronous -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "Tá sé riachtanach don suíomh seo"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "Tá JavaScript díchumasaithe"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "Duit JavaScript a chumasú i do bhrabhsálaí"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "AIRE!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "Liosta de na árasán"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "thabhairt cothrom le dáta"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "AIRE! Tá do bhrabhsálaí ró-shean le haghaidh an suíomh seo. Mholadh sé"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "Leanúint ar do phriacal féin"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- Beidh tábla a leanas isteach sa plugins iarratais. Ní mór an breiseán a fhios ag an ID an eilimint ina bhfuil sé isteach. Ionsáigh breiseán a chorp sa deireadh (append) a ghabhann leis sonraithe. Bhrí sin is féidir i gceann coimeádán a chur ar líon ar bith de orlach plug-ceann ar cheann -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "Airgeadra:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "Uimhir Dearmad"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "fhorleagan stair folamh"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "Ní féidir liom dul ar ais - nach bhfuil an forleagan reatha mheaitseáil leis an hash"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "suiteáilte cheana féin"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "chás sin: Imeacht"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "Earráid:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "Dún"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "Earráid!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "Cuir isteach slánuimhir"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "Iontráil uimhir fíor"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "Ní Urlár ná líon na n-urlár"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "Cuir isteach líon na n-urlár agus urlár"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "Cuir isteach slánuimhir"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "Cuir isteach slánuimhir níos mó ná 0"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "Cuir isteach uimhir dheimhneach fíor"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "Cuir isteach luach an comhartha"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "Cuir isteach an praghas: dhá ionad de dheachúlacha. Mar shampla: 100.22 nó 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "Cuir isteach amháin ar a laghad carachtar"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "Cuir isteach an r-phost"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "Logáil isteach format: r-phost nó ar an bhfón uimhir, mar shampla: +7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "Ní mór go mbeadh an focal faire ar a laghad 6 litreacha"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "Ní faire meaitseáil"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "Iontráil Bailí"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- Nach roghnaithe -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "Sonraí a shábháil"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "Bain"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "Níl aon fhoirm ordaithe (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "Caomhnú"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "Níl gach réimse a líonadh i gceart"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "Is rathúil"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "Deireadh"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "ní féidir iad a bhaint"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "Ar mhaith leat a scriosadh"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "liosta: ordú neamhbhailí '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "Cuir"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ taifead"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input disabled> value=\'Vstavit\' type=button"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input disabled> value=\'Redaktirovat\' type=button"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input disabled> value=\'Udalit\' type=button"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Scriosadh eolaire chéile"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "Ar mhaith leat i ndáiríre a scriosadh as a chéile?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<Roimhe"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "Ar Aghaidh>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "Sa lá atá inniu"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "Eanáir"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "Feabhra"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "Meitheamh"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "Bealtaine"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "Márta"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "Aibreán"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "Lúnasa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "Iúil"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "Meán Fómhair"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "Samhain"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "Deireadh Fómhair"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "Nollaig"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "Feabhra"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "Eanáir"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "Aibreán"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "Meitheamh"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "Márta"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "Lúnasa"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "Nollaig"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "Iúil"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "Samhain"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "Deireadh Fómhair"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Sen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "Déardaoin"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "Dé hAoine"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "Dé Luain"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "Dé Sathairn"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "Dé Céadaoin"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "Dé Domhnaigh"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "Dé Máirt"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Tue"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "fear"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "Déardaoin"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Aoine"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "Sun"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Aoine"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "Sun"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Dé Máirt"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Déardaoin"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Wed"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Luan"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "Uimh"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "Ní bhaineann an bhrabhsálaí le AJAX"
+

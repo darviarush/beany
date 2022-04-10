@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "輸入：應用程序的幫助\ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "郎 - 更新翻譯文件"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "寶msgstr langins - 每行區域/ *。po.s地區/ *寫入。"
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - kompilliruet翻譯文件在WWW /區域/ *。JSON"
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "主題文件/目錄。 [目錄] - 複製文件或目錄的線程"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - 清除緩存"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "控制器 - 控制器的數量"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "PL名 - 創建一個插件文件夾為基礎的skel"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "PLS - 已安裝的插件列表"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "PLL - 所有插件的列表"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "PLI的名字 - 安裝插件"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr "。全部安裝嗎？"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$名稱取決於"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "PLU名稱 - 卸載插件"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr "。卸載都知道嗎？"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "從$名稱取決於"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel的名字 - 物理上刪除該插件"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "插件`名`無\ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "刪除插件`名`？"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn名新名稱 - 重命名插件"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "在控制台中運行 - 運行的應用程序"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "啟動 - 啟動HTTP服務器應用程序"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "停止 - 停止HTTP服務器應用程序"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "重新啟動 - 重新啟動HTTP服務器應用程序"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "狀態 - 提供的HTTP服務器應用程序的信息"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID狀態處理程序\ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "運行$ PID $工人\ n"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "位於$工人\ n"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "cron的 - 寫的模板機密的/ crontab文件crontab中"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "測試[TEST1 TEST2 ...] - 運行測試。例如：應用程序測試模型realtyList的"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "你不能定義未使用的字段，因為測試已經刪除了所有的記錄由表\ n"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "未使用的表：\ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "未使用的字段：\ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "代表kol_zapisey - 到指定的表中添加隨機數據"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "LOADDB - 將數據加載到數據庫/ conf /中。JSON"
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "損壞的JSON在$文件\ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "* fordb put_k_json - 拷貝*。JSON WWW /測試/ ex.html的的在/ conf / *。JSON"
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "幫助 - 這幫助"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "該小組`$ CMD`不支持\ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "此命令需要高達$ N $ u參數，你傳遞一個$ K \ n"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "此命令需要$ n參數，你傳遞一個$ K \ n"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "服務器未運行\ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "服務器已停止\ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "返回一個列表的插件"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "控制器返回一個列表，從基座"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "運行多個控制器"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "驗證 - 無論是指定的控制器"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "如果會話時，會出現這種情況後，客戶端"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "№$工人停止進程"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "我不能停止的過程№$工人"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "停止進程№的cron（玉米）"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "我不能停止的過程№美元的cron（玉米）"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "無法執行fork \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "不脫離終端\ n"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "叉失敗，錯誤"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "不創建cron的。錯誤叉％M"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "運行處理程序："
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "我不能設置處理SIGHUP"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "我不能安裝SIGTERM處理器"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "％，米pcntl_waitpid錯誤"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "已完成處理程序№$孩子"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr "，狀態：$狀態。恢復"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "叉失敗，錯誤％M"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "推出處理程序№$孩子"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket_accept失敗％M"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr "：`$關鍵不能為空"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr "：無屬性`$`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "控制器`$名稱。改寫"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "管理員"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "控制器`$名稱沒有找到"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "對用戶的認證"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "試圖改變別人的模式"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "無法訪問控制器`名`"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "未知的接入`訪問`的控制器`$名稱`"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "用戶沒有通過驗證"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "運算符'運`過濾器`$關鍵是不允許的"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "一個字符串列表目錄“名稱»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "線上目錄“名稱»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "保存字符串目錄“$名稱»"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "刪除行目錄“$名稱»"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "表"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "電子郵件未發送"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "無效的用戶名或密碼"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "可下載的插件`$名稱未連接"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "可下載的插件`名``$ DEP是一個未滿足的依賴`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "已安裝的插件`名`"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "被卸載插件`$名稱"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "從插頭`$名稱相關的插件："
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "已經有一個`$ NAME2“ - 不能重命名"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "插件`$`存在"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "插件`名`"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "地產類短信接收器應該是一個數組"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "地產類短信接收器之前，必須完成發送"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "錯誤的數字格式接收器$ V"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "地產類SMS​​文本必須是字符串"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "地產類SMS​​文本應該是不超過256個字符"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "短信發送失敗，錯誤："
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "有沒有邊界的Content-Type"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "無法打開文件$ file \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "文件`$`腐敗 - msgstr前沒有＃。 $ i行\ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "文件`$`損壞。 $ i行\ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "＃無msgstr。 $ i行\ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "參數`$`類型`$`"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "必須是整數"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "應該是一個自然"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "錢只能有2位小數"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "錢不能負"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "標識符 - 大於0的自然數"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "密碼必須大於或等於6個字符"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "您輸入錯誤的電子郵件"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "格式電話：+數字（數字）數字用破折號分開。例如：+7（921）333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "這不是一個文件"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "沒有文件作為參數"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "這不是一個日期"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "名稱必須至少包含一個字符"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "這個城市的名字應該是至少有一個字符"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "不匹配的順序為：FIELD1 [降序]，field2欲..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "限制不能大於100且小於1的"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "參數名稱必須以共享或自己"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "服務"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3個月"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12個月"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "取消選擇“日曆"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "預訂選定的一些封鎖的可能性"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "解鎖的可能性預訂"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "每天從字段設置價格上的左側的所選期間"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "更改選定的日期的價格"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "刪除任何價格"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "單擊"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "單擊“+ SHIFT"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr " - 選擇或消除一天的時間間隔"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "單擊“+ CTRL + SHIFT"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr " - 選擇/刪除左"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "單擊“+ ALT"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr " - 選擇/刪除的權利"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr " - 選擇全部或明確的時間間隔之間的時間間隔"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "預訂一個"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "預訂"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "預訂"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "地址"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "你的名字"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "人數"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "抵港/離港日期"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "另外"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "發送"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "提交預訂表格。這是你的"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "租賃合同"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "您"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "您必須註冊才能提交預約請求"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "應用"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "突出顯示期"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "選擇鎖定期"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "選擇範圍捕獲的時間間隔的安裝成本。價格只能改變"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "價格變化"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "點擊日期與價格"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "選擇一個時期"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "預訂查詢"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "預訂的財產"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "在此期間預訂的房子是"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "你有一個新的預訂"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "取消預訂的財產"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "塊預訂"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "建立了不同價格的要求期間"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "其他價格變動"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1對象"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2個1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2個項目2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2對象3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "未安裝03"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "未安裝02"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "設置08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "設置為8.6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "選擇= 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "類選擇"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "護甲等級"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "級用戶的選擇"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "一流的雙電池"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "拍攝08年，期間的6.7"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "現金"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "總和"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "時間"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "類型的付款"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "房地產"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "付款人"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "出納員"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "名稱"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "簽署"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "描述"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "添加評論"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "評論"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "意見卡對房地產的回報"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "添加註釋的房地產"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "刪除評論物業"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "測試點評"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "私人寫字樓"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "出口"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "個人資料"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "輸入"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "報名"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "恢復密碼"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-mail或電話號碼："
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "記得"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "密碼："
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "進入"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "請輸入您的E-mail："
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "輸入您的手機號碼："
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "您將收到一封電子郵件或SMS一次性密碼。登錄後立即更改密碼"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "更改您的臨時密碼"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "您的臨時密碼才有效，直到會話結束時。現在更改"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "新密碼："
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "新密碼："
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "交流"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "主"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "更改密碼"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "產品名稱："
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "電話："
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "舊密碼："
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "致函"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "短信發送到"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "創建用戶"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "密碼恢復"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<LI> CapsLock鍵 - 輸入字母"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<LI>俄語鍵盤"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "密碼成功改變"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "更改密碼"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "用戶登錄"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "註銷"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "更改您的密碼"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "舊密碼不正確"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "創建一個新的帳戶或恢復密碼"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "您的臨時密碼：密碼"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "返回有關用戶的信息"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "返回登錄的用戶的信息"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "更改登錄的用戶的信息"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "卡支付"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "付款表格"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "繳費號碼"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "付款細節"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "用戶名"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "支付金額"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "在線支付預訂。"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "網上支付"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "不通過預約電話"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "外部系統指的是該腳本將改變您的付款狀態"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "無效的發送者IP IP需要："
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "從支付系統中傳遞的參數是不"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "無效的identtifikator店"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "付款數"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "接收付款錯誤：無效的哈希支付需要"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "接收付款錯誤：無效的哈希支付"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "接收的支付錯誤：無效的數據："
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "內部數據："
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "接收的支付錯誤：無效的數據。"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "過了一段"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "在："
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "接受付款的預訂號碼"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "付款裝甲"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "創建一種形式的支付服務"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "測試"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "支付預訂號碼"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "支付預訂數量鎧-> ID"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "測試ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "支付裝甲測試"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "謝爾蓋·"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "上傳一張照片"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "圖片"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "在其他圖像中拖動圖像以改變其位置"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "刪除圖片"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "你真的要刪除這張照片嗎？"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "錯誤！圖片下載"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "照片被上傳。也許實在是太大了。"
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "安全頁面"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "載入圖片。錯誤號"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "保存照片物業"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "刪除照片物業"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "數碼照片的房地產"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "檢查外國護照的俄羅斯公民的準備"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "俄羅斯聯邦公民的護照檢查的有效性"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "檢查委員會的邀請"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "聖彼得堡"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "服務"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "服務公司訂購的客戶端"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "信息提醒"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "消息發送到員工"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "手機短信"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "服務人員"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "存儲數據的通知"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "免費退貨房地產"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "通知刪除數據"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "已採取的行動"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "協議"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "返回一個列表，由用戶執行的操作"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "上"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "客房："
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "地區："
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "地鐵："
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "酒店式公寓"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1室"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2個房間"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3個房間"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "超過3間客房"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "城市："
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "入住"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "退房"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "所有的對象"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "我的房產"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "新奇↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "價格↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "添加一個屬性"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "過濾器的屬性列表"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "查看："
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "公寓擁有客房數"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "分類"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "區"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "位置"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "中心"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "郊區"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "地鐵"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "價格"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "完整的信息"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "地址："
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "客房："
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "床："
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "M“"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "“"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "一般資料"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "地圖"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "房地產證"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "上一頁"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "下"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "刪除卡屬性"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "貨幣"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "每晚價格："
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "每月價格："
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr " - 免費"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr " - 保留"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr " - 租"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr " - 您預訂"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr " - 租賃由你"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr " - 另一種價格"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr " - 鎖定"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr " - 重點"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "地區："
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "樓層："
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "說明："
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "就業："
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "廚房"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "電視"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "電話"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "音樂中心"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "網際網路"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "空調"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "洗衣機"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "未指定"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "月"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "日"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "從區域列表中選擇要在其中傳遞排序"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "從地鐵站，必須經過排序的列表中選擇"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "物業編號卡"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "有沒有"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "未指定"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "未知"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "返回一個列表的房地產。限制可以是從1到100。默認值 - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "磁帶公寓的搜索引擎"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "扁平的搜索引擎"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "出租公寓/房子/房出租"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "城市"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "區域"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "地鐵站"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "地址"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "成本"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "每一天"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "地板"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "客房"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "床"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "評論"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "返回一個列表的都會區，並根據城市"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "輪廓保持房地產。如果id = 0 - 創建一個新的"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "信息已改變"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "房地產檔案中刪除"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "模"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "測試公寓"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "測試RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr "）/ /異步加載CSS -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "這個網站是必要的"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript被禁用"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "請啟用瀏覽器的JavaScript"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "警告！"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "公寓列表"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "更新"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "警告！您的瀏覽器太舊了這個網站。值得推薦"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "繼續在自己的風險"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr " - A表會被插入到應用程序的插件。該插件需要知道它被插入的元件，其中的ID。插頭插入他的身體到底（追加）指定。因此，在一個容器中，可以將任意數量的插件1 1 -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "貨幣："
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "錯誤號"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "歷史上覆蓋空"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "我不能回去 - 當前的覆蓋不匹配的哈希"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "已安裝"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "事件：事件"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "錯誤："
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "關閉"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "錯誤！"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "輸入一個整數"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "輸入一個實數"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "樓樓層數不得超過"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "輸入的地板和地板"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "輸入一個整數"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "輸入一個大於0的整數"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "輸入一個正實數"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "輸入的符號的值"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "輸入價格：小數點後兩位。例如：100.22或100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "至少輸入一個字符"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "輸入的e-mail"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "登錄格式：E-mail或電話號碼，例如：+7（921）333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "密碼必須至少6個字符"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "密碼不匹配"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "有效輸入"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr " - 未選擇 -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "數據被保存"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "清除"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "沒有命令的形式（“"
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "保存"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "不是所有的字段填寫正確"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "是成功的"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "切除"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "不能被刪除"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "你真的要刪除"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "列表：無效的命令“"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "加"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨記錄"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "刪除行目錄"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "你真的要刪除一個行嗎？"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=buttonvalue=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<上頁"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "下一頁>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "今天"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "一月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "二月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "六月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "五月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "三月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "四月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "八月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "七月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "九月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "十一月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "十月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "十二月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "二月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "一月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "四月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "六月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "三月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "八月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "十二月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "七月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "十一月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "十月"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "森"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "星期四"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "星期五"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "星期一"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "星期六"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "星期三"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "星期天"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "星期二"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "星期六"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "星期二"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "“近期行動計劃”"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "結婚"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "週四"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "週五"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "太陽"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "週五"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "太陽"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "週二"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "週四"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "星期六"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "星期三"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "週一"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "沒有"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "該瀏覽器不支持Ajax"
+

@@ -1,0 +1,61 @@
+<div class="metro-map-show">Схема Метро</div>
+<div class="metro-map-show metro-map-edit" style="display: none">Редактировать</div>
+
+<div id="metro-map-ovl"
+     class="app-overlay">
+    <div class="metro-map-container">
+
+        <div class="metro-map-holder">
+            <!-- todo change city -->
+            <div id="metro-map">
+                <div style="display: none;"
+                     class="imagesContainer {imageUrl:'metro/50748.png', navPosition:'BR', navWidth: 120, NavCoordinates:'0,0' }">
+                    <span class="title">Saint Petersburg</span>
+                </div>
+                <div style="display: none;"
+                     class="imagesContainer {imageUrl:'metro/27505.png', navPosition:'BR', navWidth: 120, NavCoordinates:'0,0' }">
+                    <span class="title">Moscow</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- made visible (later) to all
+                for search and navigation ease..
+        -->
+        <div class="metro-data-edit">
+            <div class="metro-stations-container">
+                <label for="metro-station">Список станций:</label>
+                <select class="metro-stations"
+                        id="metro-station">
+                    <option class="metro-station"
+                            value="">Выберите станцию</option><!-- not selected -->
+                </select>
+            </div>
+        </div>
+        <div class="metro-data-edit">
+            <div class="metro-data-edit__info">Подождите..</div>
+            <div class="metro-data-edit__controls">
+
+                <!-- add/remove -->
+                <span class="metro-data-edit__item-icon"></span>
+                <span class="metro-data-edit__item-action"></span>
+
+                <!-- rename -->
+                <div class="metro-data-edit__item-name"></div>
+            </div>
+        </div>
+        <!--div class="metro-data-item">
+            <div class="metro-data-item-details">Дополнительные детали</div>
+        </div-->
+        <div class="clr"></div>
+    </div>
+</div>
+
+
+<!--div id="metro-map-navigate" style="display: none">
+    <div style="display:none;"
+         class="imagesContainer {imageUrl:'metro/27505.png',
+         navPosition:'BR', navWidth: 150, NavCoordinates:'1600,1430' }">
+        <span class="title">Donna</span>
+    </div>
+</div-->

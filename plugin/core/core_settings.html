@@ -1,0 +1,75 @@
+<div id="settings_window"
+		 style="cursor: default; height: auto;"
+		 class="app-tab">
+
+		<ul>
+			<li><a href="#core-me">Основное</a>
+			<li><a href="#change_password">Поменять пароль</a>
+		</ul>
+
+		<div id="core-me">
+			<form id="core-me-info"
+				  class="app-form" action="/api/core/me">
+				<table>
+					<tr>
+						<td></td>
+						<td><label for="core-me-name">Имя:</label>
+						<td><input type="text" id="core-me-name"
+								   name=name class="v-str">
+						</td></tr>
+				</table>
+			</form>
+
+			<table id="email-me">
+				<tr action="/api/core/me/contact">
+					<td></td>
+					<td>
+						Email:
+						<input type="text"
+							   name="contact" class="v-email">
+						<input type="hidden" name="type" class="v-str">
+					</td></tr>
+			</table>
+
+			<table id="phone-me">
+				<tr action="/api/core/me/contact">
+					<td></td>
+					<td>
+						Телефон:
+						<input type="text"
+							   name="contact" class="v-phone">
+						<input type="hidden" name="type" class="v-str">
+					</td></tr>
+			</table>
+
+			<table id="skype-me">
+				<tr action="/api/core/me/contact">
+					<td></td>
+					<td>Skype:
+						<input type="text"
+							   name="contact" class="v-skype">
+						<input type="hidden" name="type" class="v-str">
+					</td></tr>
+			</table>
+		</div>
+
+
+		<form id="change_password" class="app-form">
+			<table>
+				<tr><td><label for="change_password-old_password">Старый пароль:</label>
+					<td><input type="password" name="old_password"
+							   id="change_password-old_password" class="v-password">
+					</td></tr>
+				<tr><td><label for="change_password-new_password">Новый пароль:</label>
+					<td><input type="password" name="new_password"
+							   id="change_password-new_password" class="v-password">
+					</td></tr>
+				<tr><td><label for="change_password-new_password2">Новый пароль ещё раз:</label>
+					<td><input type="password" name="new_password"
+							   id="change_password-new_password2" class="v-new-password">
+					</td></tr>
+			</table>
+			<input type="submit" value="Поменять пароль">
+		</form>
+</div>
+<link plugin/core/core_settings.js>

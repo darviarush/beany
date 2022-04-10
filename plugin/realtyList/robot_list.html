@@ -1,0 +1,20 @@
+<html>
+<body>
+
+$for $langs
+	<a href="/$langs.?_escaped_fragment_=list=0">$langs.</a>
+$end
+
+<p />
+
+$for $ids
+	<a href="/$lang?_escaped_fragment_=realty=$ids.">$ids.</a>
+$end
+
+<p />
+
+$if $next
+	<a href="/$lang?_escaped_fragment_=list=$from_id">Следующий</a>
+$fi
+</body>
+</html>

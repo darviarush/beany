@@ -1,0 +1,1 @@
+bash -c "/usr/local/bin/redis-server /home/e.ponimash/beany/conf/redis.conf"

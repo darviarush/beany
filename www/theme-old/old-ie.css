@@ -1,0 +1,33 @@
+audio, canvas, video, .app-list-2 .app-elem, #realty-equipment, .app-ref-form label, #realty-equipment div, .app-equipment div, .app-first .app-s {
+    display: inline;
+    zoom: 1.0;
+}
+ul, ol {
+    list-style-image: none;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+}
+legend {
+    margin-left: -7px;
+}
+button {
+    width: auto;
+    overflow: visible;
+}
+button, input, select, textarea { 
+    vertical-align: middle;
+}
+input[type="button"], input[type="reset"], input[type="submit"] {
+    overflow: visible;
+}
+input[type="checkbox"], input[type="radio"] {
+    width: 13px;
+    height: 13px;
+}
+input[type="checkbox"] {
+    vertical-align: baseline;
+}
+input {
+    vertical-align: text-bottom;
+}

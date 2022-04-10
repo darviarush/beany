@@ -1,0 +1,177 @@
+<link /api/head>
+
+<!-- TESTINDEX -->
+<script>
+	app.exports.place = {% place|json_encode_cyr %}
+</script>
+
+<link plugin/realtyList/list/offer.html>
+
+<!-- таблица в которую будут вставляться плагины приложения.
+Плагину требуется знать только идентификатор элемента в который он вставляется.
+Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом
+в один контейнер можно поместить сколько угодно плагинов один за другим
+-->
+<div class="body">
+	<div class="header">
+		<div class="hm">
+			<div class="hmt">
+				<div class="hmtr">
+					<div class="hmtc">
+
+						<link plugin/core/in.html>
+						<link /language.html>
+
+					</div>
+				</div>
+			</div>
+			<div class="hmc">
+				<div class="shadow-right">
+					<div class="hmb">
+						<div class="hmbl">
+							<a id="logo" href="#"><img src="/theme/images/logo-startpage.png" alt=""/></a>
+						</div>
+						<div class="hmbr">
+							<div class="filter-shadow">
+								<div class="filter">
+									<!-- Test elements -->
+									<!--input type="text" name="" value="Enter the name of the city or area..." /-->
+									<!-- End of test elements -->
+									<link plugin/realtyList/list/start-filters.html>
+									
+									<a id="start-find" class=button style="">Найти</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+		<div class="hb">
+			<div class="hbc">
+				<!-- Test elements -->
+				<button id="add-property" class="add-property">
+					<span></span>Добавить апартаменты
+				</button>
+				<!-- End of test elements -->
+
+				<div class="hperson-container" style="display:none;">
+
+				<!--<ink plugin/core/core_settings.html>-->
+				</div>
+			</div>
+        </div>
+	</div>
+	<div class="page">
+		<div class="pc">
+			<div class="pct">
+				
+			</div>
+			<div class="pcb">
+				<div id=tab-line__start-main class="tab-line__start-main">
+					<for i=realtyList>
+						<div class="app-elem-3 app-list-odd" list_id="{{ i.id }}">
+							<a name="href_id" href="#realty={{ i.id }}">
+								<img name="img_path" src="{{ i.img_id }}"/>
+								<div class="float-info-button" style="display:none">Остановиться здесь</div>
+								<div class="float-info">
+									<div name="city">
+										<div class=country-flag style="background-position: -{{ i.flag_x }}px -{{ i.flag_y }}px">&nbsp;</div>
+										{{ i.city }}
+									</div>
+									<div class="float-info-cena">
+										<sup><sup>Комнат: <span name="number_room">{{ i.number_room }}</span>
+										Людей: <span name="number_bed">{{ i.number_bed }}</span></sup></sup>
+										<sup><span name="left_cur">{{ i.left_cur }}</span><span name="cena">{{ i.cena }}</span>
+										<span name="right_cur">{{ i.right_cur }}</span></sup>
+									</div>
+								</div>
+							</a>
+						</div>
+					</for>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="footer">
+		<div class="fc">
+			<a href="#" id="start-show-all">Посмотреть остальные</a>
+		</div>
+	</div>
+</div>
+
+
+<script><!--
+$("#currency-change").appendTo(".hmtc :first")
+$( "#tab-line__start-main" ).children().each(function() {
+	app.exports.realty.bindHover( $(this) )
+})
+
+$("#start-find,#start-show-all").mouseover(function() {
+	var set_date = function(dt, name) { return dt.slice(5, 7)!="00" && dt.slice(8)!="00"? "!"+name+"="+dt : "" }
+	var set_val = function(val, name) { return parseInt(val)? "!"+name+"="+val: "" }
+	this.href = "#page=1"+set_date($("#flt-from-dp").val(), "date_from")+set_date($("#flt-to-dp").val(), "date_to")+set_val($("#number-bed").val(), "number_bed")
+})
+
+var body, start_filters
+function to_list() {		// переходит к списку
+	/*$("#ex-hmtc").children().appendTo("#hmtc")
+	start_filters = $("#location-location,#flt-date,#flt-guests").appendTo("#filter-shadow")
+	$("#body").hide()
+	$("#realtyList").show()
+	*/
+}
+
+app.hash.add("page", function(name, av, kw) {		// подгрузка страницы списка
+	console.log("@"+name+"="+av)
+	app.page.include("/api/realtyList/list/load", {page: av[0]}, function(elem, data, ch) {
+		console.log("realty-list загружен")
+		
+		to_list()
+		app.hash.add("page", to_list)	// в будущем переходим к page
+	})
+})
+
+app.hash.add_close("page", function(name, av, kw) {	// переходим обратно
+	$("#hmtc").children().appendTo("#ex-hmtc")
+	start_filters.prependTo("#ex-filter")
+	app.util.rm_prefix_id($("#body").find("[id]"), "ex-")
+	app.util.add_prefix_id($("#realtyList").find("[id]"), "ex-")
+	
+	$("#realtyList").hide()
+	$("#body").show()
+})
+
+$("#add-property").click(app.exports.offer)
+</script>
+
+
+<!-- TESTS -->
+<!-- Yandex.Metrika counter -->
+<!--script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter18472939 = new Ya.Metrika({id:18472939,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/18472939" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>

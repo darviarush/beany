@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "Πληκτρολογήστε: app βοήθεια \ n"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "lang - ενημέρωση αρχεία μετάφρασης"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins -. κάθε γραμμή locale / * γράφει po.s locale / po * msgstr."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc - kompilliruet αρχείο μετάφρασης στο www / locale / * JSON."
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "αρχείο θέματος / σκην. [Κατάλογος] - αντίγραφα στο αρχείο ή τον κατάλογο των θεμάτων"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - καθαρίζει τη μνήμη cache"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "ελεγκτές - ο αριθμός των ελεγκτών"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "pl όνομα - δημιουργήσετε ένα plugin που βασίζεται σε φάκελο skel"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - λίστα των εγκατεστημένων plugins"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "pll - ένας κατάλογος όλων των plugins"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "pli όνομα - Εγκαταστήστε το plugin"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". Εγκαταστήστε όλα αυτά;"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ Όνομα εξαρτάται από την"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu όνομα - καταργήσετε την εγκατάσταση του plugin"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". Απεγκαταστήστε όλα αυτά;"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "Από $ όνομα εξαρτάται"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel όνομα - αφαιρεί φυσικά το βύσμα"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "Plugin $ `όνομα` δεν \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "Αφαιρέστε το βύσμα `όνομα` $;"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn νέο_όνομα όνομα - μετονομασία του plugin"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "τρέχει - εκτελέσετε την εφαρμογή στην κονσόλα"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "έναρξη - ξεκινά τις http-server εφαρμογές"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "σταματήσει - σταματά τις http-server εφαρμογές"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "επανεκκίνηση - επανεκκίνηση του http-server εφαρμογές"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "κατάσταση - παρέχει πληροφορίες σχετικά με τα http-server εφαρμογές"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID Χειριστές κατάσταση \ n"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "Τρέχοντας $ $ pid εργαζομένων \ n"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "Lies $ εργαζομένων \ n"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "cron - γράφει πρότυπο conf / crontab crontab σε"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "δοκιμασία [test1 test2 ...] - εκτέλεση των ελέγχων. Για παράδειγμα: δοκιμή app realtyList μοντέλο"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "Δεν μπορείτε να ορίσετε τα πεδία αχρησιμοποίητο, επειδή η δοκιμή έχει διαγράψει όλα τα αρχεία από τον πίνακα $ \ n"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "Αχρησιμοποίητα πίνακα: \ n \ t"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "Αχρησιμοποίητα πεδία: \ n \ t"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "gen πίνακα kol_zapisey - προσθέτει τυχαία δεδομένα στον καθορισμένο πίνακα"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb - είναι να φορτώσει τα δεδομένα στη βάση δεδομένων από / conf / * JSON."
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "Κατεστραμμένα json σε $ file \ n"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - αντίγραφο * json έκανε www / test / ex.html στο / conf / * JSON.."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "βοηθήσει - αυτή η βοήθεια"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "$ Της ομάδας `` cmd δεν υποστηρίζεται \ n"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "Αυτή η εντολή απαιτεί μέχρι και $ n $ u παραμέτρους, και να περάσετε ένα $ k \ n"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "Αυτή η εντολή απαιτεί $ n παραμέτρους, και να περάσετε ένα $ k \ n"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "Ο διακομιστής δεν τρέχει \ n"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "Server είναι σταμάτησε \ n"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "επιστρέφει μια λίστα των plug-ins"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "επιστρέφει μια λίστα των ελεγκτών από τη βάση"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "τρέχει πολλούς ελεγκτές"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "ελέγχει - αν το συγκεκριμένο ελεγκτή"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "Αυτό συμβαίνει μετά από τον πελάτη, εάν η σύνοδος είναι"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "Διακόπηκε η διαδικασία № $ εργαζόμενος"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "Δεν μπορώ να σταματήσω τη διαδικασία № $ εργαζόμενος"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "Διακόπηκε η διαδικασία № $ cron (cron)"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "Δεν μπορώ να σταματήσω τη διαδικασία № $ cron (cron)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "Δεν είναι δυνατή η εκτέλεση πιρούνι \ n"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "Δεν αποκολληθούν από το τερματικό \ n"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "πιρούνι απέτυχε με σφάλμα"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "Δεν δημιουργήθηκε cron. Error m% πιρούνι"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "Τρέχοντας χειριστές:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "Δεν μπορώ να ρυθμίσω το χειριστή SIGHUP"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "Δεν μπορώ να εγκαταστήσω SIGTERM Handler"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "Error pcntl_waitpid m%"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "Ολοκληρώθηκε χειριστή № $ παιδί"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", Κατάσταση: $ κατάσταση. Ανάκτηση"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "πιρούνι απέτυχε με σφάλμα% m"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "Ξεκίνησε handler № $ παιδί"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "socket_accept απέτυχε m%"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": $ `` Βασικά δεν μπορεί να είναι null"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": Δεν ακινήτου `κλειδί` $"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "$ Όνομα ελεγκτή `` είχε ήδη προστεθεί. Ξαναγράφω"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "Διαχειριστές"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "$ Όνομα ελεγκτή `` δεν έχει βρεθεί"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "Ο χρήστης έχει επικυρωθεί"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "Μια προσπάθεια να αλλάξει το μοντέλο κάποιου άλλου"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "Δεν παρέχεται πρόσβαση στο $ το όνομα του ελεγκτή ``"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "Άγνωστο πρόσβαση `` $ πρόσβαση σε $ όνομα του ελεγκτή ``"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "Ο χρήστης δεν έχει επικυρωθεί"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "Ο χειριστής `$ op φίλτρο` `` $ κλειδί δεν επιτρέπεται"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "Ένας κατάλογος λίστα εγχόρδων «$ όνομα»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "Γραμμή κατάλογο «$ όνομα»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "Εξοικονόμηση κατάλογο εγχόρδων «$ όνομα»"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "Διαγραφή ενός καταλόγου σειρά «$ όνομα»"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "Πίνακες"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "Στείλτε e-mail δεν αποστέλλονται"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "Μη έγκυρο όνομα χρήστη ή τον κωδικό πρόσβασης"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "Λήψη plugin `$ όνομα` δεν είναι συνδεδεμένος"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "Λήψη plugin `$ όνομα` είναι μια ακάλυπτη εξάρτηση `$ αναχ`"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "Plugin $ `όνομα` έχει ήδη εγκατασταθεί"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "Plugin $ `όνομα` έχει απεγκατασταθεί"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "Από $ το όνομα του plug `` εξαρτάται από plug-ins:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "Υπάρχει ήδη ένα `$ όνομα2` - δεν μπορεί να μετονομαστεί"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "Plugin `` $ μονοπάτι υπάρχει"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "Plugin $ `όνομα` όχι"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "Ακίνητα κατηγορία δέκτες SMS θα πρέπει να είναι ένας πίνακας"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "Ακίνητα κατηγορία δέκτες SMS πρέπει να έχει ολοκληρωθεί πριν από την αποστολή"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "Ο δέκτης λάθος μορφή αριθμού κατά $"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "Ακίνητα τάξη SMS κείμενο πρέπει να είναι μια συμβολοσειρά"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "Ακίνητα τάξη SMS κείμενο δεν πρέπει να είναι μεγαλύτερη από 256 χαρακτήρες"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "Αποστολή SMS απέτυχε, σφάλμα:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "Δεν υπάρχει όριο στο Content-Type"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "Δεν ήταν δυνατό το άνοιγμα αρχείου $ file \ n"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "Αρχείο `$ διεφθαρμένη αρχείο` - δεν msgid πριν msgstr. Row $ i \ n"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "Αρχείο `$ καταστραφεί το αρχείο`. Row $ i \ n"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgid χωρίς msgstr. Row $ i \ n"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "Παράμετρος $ `κλειδί` όχι από $ τύπου του τύπου ``"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "πρέπει να είναι ένας ακέραιος"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "θα πρέπει να είναι μία φυσική"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "Τα χρήματα μπορούν να έχουν μόνο 2 δεκαδικά ψηφία"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "Τα χρήματα δεν μπορεί να είναι αρνητική"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "Αναγνωριστικό - ένας φυσικός αριθμός μεγαλύτερος από μηδέν"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "Ο κωδικός πρόσβασης πρέπει να είναι μεγαλύτερη ή ίση με 6 χαρακτήρες"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "Πληκτρολογήσατε λάθος e-mail"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "Μορφή τηλέφωνο: + στοιχεία (αριθμοί) αριθμών που χωρίζονται από μια παύλα. Για παράδειγμα: 7 (921) 333-3-333"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "Αυτό δεν είναι ένα αρχείο"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "Δεν υπάρχει αρχείο ως παράμετρο"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "Αυτό δεν είναι μια ημερομηνία"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "Το όνομα πρέπει να είναι τουλάχιστον ένα χαρακτήρα"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "Το όνομα της πόλης θα πρέπει να είναι τουλάχιστον ένα χαρακτήρα"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "Δεν ταιριάζει με τη σειρά: πεδίο1 [φθιν], Πεδίο2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "όριο δεν μπορεί να είναι μεγαλύτερο από 100 και λιγότερο από 1"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "Το όνομα της παραμέτρου πρέπει να αρχίζει με κοινόχρηστο ή τη δική"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "Υπηρεσία"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 μήνες"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 μήνες"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "Απενεργοποιήστε το ημερολόγιο"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "Αποκλεισμός τη δυνατότητα κράτησης ενός επιλεγμένου αριθμού"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "Ξεκλειδώστε το ενδεχόμενο της κράτησης"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "Ρυθμίστε την τιμή ανά ημέρα από το πεδίο στο αριστερό της επιλεγμένης περιόδου"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "Αλλάξτε την τιμή για την επιλεγμένη ημερομηνία"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "Αφαιρέστε οποιαδήποτε τιμή"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "κλικ"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "Κάντε κλικ στο κουμπί + shift"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- Επιλέγει ή αφαιρεί διαστήματα ανά ημέρα"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "κάντε κλικ + ctrl + shift"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- Επιλέξτε / αφαιρέσετε το αριστερό"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "κλικ + alt"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- Επιλέξτε / αφαίρεση του δικαιώματος"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- Επιλογή όλων ή σαφή χρονικά διαστήματα μεταξύ διάστημα"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "Κάντε ένα"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "κρατήσεις"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "ΚΡΑΤΗΣΕΙΣ"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "Διεύθυνση"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "Το όνομά σας"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "Αριθμός ατόμων"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "Ημερομηνία άφιξης / αναχώρησης"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "Επιπλέον"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "Αποστολή"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "Φόρμα κράτησης αρχειοθετείται. Εδώ είναι σας"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "χρηματοδοτική μίσθωση"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "Εσείς"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "Θα πρέπει να εγγραφείτε για να υποβάλετε αίτημα κράτησης"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "Εφαρμογή"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "Επισημάνετε περίοδο"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "Επιλέξτε το κλειδωμένο περίοδο"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "Επιλεγμένη σειρά καταγράφει το χρονικό διάστημα με το κόστος εγκατάστασης. Τιμή μπορεί να αλλάξει μόνο"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "Τιμή άλλαξε"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "Κάντε κλικ σε μια ημερομηνία με μια τιμή"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "Επιλέξτε μια περίοδο"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "Αίτηση Κράτησης"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "κράτησης του ακινήτου"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "Σε αυτό το χρονικό διάστημα το σπίτι κράτηση"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "Έχετε ένα νέο κράτηση"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "ακυρώσει την κράτηση για το ακίνητο"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "εμποδίζει την κράτηση"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "καθιερώνει μια διαφορετική τιμή για την περίοδο που επιθυμείτε"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "άλλες μεταβολές των τιμών"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 αντικείμενο"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 αντικείμενα 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 αντικείμενα 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 αντικείμενο 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "03 δεν έχει εγκατασταθεί"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "02 δεν έχει εγκατασταθεί"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "που 08"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "που σε 8,6"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "επιλογή = 6,8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "Επιλογή κατηγορίας"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "Κατηγορία Armor"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "Επιλογή κατηγορίας χρηστών"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "τάξη διπλό κύτταρο"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "shot 08, η περίοδος των 6,7"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "Μετρητά"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "Άθροισμα"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "Ώρα"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "Τύπος πληρωμής"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "Ακίνητα"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "Πληρωτής"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "Ταμίας"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "Όνομα"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "Σημείο"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "Περιγραφή"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "Προσθέστε ένα σχόλιο"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "Σχόλια"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "Σχόλιο επιστρέφει κάρτες για την ακίνητη περιουσία"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "προσθέτει ένα σχόλιο για την ακίνητη περιουσία"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "διαγράψετε σχόλια για Ακίνητα"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "Δοκιμάστε σχόλιο"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "Ιδιωτικό γραφείο"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "Έξοδος"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "Προσωπικά δεδομένα"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "Εισαγωγή"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "Εγγραφή"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "Επαναφορά κωδικού πρόσβασης"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "E-mail ή τον αριθμό τηλεφώνου:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "Θυμάμαι"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "Κωδικός:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "Εισάγετε"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "Πληκτρολογήστε το E-mail σας:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "Πληκτρολογήστε τον αριθμό τηλεφώνου σας:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "Θα σας αποσταλεί ένα email ή SMS one-time password. Αλλάξτε τον κωδικό πρόσβασης αμέσως μετά την είσοδο"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "Αλλάξτε τον προσωρινό κωδικό πρόσβασης σας"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "Προσωρινό κωδικό πρόσβασης σας ισχύει μόνο μέχρι το τέλος της συνεδρίασης. Αλλάξτε το τώρα"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "Νέος κωδικός πρόσβασης:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "Νέος κωδικός πρόσβασης:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "Ανταλλαγή"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "Κύριος"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "Αλλαγή του κωδικού πρόσβασης"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "Όνομα:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "Τηλέφωνο:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "Παλιά Κωδικός:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "Επιστολή προς"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS αποστέλλεται"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "Δημιουργία χρήστη"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "Ανάκτηση του κωδικού πρόσβασης"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "<li> CapsLock για - γράμματα τύπου"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li> ρωσικό πληκτρολόγιο"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "Κωδικός άλλαξε με επιτυχία"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "Αλλαγή του κωδικού πρόσβασης"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "Σύνδεση χρήστη"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "Αποσύνδεση"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "Αλλαγή του κωδικού πρόσβασης"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "Παλιά κωδικός πρόσβασης είναι λανθασμένος"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "Δημιουργήστε ένα νέο λογαριασμό ή να ανακτήσει τον κωδικό πρόσβασης"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "Προσωρινό κωδικό πρόσβασης σας είναι: $ κωδικό πρόσβασης"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "Επιστρέφει πληροφορίες σχετικά με τον χρήστη"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "Επιστρέφει πληροφορίες για το χρήστη που είναι συνδεδεμένος"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "Αλλαγή των πληροφοριών για το χρήστη που είναι συνδεδεμένος"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "Πληρωμές με κάρτα"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "Μορφή πληρωμής"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "Αριθμός Πληρωμής"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "Λεπτομέρειες πληρωμής"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "Όνομα χρήστη"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "Ποσό πληρωμής"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "Δώστε online κρατήσεων."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "Online πληρωμές"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "Αριθμός κράτησης δεν έχει περάσει"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "Εξωτερικό σύστημα που αναφέρεται σε αυτό το σενάριο θα αλλάξει την κατάσταση της πληρωμής σας"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "Μη έγκυρη ip ip αποστολέα απαιτείται:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "Παράμετροι περάσει από το σύστημα πληρωμών δεν είναι"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "Μη έγκυρη κατάστημα identtifikator"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "Αριθμός πληρωμής"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "υποδοχή του σφάλματος πληρωμής: Μη έγκυρο hash ανάγκη πληρωμής"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "υποδοχή του σφάλματος πληρωμής: άκυρη hash πληρωμή"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "υποδοχή του σφάλματος πληρωμής: έγκυρα δεδομένα που λαμβάνονται:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "εσωτερικά δεδομένα:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "υποδοχή του σφάλματος πληρωμής: έγκυρα δεδομένα λαμβάνονται."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "σε περίοδο"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "στη διεύθυνση:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "Δεκτές πληρωμές για τον αριθμό κράτησης"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "Πανοπλία Πληρωμής"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "δημιουργήσετε μια φόρμα των υπηρεσιών πληρωμών"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "δοκιμή"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "Καταβολή αριθμός κράτησης"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "Καταβολή αριθμός κράτησης $ θωράκιση-> id"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "ExternalPayments Test"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "Καταβολή δοκιμή πανοπλία"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "Sergei"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "Ανεβάστε μια φωτογραφία"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "Φωτογραφίες"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "Σύρετε την εικόνα για να αλλάξετε τη θέση της ανάμεσα στις άλλες εικόνες"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "Διαγραφή εικόνας"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την εικόνα;"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "Σφάλμα! Λήψη εικόνας"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "Φωτογραφία φορτώθηκε. Ίσως να είναι πολύ μεγάλο."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "Secure σελίδα"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "Φόρτωση εικόνας. Λάθος αριθμός"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "αποθήκευση φωτογραφιών Ακίνητα"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "διαγράψετε Φωτογραφίες επιχείρησης"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "ψηφιακές φωτογραφίες των ακινήτων"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "Ελέγξτε την ετοιμότητα των ξένων διαβατηρίων των Ρώσων πολιτών"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "Έλεγχος της ισχύος του διαβατηρίου του πολίτη της Ρωσικής Ομοσπονδίας"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "Ελέγξτε τις προσκλήσεις του"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "Αγία Πετρούπολη"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "Υπηρεσίες"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "Υπηρεσίες με εντολή του πελάτη"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "Πληροφορίες για την προειδοποίηση"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "Μήνυμα αποστέλλεται στο προσωπικό"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "τηλέφωνο για sms"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "Προσωπικό Υπηρεσία"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "αποθηκεύει δεδομένα για την κοινοποίηση"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "Δωρεάν αποδόσεις των ακινήτων"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "διαγράφει τα δεδομένα για την κοινοποίηση"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "Ενέργειες"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "Πρωτόκολλο"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "Επιστρέφει μια λίστα των ενεργειών που εκτελούνται από το χρήστη"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "Πάνω"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "Δωμάτια:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "Περιοχές:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "Metro:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "Διαμερίσματα"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 δωμάτιο"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 δωμάτια"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 δωμάτια"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "περισσότερα από 3 δωμάτια"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "Πόλη:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "Check-in"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "Check-out"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "Όλα τα αντικείμενα"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "Καταχωρήσεις"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "καινοτομία ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "με τιμή ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "Προσθέστε ένα ακίνητο"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "Φιλτράρισμα της λίστας των ιδιοτήτων"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "Προβολή:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "Διαμερίσματα με βάση τον αριθμό των δωματίων"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "είδος"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "Περιοχές"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "Τοποθεσία"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "Κέντρο"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "Περίχωρα"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "Μετρό"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "Τιμή"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "Πλήρεις πληροφορίες"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "Διεύθυνση:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "Δωμάτια:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "Κρεβάτια:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "m \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "»"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "Γενικές πληροφορίες"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "Χάρτης"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "Κάρτα Ακίνητα"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "Προηγούμενη"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "Επόμενος"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "Διαγραφή ακινήτου Κάρτα"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "Νόμισμα"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "Τιμή ανά βραδιά:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "Τιμή ανά μήνα:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- Δωρεάν"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- Reserved"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- Ενοικίαση"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- Μπορείτε κράτηση"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- Μισθωμένες από εσάς"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- Μια άλλη τιμή"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- Κλείδωμα"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- Έμφαση"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "Περιφέρεια:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "Όροφος:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "Περιγραφή:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "Απασχόληση:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "Κουζίνα"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "Τηλεόραση"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "Τηλέφωνο"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "Music Center"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "Internet"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "Κλιματισμός"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "Πλυντήριο"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "Αδιάφορο"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "Μήνας"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "Ημέρα"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "Επιλέξτε από τον κατάλογο των περιοχών στις οποίες να περάσει τη διαλογή"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "Επιλέξτε από τη λίστα των σταθμών του μετρό που πρέπει να περάσει από διαλογή"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "Κάρτες αριθμός ακινήτου"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "Δεν υπάρχει"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "που δεν κατονομάζονται"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "Άγνωστος"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "επιστρέφει μια λίστα των ακινήτων. όριο μπορεί να είναι από 1 έως 100. Προεπιλογή - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "Διαμερίσματα Ταινία για τις μηχανές αναζήτησης"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "επίπεδη προφίλ για τις μηχανές αναζήτησης"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "Προς Ενοικίαση Διαμέρισμα / σπίτι / δωμάτιο προς ενοικίαση"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "πόλη"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "έκταση"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "σταθμός μετρό"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "διεύθυνση"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "κόστος"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "ανά ημέρα"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "Δάπεδα"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "Δωμάτια"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "Κρεβάτια"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "σχόλιο"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "επιστρέφει έναν κατάλογο των περιοχών του μετρό και ανάλογα με την πόλη"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "προφίλ κρατά επί των ακινήτων. Αν id = 0 - δημιουργήσετε ένα νέο"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "Πληροφορίες έχει αλλάξει"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "αφαιρεί το προφίλ του real estate"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "Ενότητα"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "Διαμέρισμα Test"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "Τεστ RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / Ασύγχρονης φόρτωσης css -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "Είναι απαραίτητο για αυτή την ιστοσελίδα"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "JavaScript είναι απενεργοποιημένη"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "Παρακαλούμε ενεργοποιήστε την JavaScript στο πρόγραμμα περιήγησής σας"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "ΠΡΟΣΟΧΗ!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "Κατάλογος των διαμερισμάτων"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "ενημέρωση"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "ΠΡΟΣΟΧΗ! Ο φυλλομετρητής σας είναι πολύ παλιά για αυτό το site. Προτείνετε αυτό"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "Συνεχίστε με δική σας ευθύνη"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- Ένας πίνακας που θα πρέπει να εισαχθεί σε εφαρμογή τα plugins. Το plugin πρέπει να γνωρίζει την ταυτότητα του στοιχείου στο οποίο έχει τοποθετηθεί. Συνδέστε εισάγει το σώμα του στο τέλος (append) καθορίζονται σε αυτό. Έτσι, σε ένα δοχείο μπορεί να θέσει οποιοδήποτε αριθμό των plug-ins ένα προς ένα -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "Νόμισμα:"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "Λάθος αριθμός"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "επικαλύψεις ιστορία άδειο"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "Δεν μπορώ να πάω πίσω - η τρέχουσα επικάλυψη δεν ταιριάζει με το χασίς"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "ήδη εγκατασταθεί"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "εκδήλωση: Εκδήλωση"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "Σφάλμα:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "Κοντά"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "Σφάλμα!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "Εισάγετε έναν ακέραιο αριθμό"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "Πληκτρολογήστε έναν πραγματικό αριθμό"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "Δαπέδου δεν πρέπει να υπερβαίνει τον αριθμό των ορόφων"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "Εισάγετε τον αριθμό των ορόφων και το δάπεδο"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "Εισάγετε έναν ακέραιο αριθμό"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "Εισάγετε έναν ακέραιο αριθμό μεγαλύτερο του 0"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "Εισάγετε ένα θετικό πραγματικό αριθμό"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "Εισάγετε την τιμή του σημείου"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "Εισάγετε την τιμή: δύο δεκαδικά ψηφία. Για παράδειγμα: 100,22 ή 100"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "Εισάγετε τουλάχιστον ένα χαρακτήρα"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "Εισάγετε το e-mail"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "Σύνδεση μορφή: e-mail ή τον αριθμό τηλεφώνου, για παράδειγμα: +7 (921) 333-3-333"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "Ο κωδικός πρόσβασης πρέπει να είναι τουλάχιστον 6 χαρακτήρες"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "Ισχύει καταχώρηση"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- Δεν έχει επιλεγεί -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "Τα δεδομένα αποθηκεύονται"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "Κατάργηση"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "Δεν μορφή εντολών (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "Διαφύλαξη"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "Δεν είναι όλα τα πεδία έχουν συμπληρωθεί σωστά"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "είναι επιτυχής"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "Μετακίνηση"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "δεν μπορεί να αφαιρεθεί"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "Θέλετε πραγματικά να διαγράψετε"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "λίστα: Invalid εντολή »"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "Προσθήκη"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ ρεκόρ"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input disabled> value=\'Vstavit\' type=button"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input disabled> value=\'Redaktirovat\' type=button"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input disabled> value=\'Udalit\' type=button"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "Διαγραφή ενός καταλόγου σειρά"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "Θέλετε πραγματικά να διαγράψετε μια γραμμή;"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<Προηγούμενο"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "Επόμενη>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "Σήμερα"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "Ιανουάριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "Φεβρουάριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "Ιούνιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "Μάιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "Μάρτιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "Απρίλιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "Αύγουστος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "Ιούλιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "Σεπτέμβριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "Νοέμβριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "Οκτώβριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "Δεκέμβριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "Φεβρουάριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "Ιανουάριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "Απρίλιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "Ιούνιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "Μάρτιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "Αύγουστος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "Δεκέμβριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "Ιούλιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "Νοέμβριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "Οκτώβριος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "Sen"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "Πέμπτη"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "Παρασκευή"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "Δευτέρα"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "Σάββατο"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "Τετάρτη"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "Κυριακή"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "Τρίτη"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Σάβ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "Τρ."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "IPA"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "παντρεύομαι"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "Πέμ."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "Παρ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "Ήλιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "Παρ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "Ήλιος"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "Τρ."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "Πέμ."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Σάβ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "Παντρεύομαι"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "Δευτ."
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "Όχι"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "Αυτό το πρόγραμμα περιήγησης δεν υποστηρίζει ajax"
+

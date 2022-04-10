@@ -1,0 +1,102 @@
+<div id=plugin-notice>
+
+	<div id=realty-tab-serv>
+		<h3>Услуги</h3>
+		Услуги заказываются клиентом<p />
+		<table>
+			<tr><td>Вид услуги
+				<td>Тариф
+				<td>Время и периодичность отправки
+				<td>Текст сообщения
+				<td>E-mail
+				<td>Телефон
+		</table>
+
+		<table id=realty-notice class="app-multi">
+			<tr action="/api/notice" name="Информация для оповещения">
+				<td><input type="text" name = "service" class="v-str"/>
+				<td><input type="text" name="cena" class="v-ureal" title="Цена услуги">
+				<td><a name="notice-time">Время уведомления</a>
+				<td><input type="text" name="msg" class="v-str" title="Сообщение отсылается персоналу">
+				<td><input type="email" name="email" class="v-email" title="e-mail">
+				<td><!--<input type="text" name="phone" class="v-phone" title="телефон для смс">-->
+		</table>
+	</div>
+	<div id=realty-tab-dopserv>
+		<h3>Дополнительные услуги</h3>
+		<table>
+			<tr><td>Дата бронирования
+				<td>
+		</table>
+		<table id=realty-dopservice-period class="app-multi off">
+			<tr>
+			<td><input type=hidden name=armoring_id>
+			<td><span name=fromdate class="on"></span>
+			<td> - 
+			<td><span name=todate class="on"></span>
+			<td><div><div name=realty-dopservice-sel>Выберете услуги</div></div>
+		</table>
+		<div><div name="realty-dopservice-sel">Выберете услуги</div></div>
+		<div id="realty-service-container">
+			<table id=realty-service-notice class="app-multi off">
+			<tr>
+				<td><input type="hidden" name=id>
+				<td><input type="checkbox" name=status>
+				<td><span name=service class="on"></span>
+				<td><span name=cena class="on"></span>
+				<td><a name=realty-selservice-date>Периодичность предоставления</a>
+			</table>
+		</div>
+	</div>
+
+	<!-- Диалоговое окно бронирования отображения возможных услуг пользователя -->
+	<div id="realty-selservice-date" class="app-overlay">
+		<p> 
+			<form id=realty-service-time name="Время выполнения услуги" action="/api/notice/selservice" class="app-form off">
+				<input type="hidden" name=id>
+				<div id=realty-service-period class="off"><input name=period type="text" class="v-str"></div>
+				<input type="radio" name=period value=1>Однократно<br>
+				<input type="radio" name=period value=2>Ежедневно<br>
+				<input type="radio" name=period value=3>Еженедельно<br>
+				<input type="radio" name=period value=4>
+				<input type="text" name="count_service" class="v-uint on"> раз в 
+				<input type="text" class="v-uint on" name="day"> дней<br>
+				Укажите время <input type="text" class="v-hour on" name="hour">(часы) 
+				<input type="text" class="v-minute on" name="minute">(минуты) и дату 
+				<input type="text" name=date_service id="realty-service-date" class="v-date on">
+				<input id="realty-selservice-button" type=button value="Выход" class="app-button">
+			</form>
+			<form id=realty-service-booked name="Время выполнения услуги" class="app-form off">
+				<input type="hidden" name=id>
+				<span name=period class="on"></span>
+				Время <span name=hour class="on"></span>:<span name=minute class="on"></span> Дата: <span name=date_service class="on"></span>
+			</form>
+		</p>
+	</div>
+
+	<!-- Диалоговое окно услуг -->
+	<div id="notice-time" class="app-overlay">
+		<p> 
+			<form id=realty-notice-time name="Время уведомления" action="/api/notice" class="app-form">
+				<div id=realty-notice-where class="off"><input type="text" name=where class="v-str"></div>
+				<input type="hidden" name=id value=0>
+				Отправлять сообщение в <input type="text" class="v-hour" name="hour"> час <input type="text" class="v-minute" name="minute"> мин<br>
+				<input type="radio" name="where" value=1>Однократно<br>
+				<input type="radio" name="where" value=2>Ежедневно<br>
+				<input type="radio" name="where" value=3>За <input type="text" name="day" class="v-uint"> дней до заезда<br>
+				<input type="radio" name="where" value=4>С <input type="text" name="day" class="v-uint"> дня в <input type="text" class="v-uint" name="interval"> дней<br>
+				<input id="realty-notice-button" type=button value="Выход" class="app-button">
+			</form>
+		</p>
+	</div>
+	<table id=realty-balance class="app-multi">
+		<tr>
+			<td><span name=service class="on"></span>
+			<td><span name=cena_count class="on"></span>
+			<td><span name=total class="on"></span>
+	</table>
+
+
+</div>
+
+<link plugin/notice/notice.js>

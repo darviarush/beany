@@ -1,0 +1,29 @@
+<span>
+	<img src="/theme/images/user-account.png"> Аккаунт >>>
+
+	<a id="core-auth-href" href="#auth_window" style="display:none">Личный кабинет</a>
+
+	<span id="auth_options" style="display:none">
+		<a id="logout" href="#">Выйти</a>
+	</span>
+</span>
+
+<script>
+console.log("@CORE/in.html")
+$($login.user_id? "#auth_options": "#core-auth-href").show()
+$("#logout").click(function (e) {
+	$.post( "/api/core/logout", function () {
+		app.auth.logout()
+		$("#auth_options").hide()
+		$("#core-auth-href").show()
+	})
+	return false
+})
+
+app.hash.add("auth_window", function() {
+	app.page.include_html("core/core_imports", function(page, data, idx) {
+		var top = app.hash.top()
+		if(top[0] == "auth_window")	app.hash.construct["auth_window"].apply(this, top)		// если хеш не изменился - запускаем
+	})
+})
+</script>

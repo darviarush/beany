@@ -1,0 +1,31 @@
+<div id=plugin-offer>
+	<div id="offer" class="app-dialog"> Договор оферты Согласен
+		<input type="checkbox" name="isoffer">
+	</div>
+</div>
+	
+<script>
+(function() {
+	$("#plugin-offer").pluginInit()
+	
+	var send = function(signed) {
+		$.post("/api/realtyList/new", {signed: signed}, function(id) {
+			if(id == "0") $("#offer").dialog("open")
+			else {
+				location.hash = (location.hash && location.hash!="#"? location.hash+"/": "") + "realty="+id
+				$("#offer").dialog("close")
+			}
+		})
+	}
+	
+	var $check_offer = $("#offer input[ name=isoffer ]")
+	$check_offer.click( function () {
+		if ( $check_offer.prop( "checked" ) )	send(1)
+	})
+	
+	app.exports.offer = function () {
+		send(0)
+		return false
+	}
+})()
+</script>

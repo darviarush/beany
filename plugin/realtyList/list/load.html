@@ -1,0 +1,129 @@
+<link /api/head>
+<link plugin/realtyList/list/offer.html>
+
+<div id=plugin-realtyList>
+	<div id="header">
+		<div id="ht">
+			<div id="htc">
+				<div id="menu">
+					<!-- Test elements -->
+					<a href="#">Главная</a>
+					<a class="current" href="#page=1">Апартаменты</a>
+					<a href="#window_settings">Настройки</a>
+					<!-- End of test elements -->
+
+					<span id=menu-admin></span>
+
+				</div>
+			</div>
+		</div>
+
+
+		<div id="hm">
+			<div id="hmt">
+				<div id="hmtr">
+					<div id="hmtc">
+						
+						<link plugin/core/in.html>
+						<link /language.html>
+						
+					</div>
+				</div>
+			</div>
+			<div id="hmc">
+				<div id="shadow-right">
+					<div id="hmb">
+						<div id="hmbl">
+							<a id="logo" href="#"><img src="/theme/images/logo-startpage.png" alt=""/></a>
+						</div>
+						<div id="hmbm">
+							<div id="filter-shadow">
+								<link plugin/realtyList/list/start-filters.html>
+							</div>
+						</div>
+						<div id="hmbr">
+							<img id=passport src="/theme/images/places/passport-riga-153136.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div id=filter>
+					<link plugin/realtyList/list/filters.html>
+				</div>
+				<link plugin/realtyList/list/informers.html>
+	
+				<div id=page>
+					<link plugin/realtyList/list/tabs.html>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+
+	<div id="realty-elem-2" class="template app-elem">
+		<div class="osi-img">
+			<span name="id"></span>
+			<div class="osi-price">
+				<span name=cena></span><span name="currency"></span>
+			</div>
+			<a name="href_id"><img name="img_path"></a><!--  href="#" -->
+			<a name="href_id">Полная информация</a>
+		</div>
+		<div class="osi-description">
+			<ul class="osi-text">
+				<li><b>Адрес:</b> <span name=address></span></li>
+				<li><b>Комнат:</b> <span name=number_room></span></li>
+				<li><b>Спальных мест:</b> <span name=number_bed></span></li>
+				<li>м. «<span name=metro></span>»</li>
+			</ul>
+			<div class="app-equipment"></div>
+		</div>
+		<div class="app-elect" title="Добавить в Избранное">&nbsp;</div>
+	</div>
+
+
+
+	<div id="realty-elem" class="template app-elem-3">
+		<a name="href_id"><img name="img_path"><!--  href="#" -->
+			<div class="float-info-button" style="display:none">Арендовать</div>
+			<div class="float-info">
+				<div name=city>&nbsp;</div>
+				<div class="float-info-cena"><span name=cena></span>
+				<span name="currency"></span></div>
+			</div>
+		</a>
+	</div>
+
+</div>
+
+<link plugin/realtyList/realty_main.js>
+<link plugin/realtyList/realty_plugin.js>
+<link plugin/realtyList/list/filter_counters.js>
+<link plugin/elect/elect.html>
+<link plugin/inform/inform.html>
+
+<script>
+$("#currency-change").appendTo("#hmtc")
+app.menu = new app.classes.Menu("#menu-admin").set()	//  Инициализация справочника
+
+var realty = app.exports.realty
+
+$("#plugin-realtyList").pluginInit()
+
+realty.tabs.init();
+realty.filters.init();
+realty.applyStartInformers();
+realty.fltChanger.on_list(); // мож не надо?
+
+realty.ListFilters.updateByCounter( {% ret|json_encode_cyr %} );
+realty.bindHover($("#realty-list-0 .app-elem"))		// устанавливаются через <for i=arr> <div class=app-elem>...</div> </for>
+
+//realty.bedsHolder.init();
+realty.features.selectAbode.init( {} );
+//realty.filters.createEquipmentFilter( equip_code ); 
+
+//$("#realty-filter-form").setFormData({form_id: null})
+$("#realty-new-ref").click(app.exports.offer)
+
+</script>

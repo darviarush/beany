@@ -1,0 +1,104 @@
+Установка проекта beany
+1. Установите cygwin (http://cygwin.com). Сразу поставьте пакеты libxml2-devel, libpcre-devel, postgresql-devel
+2. Скачайте php5.4 / http://php.net
+3. Распакуйте и зайдите в его папку
+4. Сконфигурируйте:
+	$ ./configure --prefix=/usr/local --with-pear=/usr/local/lib/php --with-pgsql --with-pdo-pgsql --without-iconv --enable-pcntl --enable-sockets
+	Если будет чего-то не хватать - доустановите через пакеты cygwin
+	$ make
+	$ make install
+	make clean делать не нужно, так как можно выполнить ./configure с другими ключами и использовать уже скомпеллированные объектные файлы. Что ускорит make
+5. Установите phpunit (http://pear.phpunit.de):
+	$ pear channel-discover pear.phpunit.de
+	$ pear config-set auto_discover 1
+	$ pear install phpunit/PHPUnit
+6. В .bashrc (в вашей домашней папке) добавьте вверху строки:
+	export LANG=ru_RU.UTF-8
+	export PATH=.:/usr/local/bin:/usr/local/sbin:$PATH
+	alias phpunit='phpunit --colors'
+7. Установите nginx / http://nginx.org/ru. 
+	Пример конфигурирования находится в conf/nginx.conf проекта
+	Компиллирование:
+		Скачиваем из http://www.grid.net.ru/nginx/upload.ru.html (внизу есть "Скачать") модуль загрузки файлов для nginx
+	$ tar xvzf nginx_upload_module-2.2.0.tar.gz
+	$ cd <путь к исходникам nginx>
+	$ ./configure --add-module=<путь к исходникам модуля>
+	$ make
+	$ make install
+8. Установите редис: http://redis.io
+Если будете компиллировать его под cygwin, то вставьте строки
+
+#ifdef __CYGWIN__
+#ifndef SA_ONSTACK
+#define SA_ONSTACK 0x08000000
+#endif
+#endif
+  
+#if defined(__CYGWIN__)
+#define strtold(a,b)    ((long double)strtod((a),(b)))
+#endif
+
+в начало файла redis.h. В cygwin эта константа и функция не объявлены и он может ругаться.
+Пример конфигурирования - conf/redis.conf.
+9. Установите CoffeeScript / http://coffeescript.org/
+
+
+
+-------
+Остальное не действительно. Временно оставлено
+-------
+
+ОБНОВЛЯТЬ БАЗЫ ДАННЫХ ИЗ:
+1. Города / http://www.maxmind.com/download/worldcities/
+
+Внимание! Устанавливайте под cygwin (следующий абзац через пустую строку), если в загруженном PHP 5.4 нет php-fpm.exe
+Установка под windows7
+1. Скачиваем http://windows.php.net/download/ -> PHP 5.4 (5.4.0) -> VC9 x86 Thread Safe -> Zip
+2. Распаковываем в c:\php
+3. Добавляем в PATH C:\php
+4. Сохраняем  http://pear.php.net/go-pear.phar в c:\php\go-pear.phar
+5. Запускаем cmd в c:\php
+6. php go-pear.phar
+7. Меняем C:\Windows\pear.ini на c:\php\pear.ini
+8. Выполняем PEAR_ENV.reg
+9. pear upgrade PEAR
+
+Установка под Cygwin (под linux будет аналогично)
+1. Установить cygwin / http://cygwin.com. Установить пакеты libxml2-devel и pcre-devel
+2. Скачать php5.4 / http://php.net
+3. Распаковать и зайти в его папку
+4. ./configure --enable-fpm --with-pear --with-pgsql=/usr --without-iconv --enable-pcntl --enable-sockets
+	--without-iconv потому что с ней не собиралась. По видимому -liconv стоит после iconv.lo, когда ld его ещё не прилинковал
+	$ ./configure --prefix=/usr/local --with-pear=/usr/local/lib/php --with-pgsql --without-iconv --enable-pcntl --enable-sockets
+5. В получившемся Makefile заменить все so на dll
+6. make
+7. make test - можно не делать - долго
+8. make install
+9. wget http://pear.php.net/go-pear.phar
+10. php go-pear.phar
+11. pear upgrade PEAR
+
+Дальнейшая установка
+1. Установить postgres из http://www.postgresql.org
+2. Скачать nginx из http://nginx.org/ru/download.html бинарники по ссылке nginx/Windows-1.0.15 и распаковать
+3. Взять файл с конфигурацией и переписать nginx/conf/nginx.conf beany/conf/nginx.conf
+4. nginx запустится на 8000 порту. Так как 80-й у меня занят скайпом
+5. Прописываем в .basrc: export PATH=.:/usr/local/bin:/usr/local/sbin:~/pear/bin:$PATH
+
+Устанавливаем доктрину:
+5. pear config-set auto_discover 1
+6. pear install pear.doctrine-project.org/DoctrineORM-2.2.2
+
+Настраиваем /usr/local/etc/php-fpm.conf
+7. cp /usr/local/etc/php-fpm.conf.default /usr/local/etc/php-fpm.conf
+8. Заменяем:
+	pid = /var/run/php-fpm.pid
+	error_log = /var/log/php-fpm.log
+	listen = 127.0.0.1:9000
+	chdir = /home/ya.kosmina/beany # собственно директория проекта
+	#cgi.fix_pathinfo = 0
+9. php-fpm --test
+10. Для запуска php-fpm используйте: php-fpm --pid /home/ya.kosmina/php-fpm.pid
+11. Для завершения: cat /home/ya.kosmina/php-fpm.pid | kill
+www/example.com/index.php
+

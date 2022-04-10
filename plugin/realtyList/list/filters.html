@@ -1,0 +1,103 @@
+<div id="realty-filter">
+	<form id="realty-filter-form"
+		  class="app-form"
+		  name="Фильтр по списку недвижимости"
+		  action="/api/realtyList/filter">
+
+
+		<div id="select-form-id">
+			<label for="select-form-input">Вид:</label>
+			<select id="select-form-input" name="form_id"></select>
+		</div>
+		
+		<div id="filter-location">
+			<b>Расположение</b>
+			<div id="filter-location-order" class="app-btn">
+				<input type="checkbox" id="lo-0" name="order[]"
+					   id="location-desc" value="location desc"/><label
+					for="lo-0">Центр</label>
+				<input type="checkbox" id="lo-1" name="order[]"
+					   id="location" value="location"/><label
+					for="lo-1">Не центр</label>
+			</div>
+		</div>
+
+
+		<div id="number_room">Квартиры по числу комнат
+			<div id="number_room_sel"></div>
+		</div>
+		<div id="filter-district">
+			<div id="filter-district-order" class="app-btn">
+				<input type="checkbox" id="district-order" name="order[]" value="district"/><label for="district-order">сортировать</label>
+			</div>
+			<div id="district"
+				 style="float:left">Районы</div>
+			<div id="district_sel"></div>
+		</div>
+
+		<div id="filter-metro">
+			<div id="filter-metro-order" class="app-btn">
+				<input type="checkbox" id="metro-order" name="order[]" value="metro"/><label for="metro-order">сортировать</label>
+			</div>
+			<div id="metro"
+				 style="float:left">Метро</div>
+			<div id="metro_sel"></div>
+		</div>
+		
+		<div id="filter-equipment"></div>
+	</form>
+	<br>
+	Цена
+
+	<input type="text" id=relaty-list-range0
+		   style="width:70px; text-align:right">
+	<input type="text" id=relaty-list-range1
+		   style="width:70px; text-align:right">
+	<div id=realty-list-range
+		 style="width:150px"></div>
+
+</div>
+
+
+<!-- Фильтры ext -->
+
+<div id="filter-select">
+	<div id="filter-select-number_room">
+		<b>Комнаты:</b>
+		<div id="select-number_room"></div>
+	</div>
+	<div id="filter-select-district">
+		<b>Районы:</b>
+		<div id="select-district"></div>
+	</div>
+	<div id="filter-select-metro">
+		<b>Метро:</b>
+		<div id="select-metro"></div>
+	</div>
+</div>
+
+
+<!-- Фильтры separated part -->
+
+<div id="counter-number_room"
+	 class="app-btn fl" style="display:none">
+
+	<span><input type="radio" name="c0" id="c0-n0" value="0" checked /><label for="c0-n0">Квартиры посуточно<span id="counter-number_room0"></span>
+	</label></span>
+	<span><input type="radio" name="c0"
+				 id="c0-n1" value="1"/><label
+			for="c0-n1">1 комната<span id="counter-number_room1"></span>
+	</label></span>
+	<span><input type="radio" name="c0"
+				 id="c0-n2" value="2"/><label
+			for="c0-n2">2 комнаты<span id="counter-number_room2"></span>
+	</label></span>
+	<span><input type="radio" name="c0"
+				 id="c0-n3" value="3"/><label
+			for="c0-n3">3 комнаты<span id="counter-number_room3"></span>
+	</label></span>
+	<span><input type="radio" name="c0" id="c0-n4" value="4"/><label for="c0-n4">больше 3 комнат<span id="counter-number_room4"></span>
+	</label></span>
+</div>
+
+<link plugin/realtyList/list/filters.js>

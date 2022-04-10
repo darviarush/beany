@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Просмотр контроллеров</title>
+
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+
+<style>
+div {
+	border: 1px gray solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 20px 40px;
+	padding: 4px;
+}
+.qsk {}
+.sk {}
+.zp {}
+.key { color: Brown}
+.val { color: CornflowerBlue}
+
+#his { float:right }
+#his div { cursor: pointer }
+</style>
+
+</head>
+<body>
+
+<div id=his>&nbsp;</div>
+
+<select id=sel></select> <input id=send type=button value="запрос">
+<p/>
+<input id=par style="width:300px">
+<p/>
+<b>Доступ:</b> <span id=access></span>
+<p/>
+<b>Параметры:</b> <span id=param></span>
+<p/>
+<b>Описание:</b>
+<span id=desc></span>
+<p/>
+<div id=response>&nbsp;</div>
+
+<script>
+$.ajaxSetup({
+	//type: 'post',
+	dataType: "html"
+})
+
+$("#response").ajaxError(function(event, jqXHR, ajaxSettings, thrownError) {
+	get_url(jqXHR.responseText)
+})
+
+
+var controllers
+
+$.post("/api/controllers", function(data) {
+	controllers = rowsToArray(data)
+	var sel = $("#sel")
+	var x = ''
+	$.each(controllers, function(idx, val) {
+		var r = val.name.replace(/\/.*/, '')
+		var option = $("<option />").text(val.name).val(idx)
+		
+		if(r==val.name)	sel.prepend(option)
+		else {
+			if(x != r) {
+				sel.append($("<optgroup>").attr("label", r))
+				x = r
+			}
+			sel.append(option)
+		}
+		
+		val.param = $.parseJSON(val.param)
+	})
+	
+	sel.change(show_element)
+	show_element.call(sel[0])
+	
+	$("#send").click(function() {
+		var idx = sel.val()
+		var control = controllers[idx]
+		$.post("/api/"+control.name, $("#par").val(), get_url)
+	})
+	
+})
+
+function show_element() {
+	var control = controllers[this.value]
+	$("#sel").val(this.value)
+	$("#desc").text(control.desc)
+	$("#access").text(control.access)
+	$("#param").html(repr(control.param))
+	$("#par").val(this.param || $.map(control.param, function(val, key) { return key+"=" }).join("&"))
+	$("#response").html(this.response || "&nbsp;")
+}
+
+var color = 0
+var colors = ["Seashell", "Honeydew", "Ivory", "Azure", "lavender"]
+function get_url(data) {
+	var res
+	try {
+		res = $.parseJSON(data)
+	} catch(e) {}
+	res = res? repr(res): escapeHTML(data)
+	var idx = $("#sel").val()
+	var control = controllers[idx]
+	$("#response").html(res)
+	if(color == colors.length) color = 0
+	$("#his").prepend(
+		$("<div />").css("background-color", colors[color++]).html("<b>"+escapeHTML(control.name)+"</b> "+escapeHTML($("#par").val()))
+			.prop("param", $("#par").val())
+			.prop("response", $("#response").html())
+			.prop("value", idx)
+			.click(show_element)
+	)
+}
+
+function rowsToArray(data) {
+	var json = typeof data == "string"? $.parseJSON(data): data
+	if(!json) {
+		$("#response").text(data)
+		throw "JsonError"
+	}
+	if(json.error) {
+		$("#response").text(data)
+		throw "RequestError"
+	}
+
+	function toArray(fields, json, begin_i, begin_j) {
+		if(!json) return []
+		var ret = []
+		for(var i=begin_i; i<json.length; i++) {
+			var obj = {}
+			var row = json[i]
+			for(var j = begin_j; j<fields.length; j++) {
+				var fld = fields[j]
+				if(fld instanceof Array) {
+					var hdr = fld[0]
+					obj[hdr] = toArray(fld, row[j-begin_j], 0, 1)
+				} else obj[fld] = row[j-begin_j]
+			}
+			ret.push(obj)
+		}
+		return ret
+	}
+	return toArray(json[0], json, 1, 0)
+}
+
+// возвращает отформатированную строку с представлением объекта
+function repr(val, sm) {
+	if(!sm) sm = ''
+	var sm1 = sm + "&nbsp;&nbsp;&nbsp;&nbsp;"
+	var i, s = '', a = []
+	if(val !== null && typeof val == "object") {
+		if(val.valueOf() == "[object Object]" && val.length===undefined) {
+			for(i in val) a.push(sm1+"<span class=key>"+i+'</span><span class=qsk>:</span> '+repr(val[i], sm1))
+			return '<span class=sk>{</span><br>'+a.join('<span class=zp>,</span><br>')+'<br>'+sm+'<span class=sk>}</span>'
+		}
+		if(val.length !== undefined) {
+			for(i=0; i<val.length; i++) a.push(sm1 + repr(val[i], sm1))
+			return '<span class=qsk>[</span><br>'+a.join('<span class=zp>,</span><br>')+'<br>'+sm+'<span class=qsk>]</span>'
+		}
+	}
+	return "<span class=val>"+escapeHTML(val)+"</span>"
+}
+
+// для вставки в html
+function escapeHTML(s) {
+	return String(s).replace(/[<>&]/g, function(a) { return a=='<'? '&lt;': a=='>'? '&gt;': '&amp;' })
+}
+
+// для вставки в строку js
+function escapejs(s) {
+	return String(s).replace(/[\\"'\n\r]/g, function(a) { return a=="\n"? "\\n": a=="\r"? "\\r": "\\"+a })	// "
+}
+
+// строка js
+function stringjs(s) { return "'"+escapejs(s)+"'" }
+function quotejs(s) { return '"'+escapejs(s)+'"' }
+
+</script>
+
+
+</body>
+</html>

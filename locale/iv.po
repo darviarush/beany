@@ -1,0 +1,2940 @@
+
+#: app.php:7
+msgid "Введите: app help\n"
+msgstr "ನಮೂದಿಸಿ: ಅಪ್ಲಿಕೇಶನ್ ಸಹಾಯ \ N"
+
+
+#: app.php:10
+msgid "lang - обновляет файлы переводов"
+msgstr "ಲ್ಯಾಂಗ್ - ಅಪ್ಡೇಟ್ ಅನುವಾದ ಕಡತಗಳನ್ನು"
+
+
+#: app.php:17
+msgid "langtr [от] [до] - переводит файлы locale/*.po.s"
+msgstr ""
+
+
+#: app.php:27
+msgid "langins - каждую строку locale/*.po.s записывает в locale/*.po msgstr"
+msgstr "langins -. ಪ್ರತಿ ಸಾಲಿನ ಲೊಕೇಲ್ / * po.s ಲೊಕೇಲ್ / * ಬರೆಯುತ್ತಾರೆ PO ಅನ್ನು."
+
+
+#: app.php:34
+msgid "langcc - компиллирует файл перевода в www/locale/*.json"
+msgstr "langcc -. www / ಸ್ಥಳೀಯ / * JSON ರಲ್ಲಿ kompilliruet ಅನುವಾದ ಫೈಲ್"
+
+
+#: app.php:46
+msgid "theme файл/дир. [каталог] - копирует файл или директорию во все темы"
+msgstr "ಥೀಮ್ ಕಡತ / ಡಿರ್. [ಡೈರೆಕ್ಟರಿ] - ಪ್ರತಿಗಳು ಫೈಲ್ ಅಥವಾ ಡೈರೆಕ್ಟರಿ ಎಳೆಗಳನ್ನು"
+
+
+#: app.php:61
+msgid "casherem - очищает кеш"
+msgstr "casherem - ಸಂಗ್ರಹ ಮುಕ್ತಗೊಳಿಸಿದರು"
+
+
+#: app.php:68
+msgid "controllers - количество контроллеров"
+msgstr "ನಿಯಂತ್ರಕಗಳು - ನಿಯಂತ್ರಕಗಳು ಸಂಖ್ಯೆ"
+
+
+#: app.php:75
+msgid "pl имя - создаёт плагин на основе папки skel"
+msgstr "PL ಹೆಸರು - ಒಂದು ಪ್ಲಗ್ಇನ್ ಫೋಲ್ಡರ್ ಆಧಾರಿತ skel ರಚಿಸಲು"
+
+
+#: app.php:84
+msgid "pls - список установленных плагинов"
+msgstr "pls - ಇನ್ಸ್ಟಾಲ್ ಪ್ಲಗ್ಇನ್ಗಳ ಪಟ್ಟಿ"
+
+
+#: app.php:98
+msgid "pll - список всех плагинов"
+msgstr "pll - ಎಲ್ಲಾ ಪ್ಲಗಿನ್ಗಳ ಪಟ್ಟಿಯನ್ನು"
+
+
+#: app.php:116
+msgid "pli имя - инсталлирует плагин"
+msgstr "pli ಹೆಸರು - ಪ್ಲಗ್ಇನ್ ಸ್ಥಾಪಿಸಿ"
+
+
+#: app.php:122
+msgid ". Инсталлировать их все?"
+msgstr ". ಅವರನ್ನು ಎಲ್ಲಾ ಅನುಸ್ಥಾಪಿಸಲು?"
+
+
+#: app.php:122
+msgid "$name зависит от"
+msgstr "$ ಹೆಸರು ಅವಲಂಬಿಸಿರುತ್ತದೆ"
+
+
+#: app.php:129
+msgid "plu имя - деинсталлирует плагин"
+msgstr "plu ಹೆಸರು - ಪ್ಲಗ್ಇನ್ ಅನ್ಇನ್ಸ್ಟಾಲ್"
+
+
+#: app.php:135
+msgid ". Деинсталлировать их все?"
+msgstr ". ಅವರನ್ನು ಎಲ್ಲಾ ಅಸ್ಥಾಪಿಸು?"
+
+
+#: app.php:135
+msgid "От $name зависят"
+msgstr "$ ಗೆ ಹೆಸರು ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ"
+
+
+#: app.php:142
+msgid "pldel имя - физически удаляет плагин"
+msgstr "pldel ಹೆಸರು - ದೈಹಿಕವಾಗಿ ಪ್ಲಗ್ ತೆಗೆದುಹಾಕುತ್ತದೆ"
+
+
+#: app.php:145
+msgid "Плагин `$name` не существует\n"
+msgstr "ಪ್ಲಗ್ಇನ್ `$ ಹೆಸರು` ಯಾವುದೇ \ n"
+
+
+#: app.php:146
+msgid "Удалить плагин `$name`?"
+msgstr "ಪ್ಲಗ್ `$ ಹೆಸರು` ತೆಗೆದುಹಾಕಿ?"
+
+
+#: app.php:150
+msgid "plrn имя новое_имя - переименовывает плагин"
+msgstr "plrn ಹೆಸರು newname - ಪ್ಲಗ್ಇನ್ ಮರುಹೆಸರಿಸಲು"
+
+
+#: app.php:157
+msgid "run - запускает приложение в консоли"
+msgstr "ರನ್ - ಕನ್ಸೋಲಿನಲ್ಲಿ ಅಪ್ಲಿಕೇಶನ್ ರನ್"
+
+
+#: app.php:165
+msgid "start - запускает http-сервер приложения"
+msgstr "ಆರಂಭಿಸಲು - HTTP-ಸರ್ವರ್ ಅನ್ವಯಗಳನ್ನು ಆರಂಭವಾಗುತ್ತದೆ"
+
+
+#: app.php:173
+msgid "stop - останавливает http-сервер приложения"
+msgstr "ಸ್ಟಾಪ್ - HTTP-ಸರ್ವರ್ ಅನ್ವಯಗಳನ್ನು ನಿಲ್ದಾಣಗಳು"
+
+
+#: app.php:180
+msgid "restart - перезапускает http-сервер приложения"
+msgstr "ಮರುಪ್ರಾರಂಭಿಸಿ - HTTP-ಸರ್ವರ್ ಅನ್ವಯಗಳನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ"
+
+
+#: app.php:189
+msgid "status - информирует о состоянии http-сервера приложения"
+msgstr "ಸ್ಥಿತಿ - HTTP-ಸರ್ವರ್ ಅನ್ವಯಗಳ ಬಗೆಗಿನ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸುತ್ತದೆ"
+
+
+#: app.php:194
+msgid "Статус     PID       Обработчиков\n"
+msgstr "PID ಸ್ಥಿತಿ ಹ್ಯಾಂಡ್ಲರ್ಗಳು \ N"
+
+
+#: app.php:196
+msgid "Запущен    $pid      $workers\n"
+msgstr "$ PID $ ಕೆಲಸಗಾರರು \ N ರನ್ನಿಂಗ್"
+
+
+#: app.php:198
+msgid "Лежит                $workers\n"
+msgstr "$ ಕೆಲಸಗಾರರು \ N ಲೈಸ್"
+
+
+#: app.php:202
+msgid "cron - записывает шаблон conf/crontab в crontab"
+msgstr "ಕ್ರಾನ್ - crontab ರಲ್ಲಿ ಟೆಂಪ್ಲೇಟ್ ಇಂಟರ್ನ್ಯಾಶನಲ್ ಕಾನ್ಫರೆನ್ಸ್ ಆನ್ / crontab ಬರೆಯುತ್ತಾರೆ"
+
+
+#: app.php:214
+msgid "test [тест1 тест2...] - запускает тесты. Например: app test model realtyList"
+msgstr "ಪರೀಕ್ಷೆಯ [test1 test2 ...] - ಪರೀಕ್ಷೆಗಳು ರನ್. ಉದಾಹರಣೆಗೆ: ಅಪ್ಲಿಕೇಶನ್ ಪರೀಕ್ಷಾ ಮಾದರಿ realtyList"
+
+
+#: app.php:243
+msgid "Нельзя определить неиспользуемые поля, так как тест удалил все свои записи из $table\n"
+msgstr "ಪರೀಕ್ಷಾ $ ಟೇಬಲ್ \ n ಎಲ್ಲಾ ದಾಖಲೆಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ ಕಾರಣ, ಬಳಕೆಯಾಗದ ಜಾಗ ವ್ಯಾಖ್ಯಾನಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+
+
+#: app.php:264
+msgid "Неиспользуемые таблицы:\n\t"
+msgstr "ಬಳಕೆಯಾಗದ ಟೇಬಲ್: \ n \ n T"
+
+
+#: app.php:265
+msgid "Неиспользуемые поля:\n\t"
+msgstr "ಬಳಕೆಯಾಗದ ಜಾಗ: \ n \ n T"
+
+
+#: app.php:271
+msgid "gen таблица кол_записей - добавляет случайные данные в указанную таблицу"
+msgstr "ಜನ್ ಟೇಬಲ್ kol_zapisey - ನಿಗದಿತ ಟೇಬಲ್ಲಿಗೆ ಯಾದೃಚ್ಛಿಕ ಅಕ್ಷಾಂಶ ಸೇರಿಸುತ್ತದೆ"
+
+
+#: app.php:300
+msgid "loaddb - это загрузка данных в БД из /conf/*.json"
+msgstr "loaddb -. ಇಂಟರ್ನ್ಯಾಶನಲ್ ಕಾನ್ಫರೆನ್ಸ್ ಆನ್ / * JSON / ಡೇಟಾಬೇಸ್ ಡೇಟಾವನ್ನು ಲೋಡ್ ಆಗಿದೆ"
+
+
+#: app.php:358
+msgid "Повреждённый json в $file\n"
+msgstr "$ ಕಡತ \ n ಡ್ಯಾಮಗೆಡ್ನ JSON"
+
+
+#: app.php:373
+msgid "savedb №-таблица - это выгрузка данных из таблицы в /conf/№-таблица.txt"
+msgstr ""
+
+
+#: app.php:402
+msgid "fordb путь_к_json - копирует *.json сделанные www/test/ex.html в /conf/*.json"
+msgstr "fordb put_k_json - ಪ್ರತಿಯನ್ನು * JSON ಇಂಟರ್ನ್ಯಾಶನಲ್ ಕಾನ್ಫರೆನ್ಸ್ ಆನ್ / * JSON / ರಲ್ಲಿ www / ಪರೀಕ್ಷೆ / ex.html ಮಾಡಿದ.."
+
+
+#: app.php:434
+msgid "help - эта справка"
+msgstr "ಸಹಾಯ - ನೆರವು"
+
+
+#: app.php:445
+msgid "Команда `$cmd` не поддерживается\n"
+msgstr "ತಂಡದ `$ CMD` ಬೆಂಬಲಿತವಾಗಿಲ್ಲ \ N"
+
+
+#: app.php:466
+msgid "Данная команда требует от $n до $u параметров, а вы передаёте ей $k\n"
+msgstr "ಈ ಆಜ್ಞೆಯು ಸುಮಾರು $ n $ U ನಿಯತಾಂಕಗಳು ಅಗತ್ಯವಿದೆ, ಮತ್ತು ನೀವು $ K \ N ಹಾದು"
+
+
+#: app.php:468
+msgid "Данная команда требует $n параметров, а вы передаёте ей $k\n"
+msgstr "ಈ ಆಜ್ಞೆಯು $ N ನಿಯತಾಂಕಗಳು ಅಗತ್ಯವಿದೆ, ಮತ್ತು ನೀವು $ K \ N ಹಾದು"
+
+
+#: app.php:495
+msgid "Сервер не запущен\n"
+msgstr "ಸರ್ವರ್ \ N ಚಾಲನೆಯಲ್ಲಿಲ್ಲ"
+
+
+#: app.php:496
+msgid "Сервер не остановлен\n"
+msgstr "ಸರ್ವರ್ \ N ನಿಲ್ಲಿಸಿದಾಗ"
+
+
+#: control.php:17
+msgid "возвращает список плагинов"
+msgstr "ಪ್ಲಗ್ಇನ್ಗಳನ್ನು ಪಟ್ಟಿಯನ್ನು ಹಿಂದಿರುಗಿಸುತ್ತದೆ"
+
+
+#: control.php:25
+msgid "возвращает список контроллеров из базы"
+msgstr "ನೆಲೆಯಿಂದ ನಿಯಂತ್ರಕಗಳು ಪಟ್ಟಿಯನ್ನು ಹಿಂದಿರುಗಿಸುತ್ತದೆ"
+
+
+#: control.php:33
+msgid "запускает несколько контроллеров"
+msgstr "ಬಹು ನಿಯಂತ್ರಕಗಳು ರನ್ಗಳು"
+
+
+#: control.php:47
+msgid "проверяет - доступен ли указанный контроллер"
+msgstr "ಪರಿಶೀಲಿಸಿ - ನಿಗದಿತ ನಿಯಂತ್ರಕ ಎಂದು"
+
+
+#: control.php:55
+msgid "выполняется после загрузке клиента, если есть сессия"
+msgstr "ಅಧಿವೇಶನದ ವೇಳೆ ಈ ಕ್ಲೈಂಟ್ ನಂತರ ಸಂಭವಿಸುತ್ತದೆ"
+
+
+#: index.php:97
+msgid "Остановлен процесс № $worker"
+msgstr "ಪ್ರಕ್ರಿಯೆ № $ ಕೆಲಸಗಾರ ನಿಲ್ಲಿಸಿತು"
+
+
+#: index.php:98
+msgid "Не могу остановить процесс № $worker"
+msgstr "ನಾನು № $ ಕಾರ್ಮಿಕ ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿಲ್ಲಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+
+
+#: index.php:101
+msgid "Остановлен процесс № $cron (cron)"
+msgstr "ಪ್ರಕ್ರಿಯೆ № $ ಕ್ರಾನ್ (ಕ್ರಾನ್) ನಿಲ್ಲಿಸಲಾಗಿದೆ"
+
+
+#: index.php:102
+msgid "Не могу остановить процесс № $cron (cron)"
+msgstr "ನಾನು ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿಲ್ಲಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ № $ ಕ್ರಾನ್ (ಕ್ರಾನ್)"
+
+
+#: index.php:111
+msgid "Не могу выполнить fork\n"
+msgstr "ಫೋರ್ಕ್ \ N ಕಾರ್ಯಗತಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+
+
+#: index.php:113
+msgid "Не удалось отсоединится от терминала\n"
+msgstr "ಟರ್ಮಿನಲ್ \ n ಕಳಚು ಮಾಡಿರುವುದಿಲ್ಲ"
+
+
+#: index.php:130
+msgid "fork завершился с ошибкой"
+msgstr "ಫೋರ್ಕ್ ದೋಷದೊಂದಿಗೆ ವಿಫಲವಾಗಿದೆ"
+
+
+#: index.php:140
+#: index.php:161
+msgid "Не создан cron. Ошибка fork %m"
+msgstr "ಕ್ರಾನ್ ರಚಿಸಿಲ್ಲ. ದೋಷ ಫೋರ್ಕ್% ಮೀ"
+
+
+#: index.php:143
+msgid "Запущены обработчики:"
+msgstr "ರನ್ನಿಂಗ್ ನಿರ್ವಹಣಾಕಾರರು:"
+
+
+#: index.php:144
+msgid "Не могу установить SIGHUP хандлер"
+msgstr "ನಾನು ಹ್ಯಾಂಡ್ಲರ್ SIGHUP ಹೊಂದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+
+
+#: index.php:145
+msgid "Не могу установить SIGTERM хандлер"
+msgstr "ನಾನು SIGTERM ಹ್ಯಾಂಡ್ಲರ್ ಅನುಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+
+
+#: index.php:154
+msgid "Ошибка pcntl_waitpid %m"
+msgstr "ದೋಷ pcntl_waitpid% ಮೀ"
+
+
+#: index.php:157
+msgid "Завершился обработчик № $kid"
+msgstr "ಪೂರ್ಣಗೊಂಡ ಹ್ಯಾಂಡ್ಲರ್ № $ ಕಿಡ್"
+
+
+#: index.php:157
+msgid "; cтатус: $status. Восстанавливаю"
+msgstr ", ಸ್ಥಿತಿ: ಸ್ಥಿತಿ $. ಪುನಃ ಸ್ವಾಧೀನ ಪಡಿಸಿಕೊ"
+
+
+#: index.php:175
+msgid "fork завершился с ошибкой %m"
+msgstr "ಫೋರ್ಕ್ ದೋಷ% ಎಂ ವಿಫಲವಾಗಿದೆ"
+
+
+#: index.php:176
+msgid "Запущен обработчик № $kid"
+msgstr "ಉಡಾವಣೆ ಹ್ಯಾಂಡ್ಲರ್ № $ ಕಿಡ್"
+
+
+#: index.php:288
+msgid "socket_accept завершился неудачей %m"
+msgstr "ವಿಫಲವಾಯಿತು% ಮೀ socket_accept"
+
+
+#: lib/App.php:37
+msgid ": `$key` не может быть нулевым"
+msgstr ": `$ ಕೀಲಿ` ಶೂನ್ಯ ಸಾಧ್ಯವಿಲ್ಲ"
+
+
+#: lib/App.php:42
+msgid ": нет свойства `$key`"
+msgstr ": ಇಲ್ಲ ಆಸ್ತಿ `$ ಕೀಲಿ`"
+
+
+#: lib/Controllers.php:39
+msgid "Контроллер `$name` был уже добавлен. Переписываю"
+msgstr "ನಿಯಂತ್ರಕ `$ ಹೆಸರು` ಈಗಾಗಲೇ ಸೇರಿಸಲಾಯಿತು. ಮತ್ತೆ"
+
+
+#: lib/Controllers.php:48
+#: lib/Controllers.php:51
+msgid "Администраторы"
+msgstr "ನಿರ್ವಾಹಕರು"
+
+
+#: lib/Controllers.php:110
+msgid "Контроллер `$name` не найден"
+msgstr "ನಿಯಂತ್ರಕ `$ ಹೆಸರು` ದೊರೆಯಲಿಲ್ಲ"
+
+
+#: lib/Controllers.php:160
+msgid "Пользователь аутентифицирован"
+msgstr "ಬಳಕೆದಾರ ಪ್ರಮಾಣೀಕೃತ ಇದೆ"
+
+
+#: lib/Controllers.php:177
+msgid "Попытка изменения чужой модели"
+msgstr "ಬೇರೊಬ್ಬರ ಮಾದರಿ ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನ"
+
+
+#: lib/Controllers.php:180
+msgid "Нет прав на контроллер `$name`"
+msgstr "`ನಿಯಂತ್ರಕ` $ ಹೆಸರನ್ನು ಯಾವುದೇ ಪ್ರವೇಶ"
+
+
+#: lib/Controllers.php:182
+msgid "Неведомый доступ `$access` в контроллере `$name`"
+msgstr "ನಿಯಂತ್ರಕ `$ ಹೆಸರಿನಲ್ಲಿ ಅಪರಿಚಿತ ಪ್ರವೇಶ` $ ಪ್ರವೇಶ ``"
+
+
+#: lib/Controllers.php:186
+msgid "Пользователь не аутентифицирован"
+msgstr "ಬಳಕೆದಾರ ಪ್ರಮಾಣೀಕರಿಸದ"
+
+
+#: lib/Controllers.php:288
+msgid "→"
+msgstr "→"
+
+
+#: lib/Controllers.php:356
+msgid "Оператор `$op` для фильтра `$key` не разрешён"
+msgstr "ಆಯೋಜಕರು `$ ಆಪ್` ಫಿಲ್ಟರ್ `$ ಕೀಲಿ` ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ"
+
+
+#: lib/Controllers.php:400
+#: lib/Controllers.php:408
+msgid "Список строк справочника «$name»"
+msgstr "ಸರಣಿ ಪಟ್ಟಿ ಕೋಶವನ್ನು «$ ಹೆಸರು»"
+
+
+#: lib/Controllers.php:414
+msgid "Строка справочника «$name»"
+msgstr "ಲೈನ್ ಕೋಶವನ್ನು «$ ಹೆಸರು»"
+
+
+#: lib/Controllers.php:422
+msgid "Сохранение строки справочника «$name»"
+msgstr "ಸ್ಟ್ರಿಂಗ್ ಕೋಶವನ್ನು «$ ಹೆಸರು» ಉಳಿಸಲಾಗುತ್ತಿದೆ"
+
+
+#: lib/Controllers.php:430
+msgid "Удаление строки справочника «$name»"
+msgstr "ಸಾಲಾಗಿ ಕೋಶವನ್ನು «$ ಹೆಸರು» ಅಳಿಸಲಾಗುತ್ತಿದೆ"
+
+
+#: lib/Controllers.php:459
+msgid "Таблицы"
+msgstr "ಕೋಷ್ಟಕಗಳು"
+
+
+#: lib/Mail.php:90
+msgid "Письмо не отправлено"
+msgstr "ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಿಲ್ಲ"
+
+
+#: lib/Model.php:69
+msgid "Неверный логин или пароль"
+msgstr "ಅಮಾನ್ಯ ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್"
+
+
+#: lib/Plugins.php:37
+msgid "Загружаемый плагин `$name` не подключён"
+msgstr "ಡೌನ್ಲೋಡ್ ಪ್ಲಗ್ಇನ್ `$ ಹೆಸರು` ಸಂಪರ್ಕ ಇದೆ"
+
+
+#: lib/Plugins.php:118
+msgid "Загружаемый плагин `$name` имеет неудовлетворённую зависимость `$dep`"
+msgstr "ಡೌನ್ಲೋಡ್ ಪ್ಲಗ್ಇನ್ `$ ಹೆಸರು` ಒಂದು ಪೂರೈಸದ ಅವಲಂಬನೆಯನ್ನು `$ ನಿರ್ಗಮನ` ಆಗಿದೆ"
+
+
+#: lib/Plugins.php:125
+msgid "Плагин `$name` уже инсталлирован"
+msgstr "ಪ್ಲಗ್ಇನ್ `$ ಹೆಸರು` ಈಗಾಗಲೇ ಸ್ಥಾಪಿಸಲಾಗಿರುವ"
+
+
+#: lib/Plugins.php:133
+msgid "Плагин `$name` уже деинсталлирован"
+msgstr "ಪ್ಲಗ್ಇನ್ `$ ಹೆಸರು` ಅಸ್ಥಾಪನೆಯನ್ನು ಇದೆ"
+
+
+#: lib/Plugins.php:135
+msgid "От плагина `$name` зависят плагины:"
+msgstr "ಪ್ಲಗ್ `$ ಹೆಸರು` ಅವಲಂಬಿತ ಪ್ಲಗ್ಇನ್ಗಳನ್ನು:"
+
+
+#: lib/Plugins.php:143
+msgid "Уже существует `$name2` - нельзя переименовать"
+msgstr "ಮರುನಾಮಕರಣ ಸಾಧ್ಯವಿಲ್ಲ - ಒಂದು `$ NAME2` ಈಗಾಗಲೇ ಇಲ್ಲ"
+
+
+#: lib/Plugins.php:168
+msgid "Плагин `$path` уже существует"
+msgstr "ಪ್ಲಗ್ಇನ್ `$ ಮಾರ್ಗ` ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"
+
+
+#: lib/Plugins.php:170
+msgid "Плагин `$name` не существует"
+msgstr "ಪ್ಲಗ್ಇನ್ `$ ಹೆಸರು` ಯಾವುದೇ"
+
+
+#: lib/SMS.php:48
+msgid "Свойство receivers класса SMS должно быть массивом"
+msgstr "ಆಸ್ತಿ ವರ್ಗ SMS ಗ್ರಾಹಕಗಳು ಒಂದು ಶ್ರೇಣಿಯನ್ನು ಆಗಿರಬೇಕು"
+
+
+#: lib/SMS.php:52
+msgid "Свойство receivers класса SMS должно быть заполнено перед отправкой"
+msgstr "ಆಸ್ತಿ ವರ್ಗ SMS ಗ್ರಾಹಕಗಳು ಕಳುಹಿಸುವ ಮುಂಚೆ ಸಂಪೂರ್ಣಗೊಂಡ ಮಾಡಬೇಕು"
+
+
+#: lib/SMS.php:59
+msgid "Не верный формат номера получателя $v"
+msgstr "ತಪ್ಪು ಸಂಖ್ಯೆ ಸ್ವರೂಪ ರಿಸೀವರ್ $ V"
+
+
+#: lib/SMS.php:68
+msgid "Свойство text класса SMS должно быть строкой"
+msgstr "ಆಸ್ತಿ ವರ್ಗ SMS ಪಠ್ಯ ಸ್ಟ್ರಿಂಗ್ ಆಗಿರಬೇಕು"
+
+
+#: lib/SMS.php:72
+msgid "Свойство text класса SMS должно быть не более 256 символов"
+msgstr "ಆಸ್ತಿ ವರ್ಗ SMS ಪಠ್ಯ ಯಾವುದೇ 256 ಹೆಚ್ಚು ಅಕ್ಷರಗಳು ಇರಬೇಕು"
+
+
+#: lib/SMS.php:142
+#: lib/SMS.php:147
+msgid "Отправка смс не удалась, ошибка:"
+msgstr "ವಿಫಲಗೊಂಡಿದೆ, ದೋಷ SMS ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ:"
+
+
+#: lib/Uploader.php:29
+msgid "Нет boundary в Content-Type"
+msgstr "ವಿಷಯ ಪ್ರಕಾರ ಯಾವುದೇ ಗಡಿ ಇಲ್ಲ"
+
+
+#: lib/Utils.php:447
+msgid "Не открыть файл $file\n"
+msgstr "ಫೈಲ್ $ ಕಡತ \ N ತೆರೆಯಲಾಗಲಿಲ್ಲ"
+
+
+#: lib/Utils.php:457
+msgid "Файл `$file` повреждён - нет msgid перед msgstr. Строка $i\n"
+msgstr "ಕಡತ `$ ಕಡತ` ಭ್ರಷ್ಟ - ಅನ್ನು ಮೊದಲು ಯಾವುದೇ ಅನ್ನು. $ ನಾನು \ n ರೋ"
+
+
+#: lib/Utils.php:460
+msgid "Файл `$file` повреждён. Строка $i\n"
+msgstr "ಕಡತ `$ ಕಡತ` ಹಾನಿಗೊಳಗಾಯಿತು. $ ನಾನು \ n ರೋ"
+
+
+#: lib/Utils.php:462
+msgid "msgid без msgstr. Строка $i\n"
+msgstr "msgstr ಇಲ್ಲದೆ ಅನ್ನು. $ ನಾನು \ n ರೋ"
+
+
+#: lib/Validation.php:37
+msgid "Параметр `$key` не соответствует своему типу `$type`"
+msgstr "ನಿಯತಾಂಕ `$ ಕೀಲಿ` ಅಲ್ಲ ರೀತಿಯ `$ ಬಗೆಯ`"
+
+
+#: lib/Validation.php:46
+msgid "должно быть целым"
+msgstr "ಒಂದು ಪೂರ್ಣಾಂಕ ಇರಬೇಕು"
+
+
+#: lib/Validation.php:50
+msgid "должно быть натуральным"
+msgstr "ಒಂದು ನೈಸರ್ಗಿಕ ಆಗಿರಬೇಕು"
+
+
+#: lib/Validation.php:59
+msgid "Деньги могут иметь только 2 знака после запятой"
+msgstr "ಹಣ ಕೇವಲ 2 ದಶಮಾಂಶ ಸ್ಥಳಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ"
+
+
+#: lib/Validation.php:65
+msgid "Деньги не могут быть отрицательными"
+msgstr "ಹಣ ಋಣಾತ್ಮಕ ಸಾಧ್ಯವಿಲ್ಲ"
+
+
+#: lib/Validation.php:70
+msgid "Идентификатор - это натуральное число больше 0"
+msgstr "ಗುರುತು - 0 ಹೆಚ್ಚು ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆ"
+
+
+#: lib/Validation.php:75
+msgid "Пароль должен быть больше или равен 6 символам"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಹೆಚ್ಚಿನ ಅಥವಾ 6 ಅಕ್ಷರಗಳು ಸಮವಾಗಿರಬೇಕು"
+
+
+#: lib/Validation.php:78
+msgid "Введён неверный email"
+msgstr "ನೀವು ತಪ್ಪು ಇಮೇಲ್ ನಮೂದಿಸಿದ"
+
+
+#: lib/Validation.php:82
+#: www/js/core.js:879
+msgid "Формат телефона: +цифры (цифры) цифры через тире. Например: +7 (921) 333-3-333"
+msgstr "ಸ್ವರೂಪವು ದೂರವಾಣಿ: ಒಂದು ಡ್ಯಾಶ್ ಪ್ರತ್ಯೇಕಿಸಲ್ಪಟ್ಟ + ಅಂಕಿ (ಸಂಖ್ಯೆಗಳು) ಸಂಖ್ಯೆಗಳು. +7 (921) 333-3-333: ಉದಾಹರಣೆಗೆ"
+
+
+#: lib/Validation.php:96
+#: lib/Validation.php:97
+#: lib/Validation.php:98
+msgid "Это не файл"
+msgstr "ಈ ಫೈಲ್ ಅಲ್ಲ"
+
+
+#: lib/Validation.php:102
+msgid "Нет файлов в качестве параметра"
+msgstr "ಒಂದು ನಿಯತಾಂಕ ಯಾವುದೇ ಕಡತ"
+
+
+#: lib/Validation.php:108
+msgid "Это не дата"
+msgstr "ಈ ದಿನ ಅಲ್ಲ"
+
+
+#: lib/Validation.php:117
+msgid "ФИО должно иметь хоть один символ"
+msgstr "ಹೆಸರು ಕನಿಷ್ಠ ಒಂದು ಅಕ್ಷರವನ್ನು ಹೊಂದಿರಬೇಕು"
+
+
+#: lib/Validation.php:120
+msgid "Название города должно быть хотя бы один символ"
+msgstr "ನಗರದ ಹೆಸರು ಕನಿಷ್ಠ ಒಂದು ಅಕ್ಷರವನ್ನು ಹೊಂದಿರಬೇಕು"
+
+
+#: lib/Validation.php:124
+msgid "Не соответствует формату order: поле1[ desc],поле2..."
+msgstr "ಆದೇಶವನ್ನು ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ: field1 [DESC], field2 ..."
+
+
+#: lib/Validation.php:139
+msgid "limit не может быть больше 100 и меньше 1"
+msgstr "ಮಿತಿಯನ್ನು 100 ಹೆಚ್ಚಿನ ಮತ್ತು 1 ಕಡಿಮೆ ಸಾಧ್ಯವಿಲ್ಲ"
+
+
+#: lib/Validation.php:148
+msgid "Имя параметра должно начинаться на shared или own"
+msgstr "ನಿಯತಾಂಕ ಹೆಸರಿನ ಆರಂಭವಾಗಬೇಕು ಹಂಚಿಕೆಯ ಅಥವಾ ಸ್ವಂತ"
+
+
+#: lib/rp.php:128
+msgid "rp.php: Неизвестный модифицирующий sql-запрос! $sql"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:3
+msgid "Баланс:"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:4
+msgid "Платеж"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:9
+msgid "Услуга"
+msgstr "ಸೇವೆ"
+
+
+#: plugin/armoring/armoring.html:10
+#: plugin/notice/notice.html:7
+msgid "Тариф"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:13
+msgid "Аренда"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:17
+msgid "Итого к оплате"
+msgstr ""
+
+
+#: plugin/armoring/armoring.html:21
+msgid "3 мес"
+msgstr "3 ತಿಂಗಳು"
+
+
+#: plugin/armoring/armoring.html:22
+msgid "12 мес"
+msgstr "12 ತಿಂಗಳ"
+
+
+#: plugin/armoring/armoring.html:25
+msgid "Снять выделение в календаре"
+msgstr "ಕ್ಯಾಲೆಂಡರ್ ಆಯ್ಕೆ ರದ್ದು"
+
+
+#: plugin/armoring/armoring.html:31
+msgid "Заблокировать возможность бронирования в выделенные числа"
+msgstr "ಆಯ್ಕೆಮಾಡಿದ ಸಂಖ್ಯೆ ಕಾಯ್ದಿರಿಸುವ ಸಾಧ್ಯತೆ ನಿರ್ಬಂಧಿಸಿ"
+
+
+#: plugin/armoring/armoring.html:35
+msgid "Разблокировать возможность бронирования"
+msgstr "ಕಾಯ್ದಿರಿಸುವ ಸಾಧ್ಯತೆ ಅನ್ಲಾಕ್"
+
+
+#: plugin/armoring/armoring.html:47
+msgid "Установить цену в сутки из поля слева на выбранный период"
+msgstr "ಆಯ್ದ ಅವಧಿಯ ಎಡಭಾಗದಲ್ಲಿ ಕ್ಷೇತ್ರದಲ್ಲಿ ಪ್ರತಿ ದಿನ ಬೆಲೆ ಹೊಂದಿಸಿ"
+
+
+#: plugin/armoring/armoring.html:51
+msgid "Изменить цену под выбранной датой"
+msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ದಿನಾಂಕ ಬೆಲೆಯನ್ನು ಬದಲಿಸಿ"
+
+
+#: plugin/armoring/armoring.html:57
+msgid "Удалить изменённую цену"
+msgstr "ಯಾವುದೇ ಬೆಲೆ ತೆಗೆದುಹಾಕಿ"
+
+
+#: plugin/armoring/armoring.html:70
+msgid "клик"
+msgstr "ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "клик+shift"
+msgstr "+ Shift ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+
+#: plugin/armoring/armoring.html:71
+msgid "- выделяет интервалы или снимает день"
+msgstr "- ದಿನ ಮಧ್ಯಂತರಗಳು ಆಯ್ಕೆ ಅಥವಾ ತೆಗೆದುಹಾಕುತ್ತದೆ"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "клик+ctrl+shift"
+msgstr "+ Ctrl + Shift ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+
+#: plugin/armoring/armoring.html:72
+msgid "- выделить/снять слева"
+msgstr "- ಆರಿಸಿರಿ / ಎಡ ತೆಗೆದುಹಾಕಲು"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "клик+alt"
+msgstr "ಕ್ಲಿಕ್ + Alt"
+
+
+#: plugin/armoring/armoring.html:73
+msgid "- выделить/снять справа"
+msgstr "- ಆರಿಸಿರಿ / ಬಲ ತೆಗೆದುಹಾಕಲು"
+
+
+#: plugin/armoring/armoring.html:74
+msgid "- выделить всё между интервалами или снять интервал"
+msgstr "- ವಿರಾಮದ ನಡುವೆ ಎಲ್ಲಾ ಅಥವಾ ಸ್ಪಷ್ಟ ಮಧ್ಯಂತರಗಳು ಆಯ್ಕೆಮಾಡಿ"
+
+
+#: plugin/armoring/armoring.html:83
+msgid "Отправить заявку на бронирование"
+msgstr "ಪುಸ್ತಕ"
+
+
+#: plugin/armoring/armoring.html:87
+msgid "заявки на бронирование"
+msgstr "ಬುಕಿಂಗ್"
+
+
+#: plugin/armoring/armoring.html:87
+#: plugin/armoring/armoring.html:88
+msgid "ЗАЯВКА НА БРОНИРОВАНИЕ"
+msgstr "ಮೀಸಲು"
+
+
+#: plugin/armoring/armoring.html:90
+msgid "Адрес"
+msgstr "ವಿಳಾಸ"
+
+
+#: plugin/armoring/armoring.html:92
+msgid "Ваше имя"
+msgstr "ನಿಮ್ಮ ಹೆಸರು"
+
+
+#: plugin/armoring/armoring.html:98
+msgid "Количество человек"
+msgstr "ವ್ಯಕ್ತಿಗಳ ಸಂಖ್ಯೆ"
+
+
+#: plugin/armoring/armoring.html:100
+msgid "Дата заезда/выезда"
+msgstr "ಆಗಮನ / ನಿರ್ಗಮನದ ದಿನಾಂಕ"
+
+
+#: plugin/armoring/armoring.html:102
+msgid "Дополнительно"
+msgstr "ಹೆಚ್ಚುವರಿಯಾಗಿ"
+
+
+#: plugin/armoring/armoring.html:106
+#: plugin/core/core.html:34
+#: plugin/core/core.html:40
+#: plugin/core/core.html:52
+#: plugin/core/core.html:58
+#: plugin/externalPayments/externalPayments.html:30
+msgid "Отправить"
+msgstr "ಕಳುಹಿಸು"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "Заявка на бронирование подана. Вот ваш"
+msgstr "ಮೀಸಲಾತಿ ರಚನೆಯಲ್ಲಿ ಸಲ್ಲಿಸಿದರು ಇದೆ. ಇಲ್ಲಿ ನಿಮ್ಮ ಹೊಂದಿದೆ"
+
+
+#: plugin/armoring/armoring.html:112
+msgid "договор аренды"
+msgstr "ಕರಾರು ಗುತ್ತಿಗೆ"
+
+
+#: plugin/armoring/armoring.js:284
+msgid "Вами"
+msgstr "ನೀವು"
+
+
+#: plugin/armoring/armoring.js:288
+msgid "img/homearm.png\' height=16 width=16> Забронировано"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:289
+msgid "img/homebay.png\' height=16 width=16> Оплачено"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:290
+msgid "img/block.png\' height=16 width=16> Заблокировано</p>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:291
+msgid "img/money.png\' height=16 width=16> <b>Цена:</b>"
+msgstr ""
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Вы должны зарегистрироваться, чтобы подать заявку на бронирование"
+msgstr "ನೀವು ಒಂದು ಮೀಸಲಾತಿ ವಿನಂತಿಯನ್ನು ಸಲ್ಲಿಸಲು ನೋಂದಾಯಿಸಿಕೊಳ್ಳಲೇಬೇಕು"
+
+
+#: plugin/armoring/armoring.js:340
+msgid "Заявка"
+msgstr "ಅನ್ವಯಿಸುವಿಕೆ"
+
+
+#: plugin/armoring/armoring.js:407
+#: plugin/armoring/armoring.js:459
+#: plugin/armoring/armoring.js:482
+msgid "Выделите период"
+msgstr "ಅವಧಿ ಹೈಲೈಟ್"
+
+
+#: plugin/armoring/armoring.js:422
+msgid "Выберите заблокированный период"
+msgstr "ಲಾಕ್ ಅವಧಿಯ ಆಯ್ಕೆ"
+
+
+#: plugin/armoring/armoring.js:457
+msgid "Выделенный интервал захватывает интервал с уже установленной ценой. Цену можно только изменить"
+msgstr "ಆಯ್ಕೆ ಶ್ರೇಣಿ ಅನುಸ್ಥಾಪಿಸಲಾದ ವೆಚ್ಚವನ್ನು ಮಧ್ಯಂತರ ಸೆರೆಹಿಡಿಯುತ್ತದೆ. ಬೆಲೆ ಮಾತ್ರ ಬದಲಾಯಿಸಬಹುದು"
+
+
+#: plugin/armoring/armoring.js:489
+msgid "Цена изменена"
+msgstr "ಬೆಲೆ ಬದಲಾವಣೆ"
+
+
+#: plugin/armoring/armoring.js:497
+#: plugin/armoring/armoring.js:515
+msgid "Нажмите на дате с ценой"
+msgstr "ಬೆಲೆ ಒಂದು ದಿನಾಂಕವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+
+#: plugin/armoring/armoring.js:524
+msgid "Выберите период"
+msgstr "ಒಂದು ಅವಧಿಯ ಆಯ್ಕೆ"
+
+
+#: plugin/armoring/armoring.js:524
+#: plugin/armoring/armoring.html:111
+msgid "Заявка на бронирование"
+msgstr "ಬುಕಿಂಗ್ ವಿನಂತಿ"
+
+
+#: plugin/armoring/armoring.php:11
+msgid "бронирует объект недвижимости"
+msgstr "ಆಸ್ತಿಯ ಬುಕಿಂಗ್"
+
+
+#: plugin/armoring/armoring.php:26
+msgid "На указанный период недвижимость уже забронирована"
+msgstr "ಈ ಅವಧಿಯಲ್ಲಿ ಮನೆಯ ಬುಕ್ ಇದೆ"
+
+
+#: plugin/armoring/armoring.php:35
+msgid "У вас новая бронь по адресу"
+msgstr "ನೀವು ಒಂದು ಹೊಸ ಮೀಸಲಾತಿ ಹೊಂದಿವೆ"
+
+
+#: plugin/armoring/armoring.php:67
+msgid "отменяет бронь на объект недвижимости"
+msgstr "ಆಸ್ತಿ ಮೀಸಲಾತಿ ರದ್ದು"
+
+
+#: plugin/armoring/armoring.php:79
+msgid "блокирует возможность бронирования"
+msgstr "ಬ್ಲಾಕ್ಗಳನ್ನು ಬುಕಿಂಗ್"
+
+
+#: plugin/armoring/armoring.php:96
+msgid "устанавливает иную цену на указанный период"
+msgstr "ವಿನಂತಿಸಿದ ಕಾಲ ಬೇರೆ ಬೆಲೆ ಸ್ಥಾಪಿಸುತ್ತದೆ"
+
+
+#: plugin/armoring/armoring.php:113
+msgid "изменяет иную цену"
+msgstr "ಇತರ ಬೆಲೆ ಬದಲಾವಣೆಗಳು"
+
+
+#: plugin/armoring/armoringTest.js:4
+#: plugin/notice/noticeTest.js:4
+msgid "Плагин подключен"
+msgstr ""
+
+
+#: plugin/armoring/armoringTest.js:23
+msgid "1 объект"
+msgstr "1 ವಸ್ತು"
+
+
+#: plugin/armoring/armoringTest.js:26
+msgid "2 объекта 1"
+msgstr "2 ಐಟಂಗಳನ್ನು 1"
+
+
+#: plugin/armoring/armoringTest.js:29
+msgid "2 объекта 2"
+msgstr "2 ಐಟಂಗಳನ್ನು 2"
+
+
+#: plugin/armoring/armoringTest.js:31
+msgid "2 объекта 3"
+msgstr "2 ವಸ್ತು 3"
+
+
+#: plugin/armoring/armoringTest.js:49
+msgid "не установлен 03"
+msgstr "03 ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ"
+
+
+#: plugin/armoring/armoringTest.js:50
+msgid "не установлен 02"
+msgstr "02 ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ"
+
+
+#: plugin/armoring/armoringTest.js:52
+msgid "установлен 08"
+msgstr "08 ಸೆಟ್"
+
+
+#: plugin/armoring/armoringTest.js:53
+msgid "установлен 06-08"
+msgstr "8.6 ಗೆ ಸೆಟ್"
+
+
+#: plugin/armoring/armoringTest.js:55
+msgid "выбор = 06-08"
+msgstr "ಆಯ್ಕೆಯನ್ನು = 6.8"
+
+
+#: plugin/armoring/armoringTest.js:56
+msgid "класс выбора"
+msgstr "ವರ್ಗ ಆಯ್ಕೆ"
+
+
+#: plugin/armoring/armoringTest.js:57
+msgid "класс брони"
+msgstr "ಆರ್ಮರ್ ವರ್ಗ"
+
+
+#: plugin/armoring/armoringTest.js:59
+msgid "class выбор пользователя"
+msgstr "ವರ್ಗ ಬಳಕೆದಾರ ಆಯ್ಕೆ"
+
+
+#: plugin/armoring/armoringTest.js:60
+msgid "class двойная ячейка"
+msgstr "ವರ್ಗ ಎರಡು ಜೀವಕೋಶ"
+
+
+#: plugin/armoring/armoringTest.js:62
+msgid "снят 08, период 06-07"
+msgstr "ಶಾಟ್ 08, 6.7 ರ ಅವಧಿಯಲ್ಲಿ"
+
+
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:9
+#: plugin/cash/cash.php:57
+#: plugin/realtyList/realtyList.html:188
+msgid "Касса"
+msgstr "ನಗದು"
+
+
+#: plugin/cash/cash.php:16
+#: plugin/cash/cash.php:35
+#: plugin/cash/cash.php:63
+msgid "№"
+msgstr "№"
+
+
+#: plugin/cash/cash.php:20
+#: plugin/armoring/armoring.html:11
+msgid "Сумма"
+msgstr "ಮೊತ್ತ"
+
+
+#: plugin/cash/cash.php:25
+msgid "Время проведения"
+msgstr "ಟೈಮ್"
+
+
+#: plugin/cash/cash.php:29
+#: plugin/cash/cash.php:57
+msgid "Вид платежа"
+msgstr "ಪಾವತಿಯ ಕೌಟುಂಬಿಕತೆ"
+
+
+#: plugin/cash/cash.php:40
+msgid "Недвижимость"
+msgstr "ಸ್ಥಿರಾಸ್ತಿ"
+
+
+#: plugin/cash/cash.php:45
+msgid "Плательщик"
+msgstr "ಪಾವತಿಸುವ"
+
+
+#: plugin/cash/cash.php:50
+msgid "Кассир"
+msgstr "ನಗದು ಗುಮಾಸ್ತೆ"
+
+
+#: plugin/cash/cash.php:67
+msgid "Название"
+msgstr "ಹೆಸರು"
+
+
+#: plugin/cash/cash.php:71
+msgid "Знак"
+msgstr "ಚಿಹ್ನೆ"
+
+
+#: plugin/cash/cash.php:76
+msgid "Описание"
+msgstr "ವಿವರಣೆ"
+
+
+#: plugin/comment/comment.html:1
+#: plugin/gallery/gallery.html:1
+msgid "﻿"
+msgstr ""
+
+
+#: plugin/comment/comment.html:18
+msgid "Добавить комментарий"
+msgstr "ಒಂದು ಕಾಮೆಂಟ್ ಸೇರಿಸಿ"
+
+
+#: plugin/comment/comment.js:10
+msgid "Комментариев"
+msgstr "ಪ್ರತಿಕ್ರಿಯೆಗಳು"
+
+
+#: plugin/comment/comment.php:13
+msgid "возвращает комметарии для карточки недвижимости"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಕಾರ್ಡುಗಳನ್ನು ಮರಳುತ್ತದೆ ಕಾಮೆಂಟ್"
+
+
+#: plugin/comment/comment.php:26
+msgid "добавляет комментарий для недвижимости"
+msgstr "ವಸತಿ ಒಂದು ಕಾಮೆಂಟ್ ಸೇರಿಸುತ್ತದೆ"
+
+
+#: plugin/comment/comment.php:43
+msgid "удаляет комментарий для недвижимости"
+msgstr "ಆಸ್ತಿ ಕಾಮೆಂಟ್ಗಳನ್ನು ಅಳಿಸಿ"
+
+
+#: plugin/comment/commentTest.php:13
+msgid "Тестовый Comment"
+msgstr "ಕಾಮೆಂಟ್ ಪರೀಕ್ಷಿಸಿ"
+
+
+#: plugin/core/core.html:1
+msgid "Личный кабинет"
+msgstr "ಖಾಸಗಿ ಕಚೇರಿ"
+
+
+#: plugin/core/core.html:4
+msgid "Выйти"
+msgstr "ನಿರ್ಗಮನ"
+
+
+#: plugin/core/core.html:5
+#: plugin/core/core.html:88
+msgid "Персональные данные"
+msgstr "ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ"
+
+
+#: plugin/core/core.html:11
+msgid "Вход"
+msgstr "ಇನ್ಪುಟ್"
+
+
+#: plugin/core/core.html:12
+msgid "Зарегистрироваться"
+msgstr "ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+
+
+#: plugin/core/core.html:13
+msgid "Восстановить пароль"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಮರುಸ್ಥಾಪಿಸಿ"
+
+
+#: plugin/core/core.html:19
+msgid "E-mail или номер телефона:"
+msgstr "ಇಮೇಲ್ ಅಥವಾ ದೂರವಾಣಿ ಸಂಖ್ಯೆ:"
+
+
+#: plugin/core/core.html:21
+msgid "Запомнить"
+msgstr "ನೆನಪಿಡು"
+
+
+#: plugin/core/core.html:22
+msgid "Пароль:"
+msgstr "ಪಾಸ್ವರ್ಡ್:"
+
+
+#: plugin/core/core.html:26
+msgid "Войти"
+msgstr "ನಮೂದಿಸಿ"
+
+
+#: plugin/core/core.html:32
+#: plugin/core/core.html:50
+msgid "Введите Ваш E-mail:"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ ನಮೂದಿಸಿ:"
+
+
+#: plugin/core/core.html:38
+#: plugin/core/core.html:56
+msgid "Введите Ваш номер телефона:"
+msgstr "ನಿಮ್ಮ ದೂರವಾಣಿ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ:"
+
+
+#: plugin/core/core.html:44
+#: plugin/core/core.html:61
+msgid "Вам будет выслано письмо или смс с одноразовым паролем. Поменяйте пароль сразу после входа"
+msgstr "ನೀವು ಒಂದು ಇಮೇಲ್ ಅಥವಾ SMS ಒಂದು ಬಾರಿ ಪಾಸ್ವರ್ಡ್ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ಲಾಗ್ ತಕ್ಷಣವೇ ಪಾಸ್ವರ್ಡ್ ಬದಲಿಸಿ"
+
+
+#: plugin/core/core.html:67
+msgid "Поменяйте Ваш временный пароль"
+msgstr "ನಿಮ್ಮ ತಾತ್ಕಾಲಿಕ ಪಾಸ್ವರ್ಡ್ ಬದಲಿಸಿ"
+
+
+#: plugin/core/core.html:75
+msgid "Ваш временный пароль действителен только до конца этой сессии. Поменяйте его сейчас"
+msgstr "ನಿಮ್ಮ ತಾತ್ಕಾಲಿಕ ಪಾಸ್ವರ್ಡ್ ಅಧಿವೇಶನ ಮುಗಿಯುವವರೆಗೂ ಮಾನ್ಯವಾಗಿಲ್ಲ. ಈಗ ಬದಲಾಯಿಸಿ"
+
+
+#: plugin/core/core.html:76
+#: plugin/core/core.html:109
+msgid "Новый пароль:"
+msgstr "ಹೊಸ ಪಾಸ್ವರ್ಡ್:"
+
+
+#: plugin/core/core.html:78
+#: plugin/core/core.html:111
+msgid "Новый пароль ещё раз:"
+msgstr "ಹೊಸ ಪಾಸ್ವರ್ಡ್:"
+
+
+#: plugin/core/core.html:82
+msgid "Поменять"
+msgstr "ಅದಲುಬದಲು"
+
+
+#: plugin/core/core.html:90
+msgid "Основное"
+msgstr "ಮುಖ್ಯ"
+
+
+#: plugin/core/core.html:91
+#: plugin/core/core.html:115
+msgid "Поменять пароль"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಬದಲಾಯಿಸಿ"
+
+
+#: plugin/core/core.html:96
+msgid "Имя:"
+msgstr "ಹೆಸರು:"
+
+
+#: plugin/core/core.html:100
+msgid "Телефон:"
+msgstr "ಫೋನ್:"
+
+
+#: plugin/core/core.html:107
+msgid "Старый пароль:"
+msgstr "ಹಳೆಯ ಪಾಸ್ವರ್ಡ್:"
+
+
+#: plugin/core/core.js:117
+msgid "Письмо отправлено на"
+msgstr "ಪತ್ರ ಕಳುಹಿಸಲಾಗಿದೆ"
+
+
+#: plugin/core/core.js:126
+msgid "смс отправлено на"
+msgstr "SMS ಕಳುಹಿಸಲಾಗಿದೆ"
+
+
+#: plugin/core/core.js:136
+#: plugin/core/core.js:144
+msgid "Создание пользователя"
+msgstr "ಒಂದು ಬಳಕೆದಾರ ರಚಿಸಲಾಗುತ್ತಿದೆ"
+
+
+#: plugin/core/core.js:152
+#: plugin/core/core.js:160
+msgid "Восстановление пароля"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಚೇತರಿಕೆ"
+
+
+#: plugin/core/core.js:186
+msgid "<li>CapsLock включён - вводятся ЗАГЛАВНЫЕ буквы"
+msgstr "ಅಕ್ಷರಗಳನ್ನು ಟೈಪ್ - ಮೇಲೆ <li> CapsLock"
+
+
+#: plugin/core/core.js:188
+msgid "<li>Вводятся русские буквы"
+msgstr "<li> ರಷ್ಯನ್ ಕೀಬೋರ್ಡ್"
+
+
+#: plugin/core/core.js:201
+msgid "Пароль успешно изменён"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಯಶಸ್ವಿಯಾಗಿ ಬದಲಾಯಿಸಲಾಗಿದೆ"
+
+
+#: plugin/core/core.js:202
+msgid "Изменение пароля"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಬದಲಾಯಿಸುವುದು"
+
+
+#: plugin/core/core.php:27
+msgid "Вход пользователя"
+msgstr "ಬಳಕೆದಾರ ಲಾಗ್ ಇನ್"
+
+
+#: plugin/core/core.php:45
+msgid "Выход пользователя"
+msgstr "ಆಫ್ ಲಾಗ್"
+
+
+#: plugin/core/core.php:55
+msgid "Изменить свой пароль"
+msgstr "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಬದಲಿಸಿ"
+
+
+#: plugin/core/core.php:61
+msgid "Старый пароль введён неверно"
+msgstr "ಹಳೆಯ ಪಾಸ್ವರ್ಡ್ ತಪ್ಪಾಗಿದೆ"
+
+
+#: plugin/core/core.php:69
+#: plugin/core/core.php:92
+msgid "Создать новый аккаунт или восстановить пароль"
+msgstr "ಒಂದು ಹೊಸ ಖಾತೆಯನ್ನು ರಚಿಸಿ ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಚೇತರಿಸಿಕೊಳ್ಳಲು"
+
+
+#: plugin/core/core.php:105
+msgid "Ваш временный пароль: $password"
+msgstr "ನಿಮ್ಮ ತಾತ್ಕಾಲಿಕ ಗುಪ್ತಪದವನ್ನು: $ ಪಾಸ್ವರ್ಡ್"
+
+
+#: plugin/core/core.php:110
+msgid "Возвращает информацию о пользователе"
+msgstr "ಬಳಕೆದಾರರ ಬಗ್ಗೆ ಮಾಹಿತಿಯನ್ನು ರಿಟರ್ನ್ಸ್"
+
+
+#: plugin/core/core.php:119
+msgid "Возвращает информацию о залогиненном пользователе"
+msgstr "ಬಳಕೆದಾರ ಲಾಗ್ ಇನ್ ಬಗ್ಗೆ ರಿಟರ್ನ್ಸ್ ಮಾಹಿತಿ"
+
+
+#: plugin/core/core.php:126
+msgid "Изменяет информацию о залогиненном пользователе"
+msgstr "ಬಳಕೆದಾರ ಲಾಗ್ ಇನ್ ಮಾಹಿತಿಯನ್ನು ಬದಲಾಯಿಸಲು"
+
+
+#: plugin/externalPayments/externalPayments.html:2
+msgid "Карточка оплаты"
+msgstr "ಕಾರ್ಡ್ ಪಾವತಿ"
+
+
+#: plugin/externalPayments/externalPayments.html:3
+msgid "Форма для оплаты"
+msgstr "ಪಾವತಿ ರೂಪ"
+
+
+#: plugin/externalPayments/externalPayments.html:5
+msgid "Номер платежа"
+msgstr "ಪಾವತಿ ಸಂಖ್ಯೆ"
+
+
+#: plugin/externalPayments/externalPayments.html:7
+msgid "Назначение платежа"
+msgstr "ಪಾವತಿಯ ವಿವರಗಳು"
+
+
+#: plugin/externalPayments/externalPayments.html:11
+msgid "Имя пользователя"
+msgstr "ಬಳಕೆದಾರರ ಹೆಸರು"
+
+
+#: plugin/externalPayments/externalPayments.html:13
+msgid "Сумма платежа"
+msgstr "ಪಾವತಿಯ ಪ್ರಮಾಣ"
+
+
+#: plugin/externalPayments/externalPayments.html:35
+msgid "Онлайн оплата брони."
+msgstr "ಆನ್ಲೈನ್ ಮೀಸಲಾತಿ ಪಾವತಿಸಿ."
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Онлайн оплата"
+msgstr "ಆನ್ಲೈನ್ ಪಾವತಿ"
+
+
+#: plugin/externalPayments/externalPayments.js:12
+msgid "Не передан номер брони"
+msgstr "ಮೀಸಲಾತಿ ಸಂಖ್ಯೆ ವರ್ಗಾವಣೆಯಾಗುವುದಿಲ್ಲ"
+
+
+#: plugin/externalPayments/externalPayments.php:9
+msgid "Внешняя система обращаясь к этому скрипту будет менять статус платежа"
+msgstr "ಈ ಸ್ಕ್ರಿಪ್ಟ್ ಉಲ್ಲೇಖಿಸುವಾಗ ಬಾಹ್ಯ ವ್ಯವಸ್ಥೆ ನಿಮ್ಮ ಪಾವತಿಯ ಸ್ಥಿತಿ ಬದಲಾಗುತ್ತದೆ"
+
+
+#: plugin/externalPayments/externalPayments.php:20
+msgid "Неверный ip отправителя ip needed:"
+msgstr "ಅಮಾನ್ಯವಾದ ಕಳುಹಿಸುವವರ IP IP ಅಗತ್ಯವಿದೆ:"
+
+
+#: plugin/externalPayments/externalPayments.php:21
+#: plugin/externalPayments/externalPayments.php:28
+msgid "Параметры переданные из Платежной системы неверны"
+msgstr "ಪಾವತಿ ವ್ಯವಸ್ಥೆಯನ್ನು ಕೈಸೇರಿತು ನಿಯತಾಂಕಗಳನ್ನು ಅಲ್ಲ"
+
+
+#: plugin/externalPayments/externalPayments.php:27
+msgid "Неверный иденттификатор магазина"
+msgstr "ಅಮಾನ್ಯವಾದ identtifikator ಅಂಗಡಿ"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+#: plugin/externalPayments/externalPayments.php:37
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:73
+#: plugin/externalPayments/externalPayments.php:74
+msgid "Платеж №"
+msgstr "ಪಾವತಿ ಸಂಖ್ಯೆ"
+
+
+#: plugin/externalPayments/externalPayments.php:36
+msgid "ошибка приема платежа: неверных хэш платежа need"
+msgstr "ಅಮಾನ್ಯವಾದ ಹ್ಯಾಶ್ ಪಾವತಿ ಅಗತ್ಯ: ಪಾವತಿಯ ದೋಷದ ಸ್ವಾಗತ"
+
+
+#: plugin/externalPayments/externalPayments.php:37
+msgid "ошибка приема платежа: неверный хэш платежа"
+msgstr "ಅಮಾನ್ಯವಾದ ಹ್ಯಾಶ್ ಪಾವತಿ: ಪಾವತಿಯ ದೋಷದ ಸ್ವಾಗತ"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "ошибка приема платежа: неверные полученные данные:"
+msgstr "ಪಾವತಿಯ ದೋಷದ ಸ್ವಾಗತ: ಪಡೆದ ಅಮಾನ್ಯ ಅಕ್ಷಾಂಶ:"
+
+
+#: plugin/externalPayments/externalPayments.php:44
+#: plugin/externalPayments/externalPayments.php:49
+#: plugin/externalPayments/externalPayments.php:61
+#: plugin/externalPayments/externalPayments.php:67
+#: plugin/externalPayments/externalPayments.php:73
+msgid "внутренние данные:"
+msgstr "ಆಂತರಿಕ ಅಕ್ಷಾಂಶ:"
+
+
+#: plugin/externalPayments/externalPayments.php:45
+#: plugin/externalPayments/externalPayments.php:50
+#: plugin/externalPayments/externalPayments.php:62
+#: plugin/externalPayments/externalPayments.php:68
+#: plugin/externalPayments/externalPayments.php:74
+msgid "ошибка приема платежа: неверные полученные данные."
+msgstr "ಪಾವತಿಯ ದೋಷದ ಸ್ವಾಗತ: ಪಡೆದ ಅಮಾನ್ಯ ಮಾಹಿತಿ."
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "за период"
+msgstr "ಕಾಲ"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "по адресу:"
+msgstr "ನಲ್ಲಿ:"
+
+
+#: plugin/externalPayments/externalPayments.php:94
+msgid "Принята оплата за бронь №"
+msgstr "ಮೀಸಲಾತಿ ಸಂಖ್ಯೆ ಸ್ವೀಕರಿಸಲಾಗಿದೆ ಪಾವತಿ"
+
+
+#: plugin/externalPayments/externalPayments.php:98
+msgid "Оплата брони"
+msgstr "ಪಾವತಿ ರಕ್ಷಾಕವಚ"
+
+
+#: plugin/externalPayments/externalPayments.php:111
+msgid "создаем форму оплаты услуги"
+msgstr "ಪಾವತಿ ಸೇವೆಗಳ ಸೃಷ್ಟಿಸಲು"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "тест"
+msgstr "ಟೆಸ್ಟ್"
+
+
+#: plugin/externalPayments/externalPayments.php:120
+msgid "Оплата брони №"
+msgstr "ಪಾವತಿ ಮೀಸಲಾತಿ ಸಂಖ್ಯೆ"
+
+
+#: plugin/externalPayments/externalPayments.php:121
+msgid "Оплата брони номер $armoring->id"
+msgstr "ಪಾವತಿ ಮೀಸಲಾತಿ ಸಂಖ್ಯೆ $ armoring-> ಐಡಿ"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:10
+msgid "Тестовый ExternalPayments"
+msgstr "ಟೆಸ್ಟ್ ExternalPayments"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:13
+msgid "Оплата брони тест"
+msgstr "ಪಾವತಿ ರಕ್ಷಾಕವಚ ಪರೀಕ್ಷೆ"
+
+
+#: plugin/externalPayments/externalPaymentsTest.php:18
+msgid "Сергей"
+msgstr "ಸೆರ್ಗೆಯ್"
+
+
+#: plugin/gallery/gallery.html:3
+msgid "Загрузить фото"
+msgstr "ಫೋಟೋ ಅಪ್ಲೋಡ್"
+
+
+#: plugin/gallery/gallery.html:5
+msgid "Фотографии"
+msgstr "ಫೋಟೋಗಳು"
+
+
+#: plugin/gallery/gallery.js:40
+msgid "Перетащите мышкой изображение, чтобы изменить его положение среди других изображений"
+msgstr "ಇತರ ಚಿತ್ರಗಳನ್ನು ಪೈಕಿ ತನ್ನ ಸ್ಥಾನವನ್ನು ಬದಲಾಯಿಸಲು ಚಿತ್ರ ಎಳೆಯಿರಿ"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Удаление изображения"
+msgstr "ಚಿತ್ರವನ್ನು ಅಳಿಸಿ"
+
+
+#: plugin/gallery/gallery.js:45
+msgid "Вы действительно хотите удалить это изображение?"
+msgstr "ನೀವು ನಿಜವಾಗಿಯೂ ಈ ಚಿತ್ರವನ್ನು ಅಳಿಸಲು ಬಯಸುತ್ತೀರಾ?"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Ошибка! Загрузка изображения"
+msgstr "ದೋಷ! ಇಮೇಜ್ ಡೌನ್ಲೋಡ್"
+
+
+#: plugin/gallery/gallery.js:76
+msgid "Фото не было загружено. Возможно оно слишком велико."
+msgstr "ಫೋಟೋ ಅಪ್ಲೋಡ್ ಮಾಡಲಾಯಿತು. ಬಹುಶಃ ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ."
+
+
+#: plugin/gallery/gallery.js:85
+msgid "Защищённая страница"
+msgstr "ಸುರಕ್ಷಿತ ಪುಟ"
+
+
+#: plugin/gallery/gallery.js:94
+msgid "Загрузка изображения. Ошибка №"
+msgstr "ಇಮೇಜ್ ಲೋಡ್. ತಪ್ಪು ಸಂಖ್ಯೆ"
+
+
+#: plugin/gallery/gallery.php:10
+msgid "сохраняет фотографии недвижимости"
+msgstr "ಫೋಟೋಗಳನ್ನು ಆಸ್ತಿ ಉಳಿಸುವ"
+
+
+#: plugin/gallery/gallery.php:27
+msgid "удаляет фотографию недвижимости"
+msgstr "ಫೋಟೋಗಳನ್ನು ಆಸ್ತಿ ಅಳಿಸಿ"
+
+
+#: plugin/gallery/gallery.php:36
+msgid "сортирует фотографии недвижимости"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಡಿಜಿಟಲ್ ಫೋಟೋಗಳನ್ನು"
+
+
+#: plugin/gallery/galleryTest.js:8
+msgid "Добавлена одна картинка"
+msgstr ""
+
+
+#: plugin/gallery/galleryTest.js:10
+msgid "Было добавлено три картинки"
+msgstr ""
+
+
+#: plugin/link/link.html:2
+msgid "Проверка готовности Заграничного паспорта гражданина РФ"
+msgstr "ರಷ್ಯನ್ ಪ್ರಜೆಯ ವಿದೇಶಿ ಪಾಸ್ಪೋರ್ಟ್ಗಳನ್ನು ಸನ್ನದ್ಧತೆಯ ಪರಿಶೀಲಿಸಿ"
+
+
+#: plugin/link/link.html:3
+msgid "Проверка действительности паспорта гражданина РФ"
+msgstr "ರಷ್ಯನ್ ಒಕ್ಕೂಟದ ಒಂದು ಪ್ರಜೆಯ ಪಾಸ್ಪೋರ್ಟ್ ಸಿಂಧುತ್ವವನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ"
+
+
+#: plugin/link/link.html:4
+msgid "Проверка действительности приглашений"
+msgstr "ಅದರ ಆಮಂತ್ರಣಗಳನ್ನು ಪರಿಶೀಲಿಸಿ"
+
+
+#: plugin/map/map.js:76
+msgid "Санкт-Петербург"
+msgstr "ಸೇಂಟ್ ಪೀಟರ್ಸ್ಬರ್ಗ್"
+
+
+#: plugin/metro/metro.php:9
+msgid "возвращает координаты станций с количеством квартир"
+msgstr ""
+
+
+#: plugin/metro/metro.php:22
+msgid "сохраняет позицию станции на схеме"
+msgstr ""
+
+
+#: plugin/notice/notice.html:2
+msgid "Услуги"
+msgstr "ಸೇವೆಗಳು"
+
+
+#: plugin/notice/notice.html:3
+msgid "Услуги заказываются клиентом"
+msgstr "ಕ್ಲೈಂಟ್ ಕ್ರಮದಲ್ಲಿ ಸೇವೆಗಳು"
+
+
+#: plugin/notice/notice.html:6
+msgid "Вид услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:8
+msgid "Время и периодичность отправки"
+msgstr ""
+
+
+#: plugin/notice/notice.html:9
+msgid "Текст сообщения"
+msgstr ""
+
+
+#: plugin/notice/notice.html:14
+msgid "Информация для оповещения"
+msgstr "ಎಚ್ಚರಿಸಲು information"
+
+
+#: plugin/notice/notice.html:16
+msgid "Цена услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:17
+#: plugin/notice/notice.html:78
+msgid "Время уведомления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:18
+msgid "Сообщение отсылается персоналу"
+msgstr "ಸಂದೇಶ ಸಿಬ್ಬಂದಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ"
+
+
+#: plugin/notice/notice.html:20
+msgid "телефон для смс"
+msgstr "SMS ಫೋನ್"
+
+
+#: plugin/notice/notice.html:27
+msgid "Дата бронирования"
+msgstr ""
+
+
+#: plugin/notice/notice.html:35
+#: plugin/notice/notice.html:37
+msgid "Выберете услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:45
+msgid "Периодичность предоставления"
+msgstr ""
+
+
+#: plugin/notice/notice.html:53
+#: plugin/notice/notice.html:67
+msgid "Время выполнения услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.html:62
+msgid "Укажите время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:63
+msgid "(часы)"
+msgstr ""
+
+
+#: plugin/notice/notice.html:64
+msgid "(минуты) и дату"
+msgstr ""
+
+
+#: plugin/notice/notice.html:65
+#: plugin/notice/notice.html:86
+msgid "Выход"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Время"
+msgstr ""
+
+
+#: plugin/notice/notice.html:70
+msgid "Дата:"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "Отправлять сообщение в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "мин"
+msgstr ""
+
+
+#: plugin/notice/notice.html:81
+msgid "час"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "За"
+msgstr ""
+
+
+#: plugin/notice/notice.html:84
+msgid "дней до заезда"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "дня в"
+msgstr ""
+
+
+#: plugin/notice/notice.html:85
+msgid "С"
+msgstr ""
+
+
+#: plugin/notice/notice.js:11
+msgid "Обслуживающий персонал"
+msgstr "ಸೇವೆ ಸಿಬ್ಬಂದಿ"
+
+
+#: plugin/notice/notice.js:17
+#: plugin/notice/notice.html:24
+msgid "Дополнительные услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.js:228
+#: plugin/notice/notice.html:56
+#: plugin/notice/notice.html:82
+msgid "Однократно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:229
+#: plugin/notice/notice.html:57
+#: plugin/notice/notice.html:83
+msgid "Ежедневно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:230
+#: plugin/notice/notice.html:58
+msgid "Еженедельно"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+#: plugin/notice/notice.html:85
+msgid "дней"
+msgstr ""
+
+
+#: plugin/notice/notice.js:231
+#: plugin/notice/notice.html:61
+msgid "раз в"
+msgstr ""
+
+
+#: plugin/notice/notice.js:232
+msgid "Период не указан"
+msgstr ""
+
+
+#: plugin/notice/notice.php:10
+msgid "сохраняет данные для отправки уведомлений"
+msgstr "ಅಧಿಸೂಚನೆಗಾಗಿ ಮಳಿಗೆಗಳು ಮಾಹಿತಿ"
+
+
+#: plugin/notice/notice.php:22
+msgid "сохраняет выбранную услугу"
+msgstr ""
+
+
+#: plugin/notice/notice.php:39
+#: plugin/realtyList/realtyList.php:233
+msgid "возвращает анкету по недвижимости"
+msgstr "ವಸತಿ ಉಚಿತ ರಿಟರ್ನ್ಸ್"
+
+
+#: plugin/notice/notice.php:48
+#: plugin/notice/notice.php:59
+msgid "возращает статусы услуг на определенную дату"
+msgstr ""
+
+
+#: plugin/notice/notice.php:77
+msgid "устанавливает статус услуги"
+msgstr ""
+
+
+#: plugin/notice/notice.php:107
+msgid "Загружает период предоставления услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:122
+msgid "возвращает список услуг"
+msgstr ""
+
+
+#: plugin/notice/notice.php:137
+msgid "удаляет данные для отправки уведомления"
+msgstr "ಅಧಿಸೂಚನೆಗಾಗಿ ಅಳಿಸಿದರೆ ಡೇಟಾವನ್ನು"
+
+
+#: plugin/notice/noticeTest.js:12
+msgid "Добавление одной строки"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:16
+msgid "Очистка мульти"
+msgstr ""
+
+
+#: plugin/notice/noticeTest.js:19
+msgid "Добавление нескольких строк"
+msgstr ""
+
+
+#: plugin/protocol/protocol.html:1
+msgid "Совершённые действия"
+msgstr "ಆಕ್ಷನ್ ಟೇಕನ್"
+
+
+#: plugin/protocol/protocol.js:6
+msgid "протокол"
+msgstr ""
+
+
+#: plugin/protocol/protocol.js:9
+msgid "Протокол"
+msgstr "ಶಿಷ್ಟಾಚಾರ"
+
+
+#: plugin/protocol/protocol.php:9
+msgid "Возвращает список действий произведённых пользователем"
+msgstr "ಬಳಕೆದಾರ ನಡೆಸಿದ ಕಾರ್ಯಗಳ ಪಟ್ಟಿಯನ್ನು ಹಿಂದಿರುಗಿಸುತ್ತದೆ"
+
+
+#: plugin/realtyList/realtyList.html:1
+msgid "Вверх"
+msgstr "ಮೇಲೆ"
+
+
+#: plugin/realtyList/realtyList.html:5
+msgid "Комнаты:"
+msgstr "ಕೊಠಡಿ:"
+
+
+#: plugin/realtyList/realtyList.html:9
+msgid "Районы:"
+msgstr "ಜಿಲ್ಲೆಗಳು:"
+
+
+#: plugin/realtyList/realtyList.html:13
+#: plugin/realtyList/realtyList.html:223
+msgid "Метро:"
+msgstr "ಮೆಟ್ರೋ:"
+
+
+#: plugin/realtyList/realtyList.html:19
+msgid "Квартиры посуточно"
+msgstr "ಅಪಾರ್ಟ್ಮೆಂಟ್"
+
+
+#: plugin/realtyList/realtyList.html:20
+msgid "1 комната"
+msgstr "1 ಕೊಠಡಿ"
+
+
+#: plugin/realtyList/realtyList.html:21
+msgid "2 комнаты"
+msgstr "2 ಕೊಠಡಿ"
+
+
+#: plugin/realtyList/realtyList.html:22
+msgid "3 комнаты"
+msgstr "3 ಕೊಠಡಿಗಳು"
+
+
+#: plugin/realtyList/realtyList.html:23
+msgid "больше 3 комнат"
+msgstr "ಹೆಚ್ಚು 3 ಕೊಠಡಿಗಳು"
+
+
+#: plugin/realtyList/realtyList.html:27
+#: plugin/realtyList/realtyList.html:221
+msgid "Город:"
+msgstr "ಸಿಟಿ:"
+
+
+#: plugin/realtyList/realtyList.html:33
+msgid "Дата заезда"
+msgstr "ಚೆಕ್ ಇನ್"
+
+
+#: plugin/realtyList/realtyList.html:39
+msgid "Дата выезда"
+msgstr "ಚೆಕ್ ಔಟ್"
+
+
+#: plugin/realtyList/realtyList.html:45
+msgid "Найти"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:49
+msgid "Все объекты"
+msgstr "ಎಲ್ಲಾ ವಸ್ತುಗಳು"
+
+
+#: plugin/realtyList/realtyList.html:50
+msgid "Мои объекты"
+msgstr "ನನ್ನ ಪಟ್ಟಿಗಳು"
+
+
+#: plugin/realtyList/realtyList.html:61
+msgid "по новизне ↓"
+msgstr "ನವೀನತೆಯ ↓"
+
+
+#: plugin/realtyList/realtyList.html:62
+#: plugin/realtyList/realtyList.html:64
+msgid "↑"
+msgstr "↑"
+
+
+#: plugin/realtyList/realtyList.html:63
+msgid "по цене ↓"
+msgstr "ಬೆಲೆ ಅದಕ್ಕೆ ↓"
+
+
+#: plugin/realtyList/realtyList.html:72
+msgid "Добавить объект недвижимости"
+msgstr "ಒಂದು ಆಸ್ತಿ ಸೇರಿಸಿ"
+
+
+#: plugin/realtyList/realtyList.html:81
+msgid "Фильтр по списку недвижимости"
+msgstr "ಗುಣಲಕ್ಷಣಗಳನ್ನು ಪಟ್ಟಿ ಫಿಲ್ಟರ್"
+
+
+#: plugin/realtyList/realtyList.html:84
+#: plugin/realtyList/realtyList.html:220
+msgid "Вид:"
+msgstr "ವೀಕ್ಷಿಸಿ:"
+
+
+#: plugin/realtyList/realtyList.html:87
+msgid "Квартиры по числу комнат"
+msgstr "ಕೋಣೆಗಳ ಸಂಖ್ಯೆಯನ್ನು ಅಪಾರ್ಟ್ಮೆಂಟ್"
+
+
+#: plugin/realtyList/realtyList.html:91
+#: plugin/realtyList/realtyList.html:106
+msgid "сортировать"
+msgstr "ವಿಧ"
+
+
+#: plugin/realtyList/realtyList.html:93
+msgid "Районы"
+msgstr "ಜಿಲ್ಲೆಗಳು"
+
+
+#: plugin/realtyList/realtyList.html:98
+msgid "Расположение"
+msgstr "ಸ್ಥಳ"
+
+
+#: plugin/realtyList/realtyList.html:100
+msgid "Центр"
+msgstr "ಕೇಂದ್ರ"
+
+
+#: plugin/realtyList/realtyList.html:101
+msgid "Не центр"
+msgstr "ಎಲ್ಲೆ"
+
+
+#: plugin/realtyList/realtyList.html:108
+msgid "Метро"
+msgstr "ನಗರದ ನೆಲದಡಿಯ ರೈಲು"
+
+
+#: plugin/realtyList/realtyList.html:113
+msgid "Цена"
+msgstr "ಬೆಲೆ"
+
+
+#: plugin/realtyList/realtyList.html:121
+msgid "Арендовать"
+msgstr ""
+
+
+#: plugin/realtyList/realtyList.html:136
+msgid "Полная информация"
+msgstr "ಸಂಪೂರ್ಣ ಮಾಹಿತಿ"
+
+
+#: plugin/realtyList/realtyList.html:140
+#: plugin/realtyList/realtyList.html:165
+msgid "Адрес:"
+msgstr "ವಿಳಾಸ:"
+
+
+#: plugin/realtyList/realtyList.html:141
+#: plugin/realtyList/realtyList.html:225
+msgid "Комнат:"
+msgstr "ಕೊಠಡಿ:"
+
+
+#: plugin/realtyList/realtyList.html:142
+#: plugin/realtyList/realtyList.html:226
+msgid "Спальных мест:"
+msgstr "ಹಾಸಿಗೆಗಳು:"
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "м. «"
+msgstr "ಮೀ \""
+
+
+#: plugin/realtyList/realtyList.html:143
+msgid "»"
+msgstr "'"
+
+
+#: plugin/realtyList/realtyList.html:152
+msgid "Общая информация"
+msgstr "ಸಾಮಾನ್ಯ ಮಾಹಿತಿ"
+
+
+#: plugin/realtyList/realtyList.html:153
+msgid "Карта"
+msgstr "ಭೂಪಟ"
+
+
+#: plugin/realtyList/realtyList.html:156
+msgid "Карточка недвижимости"
+msgstr "ಆಸ್ತಿ ಕಾರ್ಡ್"
+
+
+#: plugin/realtyList/realtyList.html:181
+msgid "Предыдующая"
+msgstr "ಕೊನೆಯ"
+
+
+#: plugin/realtyList/realtyList.html:182
+msgid "Следующая"
+msgstr "ಮುಂದಿನ"
+
+
+#: plugin/realtyList/realtyList.html:186
+msgid "Удалить карточку недвижимости"
+msgstr "ಕಾರ್ಡ್ ಆಸ್ತಿ ಅಳಿಸಿ"
+
+
+#: plugin/realtyList/realtyList.html:190
+msgid "Валюта"
+msgstr "ಕರೆನ್ಸಿ"
+
+
+#: plugin/realtyList/realtyList.html:191
+msgid "Цена в сутки:"
+msgstr "ರಾತ್ರಿಯ ದರ:"
+
+
+#: plugin/realtyList/realtyList.html:193
+msgid "Цена в месяц:"
+msgstr "ತಿಂಗಳಿಗೆ ಬೆಲೆ:"
+
+
+#: plugin/realtyList/realtyList.html:201
+msgid "- свободно"
+msgstr "- ಉಚಿತ"
+
+
+#: plugin/realtyList/realtyList.html:203
+msgid "- забронировано"
+msgstr "- ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ"
+
+
+#: plugin/realtyList/realtyList.html:205
+msgid "- арендовано"
+msgstr "- ಬಾಡಿಗೆ"
+
+
+#: plugin/realtyList/realtyList.html:207
+msgid "- забронировано вами"
+msgstr "- ನೀವು ಬುಕ್"
+
+
+#: plugin/realtyList/realtyList.html:209
+msgid "- арендовано вами"
+msgstr "- ನೀವು ಗುತ್ತಿಗೆ"
+
+
+#: plugin/realtyList/realtyList.html:211
+msgid "- другая цена"
+msgstr "- ಮತ್ತೊಂದು ಬೆಲೆ"
+
+
+#: plugin/realtyList/realtyList.html:213
+msgid "- заблокировано"
+msgstr "- ಲಾಕ್"
+
+
+#: plugin/realtyList/realtyList.html:215
+msgid "- выделено"
+msgstr "- ಎಂಫಸಿಸ್"
+
+
+#: plugin/realtyList/realtyList.html:222
+msgid "Район:"
+msgstr "ಜಿಲ್ಲಾ:"
+
+
+#: plugin/realtyList/realtyList.html:224
+msgid "Этаж:"
+msgstr "ಮಹಡಿ:"
+
+
+#: plugin/realtyList/realtyList.html:230
+msgid "Описание:"
+msgstr "ವಿವರಣೆ:"
+
+
+#: plugin/realtyList/realtyList.html:238
+msgid "Занятость:"
+msgstr "ಉದ್ಯೋಗ:"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кухня"
+msgstr "ಅಡಿಗೆ ಮನೆ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Телевизор"
+msgstr "ಟಿವಿ"
+
+
+#: plugin/realtyList/realtyList.js:7
+#: plugin/armoring/armoring.html:96
+#: plugin/notice/notice.html:11
+msgid "Телефон"
+msgstr "ದೂರವಾಣಿ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Музыкальный центр"
+msgstr "ಸಂಗೀತ ಕೇಂದ್ರ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Интернет"
+msgstr "ಇಂಟರ್ನೆಟ್"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Кондиционер"
+msgstr "ಹವಾ"
+
+
+#: plugin/realtyList/realtyList.js:7
+msgid "Стиральная машина"
+msgstr "ಯಂತ್ರ ಒಗೆಯುವುದು"
+
+
+#: plugin/realtyList/realtyList.js:282
+msgid "Не указано"
+msgstr "ಮೀ"
+
+
+#: plugin/realtyList/realtyList.js:317
+msgid "Месяц"
+msgstr "ತಿಂಗಳು"
+
+
+#: plugin/realtyList/realtyList.js:328
+msgid "День"
+msgstr "ದಿನ"
+
+
+#: plugin/realtyList/realtyList.js:559
+msgid "Выберите из списка районы по которым должна проходить сортировка"
+msgstr "ಪ್ರದೇಶಗಳ ಪಟ್ಟಿಯಿಂದ ಆಯ್ಕೆ ಇದರಲ್ಲಿ ವಿಂಗಡಿಸುವ ರವಾನಿಸಲು"
+
+
+#: plugin/realtyList/realtyList.js:563
+msgid "Выберите из списка станции метро по которым должна проходить сортировка"
+msgstr "ಬೇರ್ಪಡಿಸುವ ಉತ್ತೀರ್ಣವಾಗಬೇಕಾಗುತ್ತವೆ ಇದು ಮೆಟ್ರೋಸ್ಟೇಶನ್ಗಳು ಪಟ್ಟಿಯಿಂದ ಆಯ್ಕೆ"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "Карточки недвижимости №"
+msgstr "ಆಸ್ತಿ ಸಂಖ್ಯೆ ಕಾರ್ಡ್"
+
+
+#: plugin/realtyList/realtyList.js:815
+msgid "не существует"
+msgstr "ಯಾವುದೇ"
+
+
+#: plugin/realtyList/realtyList.js:825
+msgid "не указано"
+msgstr "ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾಗಿಲ್ಲ"
+
+
+#: plugin/realtyList/realtyList.js:826
+msgid "не указан"
+msgstr "ಅಜ್ಞಾತ"
+
+
+#: plugin/realtyList/realtyList.php:77
+msgid "возвращает список недвижимости. limit может быть от 1 до 100. По умолчанию - 10"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಪಟ್ಟಿಯನ್ನು ಹಿಂದಿರುಗಿಸುತ್ತದೆ. ಮಿತಿಯನ್ನು 1 ರಿಂದ 100 ವರೆಗೆ ಇರಬಹುದು. ಡೀಫಾಲ್ಟ್ - 10"
+
+
+#: plugin/realtyList/realtyList.php:272
+msgid "лента квартир для поисковых роботов"
+msgstr "ಹುಡುಕಾಟ ಯಂತ್ರಗಳಿಗೆ ಟೇಪ್ ಅಪಾರ್ಟ್ಮೆಂಟ್"
+
+
+#: plugin/realtyList/realtyList.php:286
+msgid "анкета квартиры для поисковых роботов"
+msgstr "ಹುಡುಕಾಟ ಯಂತ್ರಗಳಿಗೆ ಫ್ಲಾಟ್ ಪ್ರೊಫೈಲ್"
+
+
+#: plugin/realtyList/realtyList.php:298
+msgid "Сдаётся жильё квартира/дом/комната в аренду"
+msgstr "ಬಾಡಿಗೆ ಫ್ಲಾಟ್ / ಗೃಹ / ಕೊಠಡಿ ಫಾರ್"
+
+
+#: plugin/realtyList/realtyList.php:300
+msgid "город"
+msgstr "ನಗರ"
+
+
+#: plugin/realtyList/realtyList.php:301
+msgid "район"
+msgstr "ವಿಸ್ತೀರ್ಣ"
+
+
+#: plugin/realtyList/realtyList.php:302
+msgid "станция метро"
+msgstr "ಸುರಂಗಮಾರ್ಗ ನಿಲ್ದಾಣದ"
+
+
+#: plugin/realtyList/realtyList.php:303
+msgid "адрес"
+msgstr "ವಿಳಾಸ"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "стоимость"
+msgstr "ಬೆಲೆ"
+
+
+#: plugin/realtyList/realtyList.php:304
+msgid "в день"
+msgstr "ದಿನಕ್ಕೆ"
+
+
+#: plugin/realtyList/realtyList.php:305
+msgid "этажей"
+msgstr "ಮಹಡಿಗಳನ್ನು"
+
+
+#: plugin/realtyList/realtyList.php:306
+msgid "комнат"
+msgstr "ಕೊಠಡಿ"
+
+
+#: plugin/realtyList/realtyList.php:307
+msgid "кроватей"
+msgstr "ಹಾಸಿಗೆಗಳು"
+
+
+#: plugin/realtyList/realtyList.php:308
+#: plugin/notice/noticeTest.js:11
+#: plugin/notice/noticeTest.js:18
+#: plugin/notice/noticeTest.js:18
+msgid "комментарий"
+msgstr "ಟಿಪ್ಪಣಿ"
+
+
+#: plugin/realtyList/realtyList.php:319
+msgid "возвращает список метро и районов в зависимости от города"
+msgstr "ಮೆಟ್ರೋ ಪ್ರದೇಶಗಳ ಪಟ್ಟಿಯನ್ನು ಮರಳಿ ನಗರದ ಅವಲಂಬಿಸಿ"
+
+
+#: plugin/realtyList/realtyList.php:330
+msgid "сохраняет анкету по недвижимости. Если id=0 - создаёт новую"
+msgstr "ಪ್ರೊಫೈಲ್ ವಸತಿ ಸದಾ. ಐಡಿ = 0 ವೇಳೆ - ಹೊಸ ರಚಿಸಲು"
+
+
+#: plugin/realtyList/realtyList.php:344
+msgid "Информация была изменена"
+msgstr "ಮಾಹಿತಿಯನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ"
+
+
+#: plugin/realtyList/realtyList.php:349
+msgid "удаляет анкету по недвижимости"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಪ್ರೊಫೈಲ್ ತೆಗೆದುಹಾಕುತ್ತದೆ"
+
+
+#: plugin/realtyList/realtyList.php:359
+msgid "место для автокомплитера"
+msgstr ""
+
+
+#: plugin/realtyList/realtyListTest.js:3
+msgid "Модуль"
+msgstr "ಮಾಡ್ಯೂಲ್"
+
+
+#: plugin/realtyList/realtyListTest.php:36
+msgid "Тест Квартира"
+msgstr "ಟೆಸ್ಟ್ ಅಪಾರ್ಟ್ಮೆಂಟ್"
+
+
+#: plugin/realtyList/realtyListTest.php:42
+msgid "Тестовый RealtyList"
+msgstr "ಟೆಸ್ಟ್ RealtyList"
+
+
+#: www/index.htm:35
+msgid ") // асинхронная загрузка css --"
+msgstr ") / / ಅಸಿಂಕ್ರೊನಿಯಸ್ ಲೋಡ್ CSS -"
+
+
+#: www/index.htm:44
+msgid "Он необходим для этого сайта"
+msgstr "ಈ ಸೈಟ್ ಅವಶ್ಯಕ"
+
+
+#: www/index.htm:44
+msgid "У Вас отключён JavaScript"
+msgstr "ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+
+
+#: www/index.htm:44
+msgid "Включите JavaScript в настройках Вашего браузера"
+msgstr "ನಿಮ್ಮ ಬ್ರೌಸರ್ನಲ್ಲಿ JavaScript ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+
+
+#: www/index.htm:44
+msgid "ВНИМАНИЕ!"
+msgstr "ಎಚ್ಚರಿಕೆ!"
+
+
+#: www/index.htm:45
+msgid "Список квартир"
+msgstr "ಅಪಾರ್ಟ್ಮೆಂಟ್ ಪಟ್ಟಿ"
+
+
+#: www/index.htm:48
+msgid "обновить"
+msgstr "ಅಪ್ಡೇಟ್"
+
+
+#: www/index.htm:48
+msgid "ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его"
+msgstr "ಎಚ್ಚರಿಕೆ! ನಿಮ್ಮ ಬ್ರೌಸರ್ನಲ್ಲಿ ಈ ಸೈಟ್ ತುಂಬಾ ಹಳೆಯದು. ಇದು ಶಿಫಾರಸು"
+
+
+#: www/index.htm:49
+msgid "Продолжить на свой страх и риск"
+msgstr "ನಿಮ್ಮ ಸ್ವಂತ ಅಪಾಯ ಮುಂದುವರಿಸಿ"
+
+
+#: www/index.htm:82
+msgid "!-- таблица в которую будут вставляться плагины приложения. Плагину требуется знать только идентификатор элемента в который он вставляется. Плагин вставляет своё тело в конец (append) указанного ему элемента. Таким образом в один контейнер можно поместить сколько угодно плагинов один за другим --"
+msgstr "- ಇದು ಒಂದು ಟೇಬಲ್ ಅಪ್ಲಿಕೇಶನ್ ಪ್ಲಗಿನ್ಗಳನ್ನು ಸೇರಿಸಬೇಕು ಕಾಣಿಸುತ್ತದೆ. ಪ್ಲಗ್ಇನ್ ಇದನ್ನು ಅಳವಡಿಸುವ ಅಂಶದ ಐಡಿ ತಿಳಿಯುವುದು ಅಗತ್ಯ. ಪ್ಲಗ್ ಒಳಸೇರಿಸಿದನು ಕೊನೆಯಲ್ಲಿ ತನ್ನ ದೇಹದ (ಸೇರ್ಪಡಿಸಲಾದ) ನಿರ್ದಿಷ್ಟಪಡಿಸಿದ thereto. ಆದ್ದರಿಂದ ಒಂದು ಪಾತ್ರೆಯಲ್ಲಿ ಒಂದು ಪ್ಲಗ್ಇನ್ಗಳನ್ನು ಒಂದು ಯಾವುದೇ ಸಂಖ್ಯೆಯ ಇರಿಸಬಹುದು -"
+
+
+#: www/index.htm:92
+msgid "Валюта:"
+msgstr "ಕರೆನ್ಸಿ"
+
+
+#: www/js/core.js:106
+#: www/js/core.js:543
+msgid "Ошибка №"
+msgstr "ತಪ್ಪು ಸಂಖ್ಯೆ"
+
+
+#: www/js/core.js:289
+msgid "история оверлеев пуста"
+msgstr "ಖಾಲಿ ಇತಿಹಾಸ ಮೇಲ್ಪದರಗಳು"
+
+
+#: www/js/core.js:290
+msgid "не могу вернуться - текущий оверлей не соответствует хешу"
+msgstr "ನಾನು ಹಿಂದಕ್ಕೆ ಹೋಗಿ ಸಾಧ್ಯವಿಲ್ಲ - ಪ್ರಸ್ತುತ ಓವರ್ಲೇ ಹ್ಯಾಶ್ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ"
+
+
+#: www/js/core.js:311
+msgid "уже установлено"
+msgstr "ಈಗಾಗಲೇ ಸ್ಥಾಪಿಸಲಾಗಿದೆ"
+
+
+#: www/js/core.js:311
+msgid "event: событие"
+msgstr "ಈವೆಂಟ್: ಕಾರ್ಯಕ್ರಮ"
+
+
+#: www/js/core.js:545
+msgid "Ошибка:"
+msgstr "ದೋಷ:"
+
+
+#: www/js/core.js:622
+#: www/js/jquery.ui.datepicker-ru.js:5
+msgid "Закрыть"
+msgstr "ಮುಚ್ಚಿ"
+
+
+#: www/js/core.js:623
+#: www/index.htm:64
+#: plugin/realtyList/realtyList.js:815
+msgid "Ошибка!"
+msgstr "ದೋಷ!"
+
+
+#: www/js/core.js:841
+msgid "Введите целое число"
+msgstr "ಒಂದು ಪೂರ್ಣಾಂಕ ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:842
+msgid "Введите вещественное число"
+msgstr "ನಿಜವಾದ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:843
+msgid "Этаж должен не превышать количества этажей"
+msgstr "ಮಹಡಿ ಮಹಡಿಗಳು ಮೀರುವಂತಿಲ್ಲ"
+
+
+#: www/js/core.js:852
+msgid "Введите этаж и количество этажей"
+msgstr "ಮಹಡಿಗಳು ಮತ್ತು ನೆಲದ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:860
+msgid "Введите натуральное число"
+msgstr "ಒಂದು ಪೂರ್ಣಾಂಕ ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:863
+msgid "Введите натуральное число больше 0"
+msgstr "0 ಗಿಂತ ಹೆಚ್ಚಿನ ಒಂದು ಪೂರ್ಣಾಂಕ ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:866
+msgid "Введите вещественное положительное число"
+msgstr "ಒಂದು ವಾಸ್ತವಿಕ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:869
+msgid "Введите стоимость со знаком"
+msgstr "ಸೈನ್ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:870
+msgid "Введите стоимость: два знака после запятой. Например: 100.22 или 100"
+msgstr "ಎರಡು ದಶಮಾಂಶ ಸ್ಥಳಗಳು: ಬೆಲೆ ನಮೂದಿಸಿ. 100,22 ಅಥವಾ 100: ಉದಾಹರಣೆಗೆ"
+
+
+#: www/js/core.js:873
+msgid "Введите хотя бы один символ"
+msgstr "ಕನಿಷ್ಠ ಒಂದು ಅಕ್ಷರವನ್ನು ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:874
+msgid "Введите дату"
+msgstr ""
+
+
+#: www/js/core.js:878
+msgid "Введите e-mail"
+msgstr "ಇಮೇಲ್ ನಮೂದಿಸಿ"
+
+
+#: www/js/core.js:882
+msgid "Формат логина: e-mail или телефон, например: +7 (921) 333-3-333"
+msgstr "ಇಮೇಲ್ ಅಥವಾ ಫೋನ್ ಸಂಖ್ಯೆ, ಉದಾಹರಣೆಗೆ: +7 (921) 333-3-333 ರೂಪದಲ್ಲಿ ಲಾಗಿನ್"
+
+
+#: www/js/core.js:887
+msgid "Диапазон времени от 0 до 23 для часа"
+msgstr ""
+
+
+#: www/js/core.js:888
+msgid "Диапазон времени от 0 до 59 для минут"
+msgstr ""
+
+
+#: www/js/core.js:889
+msgid "Пароль должен быть не менее 6 символов"
+msgstr "ಗುಪ್ತಪದವು ಕನಿಷ್ಠ 6 ಅಕ್ಷರಗಳು ಇರಬೇಕು"
+
+
+#: www/js/core.js:890
+msgid "Пароли не совпадают"
+msgstr "ಪಾಸ್ವರ್ಡ್ಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ"
+
+
+#: www/js/core.js:908
+#: www/js/core.js:1073
+msgid "Ввод верен"
+msgstr "ಮಾನ್ಯ ನಮೂದು"
+
+
+#: www/js/core.js:1107
+msgid "-- не выбрано --"
+msgstr "- ಆಯ್ಕೆ ಮಾಡಿರುವುದಿಲ್ಲ -"
+
+
+#: www/js/core.js:1242
+msgid "Данные сохранены"
+msgstr "ಡೇಟಾ ಉಳಿಸಲಾಗಿದೆ"
+
+
+#: www/js/core.js:1283
+#: www/js/core.js:1713
+#: plugin/gallery/gallery.js:45
+msgid "Удалить"
+msgstr "ತೆಗೆದುಹಾಕುವುದು"
+
+
+#: www/js/core.js:1348
+msgid "Нет команды form(\""
+msgstr "ಯಾವುದೇ ಆಜ್ಞೆಯನ್ನು ರೂಪ (\""
+
+
+#: www/js/core.js:1381
+#: www/js/core.js:1383
+msgid "Сохранение"
+msgstr "ಸಂರಕ್ಷಣೆ"
+
+
+#: www/js/core.js:1382
+msgid "Не все поля заполнены верно"
+msgstr "ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳನ್ನು ಸರಿಯಾಗಿ ತುಂಬಿದ್ದರೆ,"
+
+
+#: www/js/core.js:1383
+#: www/js/core.js:1389
+msgid "завершилось успешно"
+msgstr "ಯಶಸ್ವೀ"
+
+
+#: www/js/core.js:1386
+#: www/js/core.js:1389
+msgid "Удаление"
+msgstr "ತೆಗೆಯುವುದು"
+
+
+#: www/js/core.js:1387
+msgid "нельзя удалить"
+msgstr "ತೆಗೆದುಹಾಕಲಾಗುವುದಿಲ್ಲ"
+
+
+#: www/js/core.js:1388
+msgid "Вы действительно хотите удалить"
+msgstr "ನೀವು ನಿಜವಾಗಿಯೂ ಅಳಿಸಲು ಬಯಸುವಿರಾ"
+
+
+#: www/js/core.js:1586
+msgid "list: Неверная команда `"
+msgstr "ಪಟ್ಟಿ: ಅಮಾನ್ಯವಾದ ಆದೇಶ '"
+
+
+#: www/js/core.js:1600
+msgid "Добавить"
+msgstr "ಸೇರಿಸು"
+
+
+#: www/js/core.js:1647
+msgid "∅"
+msgstr "∅"
+
+
+#: www/js/core.js:1647
+msgid "⩾"
+msgstr "⩾"
+
+
+#: www/js/core.js:1647
+msgid "≠"
+msgstr "≠"
+
+
+#: www/js/core.js:1647
+msgid "≡"
+msgstr "≡"
+
+
+#: www/js/core.js:1647
+msgid "≈"
+msgstr "≈"
+
+
+#: www/js/core.js:1647
+msgid "⊜"
+msgstr "⊜"
+
+
+#: www/js/core.js:1647
+msgid "≢"
+msgstr "≢"
+
+
+#: www/js/core.js:1647
+msgid "≃"
+msgstr "≃"
+
+
+#: www/js/core.js:1647
+msgid "≁"
+msgstr "≁"
+
+
+#: www/js/core.js:1647
+msgid "≄"
+msgstr "≄"
+
+
+#: www/js/core.js:1647
+msgid "≉"
+msgstr "≉"
+
+
+#: www/js/core.js:1647
+msgid "⩽"
+msgstr "⩽"
+
+
+#: www/js/core.js:1671
+msgid "&#8680; запись"
+msgstr "⇨ ದಾಖಲೆ"
+
+
+#: www/js/core.js:1698
+msgid "<input type=submit value=\'Фильтр\'>"
+msgstr "<input type=submit value=\'Filtr\'>"
+
+
+#: www/js/core.js:1708
+msgid "<input type=button value=\'Вставить\' disabled>"
+msgstr "<input type=button value=\'Vstavit\' disabled>"
+
+
+#: www/js/core.js:1709
+msgid "<input type=button value=\'Добавить\'>"
+msgstr "<input type=button value=\'Dobavit\'>"
+
+
+#: www/js/core.js:1710
+msgid "<input type=button value=\'Редактировать\' disabled>"
+msgstr "<input type=button value=\'Redaktirovat\' disabled>"
+
+
+#: www/js/core.js:1711
+msgid "<input type=button value=\'Удалить\' disabled>"
+msgstr "<input type=button value=\'Udalit\' disabled>"
+
+
+#: www/js/core.js:1712
+msgid "Удаление строки справочника"
+msgstr "ಸಾಲಾಗಿ ಕೋಶವನ್ನು ಅಳಿಸುವಲ್ಲಿ"
+
+
+#: www/js/core.js:1712
+msgid "Вы действительно хотите удалить строку?"
+msgstr "ನೀವು ನಿಜವಾಗಿಯೂ ಸಾಲು ಅಳಿಸಲು ಬಯಸುತ್ತೀರಾ?"
+
+
+#: www/js/core.js:1752
+#: www/js/core.js:1774
+msgid "<input type=button value=\'…\'>"
+msgstr "<input type=button value=\'…\'>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:6
+msgid "&#x3c;Пред"
+msgstr "<ಹಿಂದಿನ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:7
+msgid "След&#x3e;"
+msgstr "ಮುಂದಿನ>"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:8
+msgid "Сегодня"
+msgstr "ಇಂದು"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Январь"
+msgstr "ಜನವರಿ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Февраль"
+msgstr "ಫೆಬ್ರುವರಿ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Июнь"
+msgstr "ಜೂನ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: www/js/jquery.ui.datepicker-ru.js:11
+#: plugin/realtyList/realtyList.js:315
+msgid "Май"
+msgstr "ತಾರುಣ್ಯ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Март"
+msgstr "ಸರಹದ್ದು"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:9
+#: plugin/realtyList/realtyList.js:315
+msgid "Апрель"
+msgstr "ಏಪ್ರಿಲ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Август"
+msgstr "ಮಹಾವೈಭವದ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Июль"
+msgstr "ಜೂಲೈ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Сентябрь"
+msgstr "ಇಂಗ್ಲಿಷ್ ವರ್ಷದ 9 ನೇ ತಿಂಗಳು"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Ноябрь"
+msgstr "ನವೆಂಬರ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Октябрь"
+msgstr "ಅಕ್ಟೋಬರ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:10
+#: plugin/realtyList/realtyList.js:315
+msgid "Декабрь"
+msgstr "ಡಿಸೆಂಬರ್ ತಿಂಗಳು"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Фев"
+msgstr "ಫೆಬ್ರುವರಿ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Янв"
+msgstr "ಜನವರಿ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Апр"
+msgstr "ಏಪ್ರಿಲ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Июн"
+msgstr "ಜೂನ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:11
+msgid "Мар"
+msgstr "ಸರಹದ್ದು"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Авг"
+msgstr "ಮಹಾವೈಭವದ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Дек"
+msgstr "ಡಿಸೆಂಬರ್ ತಿಂಗಳು"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Июл"
+msgstr "ಜೂಲೈ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Ноя"
+msgstr "ನವೆಂಬರ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Окт"
+msgstr "ಅಕ್ಟೋಬರ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:12
+msgid "Сен"
+msgstr "ಸೇನ್"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "четверг"
+msgstr "ಗುರುವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "пятница"
+msgstr "ಶುಕ್ರವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "понедельник"
+msgstr "ಸೋಮವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "суббота"
+msgstr "ಶನಿವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "среда"
+msgstr "ಬುಧವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "воскресенье"
+msgstr "ಭಾನುವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:13
+msgid "вторник"
+msgstr "ಮಂಗಳವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "сбт"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "втр"
+msgstr "ಮಂಗಳ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "пнд"
+msgstr "ಐಪಿಎ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "срд"
+msgstr "ವಿವಾಹ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "чтв"
+msgstr "ಗುರುವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "птн"
+msgstr "ಶನಿ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:14
+msgid "вск"
+msgstr "ಸೂರ್ಯ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пт"
+msgstr "ಶನಿ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вс"
+msgstr "ಸೂರ್ಯ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Вт"
+msgstr "ಮಂಗಳ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Чт"
+msgstr "ಗುರುವಾರ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Сб"
+msgstr "Sat"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Ср"
+msgstr "ವಿವಾಹ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:15
+#: plugin/realtyList/realtyList.js:316
+msgid "Пн"
+msgstr "ಸೋಮ"
+
+
+#: www/js/jquery.ui.datepicker-ru.js:16
+msgid "Не"
+msgstr "ಇಲ್ಲ"
+
+
+#: www/js/loader.js:39
+msgid "Этот браузер не поддерживает технологию ajax"
+msgstr "ಈ ಬ್ರೌಸರ್ ಅಜಾಕ್ಸ್ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"
+

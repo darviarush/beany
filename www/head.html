@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/theme/ui/jquery-ui.css" type="text/css"/>
+<link rel="stylesheet" href="/theme/jquery.qtip.css" type="text/css"/>
+<link rel="stylesheet" href="/theme/style.css" type="text/css"/>
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="/theme/old-ie.css" type="text/css"/>
+<![endif]-->
+<!--[if gte IE 9]>
+<link rel="stylesheet" href="/theme/ie9.css" type="text/css"/>
+<![endif]-->
+<link rel="stylesheet" href="/js/metro/res/mbImgNavigate.css" type="text/css"/>
+
+<script><!--
+document.title = /^\d+(\.\d+){3}$/.test(location.host)? "Beany :: Посуточная аренда квартир, комнат, коттеджей": location.host.replace(/\.\w+$/, '')
+--></script>
+
+<meta name="description" content="Посуточная аренда квартир, комнат, коттеджей в Санкт-Петербурге различного уровня комфорта: от недорогих эконом вариантов до элитных.">
+<title>Beany :: Посуточная аренда квартир, комнат, коттеджей</title>
+<meta name='yandex-verification' content='5db02e1378007422' />
+
+
+<!--script type="text/javascript" src="/js/lodash.js"></script>
+<script type="text/javascript" src="/js/underscore.js"></script>
+<script type="text/javascript" src="/js/backbone.js"></script-->
+
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+	<!--script src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script-->
+<script type="text/javascript" src="/js/jquery-ui-1.8.24.min.js"></script>
+
+<!--script type="text/javascript" src="/js/jquery.hashhistory.js"></script-->
+
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ru.js"></script>
+
+<script type="text/javascript" src="/js/jquery.autoresize.js"></script>
+<script type="text/javascript" src="/js/jquery.maskedinput.js"></script>
+
+<script type="text/javascript" src="/js/jquery.qtip.js"></script>
+
+<script><!--
+var THEME = '/theme/'
+var data = {% DATA|json_encode_cyr %}
+data.CURRENCY = {% CURRENCY|json_encode_cyr %}
+data.COUNTRY = {% COUNTRY|json_encode_cyr %}
+var $login = {% login|json_encode_cyr %}
+--></script>
+
+<script type="text/javascript" src="/js/core.js"></script>
+<script type="text/javascript" src="/js/core-hash.js"></script>
+
+</head>
+<body>
+<noscript>
+ВНИМАНИЕ!<p />У Вас отключён JavaScript<p />Он необходим для этого сайта<p />Включите JavaScript в настройках Вашего браузера<p />
+<a href="/?_escaped_fragment_=list=0/lang=ru">Список квартир</a>
+</noscript>
+<div id="old_browser" style="display:none; background-color: firebrick">
+	ВНИМАНИЕ! Ваш браузер слишком стар для этого сайта. Советуем его <a href="/update-browser.html" target="_blank">обновить</a><p />
+	<input type=button value="Продолжить на свой страх и риск" onclick="document.getElementById('old_browser').style.display='none'">
+</div>
+<script><!--
+var hider = function () {
+		document.getElementById( 'old_browser' ).style.display = 'block';
+	},
+	timeout = window.setTimeout( hider, 1000 ),
+	a = $.browser,
+	v = parseInt( $.browser.version, 10 );
+
+if (a.msie && v >= 7 || a.mozilla && v >= 4 || a.opera && v >= 12
+	|| a.webkit && v >= 500 || a.chrome && v >= 3 ) {
+	window.clearTimeout( timeout );
+}
+--></script>
+
+<textarea id="show_this_page" style='width:100%; height:100%; display:none'></textarea>
+
+<script><!--
+$("preloader").show()
+
+// показать содержимое страницы в textarea по нажатию на 
+$("body").keydown(function(e) {
+	if(e.which == 114 && e.ctrlKey) $("#show_this_page").val('').val("<!doctype html>\n<html>\n"+$("html").html()+"\n</html>").show()
+	else if(e.which == 27) $("#show_this_page").val('').hide()
+})
+--></script>
+
+<a href="#" style="display: none" class="app-top" id="scroll-top">Вверх</a>
+<select id=currency-change></select>
+<div id="preloader" style="display:none"><img src="/theme/images/loader.gif"></div>
+<div id="error" title="Ошибка!"></div>
+
+<script>
+(function () {
+	console.log("@HEAD")
+	
+	for(var i in data) data[ i ] = app.util.rowsToArrayOpt( data[ i ] )	//  переводим global
+	app.preloader.init()	// инициализация ожидания запросов и обработки ошибок
+	app.auth.init()		// инициализация системы авторизации
+	app.currency = new app.classes.Currency("#currency-change")
+	
+	app.hash.add("realty", function(name, av, kw) {
+		console.log("@"+name+"="+av)
+		app.page.include("/api/realtyList/load", {id: av[0]}, function(elem, data, ch) {
+			console.log("realty загружено")
+		})
+	})
+		
+	$(function() {	// сразу после загрузки страницы
+		app.hash.start()
+	})
+	
+	var scroll = {		// Окошко для перемещения вверх
+		$button: $("#scroll-top"),
+		$body: $("html"),
+		$window: $( window )
+	};
+
+	// кнопка "Вверх" перемещает в начало страницы
+	scroll.$button.on( 'click', function () {
+		$( this ).hide();
+		scroll.$body.scrollTop(0);
+		return false;
+	});
+	// показываем её видимой или невидимой по неообходимости
+	scroll.$window.on( 'scroll', function () {
+		var $win = scroll.$window, not_scrolled = $win.scrollTop() < $win.height();
+		scroll.$button[ not_scrolled ? 'hide' : 'show' ]();
+	});
+
+	//	асинхронная загрузка css
+	var useLocalTheme = function() { return app.util.link( "/theme/language/"+ app.lang.lang +".css")[0][0] }
+
+	var $lang$link = app.lang.lang === 'ru'? useLocalTheme() : null;
+
+	app.event.add( "lang.change", "lang-change-font", function () {
+		if ( $lang$link ) $lang$link.parentNode.removeChild( $lang$link );
+		$lang$link = useLocalTheme();
+	});
+	
+	//$.getScript("https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places")
+	
+})();
+</script>
+
+<!------------------------- Конец /head.html ------------------------->
